@@ -1,0 +1,76 @@
+{
+  "query": "Datura reburra",
+  "id": "datura_reburra",
+  "fetched": "2026-11-15",
+  "wikipedia": {
+    "found": true,
+    "title": "Datura reburra",
+    "url": "https://en.wikipedia.org/wiki/Datura_reburra",
+    "wikidata_id": "Q5227804",
+    "extract": "Datura reburra is a species of Datura. It is an annual shrub that is grown as an ornamental plant.\nContemporary experts classify this plant not as a separate species, but as a variety of Datura discolor.\n\n\n== References ==",
+    "lead_image": null,
+    "image_files": [
+      "File:Ipomoea purpurea 2400px.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q5227804",
+    "url": "https://www.wikidata.org/wiki/Q5227804",
+    "label": "Datura reburra",
+    "description": "species of plant",
+    "english_common_names": [
+      "datura"
+    ],
+    "taxon_name": [
+      "Datura reburra"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q192497"
+    ],
+    "image_files": [],
+    "external_ids": {
+      "gbif_taxon": [
+        "2928749"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:76952-2"
+      ],
+      "ipni": [
+        "76952-2"
+      ],
+      "ncbi": [
+        "1274349"
+      ],
+      "inaturalist": [
+        "48942"
+      ],
+      "eppo": []
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/2928749",
+    "key": 2928749,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Datura reburra Barclay",
+    "canonical_name": "Datura reburra",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Datura",
+      "species": "Datura reburra"
+    },
+    "english_vernacular_names": [
+      "datura"
+    ]
+  },
+  "commons_images": []
+}

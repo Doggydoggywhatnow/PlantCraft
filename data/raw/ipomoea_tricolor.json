@@ -1,0 +1,146 @@
+{
+  "query": "Ipomoea tricolor",
+  "id": "ipomoea_tricolor",
+  "fetched": "2026-11-15",
+  "wikipedia": {
+    "found": true,
+    "title": "Ipomoea tricolor",
+    "url": "https://en.wikipedia.org/wiki/Ipomoea_tricolor",
+    "wikidata_id": "Q159698",
+    "extract": "Ipomoea tricolor, the Mexican morning glory or just morning glory, is a species of flowering plant in the family Convolvulaceae, native to the tropics of the Americas, and widely cultivated and naturalised elsewhere.\n\n\n== Alkaloids ==\nIpomoea tricolor seeds contain LSA and LSH among other alkaloids due to the presence of a symbiotic fungus, Periglandula ipomoeae, which produces them.\n\n\n== Description ==\nIt is an herbaceous annual or perennial twining liana growing to 2–4 m (7–13 ft) tall. The leaves are spirally arranged, 3–7 cm (1–3 in) long with a 1.5–6 cm (1⁄2–2+1⁄2 in) long petiole. The flowers are trumpet-shaped, 4–9 cm (2–4 in) in diameter, most commonly blue with a white to golden yellow centre.\nI. tricolor and many rarer species of morning glory, contain ergoline alkaloids, predominantly ergine. Some supermarkets have stopped carrying I. tricolor seeds because of this.\n\n\n== Cultivation and uses ==\nIn cultivation, the species is very commonly grown misnamed as Ipomoea violacea, which is actually a different, though related, species. I. tricolor does not tolerate temperatures below 5 °C (41 °F), and so in temperate regions is usually grown as an annual. It is in any case a relatively short-lived plant. It prefers a warm, sheltered, sunny position such as a south- or west-facing wall.\nIngesting any part of the plant may cause discomfort.\nNumerous cultivars of I. tricolor with different flower colours have been selected for use as ornamental plants; widely grown examples include:\n\nThe cultivar 'Heavenly Blue' has gained the Royal Horticultural Society's Award of Garden Merit.\n\n\n=== Weed control ===\nIpomoea tricolor has phytotoxic effects which inhibit seedling growth in weeds. In Mexico, farmers promote the growth of I. tricolor as a cover plant. It prevents weeds and unwanted plants from growing. When it is time to plant crops, this plant is incorporated into the soil. Although it is toxic to weeds, it does not affect crops such as sugarcane.\n\n\n=== Chemical deterrent used to discourage ingestion ===\nIt is rumored that I. tricolor seeds are coated with a chemical that induces sickness so as to dissuade people from using them as a drug, but this is probably a rumor that stems from several factors:\n- I. tricolor seeds, by themselves, induce sickness as a result of glycoresins and the very ergolines that are desired by users.\n- Such is done to other commonly available substances that can induce effects, specifically gas dusters and acetone (which have bitterant added) and denatured alcohol.\n- Chemical coatings are added to garden seeds to prevent fungal growth (e.g. neonicotinoids, Thiram, and ApronMaxx®).\n- Packets of I. tricolor seeds are known to have a warning that the seeds are toxic.\nMethyl mercury type compounds have been specified in the rumors, but a 1964 article conveys that such compounds were only used in the past and that the majority \"insecticide\" at the time of publication was \"quite an innocuous substance.\" There's no evidence that the seeds are coated with a chemical deterrent.\n\n\n== Colour change ==\nIn Ipomoea tricolor 'Heavenly Blue', the colour of the flower changes during blossom according to an increase in vacuolar pH. This shift, from red to blue, is induced by chemical modifications affecting the anthocyanin molecules present in the petals.\n\n\n== References ==\n\n\n== External links ==\nErowid Morning Glory vault",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ipomoea_tricolor-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:Ipomoea tricolor-1.jpg",
+      "File:Ipomoea tricolor-WeddingBells 20071011 01.png",
+      "File:Ipomoea tricolor-WeddingBells 20071011 02.png",
+      "File:Ipomoea violacea.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q159698",
+    "url": "https://www.wikidata.org/wiki/Q159698",
+    "label": "Ipomoea tricolor",
+    "description": "species of plant",
+    "english_common_names": [
+      "grannyvine",
+      "Ololiuqui or Mexican Morning Glory",
+      "Tlitliltzin"
+    ],
+    "taxon_name": [
+      "Ipomoea tricolor"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q161173"
+    ],
+    "image_files": [
+      "Ipomoea tricolor-1.jpg"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "2928589"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:269966-1"
+      ],
+      "ipni": [
+        "269966-1"
+      ],
+      "ncbi": [
+        "89664"
+      ],
+      "inaturalist": [
+        "59561"
+      ],
+      "eppo": [
+        "IPOTO"
+      ]
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/2928589",
+    "key": 2928589,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Ipomoea tricolor Cav.",
+    "canonical_name": "Ipomoea tricolor",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Convolvulaceae",
+      "genus": "Ipomoea",
+      "species": "Ipomoea tricolor"
+    },
+    "english_vernacular_names": [
+      "Garden Morning Glory",
+      "Grannyvine",
+      "Mexican Morning Glory",
+      "Morning-glory",
+      "Ololiuqui or Mexican Morning Glory",
+      "Tlitliltzin",
+      "flying saucers",
+      "flying-saucers",
+      "grannyvine",
+      "heavenly-blue morning-glory",
+      "morning-glory",
+      "pearly gates",
+      "pearly-gates"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:Ipomoea tricolor-1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AIpomoea_tricolor-1.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ipomoea_tricolor-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ipomoea_tricolor-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 640,
+      "height": 451,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Russell E (Photograph of Ipomoea violacea, taken by rkundalini.)",
+      "description": "This is the I. tricolor, the I. violacea is usually white and the petals are more ruffled."
+    },
+    {
+      "file": "File:Ipomoea tricolor-WeddingBells 20071011 01.png",
+      "page": "https://commons.wikimedia.org/wiki/File%3AIpomoea_tricolor-WeddingBells_20071011_01.png",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Ipomoea_tricolor-WeddingBells_20071011_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Ipomoea_tricolor-WeddingBells_20071011_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 704,
+      "height": 528,
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "The original uploader was KevinTernes at English Wikipedia.",
+      "description": "Photo of Ipomoea tricolor \"Wedding Bells\" in full bloom."
+    },
+    {
+      "file": "File:Ipomoea tricolor-WeddingBells 20071011 02.png",
+      "page": "https://commons.wikimedia.org/wiki/File%3AIpomoea_tricolor-WeddingBells_20071011_02.png",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Ipomoea_tricolor-WeddingBells_20071011_02.png/960px-Ipomoea_tricolor-WeddingBells_20071011_02.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Ipomoea_tricolor-WeddingBells_20071011_02.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1408,
+      "height": 1056,
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "The original uploader was KevinTernes at English Wikipedia.",
+      "description": "Photo of Ipomoea tricolor \"Wedding Bells\" in full bloom, close-up."
+    },
+    {
+      "file": "File:Ipomoea violacea.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AIpomoea_violacea.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ipomoea_tricolor-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ipomoea_tricolor-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 640,
+      "height": 451,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Russell E (Photograph of Ipomoea violacea, taken by rkundalini.)",
+      "description": "This is the I. tricolor, the I. violacea is usually white and the petals are more ruffled."
+    }
+  ]
+}

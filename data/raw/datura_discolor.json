@@ -1,0 +1,93 @@
+{
+  "query": "Datura discolor",
+  "id": "datura_discolor",
+  "fetched": "2026-11-15",
+  "wikipedia": {
+    "found": true,
+    "title": "Datura discolor",
+    "url": "https://en.wikipedia.org/wiki/Datura_discolor",
+    "wikidata_id": "Q4115561",
+    "extract": "Datura discolor, also called the desert thorn-apple, is an herbaceous annual plant native to the Sonoran Desert of western North America, where it grows in sandy soils and washes. All parts of the plant contain a mix of alkaloids that are potentially lethal when enough is ingested.\n\n\n== Description ==\nThe species was first described in 1833. The specific epithet discolor, meaning \"various colors\", refers to its upward-growing trumpet-shaped flowers, which are white in the bell, and pale to dark violet from the narrow part of the bell to the base. The plant itself is an upright or low-lying shrub that can grow to 4.5 feet (1.4 m) tall. Its foliage is light green, and its stalks have conspicuous purple stripes. The ovate-shaped leaves can be whole or toothed.\nDatura discolor has large flowers, which makes it attractive for garden cultivation. The flowers open for only one night and wither the following day. Its seed capsule is thorny like most other datura species, and can be up to 3 in (76 mm) long and 2.5 in (64 mm) in diameter. The species' natural distribution area stretches from Mexico to the Southwestern U.S., and the Caribbean Islands. It is a sun-loving plant which does well underneath overhanging eaves that can protect its flowers from damage by rainfall. It grows in sandy and gravelly soils.\n\n\n== Toxicity ==\n\nAll parts of Datura plants contain dangerous levels of poison and may be fatal if ingested by humans or other animals, including livestock and pets. In some places it is illegal to buy, sell or cultivate Datura plants.\n\n\n== References ==\n\n\n== External links ==\n\nJepson Manual Treatment\nPhotographs of Datura discolor\nCalPhotos photo gallery\nImage of Datura Discolor spiral on PermaculturePhotography.com",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Whiteflower8.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:Whiteflower8.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q4115561",
+    "url": "https://www.wikidata.org/wiki/Q4115561",
+    "label": "Datura discolor",
+    "description": "species of plant",
+    "english_common_names": [
+      "desert thorn-apple"
+    ],
+    "taxon_name": [
+      "Datura discolor"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q192497"
+    ],
+    "image_files": [
+      "Whiteflower8.jpg"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "2928735"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:815547-1"
+      ],
+      "ipni": [
+        "815547-1"
+      ],
+      "ncbi": [
+        "944497"
+      ],
+      "inaturalist": [
+        "76608"
+      ],
+      "eppo": [
+        "DATDI"
+      ]
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/2928735",
+    "key": 2928735,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Datura discolor Bernh.",
+    "canonical_name": "Datura discolor",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Datura",
+      "species": "Datura discolor"
+    },
+    "english_vernacular_names": [
+      "desert thorn-apple"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:Whiteflower8.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AWhiteflower8.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Whiteflower8.jpg/960px-Whiteflower8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Whiteflower8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2816,
+      "height": 2112,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Neelix at English Wikipedia",
+      "description": "I am the originator of this photo. I hold the copyright. I release it to the public domain. This photo depicts a flower."
+    }
+  ]
+}

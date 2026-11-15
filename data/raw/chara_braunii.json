@@ -1,0 +1,87 @@
+{
+  "query": "Chara braunii",
+  "id": "chara_braunii",
+  "fetched": "2026-11-15",
+  "wikipedia": {
+    "found": true,
+    "title": "Chara braunii",
+    "url": "https://en.wikipedia.org/wiki/Chara_braunii",
+    "wikidata_id": "Q22285353",
+    "extract": "Chara braunii is an ecorticate species of algae in the genus Chara occurring in Europe and the only species without cortication known from Poland. Chara braunii is the first Charophyceae for which the whole nuclear genome has been sequenced and published.\n\n\n== Description ==\nThe plant is small to medium size.\nFresh green to brownish green when found in the muddy bottom.\nTransparent and richly branched. Plants are entirely ecorticate (i.e., without cortex). \nThe main axis slender up to 1200 μm in diameter. \nThe stipulodes (single cell organs present in one or more rows in the branchlets of Chara) occur in a single whorl and are well developed. \nBranchlets 6-10 in a whorl, straight and occasionally incurved; segments 4-6, the last one often reduced, with 1 or more small end cells forming tiny terminal corona. \nBracteoles (leaf-like structures) slightly longer than the oospore. \nThe species is monoecious and richly fertile\noogonia are situated above the antheridia. \nThe oospore is dark brown or black.\n\n\n== Distribution ==\nChara braunii has a cosmopolitan distribution between 65 deg. N and 35 deg. S. It has been placed on a \"red\" list of endangered algae in Poland in the category \"indeterminate\", but probably simply because of poor investigation of the species in Poland.\nIn Poland, C. braunii was found exclusively in fish ponds, and it was suggested that the species was limited to only this kind of ecosystem. However, findings in other parts of the world show that this is not true.\n\n\n== References ==\n\n\n== External links ==\n\"Report\". Integrated Taxonomic Information System.",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Chara_braunii_1.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:Chara braunii 1.JPG"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q22285353",
+    "url": "https://www.wikidata.org/wiki/Q22285353",
+    "label": "Chara braunii",
+    "description": "species of Charophyceae",
+    "english_common_names": [],
+    "taxon_name": [
+      "Chara braunii"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q860112"
+    ],
+    "image_files": [
+      "Chara braunii 1.JPG"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "5270720"
+      ],
+      "powo": [],
+      "ipni": [],
+      "ncbi": [
+        "69332"
+      ],
+      "inaturalist": [
+        "486275"
+      ],
+      "eppo": [
+        "CRFBR"
+      ]
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/5270720",
+    "key": 5270720,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Chara braunii C.C.Gmel.",
+    "canonical_name": "Chara braunii",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Charophyta",
+      "class": "Charophyceae",
+      "order": "Charales",
+      "family": "Characeae",
+      "genus": "Chara",
+      "species": "Chara braunii"
+    },
+    "english_vernacular_names": [
+      "Braun's Stonewort"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:Chara braunii 1.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3AChara_braunii_1.JPG",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Chara_braunii_1.JPG/960px-Chara_braunii_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Chara_braunii_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2784,
+      "height": 2304,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Show_ryu",
+      "description": "Chara braunii"
+    }
+  ]
+}

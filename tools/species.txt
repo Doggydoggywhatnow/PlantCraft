@@ -1,0 +1,19 @@
+# Starter species. One scientific name per line.
+Chara braunii
+Ipomoea tricolor
+Prunus persica
+# Datura: the 14 species accepted by Kew's Plants of the World Online (per Wikipedia, Datura#Species)
+Datura arenicola
+Datura ceratocaula
+Datura discolor
+Datura ferox
+Datura innoxia
+Datura kymatocarpa
+Datura lanosa
+Datura leichhardtii
+Datura metel
+Datura pruinosa
+Datura quercifolia
+Datura reburra
+Datura stramonium
+Datura wrightii

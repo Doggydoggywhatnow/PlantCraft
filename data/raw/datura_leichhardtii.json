@@ -1,0 +1,103 @@
+{
+  "query": "Datura leichhardtii",
+  "id": "datura_leichhardtii",
+  "fetched": "2026-11-15",
+  "wikipedia": {
+    "found": true,
+    "title": "Datura leichhardtii",
+    "url": "https://en.wikipedia.org/wiki/Datura_leichhardtii",
+    "wikidata_id": "Q5227803",
+    "extract": "Datura leichhardtii is a species of thorn apple in the genus Datura. In 1844, Ludwig Leichhardt discovered this species in Australia. Ferdinand von Mueller gave it the name Datura leichhardtii when he published his first description of it in 1855.\nThe species is generally considered to be endemic to Australia although it may have been an early introduction from the Americas The species is widespread in Queensland, the Northern Territory and New South Wales. The plant is extremely fond of heat, and its preferred habitat is close to rivers and streams. Datura leichhardtii grows into a bush from 1.5 to 3 ft tall. The plants are green and a bit furry, with inconspicuous yellowish white flowers. The spiny seed capsule is about 1.5 in. in diameter.\nThe plant is not found in cultivation, because its flowers have no ornamental value.\n\n\n== Toxicity ==\n\nAll parts of Datura plants contain dangerous levels of poison and may be fatal if ingested by humans or other animals, including livestock and pets. In some places it is prohibited to buy, sell or cultivate Datura plants.\n\n\n== Gallery ==\n\n\n== References ==\n\n\n== External links ==\nPhoto of Datura leichhardtii",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Datura_leichhardtii.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:Datura leichhardtii.jpg",
+      "File:Datura leichhardtii stamens.jpg",
+      "File:Ipomoea purpurea 2400px.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q5227803",
+    "url": "https://www.wikidata.org/wiki/Q5227803",
+    "label": "Datura leichhardtii",
+    "description": "species of plant",
+    "english_common_names": [
+      "Leichhardt's datura"
+    ],
+    "taxon_name": [
+      "Datura leichhardtii"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q192497"
+    ],
+    "image_files": [
+      "Datura leichhardtii.jpg"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "2928740"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:30346233-2"
+      ],
+      "ipni": [
+        "30346233-2"
+      ],
+      "ncbi": [
+        "540799"
+      ],
+      "inaturalist": [],
+      "eppo": [
+        "DATLE"
+      ]
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/7893055",
+    "key": 7893055,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Datura leichhardtii F.Muell.",
+    "canonical_name": "Datura leichhardtii",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Datura",
+      "species": "Datura leichhardtii"
+    },
+    "english_vernacular_names": []
+  },
+  "commons_images": [
+    {
+      "file": "File:Datura leichhardtii.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ADatura_leichhardtii.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Datura_leichhardtii.jpg/960px-Datura_leichhardtii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/30/Datura_leichhardtii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3024,
+      "height": 2268,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Mark Marathon",
+      "description": "Datura leichhardtii"
+    },
+    {
+      "file": "File:Datura leichhardtii stamens.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ADatura_leichhardtii_stamens.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Datura_leichhardtii_stamens.jpg/960px-Datura_leichhardtii_stamens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Datura_leichhardtii_stamens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1959,
+      "height": 2217,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Mark Marathon",
+      "description": "Datura leichhardtii flower"
+    }
+  ]
+}

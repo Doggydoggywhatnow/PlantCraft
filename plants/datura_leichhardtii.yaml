@@ -1,0 +1,133 @@
+id: datura_leichhardtii
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+confidence: medium
+taxonomy:
+  kingdom: Plantae
+  clade: Tracheophyta
+  order: Solanales
+  family: Solanaceae
+  genus: Datura
+  species: leichhardtii
+  authority: F.Muell.
+names:
+  scientific: Datura leichhardtii
+  common:
+  - Leichhardt's datura
+  in_game: Leichhardt'S Datura
+description: Bush 45-90 cm tall, green and slightly furry, with inconspicuous yellowish-white flowers.
+  Very fond of heat; prefers the banks of rivers and streams. Not cultivated because its flowers have
+  no ornamental value.
+habitat:
+  native_range: Queensland, the Northern Territory and New South Wales (Australia); may be an early introduction
+    from the Americas.
+  environment: Near rivers and streams.
+  climate: Hot
+  height_m: 0.45-0.9
+  life_form: shrub
+growth_stages:
+- id: seed
+  name: Seed
+  description: Small black seed, flat and kidney-shaped, planted in soil.
+  visual_notes: Item sprite only.
+  texture: textures/block/datura_leichhardtii_seed.png
+- id: seedling
+  name: Seedling
+  description: Two small green seed leaves on a short stalk.
+  visual_notes: Low, 1 pixel stem.
+  texture: textures/block/datura_leichhardtii_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy branched herb or shrub with broad, toothed or wavy leaves.
+  visual_notes: Full-height green bush, no flowers.
+  texture: textures/block/datura_leichhardtii_vegetative.png
+- id: budding
+  name: Budding
+  description: Long tubular buds appear in leaf axils and branch forks, twisted and furled.
+  visual_notes: Bush with pale, closed, pencil-like buds.
+  texture: textures/block/datura_leichhardtii_budding.png
+- id: flowering
+  name: Flowering
+  description: Large trumpet-shaped flowers open (see flower notes for timing and colour).
+  visual_notes: Wide trumpet flowers on top of the bush.
+  texture: textures/block/datura_leichhardtii_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Petals fall and a green spiny seed capsule swells.
+  visual_notes: Green spiny ball where the flower was.
+  texture: textures/block/datura_leichhardtii_fruiting.png
+- id: ripe_capsule
+  name: Ripe capsule
+  description: Capsule browns and splits open, showing black seeds.
+  visual_notes: Brown split capsule with dark seeds visible.
+  texture: textures/block/datura_leichhardtii_ripe_capsule.png
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - yellowish white
+    opens: night
+    pollination:
+    - moths
+    notes: Small and inconspicuous. Opening time not stated in the fetched sources.
+  fruit:
+    present: true
+    type: capsule
+    description: Spiny capsule about 3.8 cm across.
+    edible: toxic
+uses_real:
+- use: Toxic plant
+  note: All Datura species contain tropane alkaloids and are poisonous to people and animals; Wikipedia
+    notes use in traditional medicine and ritual (Datura genus article).
+images:
+- url: https://commons.wikimedia.org/wiki/File%3ADatura_leichhardtii.jpg
+  license: CC BY-SA 4.0
+  author: Mark Marathon
+  shows: Datura leichhardtii
+- url: https://commons.wikimedia.org/wiki/File%3ADatura_leichhardtii_stamens.jpg
+  license: CC BY-SA 4.0
+  author: Mark Marathon
+  shows: Datura leichhardtii stamens
+sources:
+- name: 'Wikipedia: Datura leichhardtii'
+  url: https://en.wikipedia.org/wiki/Datura_leichhardtii
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q5227803
+  id: Q5227803
+  status: checked
+- name: 'GBIF (ACCEPTED: Datura leichhardtii)'
+  url: https://www.gbif.org/species/7893055
+  id: '7893055'
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: Grows through the seven genus-template stages (seed to ripe capsule) on random ticks.
+    requirements:
+    - Light level 9 or more to advance
+    - Plantable on sand, dirt, grass or similar soil
+    flowering: Flower stage is shown according to flowers.opens; closed or wilted outside those hours.
+    pollination: Bees or moths in range, or self-pollination chance per random tick.
+    fruiting: Pollinated flower becomes a spiny capsule, which ripens and splits.
+    regrowth: Harvested plant returns to the budding stage so it can flower and fruit again.
+  spawn:
+    biomes:
+    - minecraft:savanna
+    - minecraft:badlands
+    feature: patch
+    rarity: uncommon
+    reason: Hot country near watercourses; savanna is the closest vanilla match.
+  drops:
+  - seeds
+  - capsule (toxic, not food)
+  notes: Wikipedia notes it is close to D. pruinosa and may merit demotion to a subspecies of it. Stage
+    list is the shared Datura genus template, not species-specific observations.
+game_uses:
+  summary: Not yet designed (use phase).

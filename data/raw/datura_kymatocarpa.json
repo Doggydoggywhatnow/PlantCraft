@@ -1,0 +1,76 @@
+{
+  "query": "Datura kymatocarpa",
+  "id": "datura_kymatocarpa",
+  "fetched": "2026-11-15",
+  "wikipedia": {
+    "found": true,
+    "title": "Datura kymatocarpa",
+    "url": "https://en.wikipedia.org/wiki/Datura_kymatocarpa",
+    "wikidata_id": "Q5227800",
+    "extract": "Datura kymatocarpa is a species of Datura. It is native to Mexico and is an annual plant.\nContemporary experts classify this plant not as a separate species, but as a variety of Datura discolor.\n\n\n== References ==",
+    "lead_image": null,
+    "image_files": [
+      "File:Ipomoea purpurea 2400px.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q5227800",
+    "url": "https://www.wikidata.org/wiki/Q5227800",
+    "label": "Datura kymatocarpa",
+    "description": "species of plant",
+    "english_common_names": [
+      "datura"
+    ],
+    "taxon_name": [
+      "Datura kymatocarpa"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q192497"
+    ],
+    "image_files": [],
+    "external_ids": {
+      "gbif_taxon": [
+        "2928750"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:76942-2"
+      ],
+      "ipni": [
+        "76942-2"
+      ],
+      "ncbi": [
+        "1274346"
+      ],
+      "inaturalist": [
+        "48940"
+      ],
+      "eppo": []
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/2928750",
+    "key": 2928750,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Datura kymatocarpa Barclay",
+    "canonical_name": "Datura kymatocarpa",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Datura",
+      "species": "Datura kymatocarpa"
+    },
+    "english_vernacular_names": [
+      "datura"
+    ]
+  },
+  "commons_images": []
+}

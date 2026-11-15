@@ -1,0 +1,72 @@
+{
+  "query": "Datura arenicola",
+  "id": "datura_arenicola",
+  "fetched": "2026-11-15",
+  "wikipedia": {
+    "found": true,
+    "title": "Datura arenicola",
+    "url": "https://en.wikipedia.org/wiki/Datura_arenicola",
+    "wikidata_id": "Q17400120",
+    "extract": "Datura arenicola is a species of flowering plant in the nightshade family Solanaceae.\n\n\n== References ==",
+    "lead_image": null,
+    "image_files": [
+      "File:Ipomoea purpurea 2400px.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q17400120",
+    "url": "https://www.wikidata.org/wiki/Q17400120",
+    "label": "Datura arenicola",
+    "description": "species of plant",
+    "english_common_names": [],
+    "taxon_name": [
+      "Datura arenicola"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q192497"
+    ],
+    "image_files": [],
+    "external_ids": {
+      "gbif_taxon": [
+        "7627442"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:60463371-2"
+      ],
+      "ipni": [
+        "60463371-2"
+      ],
+      "ncbi": [
+        "1387700"
+      ],
+      "inaturalist": [
+        "603162"
+      ],
+      "eppo": []
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/7627442",
+    "key": 7627442,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Datura arenicola Gentry ex Bye & Luna",
+    "canonical_name": "Datura arenicola",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Datura",
+      "species": "Datura arenicola"
+    },
+    "english_vernacular_names": []
+  },
+  "commons_images": []
+}

@@ -1,0 +1,110 @@
+{
+  "query": "Datura quercifolia",
+  "id": "datura_quercifolia",
+  "fetched": "2026-11-15",
+  "wikipedia": {
+    "found": true,
+    "title": "Datura quercifolia",
+    "url": "https://en.wikipedia.org/wiki/Datura_quercifolia",
+    "wikidata_id": "Q4118546",
+    "extract": "Datura quercifolia, commonly known as the oak-leaved thorn-apple and also the Chinese Thorn-Apple, is a small shrub in the genus Datura that is native to Mexico and the Southwestern United States. It grows equally well in dry and moist soils and requires full sun. It contains a mix of alkaloids that are poisonous and can be potentially lethal when ingested. \n\n\n== Description ==\nThe species was first described in 1818 by Alexander von Humboldt. Its green leaves resemble oak leaves, hence the name quercifolia. \nIt can assume both a prostrate and an upright bushy habit, with bushier forms reaching up to 3 ft. in height. It produces green seed capsules armed with long sharp spines, which, like those of some Datura species, open by four equal valves. The funnel-shaped flowers are white and pale violet tipped with five short triangular teeth and are less than 2 in. long.\n\n\n== Toxicity ==\n\nAll parts of Datura plants contain dangerous levels of poison and may be fatal if ingested by humans or other animals, including livestock and pets. In some places it is prohibited to buy, sell or cultivate Datura plants.\n\n\n== References ==\n\n\n== External links ==\nPhotographs of Datura quercifolia",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Datura_quercifolia_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:Datura quercifolia 1.jpg",
+      "File:Datura quercifolia flower.jpg",
+      "File:Ipomoea purpurea 2400px.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q4118546",
+    "url": "https://www.wikidata.org/wiki/Q4118546",
+    "label": "Datura quercifolia",
+    "description": "species of plant",
+    "english_common_names": [
+      "Chinese thorn-apple"
+    ],
+    "taxon_name": [
+      "Datura quercifolia"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q192497"
+    ],
+    "image_files": [
+      "Datura quercifolia flower.jpg"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "2928738"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:815596-1"
+      ],
+      "ipni": [
+        "815596-1"
+      ],
+      "ncbi": [
+        "45451"
+      ],
+      "inaturalist": [
+        "290765"
+      ],
+      "eppo": []
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/2928738",
+    "key": 2928738,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Datura quercifolia Kunth",
+    "canonical_name": "Datura quercifolia",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Datura",
+      "species": "Datura quercifolia"
+    },
+    "english_vernacular_names": [
+      "Chinese Thorn-Apple",
+      "Chinese Thorn-apple",
+      "Chinese thorn-apple",
+      "Oak-leaved Thorn-apple",
+      "Shaggy Thorn Apple",
+      "oak-leaf datura"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:Datura quercifolia flower.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ADatura_quercifolia_flower.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/9/98/Datura_quercifolia_flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/98/Datura_quercifolia_flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 900,
+      "height": 600,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Patrick Alexander",
+      "description": "Datura quercifolia flower, Dripping Springs Rd, 9/25/06."
+    },
+    {
+      "file": "File:Datura quercifolia 1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ADatura_quercifolia_1.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Datura_quercifolia_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Datura_quercifolia_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 900,
+      "height": 600,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Patrick Alexander",
+      "description": "Datura quercifolia, Dripping Springs Rd, 9/25/06."
+    }
+  ]
+}

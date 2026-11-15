@@ -1,0 +1,143 @@
+{
+  "query": "Datura ferox",
+  "id": "datura_ferox",
+  "fetched": "2026-11-15",
+  "wikipedia": {
+    "found": true,
+    "title": "Datura ferox",
+    "url": "https://en.wikipedia.org/wiki/Datura_ferox",
+    "wikidata_id": "Q1245970",
+    "extract": "Datura ferox, commonly known as long spined thorn apple and fierce thornapple, as well as Angel's-trumpets, is a species of Datura. Like all such species, every part of the plant contains deadly toxins that can kill animals (including humans) that ingest it. Its fruit, red-brown when ripe, has unusually long thorns or spikes.\nThe species was first described in 1756 by Linnaeus. Ferox means \"strongly fortified,\" referring to the fearsome-looking spines on the seed pod. The species was long thought to have originated in southeastern China, but recent work by Symon and Haegi has demonstrated that, like all other Datura species, it is in fact native to the Americas. The species is very close in morphology to Datura quercifolia, of which it may constitute a subspecies. Today it is found in all the warm parts of the earth, where it is regarded as a dangerous pasture weed.\nDatura ferox is a stout, upright annual herb 1.5 to 3 ft (45 to 90 cm) high. Its thick stalks often have a red-violet color at the base. All the young shoots are noticeably hairy. The most conspicuous part of the plant is its very wide, undulate, irregularly toothed leaves, which are covered with soft, downy hairs. The yellowish white flowers are funnel-shaped and inconspicuous, and usually do not open completely.\n\n\n== Toxicity ==\n\nAll parts of Datura plants contain dangerous levels of tropane alkaloids and may be fatal if ingested by humans or other animals, including livestock and pets. In some places it is prohibited to buy, sell or cultivate Datura plants.\n\n\n== References ==\n\n\n== External links ==\nJepson Manual Treatment\nAdditional information about Datura ferox Archived 2008-07-25 at the Wayback Machine",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Datura_ferox_flower.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:Datura ferox 20140827 a.jpg",
+      "File:Datura ferox MHNT.BOT.X.jpg",
+      "File:Datura ferox flower.jpg",
+      "File:Ipomoea purpurea 2400px.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q1245970",
+    "url": "https://www.wikidata.org/wiki/Q1245970",
+    "label": "Datura ferox",
+    "description": "species of plant",
+    "english_common_names": [
+      "Fierce thorn-apple",
+      "large thorn-apple",
+      "long-spine thorn-apple"
+    ],
+    "taxon_name": [
+      "Datura ferox"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q192497"
+    ],
+    "image_files": [
+      "DaturaFerox-Fruit.JPG"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "2928739"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:815555-1"
+      ],
+      "ipni": [
+        "815555-1"
+      ],
+      "ncbi": [
+        "169103"
+      ],
+      "inaturalist": [
+        "76609"
+      ],
+      "eppo": [
+        "DATFE"
+      ]
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/7894250",
+    "key": 7894250,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Datura ferox L.",
+    "canonical_name": "Datura ferox",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Datura",
+      "species": "Datura ferox"
+    },
+    "english_vernacular_names": [
+      "Angel's-Trumpets",
+      "Angel's-trumpets",
+      "Angels'-trumpets",
+      "Longspine Thorn-apple",
+      "angel's-trumpets",
+      "false castor-oil",
+      "fierce thorn-apple",
+      "large thorn-apple",
+      "long-spine thorn-apple",
+      "long-spur thorn-apple"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:DaturaFerox-Fruit.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3ADaturaFerox-Fruit.JPG",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/DaturaFerox-Fruit.JPG/960px-DaturaFerox-Fruit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/DaturaFerox-Fruit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2592,
+      "height": 1944,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Solanum",
+      "description": "Datura ferox"
+    },
+    {
+      "file": "File:Datura ferox 20140827 a.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ADatura_ferox_20140827_a.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Datura_ferox_20140827_a.jpg/960px-Datura_ferox_20140827_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Datura_ferox_20140827_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2400,
+      "height": 1800,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Luis Fernández García",
+      "description": "Datura stramonium. Losar de la Vera (Cáceres, España)."
+    },
+    {
+      "file": "File:Datura ferox flower.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ADatura_ferox_flower.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Datura_ferox_flower.jpg/960px-Datura_ferox_flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/05/Datura_ferox_flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3063,
+      "height": 2042,
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Alexey Yakovlev",
+      "description": "Louis Trichardt, Makhado Local Municipality, Vhembe District Municipality, Limpopo Province, South Africa."
+    },
+    {
+      "file": "File:Datura ferox MHNT.BOT.X.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ADatura_ferox_MHNT.BOT.X.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Datura_ferox_MHNT.BOT.X.jpg/960px-Datura_ferox_MHNT.BOT.X.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/75/Datura_ferox_MHNT.BOT.X.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4036,
+      "height": 2691,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Roger Culos",
+      "description": "Datura ferox, long spined thorn apple, seeds"
+    }
+  ]
+}

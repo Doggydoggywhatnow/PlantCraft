@@ -1,0 +1,83 @@
+{
+  "query": "Datura lanosa",
+  "id": "datura_lanosa",
+  "fetched": "2026-11-15",
+  "wikipedia": {
+    "found": true,
+    "title": "Datura lanosa",
+    "url": "https://en.wikipedia.org/wiki/Datura_lanosa",
+    "wikidata_id": "Q5227801",
+    "extract": "Datura lanosa is a species of Datura.  Some contemporary botanists classify this plant not as a separate species, but as a variety of Datura wrightii or Datura innoxia.\nThis Datura is a small shrub, producing trumpet shaped flowers. The fruit is small, with thorns carrying many seeds.\n\n\n== Cultivation ==\nDatura lanosa is grown in yards or gardens as an ornamental plant and is native to Mexico.\n\n\n== References ==",
+    "lead_image": null,
+    "image_files": [
+      "File:Ipomoea purpurea 2400px.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q5227801",
+    "url": "https://www.wikidata.org/wiki/Q5227801",
+    "label": "Datura lanosa",
+    "description": "species of plant",
+    "english_common_names": [],
+    "taxon_name": [
+      "Datura lanosa"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q192497"
+    ],
+    "image_files": [],
+    "external_ids": {
+      "gbif_taxon": [
+        "3798775"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:275677-2"
+      ],
+      "ipni": [
+        "275677-2"
+      ],
+      "ncbi": [
+        "1274347"
+      ],
+      "inaturalist": [
+        "208546"
+      ],
+      "eppo": []
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/2928741",
+    "key": 2928741,
+    "match_type": "EXACT",
+    "status": "SYNONYM",
+    "scientific_name": "Datura lanosa Barclay ex Bye",
+    "canonical_name": "Datura lanosa",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Datura",
+      "species": "Datura wrightii"
+    },
+    "english_vernacular_names": [
+      "Sacred Datura",
+      "Sacred datura",
+      "Sacred thorn-apple, hairy thornapple, Western Jimson weed",
+      "Western Jimsonweed",
+      "hairy thorn-apple",
+      "hoary thorn-apple",
+      "recurved thorn-apple",
+      "sacred datura",
+      "sacred thorn-apple",
+      "sacred thornapple"
+    ]
+  },
+  "commons_images": []
+}

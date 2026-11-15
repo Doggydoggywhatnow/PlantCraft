@@ -1,0 +1,107 @@
+id: chara_braunii
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: not_applicable
+confidence: medium
+taxonomy:
+  kingdom: Plantae
+  clade: Charophyta
+  order: Charales
+  family: Characeae
+  genus: Chara
+  species: braunii
+  authority: C.C.Gmel.
+names:
+  scientific: Chara braunii
+  common:
+  - Braun's stonewort
+  in_game: Braun's Stonewort
+description: Small to medium green alga (a stonewort, order Charales) that grows underwater from the muddy
+  bottom. Fresh green to brownish green, transparent and richly branched, with a slender main axis up
+  to 1.2 mm across. Whorls of 6-10 branchlets. Entirely ecorticate (has no outer cortex layer). Monoecious
+  and richly fertile, with the oogonia above the antheridia; the oospore is dark brown or black. It is
+  the first Charophyceae to have its whole nuclear genome sequenced.
+habitat:
+  native_range: Cosmopolitan between 65 N and 35 S.
+  environment: Still fresh water over muddy bottoms; in Poland found only in fish ponds, but elsewhere
+    in many other waters.
+  life_form: alga
+  height_m: small, not stated
+growth_stages:
+- id: spore
+  name: Oospore
+  description: Dark brown or black oospore resting on the muddy bottom.
+  texture: textures/block/chara_braunii_spore.png
+- id: sprout
+  name: Sprout
+  description: Short slender green axis with the first small whorl of branchlets.
+  texture: textures/block/chara_braunii_sprout.png
+- id: growing
+  name: Growing
+  description: Taller axis with several whorls of 6-10 straight branchlets, transparent bright green.
+  texture: textures/block/chara_braunii_growing.png
+- id: fertile
+  name: Fertile
+  description: Fully branched with oogonia and antheridia at the nodes, oogonia above antheridia.
+  texture: textures/block/chara_braunii_fertile.png
+reproduction:
+  flowers:
+    present: false
+    opens: not_applicable
+    pollination:
+    - not_applicable
+    notes: Algae have no flowers. Reproduces by oospores from oogonia (female) and antheridia (male) on
+      the same plant.
+  fruit:
+    present: false
+    type: oospore
+    edible: not_applicable
+    description: Dark oospore; no fruit.
+uses_real:
+- use: Research model
+  note: 'First Charophyceae with a published whole nuclear genome (Wikipedia: Chara braunii).'
+images:
+- url: https://commons.wikimedia.org/wiki/File%3AChara_braunii_1.JPG
+  license: CC BY-SA 3.0
+  author: Show_ryu
+  shows: Chara braunii 1
+sources:
+- name: 'Wikipedia: Chara braunii'
+  url: https://en.wikipedia.org/wiki/Chara_braunii
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q22285353
+  id: Q22285353
+  status: checked
+- name: 'GBIF (ACCEPTED: Chara braunii)'
+  url: https://www.gbif.org/species/5270720
+  id: '5270720'
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: aquatic_plant
+  growth:
+    summary: Grows underwater on soft bottoms. Four stages ending in a fertile plant that can release
+      spores to spread.
+    requirements:
+    - Placed in water
+    - Mud, clay or dirt bottom
+    - Light level above water
+    regrowth: Fertile plant can spread to adjacent water blocks on random ticks.
+  spawn:
+    biomes:
+    - minecraft:swamp
+    - minecraft:mangrove_swamp
+    - minecraft:river
+    feature: underwater_patch
+    rarity: common
+    reason: Still, shallow fresh water over mud; ponds and swamps.
+  drops:
+  - Braun's Stonewort
+  notes: 'No flower or fruit system: it is the aquatic exception to the flower-and-fruit design.'
+game_uses:
+  summary: None designed yet; the data phase found no practical real-world use beyond research.

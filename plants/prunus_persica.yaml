@@ -1,0 +1,163 @@
+id: prunus_persica
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+confidence: high
+taxonomy:
+  kingdom: Plantae
+  clade: Tracheophyta
+  order: Rosales
+  family: Rosaceae
+  genus: Prunus
+  species: persica
+  authority: (L.) Batsch (per Wikipedia; GBIF lists (L.) Stokes)
+  synonyms:
+  - Amygdalus persica L.
+names:
+  scientific: Prunus persica
+  common:
+  - peach
+  in_game: Peach Tree
+description: Deciduous tree (or tree-like shrub), typically 3 m tall, rarely up to 10 m, with a crown
+  about as wide as it is tall and a dark grey trunk. Relatively short-lived, usually under 20 years. Leaves
+  oblong to lanceolate, 7-15 cm long, serrated and folded along the midrib. Bears edible juicy drupes;
+  smooth-skinned forms are nectarines.
+habitat:
+  native_range: China (first domesticated there in the Neolithic).
+  introduced_range: Spread via Persia to Europe; now grown worldwide in temperate climates.
+  environment: Temperate orchards; cultivated. Roots keep growing through winter.
+  life_form: tree
+  height_m: 3-10
+growth_stages:
+- id: sapling
+  name: Sapling
+  description: Thin whip with a few leaves.
+  texture: textures/block/prunus_persica_sapling.png
+- id: young_tree
+  name: Young tree
+  description: Single trunk with green leaves; too young to flower (real trees fruit 2-3 years after sprouting).
+  texture: textures/block/prunus_persica_young.png
+- id: budding
+  name: Budding
+  description: Bare-looking twigs with swollen buds; flowers appear before leaves in the real tree.
+  texture: textures/block/prunus_persica_budding.png
+- id: blossom
+  name: Blossom
+  description: Pink flowers cover the branches (single, 2-3.5 cm, four or five cup-shaped petals; dark
+    purple-red anthers).
+  visual_notes: Leaf blocks replaced by pink blossom leaves.
+  texture: textures/block/prunus_persica_blossom.png
+- id: fruit_set
+  name: Fruit set
+  description: Petals fall, small hard green fruit forms among the leaves.
+  texture: textures/block/prunus_persica_fruit_set.png
+- id: unripe
+  name: Unripe fruit
+  description: Greenish-white to yellow-green fruit, growing.
+  texture: textures/block/prunus_persica_unripe.png
+- id: ripe
+  name: Ripe fruit
+  description: Fruit 5-7 cm across, yellow-orange with a red blush on the sunny side, with a seam on one
+    side.
+  texture: textures/block/prunus_persica_ripe.png
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - pink
+    - red
+    - white
+    opens: day
+    season: early spring, before leaves (Feb-May in the north, Aug-Oct in the south)
+    pollination:
+    - bees
+    - self
+    notes: Flowers solitary or in pairs, self-fertile but outcrossing about 5%. Bloom is often cut short
+      by frost.
+  fruit:
+    present: true
+    type: drupe (stone fruit)
+    description: 'Fleshy fruit around a hard, furrowed, pitted stone. Growth is double-sigmoid: fast growth,
+      a rest, then fast ripening.'
+    ripening: Summer
+    edible: 'yes'
+uses_real:
+- use: Food
+  note: Fresh fruit; only apple and pear have higher temperate fruit production.
+- use: Ornamental
+  note: Planted for blossom; double, semi-double and bicolor flowering forms exist.
+- use: Symbol
+  note: Regarded as a symbol of longevity in China.
+images:
+- url: https://commons.wikimedia.org/wiki/File%3AAutumn_Red_peaches.jpg
+  license: Public domain
+  author: Jack Dykinga, USDA
+  shows: Autumn Red peaches
+- url: https://commons.wikimedia.org/wiki/File%3APeach_flowers.jpg
+  license: CC BY-SA 3.0
+  author: by Fir0002
+  shows: Peach flowers
+- url: https://commons.wikimedia.org/wiki/File%3APrunus_persica_-_Peach_Hungary.jpg
+  license: CC BY-SA 3.0
+  author: Takkk
+  shows: Prunus persica - Peach Hungary
+- url: https://commons.wikimedia.org/wiki/File%3APrunus_persica%EF%BC%88%E8%8A%B1%E6%A1%83%EF%BC%894035837.JPG
+  license: CC BY-SA 3.0
+  author: 松岡明芳
+  shows: Prunus persica（花桃）4035837
+- url: https://commons.wikimedia.org/wiki/File%3APrunus_persica_pit.jpg
+  license: CC BY-SA 3.0
+  author: An.ha
+  shows: Prunus persica pit
+sources:
+- name: 'Wikipedia: Peach'
+  url: https://en.wikipedia.org/wiki/Peach
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q13189
+  id: Q13189
+  status: checked
+- name: 'GBIF (ACCEPTED: Prunus persica)'
+  url: https://www.gbif.org/species/8149923
+  id: '8149923'
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: fruit_tree
+  growth:
+    summary: Sapling grows into a tree; after maturity the leaves cycle through bud, blossom, fruit set,
+      unripe, ripe.
+    requirements:
+    - Light level 9 or more
+    - Grass or dirt below
+    - Space for the crown
+    flowering: Leaves change to pink blossom leaves during the blossom stage. Timed by tree age plus a
+      long random tick cycle (no seasons in vanilla).
+    pollination: Bees pollinate blossoms, or self-pollination (the real tree is self-fertile) so fruit
+      still forms; bees raise the yield.
+    fruiting: Pollinated blossom leaves become fruit-bearing leaves, then ripen through three fruit stages.
+    regrowth: Harvesting ripe fruit turns that leaf back to plain leaves; the tree blossoms again next
+      cycle.
+  spawn:
+    biomes:
+    - minecraft:plains
+    - minecraft:forest
+    - minecraft:meadow
+    - minecraft:cherry_grove
+    feature: tree
+    rarity: rare
+    reason: Temperate-climate orchard tree; cherry grove is the closest blossom-themed vanilla biome,
+      and a bundled orchard village structure is another option.
+  drops:
+  - peach
+  - peach pit
+  - sapling
+  - stick
+  notes: The peach pit is the fruit's seed (plant to get a sapling). The tree's leaves reuse the shared
+    flower-and-fruit stage logic.
+game_uses:
+  summary: Not yet designed (use phase). Peach is edible; blossom colour could give pink dye.

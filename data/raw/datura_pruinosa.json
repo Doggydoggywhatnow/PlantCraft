@@ -1,0 +1,71 @@
+{
+  "query": "Datura pruinosa",
+  "id": "datura_pruinosa",
+  "fetched": "2026-11-15",
+  "wikipedia": {
+    "found": false,
+    "search_hits": [
+      "Datura"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q17400121",
+    "url": "https://www.wikidata.org/wiki/Q17400121",
+    "label": "Datura pruinosa",
+    "description": "species of plant",
+    "english_common_names": [
+      "datura"
+    ],
+    "taxon_name": [
+      "Datura pruinosa"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q192497"
+    ],
+    "image_files": [],
+    "external_ids": {
+      "gbif_taxon": [
+        "2928736"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:76951-2"
+      ],
+      "ipni": [
+        "76951-2"
+      ],
+      "ncbi": [],
+      "inaturalist": [
+        "48941"
+      ],
+      "eppo": []
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/2928736",
+    "key": 2928736,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Datura pruinosa Greenm.",
+    "canonical_name": "Datura pruinosa",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Datura",
+      "species": "Datura pruinosa"
+    },
+    "english_vernacular_names": [
+      "Pruinose Thorn Apple",
+      "Pruinose Thorn-apple",
+      "datura"
+    ]
+  },
+  "commons_images": []
+}

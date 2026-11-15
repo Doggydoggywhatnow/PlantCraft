@@ -1,0 +1,139 @@
+id: datura_ferox
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+confidence: medium
+taxonomy:
+  kingdom: Plantae
+  clade: Tracheophyta
+  order: Solanales
+  family: Solanaceae
+  genus: Datura
+  species: ferox
+  authority: L.
+names:
+  scientific: Datura ferox
+  common:
+  - long-spined thorn-apple
+  - fierce thorn-apple
+  - large thorn-apple
+  - long-spine thorn-apple
+  in_game: Long-Spined Thorn-Apple
+description: Stout upright annual herb 45-90 cm tall, red-violet at the stem base, young shoots hairy.
+  Very wide, undulate, irregularly toothed leaves with soft downy hairs. Yellowish-white funnel flowers
+  are inconspicuous and usually do not open fully.
+habitat:
+  native_range: The Americas (long thought to be southeastern China, now corrected by Symon and Haegi).
+  introduced_range: Warm parts of the earth, where it is a pasture weed.
+  environment: Pasture and disturbed ground.
+  height_m: 0.45-0.9
+  life_form: annual_herb
+growth_stages:
+- id: seed
+  name: Seed
+  description: Small black seed, flat and kidney-shaped, planted in soil.
+  visual_notes: Item sprite only.
+  texture: textures/block/datura_ferox_seed.png
+- id: seedling
+  name: Seedling
+  description: Two small green seed leaves on a short stalk.
+  visual_notes: Low, 1 pixel stem.
+  texture: textures/block/datura_ferox_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy branched herb or shrub with broad, toothed or wavy leaves.
+  visual_notes: Full-height green bush, no flowers.
+  texture: textures/block/datura_ferox_vegetative.png
+- id: budding
+  name: Budding
+  description: Long tubular buds appear in leaf axils and branch forks, twisted and furled.
+  visual_notes: Bush with pale, closed, pencil-like buds.
+  texture: textures/block/datura_ferox_budding.png
+- id: flowering
+  name: Flowering
+  description: Large trumpet-shaped flowers open (see flower notes for timing and colour).
+  visual_notes: Wide trumpet flowers on top of the bush.
+  texture: textures/block/datura_ferox_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Petals fall and a green spiny seed capsule swells.
+  visual_notes: Green spiny ball where the flower was.
+  texture: textures/block/datura_ferox_fruiting.png
+- id: ripe_capsule
+  name: Ripe capsule
+  description: Capsule browns and splits open, showing black seeds.
+  visual_notes: Brown split capsule with dark seeds visible.
+  texture: textures/block/datura_ferox_ripe_capsule.png
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - yellowish white
+    opens: night
+    pollination:
+    - moths
+    notes: Flowers are small and may not open fully.
+  fruit:
+    present: true
+    type: capsule
+    description: Red-brown when ripe with unusually long thorns (ferox means strongly fortified).
+    edible: toxic
+uses_real:
+- use: Toxic plant
+  note: All Datura species contain tropane alkaloids and are poisonous to people and animals; Wikipedia
+    notes use in traditional medicine and ritual (Datura genus article).
+images:
+- url: https://commons.wikimedia.org/wiki/File%3ADaturaFerox-Fruit.JPG
+  license: Public domain
+  author: Solanum
+  shows: DaturaFerox-Fruit
+- url: https://commons.wikimedia.org/wiki/File%3ADatura_ferox_20140827_a.jpg
+  license: CC BY-SA 4.0
+  author: Luis Fernández García
+  shows: Datura ferox 20140827 a
+- url: https://commons.wikimedia.org/wiki/File%3ADatura_ferox_flower.jpg
+  license: CC0
+  author: Alexey Yakovlev
+  shows: Datura ferox flower
+sources:
+- name: 'Wikipedia: Datura ferox'
+  url: https://en.wikipedia.org/wiki/Datura_ferox
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q1245970
+  id: Q1245970
+  status: checked
+- name: 'GBIF (ACCEPTED: Datura ferox)'
+  url: https://www.gbif.org/species/7894250
+  id: '7894250'
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: Grows through the seven genus-template stages (seed to ripe capsule) on random ticks.
+    requirements:
+    - Light level 9 or more to advance
+    - Plantable on sand, dirt, grass or similar soil
+    flowering: Flower stage is shown according to flowers.opens; closed or wilted outside those hours.
+    pollination: Bees or moths in range, or self-pollination chance per random tick.
+    fruiting: Pollinated flower becomes a spiny capsule, which ripens and splits.
+    regrowth: Harvested plant returns to the budding stage so it can flower and fruit again.
+  spawn:
+    biomes:
+    - minecraft:plains
+    - minecraft:savanna
+    feature: patch
+    rarity: uncommon
+    reason: Weed of open pasture land in warm regions.
+  drops:
+  - seeds
+  - capsule (toxic, not food)
+  notes: Very close to D. quercifolia and may be a subspecies of it. Stage list is the shared Datura genus
+    template, not species-specific observations.
+game_uses:
+  summary: Not yet designed (use phase).

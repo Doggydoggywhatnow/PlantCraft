@@ -1,0 +1,147 @@
+id: ipomoea_tricolor
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+confidence: high
+taxonomy:
+  kingdom: Plantae
+  clade: Tracheophyta
+  order: Solanales
+  family: Convolvulaceae
+  genus: Ipomoea
+  species: tricolor
+  authority: Cav.
+names:
+  scientific: Ipomoea tricolor
+  common:
+  - Mexican morning glory
+  - morning glory
+  - grannyvine
+  - Ololiuqui or Mexican Morning Glory
+  - Tlitliltzin
+  in_game: Morning Glory
+description: Herbaceous annual or perennial twining liana growing 2-4 m tall. Leaves spirally arranged,
+  3-7 cm long on 1.5-6 cm stalks. Trumpet-shaped flowers 4-9 cm across, most commonly blue with a white
+  to golden-yellow centre. In the cultivar 'Heavenly Blue' the flower colour changes from red to blue
+  as the bloom ages.
+habitat:
+  native_range: Tropics of the Americas.
+  introduced_range: Widely cultivated and naturalised elsewhere.
+  environment: Warm, sheltered and sunny; climbs walls and supports.
+  climate: Does not tolerate below 5 C
+  life_form: vine
+  height_m: 2-4
+growth_stages:
+- id: seed
+  name: Seed
+  description: Seed planted next to a block it can climb.
+  texture: textures/block/ipomoea_tricolor_seed.png
+- id: sprout
+  name: Sprout
+  description: Small twining shoot with two seed leaves.
+  texture: textures/block/ipomoea_tricolor_sprout.png
+- id: climbing
+  name: Climbing vine
+  description: Twining stems with heart-shaped leaves covering the support.
+  texture: textures/block/ipomoea_tricolor_climbing.png
+- id: budding
+  name: Budding
+  description: Tightly furled twisted buds along the vine.
+  texture: textures/block/ipomoea_tricolor_budding.png
+- id: flowering
+  name: Flowering
+  description: Blue trumpet flowers with white centres open. Flower colour shifts red to blue during the
+    bloom ('Heavenly Blue').
+  visual_notes: Open blue trumpets in the morning; closed twisted purple-pink furls by afternoon.
+  texture: textures/block/ipomoea_tricolor_flowering.png
+- id: seed_pod
+  name: Seed pod
+  description: Small dry round seed pods replace the spent flowers.
+  texture: textures/block/ipomoea_tricolor_seed_pod.png
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - blue
+    - white
+    - golden yellow centre
+    opens: morning_only
+    pollination:
+    - bees
+    notes: 'Flower opening time (morning glory) is common knowledge but the fetched Wikipedia text does
+      not state it: verify in a primary source.'
+  fruit:
+    present: true
+    type: seed capsule
+    description: Dry capsule with seeds. Seeds contain ergoline alkaloids (LSA, LSH) produced with a symbiotic
+      fungus, Periglandula ipomoeae.
+    edible: toxic
+uses_real:
+- use: Ornamental
+  note: Many cultivars; 'Heavenly Blue' won the RHS Award of Garden Merit.
+- use: Weed control / cover plant
+  note: Phytotoxic effects inhibit weed seedling growth; Mexican farmers promote it as a cover plant before
+    sowing crops such as sugarcane, then work it into the soil.
+- use: Toxic seeds
+  note: Seeds contain ergoline alkaloids and cause sickness.
+images:
+- url: https://commons.wikimedia.org/wiki/File%3AIpomoea_tricolor-1.jpg
+  license: CC BY-SA 3.0
+  author: Russell E (Photograph of Ipomoea violacea, taken by rkundalini.)
+  shows: Ipomoea tricolor-1
+- url: https://commons.wikimedia.org/wiki/File%3AIpomoea_tricolor-WeddingBells_20071011_01.png
+  license: CC BY 3.0
+  author: The original uploader was KevinTernes at English Wikipedia.
+  shows: Ipomoea tricolor-WeddingBells 20071011 01
+- url: https://commons.wikimedia.org/wiki/File%3AIpomoea_tricolor-WeddingBells_20071011_02.png
+  license: CC BY 3.0
+  author: The original uploader was KevinTernes at English Wikipedia.
+  shows: Ipomoea tricolor-WeddingBells 20071011 02
+- url: https://commons.wikimedia.org/wiki/File%3AIpomoea_violacea.jpg
+  license: CC BY-SA 3.0
+  author: Russell E (Photograph of Ipomoea violacea, taken by rkundalini.)
+  shows: Ipomoea violacea
+sources:
+- name: 'Wikipedia: Ipomoea tricolor'
+  url: https://en.wikipedia.org/wiki/Ipomoea_tricolor
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q159698
+  id: Q159698
+  status: checked
+- name: 'GBIF (ACCEPTED: Ipomoea tricolor)'
+  url: https://www.gbif.org/species/2928589
+  id: '2928589'
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: climbing_vine
+  growth:
+    summary: Planted beside a solid block, climbs it like a vine. Flowers by day, seed pods after.
+    requirements:
+    - Light level 9 or more
+    - Adjacent supporting block
+    - 'Frost-sensitive: stalls in cold biomes'
+    flowering: Flower stage open in the morning, closed by afternoon.
+    pollination: Bees pollinate open flowers; or self-pollination chance.
+    fruiting: Pollinated flowers become seed pods; pods drop seeds.
+    regrowth: Harvested vine returns to the budding stage.
+  spawn:
+    biomes:
+    - minecraft:jungle
+    - minecraft:sparse_jungle
+    - minecraft:savanna
+    - minecraft:plains
+    feature: vine_on_wall
+    rarity: uncommon
+    reason: Native to the tropics of the Americas and killed by cold.
+  drops:
+  - seeds
+  - flower (blue dye)
+  notes: 'Weed-suppression could become a use: plant growing nearby clears weeds.'
+game_uses:
+  summary: 'Not yet designed (use phase). Real uses recorded above: ornamental, weed control, toxic seeds.'

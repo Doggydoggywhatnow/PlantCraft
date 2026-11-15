@@ -1,0 +1,147 @@
+id: datura_wrightii
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+confidence: high
+taxonomy:
+  kingdom: Plantae
+  clade: Tracheophyta
+  order: Solanales
+  family: Solanaceae
+  genus: Datura
+  species: wrightii
+  authority: Regel
+  synonyms:
+  - Datura lanosa (disputed)
+names:
+  scientific: Datura wrightii
+  common:
+  - sacred thorn-apple
+  - sacred datura
+  - hairy thorn-apple
+  in_game: Sacred Thorn-Apple
+description: Vigorous herbaceous perennial 30 cm to 1.5 m tall and wide, often sprawling close to the
+  ground. Broad leaves with wavy margins. Large sweetly fragrant white trumpet flowers, sometimes purple-tinted
+  at the margin.
+habitat:
+  native_range: Northern Mexico and the adjoining southwestern United States, as far north as eastern
+    Washington.
+  introduced_range: Garden escape in New South Wales, Victoria, South Australia and Western Australia.
+  environment: Open or disturbed land and roadsides with well-drained sandy soils; very sunny and exposed.
+  climate: Hot, dry
+  height_m: 0.3-1.5
+  life_form: perennial_herb
+growth_stages:
+- id: seed
+  name: Seed
+  description: Small black seed, flat and kidney-shaped, planted in soil.
+  visual_notes: Item sprite only.
+  texture: textures/block/datura_wrightii_seed.png
+- id: seedling
+  name: Seedling
+  description: Two small green seed leaves on a short stalk.
+  visual_notes: Low, 1 pixel stem.
+  texture: textures/block/datura_wrightii_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy branched herb or shrub with broad, toothed or wavy leaves.
+  visual_notes: Full-height green bush, no flowers.
+  texture: textures/block/datura_wrightii_vegetative.png
+- id: budding
+  name: Budding
+  description: Long tubular buds appear in leaf axils and branch forks, twisted and furled.
+  visual_notes: Bush with pale, closed, pencil-like buds.
+  texture: textures/block/datura_wrightii_budding.png
+- id: flowering
+  name: Flowering
+  description: Large trumpet-shaped flowers open (see flower notes for timing and colour).
+  visual_notes: Wide trumpet flowers on top of the bush.
+  texture: textures/block/datura_wrightii_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Petals fall and a green spiny seed capsule swells.
+  visual_notes: Green spiny ball where the flower was.
+  texture: textures/block/datura_wrightii_fruiting.png
+- id: ripe_capsule
+  name: Ripe capsule
+  description: Capsule browns and splits open, showing black seeds.
+  visual_notes: Brown split capsule with dark seeds visible.
+  texture: textures/block/datura_wrightii_ripe_capsule.png
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - white
+    - white with purple tint
+    opens: night
+    season: April to October
+    pollination:
+    - moths
+    notes: Trumpets up to 20 cm long with five points on the rim. In clear weather they open in the morning
+      and evening and close in the heat of the day; in cloudy weather they open earlier and last longer.
+  fruit:
+    present: true
+    type: capsule
+    description: Spiny, globular, 3-4 cm across, hanging; opens when fully ripe.
+    ripening: After flowering, summer to autumn
+    edible: toxic
+uses_real:
+- use: Toxic plant
+  note: All Datura species contain tropane alkaloids and are poisonous to people and animals; Wikipedia
+    notes use in traditional medicine and ritual (Datura genus article).
+images:
+- url: https://commons.wikimedia.org/wiki/File%3ADatura_wrightii_seed_pods.jpg
+  license: CC BY 2.0
+  author: Clinton &amp; Charles Robertson from Del Rio, Texas &amp; College Station, TX, USA
+  shows: Datura wrightii seed pods
+- url: https://commons.wikimedia.org/wiki/File%3ADatura_wrightii_flower2.jpg
+  license: Public domain
+  author: Dlarsen
+  shows: Datura wrightii flower2
+- url: https://commons.wikimedia.org/wiki/File%3ADatura_wrightii_seeds.png
+  license: CC BY-SA 4.0
+  author: It's my real name
+  shows: Datura wrightii seeds
+sources:
+- name: 'Wikipedia: Datura wrightii'
+  url: https://en.wikipedia.org/wiki/Datura_wrightii
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q1897331
+  id: Q1897331
+  status: checked
+- name: 'GBIF (ACCEPTED: Datura wrightii)'
+  url: https://www.gbif.org/species/2928741
+  id: '2928741'
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: Grows through the seven genus-template stages (seed to ripe capsule) on random ticks.
+    requirements:
+    - Light level 9 or more to advance
+    - Plantable on sand, dirt, grass or similar soil
+    flowering: Flower stage is shown according to flowers.opens; closed or wilted outside those hours.
+    pollination: Bees or moths in range, or self-pollination chance per random tick.
+    fruiting: Pollinated flower becomes a spiny capsule, which ripens and splits.
+    regrowth: Harvested plant returns to the budding stage so it can flower and fruit again.
+  spawn:
+    biomes:
+    - minecraft:desert
+    - minecraft:badlands
+    feature: patch
+    rarity: uncommon
+    reason: Native to dry, sandy, well-drained ground in Mexico and the southwestern United States.
+  drops:
+  - seeds
+  - capsule (toxic, not food)
+  notes: 'Flower opening is tied to heat and cloud in the real plant: a good candidate for opening in
+    the evening and closing in bright midday light. Stage list is the shared Datura genus template, not
+    species-specific observations.'
+game_uses:
+  summary: Not yet designed (use phase).

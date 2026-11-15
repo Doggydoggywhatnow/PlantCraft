@@ -1,0 +1,92 @@
+{
+  "query": "Datura ceratocaula",
+  "id": "datura_ceratocaula",
+  "fetched": "2026-11-15",
+  "wikipedia": {
+    "found": true,
+    "title": "Datura ceratocaula",
+    "url": "https://en.wikipedia.org/wiki/Datura_ceratocaula",
+    "wikidata_id": "Q5227799",
+    "extract": "Datura ceratocaula is a species of Datura. It is weed-like in its natural habitat, but is grown in gardens and yards as an ornamental plant. The flower has a sweet smell. It is an annual plant that originally came from Mexico.\n\n\n== Description ==\nIn its natural habitat Datura ceratocaula grows in shallow water or in a swamp. It has a hollow gray-green stalk between 12 and 36 in. long, with toothed, undulated ovate-lanceolate leaves that have hairs on the underside.\nThe plant's broad, funnel-shaped flowers bloom from June to September. They are white with a blue cast on the outside and white to pink on the inside. The seed pods are not thorny like those of most Datura species, instead having the appearance of inverted eggs as they dangle from the plant. The plant's stalks are curved like an animal's horn (ceratocaulus = horn stem), and have less tendency to fork than other species of Datura.\n\n\n== Toxicity ==\n\nAll parts of Datura plants contain dangerous levels of poison and may be fatal if ingested by humans or other animals, including livestock and pets. In some places it is prohibited to buy, sell or cultivate Datura plants.\nDatura ceratocaula's toxicity is such that it can be transmitted up the food chain. A species of duck lives in the swamps and lagoons near Mazatlán. Their meat is said to be poisonous, and eating it has been known to produce symptoms of having been poisoned or drugged. This was long a mystery, but now it is known to be due to Datura poisoning. The ducks eat the leaves and seeds of Datura ceratocaula, and their flesh contains a toxic level of poison from this diet.\n\n\n== References ==\n\n\n== External links ==\nUniversity of Illinois Transcriptone Project\nPhotographs of Datura ceratocaula",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Datura_ceratocaula.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:Datura ceratocaula.jpg",
+      "File:Ipomoea purpurea 2400px.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q5227799",
+    "url": "https://www.wikidata.org/wiki/Q5227799",
+    "label": "Datura ceratocaula",
+    "description": "species of plant",
+    "english_common_names": [],
+    "taxon_name": [
+      "Datura ceratocaula"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q192497"
+    ],
+    "image_files": [
+      "Datura ceratocaula.jpg"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "3798966"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:60472320-2"
+      ],
+      "ipni": [
+        "815542-1"
+      ],
+      "ncbi": [
+        "944496"
+      ],
+      "inaturalist": [
+        "280916"
+      ],
+      "eppo": []
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/3798966",
+    "key": 3798966,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Datura ceratocaula Jacq.",
+    "canonical_name": "Datura ceratocaula",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Datura",
+      "species": "Datura ceratocaula"
+    },
+    "english_vernacular_names": [
+      "Latin thorn-apple",
+      "Sister of Ololiuhqui",
+      "swamp datura"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:Datura ceratocaula.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ADatura_ceratocaula.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Datura_ceratocaula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Datura_ceratocaula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 840,
+      "height": 1080,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "W. Curtis",
+      "description": "Datura ceratocaula"
+    }
+  ]
+}
