@@ -1,7 +1,7 @@
 id: chara_braunii
 status:
   data: draft
-  graphics: pending
+  graphics: done
   implementation: pending
   use: not_applicable
 confidence: medium

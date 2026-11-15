@@ -21,6 +21,9 @@ plants/              one YAML file per species (schema-validated)
 schema/plant.schema.json
 tools/fetch.py       fetch raw reference data for species into data/raw/
 tools/validate.py    validate plants/*.yaml against the schema
+tools/make_textures.py  draw a 16x16 texture for every growth stage (graphics phase)
+textures/            generated block and item textures
+docs/preview/        contact sheets of every texture (all.png)
 tools/species.txt    species list the fetch tool reads
 data/raw/            cached raw API responses (inputs to the data phase)
 docs/                design notes (flower and fruit system, ...)
@@ -31,6 +34,7 @@ docs/                design notes (flower and fruit system, ...)
 ```bash
 python3 tools/fetch.py --list tools/species.txt   # fetch / refresh raw data (cached; --force to refetch)
 python3 tools/validate.py                         # validate plant files
+python3 tools/make_textures.py                    # redraw textures and preview sheets
 ```
 
 ## Data and licensing
