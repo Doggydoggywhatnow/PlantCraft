@@ -23,7 +23,7 @@ tools/fetch.py       fetch raw reference data for species into data/raw/
 tools/validate.py    validate plants/*.yaml against the schema
 tools/make_textures.py  draw a 16x16 texture for every growth stage (graphics phase)
 textures/            generated block and item textures
-docs/preview/        contact sheets of every texture (all.png)
+docs/preview/        contact sheets, per-stage images and INDEX.md (tools/make_index.py)
 tools/species.txt    species list the fetch tool reads
 data/raw/            cached raw API responses (inputs to the data phase)
 docs/                design notes (flower and fruit system, ...)
