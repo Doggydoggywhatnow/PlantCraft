@@ -68,6 +68,11 @@ growth_stages:
   description: Capsule browns and splits open, showing black seeds.
   visual_notes: Brown split capsule with dark seeds visible.
   texture: textures/block/datura_discolor_ripe_capsule.png
+segment_textures:
+- role: lower
+  texture: textures/block/datura_discolor_lower.png
+  note: Leafy stem block placed under the stage texture when this plant grows past 1 block (real height
+    > 1 m).
 reproduction:
   flowers:
     present: true

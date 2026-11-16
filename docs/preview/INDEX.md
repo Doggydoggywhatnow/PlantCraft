@@ -57,6 +57,16 @@ Confidence: **high**. Implementation type: `flower_fruit_plant`.
 | 6 | Fruiting | ![datura_discolor fruiting](stages/datura_discolor/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
 | 7 | Ripe capsule | ![datura_discolor ripe_capsule](stages/datura_discolor/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
 
+Extra blocks for plants taller than 1 block at the configured scale:
+
+| Role | Image | Note |
+|---|---|---|
+| lower | ![datura_discolor lower](stages/datura_discolor/segment_lower.png) | Leafy stem block placed under the stage texture when this plant grows past 1 block (real height > 1 m). |
+
+Full-height plant (2 blocks): vegetative, budding, flowering, fruiting, ripe capsule, each over the lower block.
+
+![datura_discolor 2-block stack](stages/datura_discolor/stack_2_blocks.png)
+
 ## Datura ferox - Long-Spined Thorn-Apple
 
 Confidence: **medium**. Implementation type: `flower_fruit_plant`.
@@ -84,6 +94,16 @@ Confidence: **medium**. Implementation type: `flower_fruit_plant`.
 | 5 | Flowering | ![datura_innoxia flowering](stages/datura_innoxia/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
 | 6 | Fruiting | ![datura_innoxia fruiting](stages/datura_innoxia/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
 | 7 | Ripe capsule | ![datura_innoxia ripe_capsule](stages/datura_innoxia/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+
+Extra blocks for plants taller than 1 block at the configured scale:
+
+| Role | Image | Note |
+|---|---|---|
+| lower | ![datura_innoxia lower](stages/datura_innoxia/segment_lower.png) | Leafy stem block placed under the stage texture when this plant grows past 1 block (real height > 1 m). |
+
+Full-height plant (2 blocks): vegetative, budding, flowering, fruiting, ripe capsule, each over the lower block.
+
+![datura_innoxia 2-block stack](stages/datura_innoxia/stack_2_blocks.png)
 
 ## Datura kymatocarpa - Datura kymatocarpa
 
@@ -141,6 +161,16 @@ Confidence: **high**. Implementation type: `flower_fruit_plant`.
 | 6 | Fruiting | ![datura_metel fruiting](stages/datura_metel/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
 | 7 | Ripe capsule | ![datura_metel ripe_capsule](stages/datura_metel/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
 
+Extra blocks for plants taller than 1 block at the configured scale:
+
+| Role | Image | Note |
+|---|---|---|
+| lower | ![datura_metel lower](stages/datura_metel/segment_lower.png) | Leafy stem block placed under the stage texture when this plant grows past 1 block (real height > 1 m). |
+
+Full-height plant (2 blocks): vegetative, budding, flowering, fruiting, ripe capsule, each over the lower block.
+
+![datura_metel 2-block stack](stages/datura_metel/stack_2_blocks.png)
+
 ## Datura pruinosa - Pruinose Thorn-Apple
 
 Confidence: **low**. Implementation type: `flower_fruit_plant`.
@@ -197,6 +227,16 @@ Confidence: **high**. Implementation type: `flower_fruit_plant`.
 | 6 | Fruiting | ![datura_stramonium fruiting](stages/datura_stramonium/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
 | 7 | Ripe capsule | ![datura_stramonium ripe_capsule](stages/datura_stramonium/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
 
+Extra blocks for plants taller than 1 block at the configured scale:
+
+| Role | Image | Note |
+|---|---|---|
+| lower | ![datura_stramonium lower](stages/datura_stramonium/segment_lower.png) | Leafy stem block placed under the stage texture when this plant grows past 1 block (real height > 1 m). |
+
+Full-height plant (2 blocks): vegetative, budding, flowering, fruiting, ripe capsule, each over the lower block.
+
+![datura_stramonium 2-block stack](stages/datura_stramonium/stack_2_blocks.png)
+
 ## Datura wrightii - Sacred Thorn-Apple
 
 Confidence: **high**. Implementation type: `flower_fruit_plant`.
@@ -210,6 +250,16 @@ Confidence: **high**. Implementation type: `flower_fruit_plant`.
 | 5 | Flowering | ![datura_wrightii flowering](stages/datura_wrightii/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
 | 6 | Fruiting | ![datura_wrightii fruiting](stages/datura_wrightii/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
 | 7 | Ripe capsule | ![datura_wrightii ripe_capsule](stages/datura_wrightii/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+
+Extra blocks for plants taller than 1 block at the configured scale:
+
+| Role | Image | Note |
+|---|---|---|
+| lower | ![datura_wrightii lower](stages/datura_wrightii/segment_lower.png) | Leafy stem block placed under the stage texture when this plant grows past 1 block (real height > 1 m). |
+
+Full-height plant (2 blocks): vegetative, budding, flowering, fruiting, ripe capsule, each over the lower block.
+
+![datura_wrightii 2-block stack](stages/datura_wrightii/stack_2_blocks.png)
 
 ## Ipomoea tricolor - Morning Glory
 
@@ -237,3 +287,10 @@ Confidence: **high**. Implementation type: `fruit_tree`.
 | 5 | Fruit set | ![prunus_persica fruit_set](stages/prunus_persica/05_fruit_set.png) | Petals fall, small hard green fruit forms among the leaves. |
 | 6 | Unripe fruit | ![prunus_persica unripe](stages/prunus_persica/06_unripe.png) | Greenish-white to yellow-green fruit, growing. |
 | 7 | Ripe fruit | ![prunus_persica ripe](stages/prunus_persica/07_ripe.png) | Fruit 5-7 cm across, yellow-orange with a red blush on the sunny side, with a seam on one side. |
+
+Extra blocks for plants taller than 1 block at the configured scale:
+
+| Role | Image | Note |
+|---|---|---|
+| trunk_side | ![prunus_persica trunk_side](stages/prunus_persica/segment_trunk_side.png) | Dark grey bark with horizontal lenticels (Wikipedia). |
+| trunk_top | ![prunus_persica trunk_top](stages/prunus_persica/segment_trunk_top.png) | Cut end of the trunk. |

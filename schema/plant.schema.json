@@ -562,6 +562,34 @@
           "description": "The source wording the figures come from."
         }
       }
+    },
+    "segment_textures": {
+      "type": "array",
+      "description": "Extra textures for plants taller than one block at the configured scale. The stage textures are the TOP block; these are the blocks beneath it.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "role",
+          "texture",
+          "note"
+        ],
+        "properties": {
+          "role": {
+            "enum": [
+              "lower",
+              "trunk_side",
+              "trunk_top"
+            ]
+          },
+          "texture": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }

@@ -52,6 +52,31 @@ def main() -> int:
             lines.append(f"| {i} | {st['name']} | ![{pid} {st['id']}]({rel}) | {desc} |")
             total += 1
         lines.append("")
+        segs = d.get("segment_textures", [])
+        if segs:
+            lines += ["Extra blocks for plants taller than 1 block at the configured scale:", "",
+                      "| Role | Image | Note |", "|---|---|---|"]
+            for sg in segs:
+                rel = f"stages/{pid}/segment_{sg['role']}.png"
+                enlarge(ROOT / sg["texture"]).save(out_dir / rel)
+                lines.append(f"| {sg['role']} | ![{pid} {sg['role']}]({rel}) | {sg['note']} |")
+                total += 1
+            lines.append("")
+            lower = [sg for sg in segs if sg["role"] == "lower"]
+            if lower:
+                low = Image.open(ROOT / lower[0]["texture"]).convert("RGBA")
+                tops = [st for st in d["growth_stages"] if st["id"] in ("vegetative", "budding", "flowering", "fruiting", "ripe_capsule")]
+                stack = Image.new("RGBA", (len(tops) * (SIZE * SCALE + 8) + 8, 2 * SIZE * SCALE + 16), (46, 52, 60, 255))
+                for i, st in enumerate(tops):
+                    top = enlarge(ROOT / st["texture"])
+                    bot = enlarge(ROOT / lower[0]["texture"])
+                    x = 8 + i * (SIZE * SCALE + 8)
+                    stack.paste(top, (x, 8))
+                    stack.paste(bot, (x, 8 + SIZE * SCALE))
+                rel = f"stages/{pid}/stack_2_blocks.png"
+                stack.save(out_dir / rel)
+                lines += [f"Full-height plant (2 blocks): vegetative, budding, flowering, fruiting, ripe capsule, each over the lower block.", "",
+                          f"![{pid} 2-block stack]({rel})", ""]
     (out_dir / "INDEX.md").write_text("\n".join(lines), encoding="utf-8")
     print(f"wrote {total} stage images and INDEX.md")
     return 0

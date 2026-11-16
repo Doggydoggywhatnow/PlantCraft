@@ -1,0 +1,3 @@
+# World scale: how many real centimetres one Minecraft block represents.
+# Block counts for every plant are derived from this and each plant's `size` data.
+cm_per_block: 100

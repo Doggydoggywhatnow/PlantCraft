@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Derive block-structure sizes from each plant's real size data.
 
-    python3 tools/derive_structure.py [cm_per_block ...]     (default: 100 60 50)
+    python3 tools/derive_structure.py [cm_per_block ...]     (default: config/scale.yaml)
 
 Blocks tall = ceil(height / cm_per_block), never less than 1. Nothing is typed by hand:
 change the scale and every species follows. Species whose size source is 'pending'
@@ -21,7 +21,7 @@ def blocks(cm, per):
 
 
 def main(argv):
-    scales = [float(a) for a in argv] or [100, 60, 50]
+    scales = [float(a) for a in argv] or [float(yaml.safe_load((ROOT / 'config' / 'scale.yaml').read_text())['cm_per_block'])]
     rows = []
     for f in sorted((ROOT / "plants").glob("*.yaml")):
         d = yaml.safe_load(f.read_text(encoding="utf-8"))

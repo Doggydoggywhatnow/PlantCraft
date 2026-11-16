@@ -72,6 +72,13 @@ growth_stages:
   description: Fruit 5-7 cm across, yellow-orange with a red blush on the sunny side, with a seam on one
     side.
   texture: textures/block/prunus_persica_ripe.png
+segment_textures:
+- role: trunk_side
+  texture: textures/block/prunus_persica_trunk_side.png
+  note: Dark grey bark with horizontal lenticels (Wikipedia).
+- role: trunk_top
+  texture: textures/block/prunus_persica_trunk_top.png
+  note: Cut end of the trunk.
 reproduction:
   flowers:
     present: true

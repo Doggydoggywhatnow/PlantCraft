@@ -160,6 +160,37 @@ def outlined(pix, shape, ox, oy, remap=None):
     place(pix, shape, ox, oy, remap)
 
 
+LOWER = [
+    "..L..LL...LL.L..",
+    ".LLLlLLTLLlLLL..",
+    "..LLLLLTLLLLLL..",
+    ".LlLLLLTLLLLlL..",
+    "LLLLLlLTLLLLLLL.",
+    ".LLLLLLTLLlLLL..",
+    "..LLlLLTLLLLL...",
+    ".LLLLLLTLLLLLL..",
+    "..LLLLlTLLLL....",
+    "...LLLLTLLL.....",
+    "....LLLTLL......",
+    ".....LLTL.......",
+    ".......T........",
+    ".......T........",
+    ".......T........",
+    ".......T........",
+]
+
+
+def datura_lower(pid, p):
+    """Leafy stem block that sits under the stage texture on plants taller than 1 block."""
+    rng = random.Random(pid + ":lower")
+    pix = parse(LOWER)
+    if p.get("fuzzy"):
+        for (x, y), ch in list(pix.items()):
+            if ch in "Ll" and rng.random() < p["fuzzy"]:
+                pix[(x, y)] = "w"
+    return pix
+
+
 def datura_stage(pid, stage, p):
     rng = random.Random(pid)
     pix = parse(SEEDLING if stage == "seedling" else VEG)
@@ -313,6 +344,30 @@ def peach_leaves(kind):
     return img
 
 
+def peach_trunk(kind):
+    rng = random.Random("peach:trunk:" + kind)
+    img = Image.new("RGBA", (SIZE, SIZE), (0, 0, 0, 255))
+    greys = [hx("#4a4543"), hx("#3d3837"), hx("#58524f"), hx("#332f2e")]
+    if kind == "side":
+        for x in range(SIZE):
+            col = rng.choice(greys)
+            for y in range(SIZE):
+                img.putpixel((x, y), col if rng.random() < 0.75 else rng.choice(greys))
+        for y in (3, 8, 12):  # horizontal lenticels
+            for x in rng.sample(range(SIZE), 5):
+                img.putpixel((x, y), hx("#8a7f73"))
+    else:
+        img.paste(hx("#7a5a3c"), (0, 0, SIZE, SIZE))
+        for x in range(SIZE):
+            for y in range(SIZE):
+                d = max(abs(x - 7.5), abs(y - 7.5))
+                if x in (0, 15) or y in (0, 15):
+                    img.putpixel((x, y), hx("#3d3837"))
+                elif int(d) % 2 == 0:
+                    img.putpixel((x, y), hx("#946b45"))
+    return img
+
+
 def peach_sapling():
     pix = parse([
         "................", "................", "................", "................",
@@ -357,6 +412,15 @@ def draw_stage(pid, stage):
             return render(*peach_sapling())
         return peach_leaves({"young_tree": "young"}.get(stage, stage))
     raise KeyError(pid)
+
+
+def draw_segment(pid, role):
+    if pid.startswith("datura_") and role == "lower":
+        p = dict(DATURA_DEFAULT, **DATURA[pid])
+        return render(datura_lower(pid, p), datura_palette(p))
+    if pid == "prunus_persica" and role in ("trunk_side", "trunk_top"):
+        return peach_trunk(role.split("_")[1])
+    raise KeyError((pid, role))
 
 
 def sheet(images, labels, title, scale=6):
@@ -406,6 +470,14 @@ def main():
                 missing += 1
             imgs.append(im)
             labels.append(st["id"])
+        for sg in d.get("segment_textures", []):
+            out = ROOT / sg["texture"]
+            im = draw_segment(pid, sg["role"])
+            if not a.check:
+                out.parent.mkdir(parents=True, exist_ok=True)
+                im.save(out)
+            imgs.append(im)
+            labels.append(sg["role"])
         if pid == "prunus_persica" and not a.check:
             for name, (pix, pal) in (("peach", peach_item()), ("peach_pit", peach_pit_item())):
                 p = ROOT / "textures" / "item" / f"{name}.png"
