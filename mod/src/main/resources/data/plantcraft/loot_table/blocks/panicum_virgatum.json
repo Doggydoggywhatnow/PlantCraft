@@ -1,0 +1,32 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "plantcraft:panicum_virgatum_seeds"
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "plantcraft:panicum_virgatum_seeds"
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:block_state_property",
+     "block": "plantcraft:panicum_virgatum",
+     "properties": {
+      "age": "4"
+     }
+    }
+   ]
+  }
+ ]
+}

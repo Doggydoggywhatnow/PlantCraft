@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:block/cross",
+ "textures": {
+  "cross": "plantcraft:block/andropogon_gerardi_seedling"
+ }
+}

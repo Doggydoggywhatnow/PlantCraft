@@ -1,0 +1,32 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "plantcraft:miscanthus_sinensis_seeds"
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "plantcraft:miscanthus_sinensis_seeds"
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:block_state_property",
+     "block": "plantcraft:miscanthus_sinensis",
+     "properties": {
+      "age": "4"
+     }
+    }
+   ]
+  }
+ ]
+}

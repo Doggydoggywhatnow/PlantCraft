@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "plantcraft:item/phalaris_arundinacea_seeds"
+ }
+}

@@ -149,5 +149,13 @@
         "United States photographs taken on 2013-02-12"
       ]
     }
-  ]
+  ],
+  "sampled_colors": {
+    "leaf": [
+      "#71ad42",
+      "#578532",
+      "#3c5c23"
+    ],
+    "plume": "#6c4921"
+  }
 }

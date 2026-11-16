@@ -381,5 +381,13 @@
         "Self-published work"
       ]
     }
-  ]
+  ],
+  "sampled_colors": {
+    "leaf": [
+      "#71ad42",
+      "#578532",
+      "#416326"
+    ],
+    "plume": "#8a694d"
+  }
 }

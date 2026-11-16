@@ -201,5 +201,13 @@
         "Media uploaded with inat2wiki"
       ]
     }
-  ]
+  ],
+  "sampled_colors": {
+    "leaf": [
+      "#71ad42",
+      "#578532",
+      "#3c5c23"
+    ],
+    "plume": "#896b28"
+  }
 }

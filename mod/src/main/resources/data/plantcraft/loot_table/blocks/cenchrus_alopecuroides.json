@@ -1,0 +1,32 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "plantcraft:cenchrus_alopecuroides_seeds"
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "plantcraft:cenchrus_alopecuroides_seeds"
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:block_state_property",
+     "block": "plantcraft:cenchrus_alopecuroides",
+     "properties": {
+      "age": "4"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,10 +1,50 @@
 [
  {
+  "id": "andropogon_gerardi",
+  "name": "Big Bluestem",
+  "latin": "Andropogon gerardi",
+  "seed_id": "andropogon_gerardi_seeds",
+  "kind": "herb",
+  "max_age": 4
+ },
+ {
+  "id": "arundo_donax",
+  "name": "Giant Reed",
+  "latin": "Arundo donax",
+  "seed_id": "arundo_donax_seeds",
+  "kind": "herb",
+  "max_age": 4
+ },
+ {
+  "id": "cenchrus_alopecuroides",
+  "name": "Chinese Fountaingrass",
+  "latin": "Cenchrus alopecuroides",
+  "seed_id": "cenchrus_alopecuroides_seeds",
+  "kind": "herb",
+  "max_age": 4
+ },
+ {
   "id": "chara_braunii",
   "name": "Braun's Stonewort",
   "latin": "Chara braunii",
   "seed_id": "chara_braunii_seeds",
   "kind": "item"
+ },
+ {
+  "id": "chasmanthium_latifolium",
+  "name": "Indian Woodoats",
+  "latin": "Chasmanthium latifolium",
+  "seed_id": "chasmanthium_latifolium_seeds",
+  "kind": "herb",
+  "max_age": 4
+ },
+ {
+  "id": "cortaderia_selloana",
+  "name": "Uruguayan Pampas Grass",
+  "latin": "Cortaderia selloana",
+  "seed_id": "cortaderia_selloana_seeds",
+  "kind": "herb",
+  "max_age": 4
  },
  {
   "id": "datura_arenicola",
@@ -144,6 +184,22 @@
   "max_age": 4
  },
  {
+  "id": "miscanthus_sinensis",
+  "name": "Chinese Silvergrass",
+  "latin": "Miscanthus sinensis",
+  "seed_id": "miscanthus_sinensis_seeds",
+  "kind": "herb",
+  "max_age": 4
+ },
+ {
+  "id": "molinia_caerulea",
+  "name": "Purple Moorgrass",
+  "latin": "Molinia caerulea",
+  "seed_id": "molinia_caerulea_seeds",
+  "kind": "herb",
+  "max_age": 4
+ },
+ {
   "id": "olea_europaea_europaea",
   "name": "Olive Tree",
   "latin": "Olea europaea subsp. europaea",
@@ -169,6 +225,30 @@
   "max_age": 3
  },
  {
+  "id": "panicum_virgatum",
+  "name": "Switchgrass",
+  "latin": "Panicum virgatum",
+  "seed_id": "panicum_virgatum_seeds",
+  "kind": "herb",
+  "max_age": 4
+ },
+ {
+  "id": "phalaris_arundinacea",
+  "name": "Reed Canarygrass",
+  "latin": "Phalaris arundinacea",
+  "seed_id": "phalaris_arundinacea_seeds",
+  "kind": "herb",
+  "max_age": 4
+ },
+ {
+  "id": "phragmites_australis",
+  "name": "Common Reed",
+  "latin": "Phragmites australis",
+  "seed_id": "phragmites_australis_seeds",
+  "kind": "herb",
+  "max_age": 4
+ },
+ {
   "id": "prunus_persica",
   "name": "Peach Tree",
   "latin": "Prunus persica",
@@ -192,5 +272,21 @@
   "seed_id": "salvia_rosmarinus_seeds",
   "kind": "herb",
   "max_age": 3
+ },
+ {
+  "id": "sorghastrum_nutans",
+  "name": "Indiangrass",
+  "latin": "Sorghastrum nutans",
+  "seed_id": "sorghastrum_nutans_seeds",
+  "kind": "herb",
+  "max_age": 4
+ },
+ {
+  "id": "tripsacum_dactyloides",
+  "name": "Eastern Gamagrass",
+  "latin": "Tripsacum dactyloides",
+  "seed_id": "tripsacum_dactyloides_seeds",
+  "kind": "herb",
+  "max_age": 4
  }
 ]

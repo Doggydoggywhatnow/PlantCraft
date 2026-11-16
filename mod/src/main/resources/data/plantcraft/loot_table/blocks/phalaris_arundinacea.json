@@ -1,0 +1,32 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "plantcraft:phalaris_arundinacea_seeds"
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "plantcraft:phalaris_arundinacea_seeds"
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:block_state_property",
+     "block": "plantcraft:phalaris_arundinacea",
+     "properties": {
+      "age": "4"
+     }
+    }
+   ]
+  }
+ ]
+}

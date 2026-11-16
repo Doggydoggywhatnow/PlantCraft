@@ -71,7 +71,8 @@ def main():
     plants, lang = [], {"itemGroup.%s" % NS: "PlantCraft"}
     for f in sorted((ROOT / "plants").glob("*.yaml")):
         d = yaml.safe_load(f.read_text(encoding="utf-8"))
-        pid, name, latin = d["id"], d["names"]["in_game"], d["names"]["scientific"]
+        pid, latin = d["id"], d["names"]["scientific"]
+        name = d["names"].get("in_game") or latin        # pipeline drafts may have no in-game name yet
         stages = {s["id"]: s["texture"] for s in d["growth_stages"]}
         order = [s["id"] for s in d["growth_stages"]]
         seed_tex = SEED_TEXTURE_OVERRIDE.get(pid) or stages.get("seed") or stages.get("spore")

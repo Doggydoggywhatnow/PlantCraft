@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:block/cross",
+ "textures": {
+  "cross": "plantcraft:block/sorghastrum_nutans_vegetative"
+ }
+}

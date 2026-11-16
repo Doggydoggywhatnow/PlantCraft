@@ -1,0 +1,32 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "plantcraft:sorghastrum_nutans_seeds"
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "plantcraft:sorghastrum_nutans_seeds"
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:block_state_property",
+     "block": "plantcraft:sorghastrum_nutans",
+     "properties": {
+      "age": "4"
+     }
+    }
+   ]
+  }
+ ]
+}

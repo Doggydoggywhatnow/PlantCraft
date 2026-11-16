@@ -180,5 +180,13 @@
         "Photographs by Matt Lavin"
       ]
     }
-  ]
+  ],
+  "sampled_colors": {
+    "leaf": [
+      "#71ad42",
+      "#578532",
+      "#3c5c23"
+    ],
+    "plume": null
+  }
 }

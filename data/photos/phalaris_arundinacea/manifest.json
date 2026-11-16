@@ -292,5 +292,13 @@
         "Taken with Nikon Coolpix S550"
       ]
     }
-  ]
+  ],
+  "sampled_colors": {
+    "leaf": [
+      "#71ad42",
+      "#5a8a34",
+      "#416426"
+    ],
+    "plume": "#ada471"
+  }
 }

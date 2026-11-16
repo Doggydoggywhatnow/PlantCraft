@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:block/cross",
+ "textures": {
+  "cross": "plantcraft:block/cortaderia_selloana_fruiting"
+ }
+}

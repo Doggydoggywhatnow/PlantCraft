@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "age=0": {
+   "model": "plantcraft:block/miscanthus_sinensis_seedling"
+  },
+  "age=1": {
+   "model": "plantcraft:block/miscanthus_sinensis_vegetative"
+  },
+  "age=2": {
+   "model": "plantcraft:block/miscanthus_sinensis_budding"
+  },
+  "age=3": {
+   "model": "plantcraft:block/miscanthus_sinensis_flowering"
+  },
+  "age=4": {
+   "model": "plantcraft:block/miscanthus_sinensis_fruiting"
+  },
+  "age=5": {
+   "model": "plantcraft:block/miscanthus_sinensis_fruiting"
+  }
+ }
+}

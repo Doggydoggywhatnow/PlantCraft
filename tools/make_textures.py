@@ -473,16 +473,22 @@ def _has(text, word):
 
 
 def photo_colors(pid):
-    """Typical leaf greens and flower-head colour from the species' downloaded reference photos, if any.
+    """Typical leaf greens and flower-head colour from the species' reference photos.
 
-    Leaf tones: the green pixels of a leaf/habit photo (light, mid, dark quantiles). Head colour: the median of the
-    clearly non-green, non-sky pixels of flower/fruit photos. Returns {} when there are no photos."""
+    Leaf tones: green pixels of leaf/habit photos (light, mid, dark). Head colour: the median of clearly coloured
+    (saturated), non-green, non-sky pixels of flower/fruit photos; pale heads (silver, white) come from the text instead,
+    since a photo's grey background cannot be told from a silver plume. The result is cached in the photo manifest
+    (`sampled_colors`), which is tracked in git, so a fresh clone draws the same sprites without the images."""
     import colorsys
     import json as _json
     man = ROOT / "data" / "photos" / pid / "manifest.json"
     if not man.exists():
         return {}
-    photos = _json.loads(man.read_text())["photos"]
+    m = _json.loads(man.read_text())
+    if "sampled_colors" in m:
+        sc = m["sampled_colors"]
+        return {"leaf": tuple(sc["leaf"]) if sc.get("leaf") else None, "plume": sc.get("plume")}
+    photos = m["photos"]
     out = {}
 
     def pixels(roles):
@@ -500,16 +506,20 @@ def photo_colors(pid):
 
     g = sorted(v for h, s_, v in pixels(("leaf", "habit")) if 0.15 < h < 0.47 and s_ > 0.25 and 0.2 < v < 0.95)
     if len(g) > 60:
-        def hexof(v):                      # a green of this brightness
+        def hexof(v):
             r, gg, b = colorsys.hsv_to_rgb(0.26, 0.62, v)
             return "#%02x%02x%02x" % (round(r * 255), round(gg * 255), round(b * 255))
-        out["leaf"] = (hexof(max(0.68, min(0.95, g[int(len(g) * .8)]))), hexof(max(0.52, g[len(g) // 2])), hexof(max(0.36, g[int(len(g) * .2)])))   # floor keeps shaded photos lush
-    head = [(h, s_, v) for h, s_, v in pixels(("flower", "fruit")) if not (0.15 < h < 0.47 and s_ > 0.25) and not (0.5 < h < 0.7 and s_ > 0.3) and v > 0.35]
-    if len(head) > 60:
+        out["leaf"] = (hexof(max(0.68, min(0.95, g[int(len(g) * .8)]))), hexof(max(0.52, g[len(g) // 2])), hexof(max(0.36, g[int(len(g) * .2)])))
+    head = [(h, s_, v) for h, s_, v in pixels(("flower", "fruit"))
+            if s_ > 0.28 and v > 0.4 and not (0.15 < h < 0.47) and not (0.5 < h < 0.72)]
+    if len(head) > 40:
         hs = sorted(head, key=lambda x: x[2])
         h, s_, v = hs[len(hs) // 2]
         r, gg, b = colorsys.hsv_to_rgb(h, s_, v)
         out["plume"] = "#%02x%02x%02x" % (round(r * 255), round(gg * 255), round(b * 255))
+    if pixels(("leaf", "habit", "flower", "fruit")):
+        m["sampled_colors"] = {"leaf": list(out["leaf"]) if out.get("leaf") else None, "plume": out.get("plume")}
+        man.write_text(_json.dumps(m, indent=2, ensure_ascii=False))
     return out
 
 
@@ -566,53 +576,98 @@ def grass_palette(P, ripe=False):
             "r": hx("#c9b79a"), "R": hx("#8a7a60"), "k": hx(_shade(P["leaf"][0], 0.95))}
 
 
-HEAD_H = {"plume": 6, "bottlebrush": 5, "fingers": 4, "droop": 5, "spike": 6, "panicle": 6}
+HEAD_H = {"plume": 7, "bottlebrush": 6, "fingers": 5, "droop": 5, "spike": 6, "panicle": 6}
+# Head silhouettes, drawn base-down (last row sits on the stem). P = main colour, p = light, q = shadow, k = stalk.
+PLUME_T = ["..p..", ".pPp.", "pPpPq", "PpPqP", ".PqPq", "..Pq.", "..k.."]
+BRUSH_T = [".Pq.", "pPqp", ".Pq.", "pPqp", ".Pq.", ".kk."]
 
 
 def grass_head(pix, kind, tx, ty, ripe, rng, lean=0):
-    """One flower/seed head with its base at (tx, ty), growing upward and leaning `lean` pixels at the top."""
-    def px(x, y, c, p=1.0):
-        if rng.random() < p:
-            pix[(x, y)] = c
-    if kind == "plume":                                   # airy tapered feathery plume
-        for i in range(6):
-            w = (1, 1, 2, 2, 1, 0)[i]
-            cx = tx + (lean * i) // 5
-            for dx in range(-w, w + 1):
-                px(cx + dx, ty - i, "p" if (dx + i) % 3 == 0 else ("P" if (dx + i) % 2 else "q"), 0.72)
-            pix[(cx, ty - i)] = "P"
+    """One flower/seed head whose base is at (tx, ty), growing upward; the top leans `lean` pixels (the head bends)."""
+    def put(rows, ox, oy, bend=lean):
+        for r, row in enumerate(rows):
+            shift = round(bend * (len(rows) - 1 - r) / max(1, len(rows) - 1))
+            for c, ch in enumerate(row):
+                if ch != ".":
+                    pix[(ox + c + shift, oy + r)] = ch
+    if kind == "plume":                                   # feathery tapered plume, widest in the middle
+        put(PLUME_T, tx - 2, ty - 6)
     elif kind == "bottlebrush":                           # dense cylinder with bristles, arching at the tip
-        for i in range(5):
-            cx = tx + (lean * i) // 4 + (1 if i == 4 else 0)
-            pix[(cx, ty - i)] = "P"; pix[(cx + 1, ty - i)] = "q"
-            if i % 2 == 0:
-                px(cx - 1, ty - i, "p", 0.9); px(cx + 2, ty - i, "p", 0.9)
-    elif kind == "fingers":                               # three-branched "turkey foot"
-        pix[(tx, ty)] = "P"; pix[(tx, ty - 1)] = "P"
-        for dx, dy in ((-2, -3), (0, -4), (2, -3)):
-            line(pix, tx, ty - 1, tx + dx, ty + dy, "q"); pix[(tx + dx, ty + dy)] = "p"
-    elif kind == "droop":                                 # arching axis with flat spikelets dangling
+        put(BRUSH_T, tx - 1, ty - 5, bend=lean + 1)
+    elif kind == "fingers":                               # three-branched "turkey foot", stout branches with darker tips
+        pix[(tx, ty)] = "k"; pix[(tx, ty - 1)] = "P"
+        for dx, dy in ((-2, -4), (0, -4), (2, -4)):
+            for t in range(1, 4):
+                x, y = tx + dx * t // 3, ty - 1 + (dy + 1) * t // 3
+                pix[(x, y)] = "P"; pix[(x + (1 if dx >= 0 else -1) if dx else x + 1, y)] = "q" if t > 1 else "P"
+            pix[(tx + dx, ty + dy)] = "p"
+    elif kind == "droop":                                 # arching axis; flat spikelets dangle like little fish
         pts = poly({}, [(tx, ty), (tx, ty - 2), (tx + 1, ty - 4), (tx + 3, ty - 4)], "k")
         for x, y in pts:
             pix[(x, y)] = "k"
         for x, y in pts[2:]:
-            pix[(x, y + 1)] = "P"; pix[(x + 1, y + 1)] = "p"; px(x, y + 2, "q", 0.8)
+            pix[(x, y + 1)] = "P"; pix[(x + 1, y + 1)] = "p"; pix[(x, y + 2)] = "q"; pix[(x + 1, y + 2)] = "P"
     elif kind == "spike":
         for i in range(6):
-            cx = tx + (lean * i) // 5
+            cx = tx + round(lean * i / 5)
             pix[(cx, ty - i)] = "P"
             if i % 2:
-                pix[(cx - 1, ty - i)] = "p"; pix[(cx + 1, ty - i)] = "p"
-    else:                                                 # open airy panicle: thin axis, sparse branchlets
+                pix[(cx - 1, ty - i)] = "p"; pix[(cx + 1, ty - i)] = "q"
+    else:                                                 # open panicle: thin axis, branchlets that fan out and end in seeds
         for i in range(6):
-            cx = tx + (lean * i) // 5
+            cx = tx + round(lean * i / 5)
             pix[(cx, ty - i)] = "k"
-            if i in (1, 3, 5):
-                px(cx - 1, ty - i, "P"); px(cx + 1, ty - i, "P")
-                px(cx - 2, ty - i - 1, "p", 0.85); px(cx + 2, ty - i - 1, "p", 0.85)
-    if ripe:                                              # seeds ripening: a few golden grains
-        for dx, dy in ((-1, -2), (1, -3), (0, -5)):
-            px(tx + dx, ty + dy, "G", 0.85)
+        for i, w in ((1, 1), (3, 2), (5, 1)):
+            cx = tx + round(lean * i / 5)
+            for d in range(1, w + 1):
+                pix[(cx - d, ty - i - d // 2)] = "P"; pix[(cx + d, ty - i - d // 2)] = "P"
+            pix[(cx - w - 1, ty - i - 1)] = "p"; pix[(cx + w + 1, ty - i - 1)] = "p"
+    if ripe:                                              # seeds ripening: golden grains on the head
+        for dx, dy in ((-1, -2), (1, -3), (0, -5), (-1, -4)):
+            if (tx + dx, ty + dy) in pix:
+                pix[(tx + dx, ty + dy)] = "G"
+
+
+def cane_stage(pid, stage, P, kind):
+    """Cane-like grasses (reeds, giant reed): a thick jointed culm with swordlike leaves alternating up it."""
+    rng = random.Random(f"cane:{pid}:{stage}:{kind}")
+    ripe = stage == "fruiting"
+    pal = grass_palette(P, ripe)
+    pix = {}
+    flowering = stage in ("flowering", "fruiting")
+    head_h = HEAD_H[P["inflo"]] if flowering and kind == "single" else 0
+    top = 0 if kind == "lower" else 1 + head_h
+    lean = 0 if kind == "lower" else 1
+    x0 = 7
+    culm = []
+    for y in range(15, top - 1, -1):                       # two pixels wide
+        x = x0 + (lean * (15 - y)) // 15
+        culm.append((x, y))
+        pix[(x, y)] = "S"; pix[(x + 1, y)] = "L"
+    for i, (x, y) in enumerate(culm):                      # nodes: darker joint band every four rows
+        if i % 4 == 3:
+            pix[(x, y)] = "N"; pix[(x + 1, y)] = "N"
+    node_ys = [y for i, (x, y) in enumerate(culm) if i % 4 == 3]
+    for k, ny in enumerate(node_ys):                       # leaves alternate sides, arching out and drooping
+        nx = x0 + (lean * (15 - ny)) // 15
+        sd = -1 if k % 2 == 0 else 1
+        bx = nx if sd < 0 else nx + 1
+        reach = 6 if k % 2 == 0 else 5
+        pts = [(bx, ny), (bx + sd * 2, ny - 2), (bx + sd * (reach - 1), ny - 2), (bx + sd * reach, ny + round(P["arch"] * 3) + 1)]
+        poly(pix, pts, "m" if k % 2 else "L")
+        pix[pts[-1]] = "l"
+        pix[(bx + sd, ny)] = "N"                           # leaf sheath wrapping the node
+    if kind == "single" and stage == "budding":
+        x, y = culm[-1]
+        pix[(x, y)] = "m"; pix[(x, y - 1)] = "L"; pix[(x, y - 2)] = "L"
+    if kind == "single" and flowering:
+        x, y = culm[-1]
+        grass_head(pix, P["inflo"], x, y, ripe, rng, lean=1)
+    if kind == "single":
+        for x in (5, 7, 9, 11):
+            if (x, 15) not in pix:
+                pix[(x, 15)] = "r"
+    return pix, pal
 
 
 def grass_stage(pid, stage, P, kind="single"):
@@ -630,6 +685,8 @@ def grass_stage(pid, stage, P, kind="single"):
             pix[(x, 15)] = "r"
         poly(pix, [(8, 14), (8, 8)], "L"); poly(pix, [(7, 14), (5, 10)], "l"); poly(pix, [(9, 14), (11, 10)], "l"); poly(pix, [(8, 14), (6, 12)], "m")
         return pix, pal
+    if P["cane"] and P["height_cm"] > 100:
+        return cane_stage(pid, stage, P, kind)
     cm, arch = P["height_cm"], P["arch"]
     tall = cm > 100
     whole = kind == "single" and not tall
@@ -679,7 +736,9 @@ def grass_stage(pid, stage, P, kind="single"):
         for cx, tx, ty in culms:
             pix[(tx, ty)] = "m"; pix[(tx, ty - 1)] = "L"; pix[(tx, ty - 2)] = "L"
     if kind == "single" and flowering:
-        for cx, tx, ty in culms:
+        # heads this shape-distinct (turkey foot, dangling spikelets) read best singly; the others cluster on the outer culms
+        chosen = [culms[1]] if P["inflo"] in ("fingers", "droop") else [culms[0], culms[2]]
+        for cx, tx, ty in chosen:
             grass_head(pix, P["inflo"], tx, ty, ripe, rng, lean=round((tx - 8) * 0.4))
     if kind == "single":
         for x in (5, 7, 9, 11):

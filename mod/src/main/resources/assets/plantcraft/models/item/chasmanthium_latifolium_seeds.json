@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "plantcraft:item/chasmanthium_latifolium_seeds"
+ }
+}

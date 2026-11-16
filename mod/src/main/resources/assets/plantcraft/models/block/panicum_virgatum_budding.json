@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:block/cross",
+ "textures": {
+  "cross": "plantcraft:block/panicum_virgatum_budding"
+ }
+}

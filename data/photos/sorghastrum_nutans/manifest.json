@@ -274,5 +274,13 @@
         "Sorghastrum nutans"
       ]
     }
-  ]
+  ],
+  "sampled_colors": {
+    "leaf": [
+      "#71ad42",
+      "#598834",
+      "#3f6125"
+    ],
+    "plume": "#a87c2f"
+  }
 }
