@@ -1,0 +1,37 @@
+# Pipeline settings. Everything tunable lives here.
+paths:
+  work: data/pipeline      # resolved.jsonl, failures.jsonl, extracted/, drafts/, coverage report
+  raw: data/raw            # raw API responses; same files and format tools/fetch.py writes
+
+http:
+  user_agent: "PlantCraftDataBot/0.2 (Minecraft mod data research)"
+  timeout_s: 40
+  retries: 6
+
+# Requests per second allowed per host, shared by all worker threads.
+rate_limits_rps:
+  api.gbif.org: 8
+  en.wikipedia.org: 4
+  www.wikidata.org: 4
+  commons.wikimedia.org: 4
+  default: 2
+
+workers: 8                 # concurrent species in the resolve/fetch stages
+
+resolve:
+  min_confidence: 90       # GBIF match confidence (0-100) below which a name goes to the review list
+  accept_match_types: [EXACT, HIGHERRANK_NOT_ALLOWED]   # FUZZY matches are flagged, not fetched
+  fuzzy_ok: false          # set true (or pass --accept-fuzzy) to fetch fuzzy matches anyway
+
+fetch:
+  occurrence_sample: 300   # GBIF occurrence records sampled per species for the range envelope
+
+extract:
+  model: claude-haiku-5-5          # cheap and fast is enough for grounded extraction
+  max_tokens: 3000
+  max_source_chars: 24000          # Wikipedia text sent to the model, per species
+  workers: 4
+
+assemble:
+  # Fields whose quote cannot be found in the source text are dropped, never guessed.
+  require_quotes: true

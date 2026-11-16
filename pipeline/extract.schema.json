@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "life_form": {"type": "object", "additionalProperties": false, "required": ["value", "quote"],
+      "properties": {"value": {"enum": ["alga", "annual_herb", "perennial_herb", "shrub", "vine", "tree"]},
+                     "quote": {"type": "string"}}},
+    "description": {"type": "object", "additionalProperties": false, "required": ["value", "quote"],
+      "properties": {"value": {"type": "string"}, "quote": {"type": "string"}}},
+    "height_cm": {"type": "object", "additionalProperties": false, "required": ["max", "quote"],
+      "properties": {"min": {"type": "number"}, "max": {"type": "number"}, "common_max": {"type": "number"},
+                     "quote": {"type": "string"}}},
+    "spread_cm": {"type": "object", "additionalProperties": false, "required": ["max", "quote"],
+      "properties": {"min": {"type": "number"}, "max": {"type": "number"}, "quote": {"type": "string"}}},
+    "native_range": {"type": "object", "additionalProperties": false, "required": ["value", "quote"],
+      "properties": {"value": {"type": "string"}, "quote": {"type": "string"}}},
+    "introduced_range": {"type": "object", "additionalProperties": false, "required": ["value", "quote"],
+      "properties": {"value": {"type": "string"}, "quote": {"type": "string"}}},
+    "environment": {"type": "object", "additionalProperties": false, "required": ["value", "quote"],
+      "properties": {"value": {"type": "string"}, "quote": {"type": "string"}}},
+    "flowers": {"type": "object", "additionalProperties": false, "required": ["present", "quote"],
+      "properties": {
+        "present": {"type": "boolean"},
+        "colors": {"type": "array", "items": {"type": "string"}},
+        "opens": {"enum": ["day", "night", "morning_only", "continuous"]},
+        "season": {"type": "string"},
+        "pollination": {"type": "array", "items": {"enum": ["bees", "moths", "other_insects", "wind", "self", "water"]}},
+        "quote": {"type": "string"}}},
+    "fruit": {"type": "object", "additionalProperties": false, "required": ["present", "quote"],
+      "properties": {
+        "present": {"type": "boolean"},
+        "type": {"type": "string"},
+        "description": {"type": "string"},
+        "ripening": {"type": "string"},
+        "edible": {"enum": ["yes", "no", "toxic"]},
+        "quote": {"type": "string"}}},
+    "uses_real": {"type": "array", "maxItems": 5, "items": {"type": "object", "additionalProperties": false,
+      "required": ["use", "note", "quote"],
+      "properties": {"use": {"type": "string"}, "note": {"type": "string"}, "quote": {"type": "string"}}}}
+  }
+}

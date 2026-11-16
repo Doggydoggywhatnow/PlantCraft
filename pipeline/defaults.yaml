@@ -1,0 +1,89 @@
+# Game-side defaults used by assemble.py when a species has no hand-made design.
+# Real-world facts never come from here: only growth stages, implementation type and spawn
+# heuristics, and every value taken from this file is marked as a default in the draft.
+
+life_forms:
+  tree:
+    habit: tree
+    implementation_type: fruit_tree
+    feature: tree
+    requirements: [Light level 9 or more, Grass or dirt below, Space for the crown]
+    stages:
+      - [sapling, Sapling, "Thin young plant with a few leaves."]
+      - [young_tree, Young tree, "Single trunk with a small crown."]
+      - [mature, Mature tree, "Full-height trunk with a full crown."]
+      - [flowering, Flowering, "Flowers on the crown."]
+      - [fruiting, Fruiting, "Fruit on the crown."]
+  shrub:
+    habit: bushy
+    implementation_type: flower_fruit_plant
+    feature: patch
+    requirements: [Light level 9 or more, Plantable on dirt or grass]
+    stages:
+      - [seed, Seed, "Seed in the soil."]
+      - [seedling, Seedling, "Small seedling."]
+      - [young, Young shrub, "Young woody plant."]
+      - [mature, Mature shrub, "Full-size shrub."]
+      - [flowering, Flowering, "Flowers on the shrub."]
+      - [fruiting, Fruiting, "Fruit on the shrub."]
+  perennial_herb: &herb
+    habit: upright
+    implementation_type: flower_fruit_plant
+    feature: patch
+    requirements: [Light level 9 or more, Plantable on dirt or grass]
+    stages:
+      - [seed, Seed, "Seed in the soil."]
+      - [seedling, Seedling, "Small seedling."]
+      - [vegetative, Vegetative, "Leafy growth before flowering."]
+      - [budding, Budding, "Flower buds forming."]
+      - [flowering, Flowering, "Open flowers."]
+      - [fruiting, Fruiting, "Fruit or seed head forming."]
+  annual_herb: *herb
+  vine:
+    habit: climbing
+    implementation_type: climbing_vine
+    feature: vine_on_wall
+    requirements: [Light level 9 or more, Adjacent supporting block]
+    stages:
+      - [seed, Seed, "Seed in the soil."]
+      - [sprout, Sprout, "Young sprout."]
+      - [climbing, Climbing vine, "Vine climbing its support."]
+      - [flowering, Flowering, "Open flowers."]
+      - [fruiting, Fruiting, "Fruit or pods on the vine."]
+  alga:
+    habit: aquatic_tuft
+    implementation_type: aquatic_plant
+    feature: underwater_patch
+    requirements: [Placed in water, Mud, clay or dirt bottom, Light level above water]
+    stages:
+      - [spore, Spore, "Spore on the bottom."]
+      - [sprout, Sprout, "Young growth."]
+      - [growing, Growing, "Established plant."]
+      - [fertile, Fertile, "Mature plant able to spread."]
+
+# Biome guess from the median latitude of GBIF records (absolute degrees) and life form.
+# This is a first draft for a human to adjust, not a fact; assemble.py says so in `reason`.
+biome_by_latitude:
+  - {max_abs_lat: 15, biomes: [minecraft:jungle, minecraft:sparse_jungle, minecraft:savanna]}
+  - {max_abs_lat: 30, biomes: [minecraft:savanna, minecraft:plains, minecraft:desert]}
+  - {max_abs_lat: 45, biomes: [minecraft:plains, minecraft:forest, minecraft:meadow]}
+  - {max_abs_lat: 60, biomes: [minecraft:forest, minecraft:birch_forest, minecraft:taiga]}
+  - {max_abs_lat: 90, biomes: [minecraft:taiga, minecraft:snowy_plains, minecraft:snowy_taiga]}
+aquatic_biomes: [minecraft:swamp, minecraft:river, minecraft:mangrove_swamp]
+# Words in the habitat text that override the latitude guess.
+biome_keywords:
+  desert: [minecraft:desert]
+  arid: [minecraft:desert, minecraft:badlands]
+  wetland: [minecraft:swamp]
+  swamp: [minecraft:swamp]
+  marsh: [minecraft:swamp]
+  mountain: [minecraft:meadow, minecraft:windswept_hills]
+  alpine: [minecraft:meadow, minecraft:snowy_slopes]
+  coast: [minecraft:beach, minecraft:stony_shore]
+  rainforest: [minecraft:jungle]
+  jungle: [minecraft:jungle]
+  savanna: [minecraft:savanna]
+  meadow: [minecraft:meadow]
+  grassland: [minecraft:plains]
+  woodland: [minecraft:forest]
+  forest: [minecraft:forest]
