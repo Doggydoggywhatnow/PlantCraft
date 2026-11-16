@@ -20,3 +20,4 @@ Datura wrightii
 # Added later
 Salvia rosmarinus
 Eucalyptus deglupta
+Oryza sativa

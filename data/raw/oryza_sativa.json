@@ -1,0 +1,142 @@
+{
+  "query": "Oryza sativa",
+  "id": "oryza_sativa",
+  "fetched": "2026-11-16",
+  "wikipedia": {
+    "found": true,
+    "title": "Oryza sativa",
+    "url": "https://en.wikipedia.org/wiki/Oryza_sativa",
+    "wikidata_id": "Q161426",
+    "extract": "Oryza sativa, having the common name Asian cultivated rice, is the much more common of the two rice species cultivated as a cereal, the other species being O. glaberrima, African rice. It was first domesticated in the Yangtze River basin in China 13,500 to 8,200 years ago.\nOryza sativa belongs to the genus Oryza and the BOP clade in the grass family Poaceae. With a genome consisting of 430 Mbp across 12 chromosomes, it is renowned for being easy to genetically modify and is a model organism for the study of the biology of cereals and monocots.\n\n\n== Description ==\n\nO. sativa has an erect stalk stem that grows 80–120 cm (30–45 in) tall, with a smooth surface. The leaf is lanceolate, 15–30 cm (5+7⁄8–11+3⁄4 in) long, and grows from a ligule 10–20 mm (3⁄8–3⁄4 in) long.\n\n\n== Taxonomy ==\n\nOryza sativa contains two major subspecies: the sticky, short-grained japonica or sinica variety, and the nonsticky, long-grained indica rice variety. Japonica was domesticated in the Yangtze Valley 6,000–9,000 years ago, and its varieties can be cultivated in dry fields (it is cultivated mainly submerged in Japan), in temperate East Asia, upland areas of Southeast Asia, and high elevations in South Asia, while indica was domesticated around the Ganges 4,500–8,500 years ago, and its varieties are mainly lowland rices, grown mostly submerged, throughout tropical Asia. Rice grain occurs in a variety of colors, including white, brown, black (purple when cooked), and red.\nA third subspecies, which is broad-grained and thrives under tropical conditions, was identified based on morphology and initially called javanica, but is now known as tropical japonica. Examples of this variety include the medium-grain 'Tinawon' and 'Unoy' cultivars, which are grown in the high-elevation rice terraces of the Central Cordillera Mountains of northern Luzon, Philippines.\nGlaszmann (1987) used isozymes to sort O. sativa into six groups: japonica, aromatic, indica, aus, rayada, and ashina.\nGarris et al. (2004) used simple sequence repeats to sort O. sativa into five groups: temperate japonica, tropical japonica and aromatic comprise the japonica varieties, while indica and aus comprise the indica varieties. The Garris scheme has held up against newer analyses as of 2019, though one 2014 article argues that rayada is distinct enough to be its own group under japonica.\n\n\n=== Etymology ===\nThe generic name Oryza is derived from the Ancient Greek word for rice, while the specific epithet sativa means \"cultivated\".\n\n\n== Genetics ==\n\n\n=== Mapping and research tools ===\nAn accurate and usable simple sequence repeat marker set was developed and used to generate a high-density map.\nA multiplex high-throughput marker assisted selection system has been developed but as with other crop HTMAS systems has proven difficult to customize, costly (both directly and for the equipment), and inflexible.\nOther molecular breeding tools have produced rice blast resistant cultivars. DNA microarray has been used to advance understanding of hybrid vigor in rice, QTL sequencing has been used to elucidate seedling vigor, and genome wide association study (GWAS) by whole genome sequencing (WGS) has been used to investigate various agronomic traits.\nIn total, 641 copy number variations are known. Exome capture often reveals new single nucleotide polymorphisms in rice, due to its large genome and high degree of DNA repetition.\n\n\n=== Specific genes ===\nSPL14/LOC4345998 is a gene that regulates the overall architecture/growth habit of the plant. Some of its epialleles increase rice yield. \\\nResistance to the rice blast fungus Magnaporthe grisea is provided by various resistance genes including Pi1, Pi54, and Pita. O. sativa uses the plant hormones abscisic acid and salicylic acid to regulate immune responses. Salicylic acid broadly stimulates, and abscisic acid suppresses, immunity to M. grisea; success depends on the balance between their levels.\nO. sativa has a large number of insect resistance genes specifically for the brown planthopper. As of 2022, 15 R genes have been cloned and characterized.\nSeveral O. sativa accessions also contain genetic adaptations to flooding. The Submergence 1 (Sub1) locus on chromosome 9 includes Sub1A, an ethylene-response-factor-like gene; the tolerance-specific Sub1A-1 allele is a major determinant of survival under complete submergence. In deepwater rice, the ethylene-response-factor genes SNORKEL1 and SNORKEL2 promote rapid internode elongation, allowing plants to adapt to rising floodwater.\n\n\n== See also ==\nDomesticated plants and animals of Austronesia\nInternational Code of Nomenclature for Cultivated Plants\nTraceability of genetically modified organisms\n\n\n== References ==\n\n\n== External links ==\n Data related to Oryza sativa at Wikispecies\n Media related to Oryza sativa at Wikimedia Commons",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mature_Rice_%28India%29_by_Augustus_Binu.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:Jumli Marshi Oryza sativa Rice.jpg",
+      "File:Kerbau Jawa.jpg",
+      "File:Koeh-232.jpg",
+      "File:Mature Rice (India) by Augustus Binu.jpg",
+      "File:Medicinal Rice.jpg",
+      "File:Niyamgiri rice.jpg",
+      "File:Oryza sativa - Köhler–s Medizinal-Pflanzen-232.jpg",
+      "File:Oryza sativa at Kadavoor.jpg",
+      "File:RiceStemcs400x1.jpg",
+      "File:White, Brown, Red & Wild rice.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q161426",
+    "url": "https://www.wikidata.org/wiki/Q161426",
+    "label": "Oryza molida",
+    "description": "species of plant (for the food see Q5090)",
+    "english_common_names": [
+      "rice"
+    ],
+    "taxon_name": [
+      "Oryza sativa"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q690633"
+    ],
+    "image_files": [
+      "Reis-Rispe.jpg"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "2703459"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:316812-2"
+      ],
+      "ipni": [
+        "316812-2"
+      ],
+      "ncbi": [
+        "4530"
+      ],
+      "inaturalist": [
+        "61381"
+      ],
+      "eppo": [
+        "ORYSA"
+      ]
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/2703459",
+    "key": 2703459,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Oryza sativa L.",
+    "canonical_name": "Oryza sativa",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Oryza",
+      "species": "Oryza sativa"
+    },
+    "english_vernacular_names": [
+      "Asian rice",
+      "Rice",
+      "lowland rice",
+      "rice",
+      "upland rice"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:Oryza sativa - Köhler–s Medizinal-Pflanzen-232.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AOryza_sativa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-232.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/2/27/Oryza_sativa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-232.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/27/Oryza_sativa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-232.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 452,
+      "height": 592,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+      "description": "Reis. A blühendes Exemplar der Pflanze (var. melanoceras Alef.), unterer Teil. B Blütenrispe. C Fruchtrispe der var. italica Körnicke. D Fruchtzweig der var. Sundanensis Körnicke. 1 ein Ährchen von A; 2 dasselbe im Längsschnitt; 3 Staubblätter; 4 Ährchen stärker vergrössert nach Entfernung der unter"
+    },
+    {
+      "file": "File:Reis-Rispe.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AReis-Rispe.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Reis-Rispe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Reis-Rispe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 384,
+      "height": 512,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Leo Michels",
+      "description": "Reis-Rispe"
+    },
+    {
+      "file": "File:Oryza sativa at Kadavoor.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AOryza_sativa_at_Kadavoor.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Oryza_sativa_at_Kadavoor.jpg/960px-Oryza_sativa_at_Kadavoor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Oryza_sativa_at_Kadavoor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2736,
+      "height": 3648,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Jeevan Jose, Kerala, India",
+      "description": "Oryza sativa, commonly known as Asian rice, is the plant species most commonly referred to in English as rice. Oryza sativa is the cereal with the smallest genome, consisting of just 430Mb across 12 chromosomes. It is renowned for being easy to genetically modify, and is a model organism for cereal "
+    },
+    {
+      "file": "File:Jumli Marshi Oryza sativa Rice.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AJumli_Marshi_Oryza_sativa_Rice.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Jumli_Marshi_Oryza_sativa_Rice.jpg/960px-Jumli_Marshi_Oryza_sativa_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Jumli_Marshi_Oryza_sativa_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4032,
+      "height": 3024,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Gaurav Dhwaj Khadka",
+      "description": "Jumli Marshi Rice Oryza sativa."
+    }
+  ]
+}

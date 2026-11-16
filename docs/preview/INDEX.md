@@ -297,6 +297,28 @@ Confidence: **high**. Implementation type: `climbing_vine`.
 | 5 | Flowering | ![ipomoea_tricolor flowering](stages/ipomoea_tricolor/05_flowering.png) | Blue trumpet flowers with white centres open. Flower colour shifts red to blue during the bloom ('Heavenly Blue'). |
 | 6 | Seed pod | ![ipomoea_tricolor seed_pod](stages/ipomoea_tricolor/06_seed_pod.png) | Small dry round seed pods replace the spent flowers. |
 
+## Oryza sativa - Rice
+
+Confidence: **high**. Implementation type: `flower_fruit_plant`.
+
+| # | Stage | Image | What it shows |
+|---|---|---|---|
+| 1 | Grain | ![oryza_sativa seed](stages/oryza_sativa/01_seed.png) | The grain (caryopsis) inside its husk, planted directly in the field or sown in a seedbed. Grain colours include white, brown, black and red. |
+| 2 | Seedling | ![oryza_sativa seedling](stages/oryza_sativa/02_seedling.png) | A few thin blades from a small clump with fibrous roots; seedlings are often raised in a seedbed and transplanted. |
+| 3 | Tillering | ![oryza_sativa tillering](stages/oryza_sativa/03_tillering.png) | The plant makes several leafy upright stems (tillers); each jointed stem has a long slender leaf at every node. |
+| 4 | Flowering | ![oryza_sativa flowering](stages/oryza_sativa/04_flowering.png) | A branched panicle arises from the last internode of the stem, carrying spikelets whose anthers and ovules are self-fertile. |
+| 5 | Ripe | ![oryza_sativa ripe](stages/oryza_sativa/05_ripe.png) | Fertilised ovules fill into grain and the panicle bends under its weight; the grain is ready when its moisture is 20-25% and the plant yellows. |
+
+Extra blocks for plants taller than 1 block at the configured scale:
+
+| Role | Image | Note |
+|---|---|---|
+| lower | ![oryza_sativa lower](stages/oryza_sativa/segment_lower.png) | Lower block of a plant taller than 1 block: upright jointed tillers with leaf blades, matching the top block's stems at the join. |
+
+Full-height plant (2 blocks): vegetative, budding, flowering, fruiting, ripe capsule, each over the lower block.
+
+![oryza_sativa 2-block stack](stages/oryza_sativa/stack_2_blocks.png)
+
 ## Prunus persica - Peach Tree
 
 Confidence: **high**. Implementation type: `fruit_tree`.

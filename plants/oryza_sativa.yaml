@@ -1,0 +1,190 @@
+id: oryza_sativa
+status:
+  data: draft
+  graphics: done
+  implementation: pending
+  use: pending
+confidence: high
+taxonomy:
+  kingdom: Plantae
+  clade: Tracheophyta
+  order: Poales
+  family: Poaceae
+  genus: Oryza
+  species: sativa
+  authority: L.
+names:
+  scientific: Oryza sativa
+  common:
+  - rice
+  - Asian rice
+  - Asian cultivated rice
+  in_game: Rice
+description: Annual grass with an erect, smooth, jointed stalk 80-120 cm tall; a single plant makes several
+  leafy stems (tillers). A long slender lanceolate leaf (15-30 cm) arises from each node. The self-fertile
+  flowers are in a panicle, a branched inflorescence that arises from the last internode, with up to 350
+  spikelets, each holding male (anthers) and female (ovule) parts. A fertilised ovule becomes the edible
+  grain (caryopsis). About six months from seed to harvest. The more common of the two cultivated rice
+  species (the other is African rice, O. glaberrima).
+habitat:
+  native_range: A crop; first domesticated from the wild rice Oryza rufipogon in the Yangtze River basin
+    of China (13,500-8,200 years ago per the Oryza sativa article; about 9,000 years ago per the Rice
+    article).
+  introduced_range: Spread worldwide by cultivation, migration and trade; reached the Americas after 1492.
+  environment: 'Lowland paddies: fields surrounded by bunds and flooded a few centimetres deep until about
+    a week before harvest; also dry-land and rainfed upland fields. Does not thrive if continuously submerged;
+    deepwater varieties tolerate over 50 cm of flooding for at least a month. Prefers moist or wet soil;
+    cannot grow in shade (PFAF).'
+  climate: Tropical and warm; two seasons (dry and wet) with enough water
+  life_form: annual_herb
+  height_m: 0.8-1.2 (over 1 m; up to 5 m in deep water)
+size:
+  height_cm:
+    min: 80
+    max: 120
+  habit: upright
+  source: wikipedia
+  quote: 'O. sativa has an erect stalk stem that grows 80-120 cm (30-45 in) tall (Wikipedia: Oryza sativa).
+    The Rice article adds ''can grow to over 1 m (3 ft) tall; if in deep water, it can reach a length
+    of 5 m''.'
+  height_sources:
+  - name: 'Wikipedia: Oryza sativa'
+    url: https://en.wikipedia.org/wiki/Oryza_sativa
+    min: 80
+    max: 120
+    quote: an erect stalk stem that grows 80-120 cm (30-45 in) tall
+  - name: PFAF
+    url: https://pfaf.org/user/Plant.aspx?LatinName=Oryza+sativa
+    max: 180
+    quote: ANNUAL growing to 1.8 m (6ft) by 0.3 m (1ft in) at a fast rate
+  spread_cm:
+    max: 30
+  spread_sources:
+  - name: PFAF
+    url: https://pfaf.org/user/Plant.aspx?LatinName=Oryza+sativa
+    max: 30
+    quote: ANNUAL growing to 1.8 m (6ft) by 0.3 m (1ft in) at a fast rate
+growth_stages:
+- id: seed
+  name: Grain
+  description: The grain (caryopsis) inside its husk, planted directly in the field or sown in a seedbed.
+    Grain colours include white, brown, black and red.
+  texture: textures/block/oryza_sativa_seed.png
+- id: seedling
+  name: Seedling
+  description: A few thin blades from a small clump with fibrous roots; seedlings are often raised in
+    a seedbed and transplanted.
+  visual_notes: Three thin blades and a root fan.
+  texture: textures/block/oryza_sativa_seedling.png
+- id: tillering
+  name: Tillering
+  description: The plant makes several leafy upright stems (tillers); each jointed stem has a long slender
+    leaf at every node.
+  visual_notes: A fan of 5 tillers with arching blades.
+  texture: textures/block/oryza_sativa_tillering.png
+- id: flowering
+  name: Flowering
+  description: A branched panicle arises from the last internode of the stem, carrying spikelets whose
+    anthers and ovules are self-fertile.
+  visual_notes: Upright pale-green panicle with yellow anthers.
+  texture: textures/block/oryza_sativa_flowering.png
+- id: ripe
+  name: Ripe
+  description: Fertilised ovules fill into grain and the panicle bends under its weight; the grain is
+    ready when its moisture is 20-25% and the plant yellows.
+  visual_notes: Golden drooping panicle branches heavy with grain.
+  texture: textures/block/oryza_sativa_ripe.png
+segment_textures:
+- role: lower
+  texture: textures/block/oryza_sativa_lower.png
+  note: 'Lower block of a plant taller than 1 block: upright jointed tillers with leaf blades, matching
+    the top block''s stems at the join.'
+reproduction:
+  flowers:
+    present: true
+    pollination:
+    - self
+    opens: not_applicable
+    notes: Self-fertile flowers in a panicle of up to 350 spikelets. Flower colour and opening time are
+      not stated in the fetched sources.
+  fruit:
+    present: true
+    type: caryopsis (grain)
+    description: The edible grain; colours include white, brown, black (purple when cooked) and red. Ready
+      to harvest at 20-25% moisture.
+    ripening: About six months from seed to harvest
+    edible: 'yes'
+uses_real:
+- use: Cereal food crop
+  note: Grown for its edible grain; Asian rice is the much more common of the two cultivated rice species.
+- use: Ratoon crop
+  note: Normally an annual, but in the tropics it can survive as a perennial and produce a second (ratoon)
+    crop.
+- use: Model organism
+  note: Genome of 430 Mbp across 12 chromosomes; a model for the biology of cereals and monocots.
+images:
+- url: https://commons.wikimedia.org/wiki/File%3AOryza_sativa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-232.jpg
+  license: Public domain
+  author: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen
+  shows: 'Oryza sativa - Köhler–s Medizinal-Pflanzen-232 (Köhler''s Medizinal-Pflanzen plate; matches
+    the reference art supplied by the user: whole plant with tillers, panicle, flower parts and grain)'
+- url: https://commons.wikimedia.org/wiki/File%3AReis-Rispe.jpg
+  license: Public domain
+  author: Leo Michels
+  shows: Reis-Rispe
+- url: https://commons.wikimedia.org/wiki/File%3AOryza_sativa_at_Kadavoor.jpg
+  license: CC BY-SA 4.0
+  author: Jeevan Jose, Kerala, India
+  shows: Oryza sativa at Kadavoor
+- url: https://commons.wikimedia.org/wiki/File%3AJumli_Marshi_Oryza_sativa_Rice.jpg
+  license: CC BY 4.0
+  author: Gaurav Dhwaj Khadka
+  shows: Jumli Marshi Oryza sativa Rice
+sources:
+- name: 'Wikipedia: Oryza sativa'
+  url: https://en.wikipedia.org/wiki/Oryza_sativa
+  status: checked
+- name: 'Wikipedia: Rice'
+  url: https://en.wikipedia.org/wiki/Rice
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q161426
+  id: Q161426
+  status: checked
+- name: 'GBIF (ACCEPTED: Oryza sativa)'
+  url: https://www.gbif.org/species/2703459
+  id: '2703459'
+  status: checked
+- name: PFAF
+  url: https://pfaf.org/user/Plant.aspx?LatinName=Oryza+sativa
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  behavior: paddy_crop
+  growth:
+    summary: 'DRAFT ONLY (no implementation work yet): seed, seedling, tillering, flowering, ripe; about
+      six months in the real plant.'
+    requirements:
+    - Full light (cannot grow in shade)
+    - Moist or wet soil; shallow standing water suits lowland rice
+    flowering: Panicle emerges from the top of the stem.
+    pollination: Self-fertile; no pollinator needed.
+    fruiting: Grain fills the panicle, which droops and yellows.
+    regrowth: Tropical plants can give a ratoon crop after cutting.
+  spawn:
+    biomes:
+    - minecraft:swamp
+    - minecraft:mangrove_swamp
+    - minecraft:jungle
+    feature: patch
+    rarity: rare
+    reason: 'Draft placeholder: rice is a cultivated crop, so wild-type spawning is an open design question
+      (wild ancestor: Oryza rufipogon).'
+  drops:
+  - rice grain
+  notes: Draft design notes only; implementation is deferred until the data and graphics are settled.
+game_uses:
+  summary: 'Not yet designed (use phase). Real use recorded above: cereal grain.'

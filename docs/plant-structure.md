@@ -39,6 +39,7 @@ Previews of 2-block stacks are in `docs/preview/INDEX.md`.
 | *Datura wrightii* | 30-150 cm, up to 150 cm wide | 1-2 (+ sideways spread, not built yet) |
 | *Ipomoea tricolor* | 2-4 m | 2-4 |
 | *Prunus persica* | 3-10 m, crown 3-4 m wide | 3-10 |
+| *Oryza sativa* (rice) | 80-120 cm, 30 cm wide | 1-2 (1 wide) |
 | *Salvia rosmarinus* (rosemary) | 120-180 cm (upright forms), 91-122 cm wide | 2 (1-2 wide) |
 | *Eucalyptus deglupta* (rainbow eucalyptus) | 60-78 m, trunk up to 240 cm across | 60-78 (trunk up to 3 wide) |
 | other Datura | under 1 m, or no data | 1 |
@@ -76,6 +77,7 @@ Every plant is drawn from its branching skeleton, with leaves, flowers and fruit
 | *Salvia rosmarinus* | Several woody stems with needle leaves along them; flowers in groups of 2-3 down the stems |
 | *Ipomoea tricolor* | Twining main stems with side shoots carrying each leaf |
 | *Chara braunii* | Whorls of 6-10 branchlets (Wikipedia) |
+| *Oryza sativa* | Several jointed tillers, a long slender leaf at each node; panicle is a branched inflorescence with up to 350 spikelets (Wikipedia: Rice) |
 | *Prunus persica* | Smooth red twigs, alternate leaves, flowers before leaves; branches droop with age |
 | *Eucalyptus deglupta* | Square-sectioned branchlets with opposite leaf pairs; buds in groups of seven at the axils |
 
@@ -108,3 +110,9 @@ Horticultural sources (NC State, PFAF) describe garden plants and run larger tha
 
 - Sideways spread is recorded but not yet built: wide plants need extra blocks and a placement rule.
 - Six species have no height in the sources (`size.source: pending`) and stay 1 block until a real figure is found.
+
+## Short plants and sub-block sprites
+
+A plant whose typical height is under one block is drawn only as tall as it really is, standing at the bottom of its
+block (`block_scale` in `tools/make_textures.py`, from the same sourced size range the sampler uses). Plants that can
+exceed one block fill the block. Plants with no size data are drawn full height until a source is found.

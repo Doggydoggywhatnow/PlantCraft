@@ -131,14 +131,16 @@ SEEDLING = [
     ".......T........",
     ".......T........",
 ]
-TRUMPET_BIG = parse(["FHHHF", ".FfF.", "..f..", "..f.."])
-TRUMPET_SMALL = parse(["FHF", ".f.", ".f."])
-BUD = parse(["B", "B", "b"])
-SPINY = parse([".pCp.", "pCCCp", "CCcCC", "pCCCp", ".pCp."])
-LONG = parse(["..p.p..", ".pCCCp.", "pCCcCCp", ".pCCCp.", "..p.p.."])
-SMOOTH = parse([".CCC.", "CCCCC", "CCcCC", "CCCCC", ".CCC."])
-SPLIT = parse(["d...d", "DkKkD", "DKKKD", ".DDD."])
-SPLIT_LONG = parse(["d.p.d", "DkKkD", "DKKKD", ".DDD."])
+TRUMPET_BIG = parse(["FHF", ".F.", ".f.", ".f."])        # large-flowered species: a flared mouth on a long tube
+TRUMPET_SMALL = parse(["FHF", ".f."])                    # small-flowered species
+BUD = parse(["B", "b"])
+LEAF_L = parse(["LL.", "lLL"])                           # small leaves, drawn left- and right-leaning
+LEAF_R = parse([".LL", "LLl"])
+SPINY = parse(["pCp", "CcC", "pCp"])                     # ~3 px spiny capsule
+LONG = parse(["p..p", ".CC.", "pCcp", "p..p"])           # D. ferox: few long thorns
+SMOOTH = parse(["CC.", "CCC", "CcC", ".C."])             # D. ceratocaula: smooth, hanging egg shape
+SPLIT = parse(["d..d", "DKKD", ".DD."])                  # ripe capsule split open, seeds showing
+SPLIT_LONG = parse(["d.pd", "DKKD", ".DD."])
 
 DATURA_DEFAULT = dict(
     leaf="#58903c", leaf_d="#3a6b2b", stem="#8fae5f",
@@ -165,12 +167,12 @@ DATURA = {
     "datura_ceratocaula": dict(leaf="#7a9a78", leaf_d="#58775a", stem="#8fa592", flower="#f3f0fb", throat="#e9b9d6",
                                rim="#ffffff", capstyle="smooth", cap="#c9d98a", cap_d="#8fa650", curve=True),
     "datura_leichhardtii": dict(leaf="#6e9a52", leaf_d="#4c7a3a", flower="#efe8bf", rim="#f8f3d6", throat="#cfc88f",
-                                flowers="small", short=True, fuzzy=0.10),
+                                flowers="small", fuzzy=0.10),
     # Thin-source species: placeholder variations on traits the sources do give.
-    "datura_kymatocarpa": dict(leaf="#7aa85a", leaf_d="#55823f", stem="#8a3f8a", throat="#7a3fa6", rim="#ffffff", short=True),
+    "datura_kymatocarpa": dict(leaf="#7aa85a", leaf_d="#55823f", stem="#8a3f8a", throat="#7a3fa6", rim="#ffffff"),
     "datura_reburra": dict(leaf="#6ea057", leaf_d="#4d7a3d", stem="#8a3f8a", throat="#7a3fa6", rim="#ffffff"),
-    "datura_lanosa": dict(leaf="#9ab294", leaf_d="#728c70", fuzzy=0.40, fuzz="#e8ece4", stem="#b5c4a8", short=True),
-    "datura_arenicola": dict(leaf="#9cb06a", leaf_d="#7a8f4c", stem="#c4b88a", short=True),
+    "datura_lanosa": dict(leaf="#9ab294", leaf_d="#728c70", fuzzy=0.40, fuzz="#e8ece4", stem="#b5c4a8"),
+    "datura_arenicola": dict(leaf="#9cb06a", leaf_d="#7a8f4c", stem="#c4b88a"),
     "datura_pruinosa": dict(leaf="#7fa49a", leaf_d="#5c8479", fuzzy=0.22, fuzz="#d6e4e0", stem="#9fb8ae"),
 }
 
@@ -187,25 +189,27 @@ def datura_palette(p):
 
 
 def datura_skeleton(kind, s=1.0):
-    """Forking stems. -> (stem polylines, leaf blobs (cx, cy, rx, ry), flower/fruit tips).
+    """Forking stems. -> (stem polylines, leaves (x, y, 'L'|'R'), flower/fruit tips).
 
     'single' is a whole plant in one block, or the TOP block of a taller one: the trunk forks, each branch forks
-    again, and a leaf sits at each fork. 'lower' is the block under it: the trunk carries side branches."""
+    again, a small leaf sits at each fork, and a flower or capsule is on each tip. 'lower' is the block under it.
+    s < 1 compresses the plant toward the bottom of the block (a plant shorter than 1 m)."""
     gy = lambda y: round(15 - (15 - y) * s)
     if kind == "lower":
-        stems = [[(8, 15), (8, 0)], [(8, 12), (5, 9), (3, 6)], [(8, 8), (11, 5), (13, 3)], [(8, 5), (6, 3), (5, 1)]]
-        leaves = [(5, 13, 2, 1), (11, 11, 2, 1), (2, 7, 2, 1), (13, 2, 2, 1), (4, 3, 2, 1)]
+        stems = [[(8, 15), (8, 0)], [(8, 12), (5, 9), (3, 6)], [(8, 8), (11, 5), (13, 3)], [(8, 5), (6, 3), (5, 1)], [(5, 9), (4, 11)]]
+        leaves = [(5, 13, "L"), (9, 12, "R"), (1, 8, "L"), (6, 8, "R"), (11, 7, "R"), (9, 4, "L"), (13, 2, "R"), (3, 3, "L")]
         return stems, leaves, []
     stems = [
         [(8, 15), (8, gy(11))],
-        [(8, gy(11)), (5, gy(8)), (3, gy(5))],
-        [(8, gy(11)), (11, gy(8)), (13, gy(5))],
+        [(8, gy(11)), (5, gy(8)), (2, gy(6))],
+        [(5, gy(8)), (5, gy(4))],
+        [(8, gy(11)), (11, gy(8)), (14, gy(6))],
+        [(11, gy(8)), (11, gy(4))],
         [(8, gy(11)), (8, gy(3))],
-        [(5, gy(8)), (7, gy(6))],
-        [(11, gy(8)), (9, gy(6))],
     ]
-    leaves = [(5, gy(12), 2, 1), (11, gy(12), 2, 1), (2, gy(9), 2, 1), (14, gy(9), 2, 1), (6, gy(7), 1, 1), (10, gy(7), 1, 1)]
-    tips = [(3, gy(5)), (8, gy(3)), (13, gy(5))]
+    leaves = [(5, gy(13), "L"), (9, gy(13), "R"), (2, gy(10), "L"), (6, gy(10), "R"), (9, gy(10), "L"), (12, gy(10), "R"),
+              (3, gy(7), "L"), (13, gy(7), "R")]
+    tips = [(2, gy(6)), (5, gy(4)), (8, gy(3)), (11, gy(4)), (14, gy(6))]
     return stems, leaves, tips
 
 
@@ -215,14 +219,13 @@ def datura_stage(pid, stage, p, kind="single"):
         return parse(SEED)
     if stage == "seedling":
         return parse(SEEDLING)
-    s = 0.72 if p.get("short") else 1.0
-    stems, leaves, tips = datura_skeleton(kind, s)
+    stems, leaves, tips = datura_skeleton(kind, p.get("s", 1.0))
     pix = {}
-    for cx, cy, rx, ry in leaves:                       # leaves first so the branches show on top
-        blob(pix, cx, cy, rx, ry)
+    for lx, ly, side in leaves:                         # leaves first so the branches show on top
+        place(pix, LEAF_L if side == "L" else LEAF_R, lx, ly)
     if p.get("ragged"):
         for (x, y), ch in list(pix.items()):
-            if any((x + dx, y + dy) not in pix for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))) and rng.random() < 0.4:
+            if any((x + dx, y + dy) not in pix for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))) and rng.random() < 0.3:
                 del pix[(x, y)]
     if p.get("fuzzy"):
         for (x, y), ch in list(pix.items()):
@@ -232,21 +235,20 @@ def datura_stage(pid, stage, p, kind="single"):
         poly(pix, st, "T")
     cap = {"spiny": SPINY, "long": LONG, "smooth": SMOOTH, "warty": SPINY}[p["capstyle"]]
     remap = {"p": "c"} if p["capstyle"] == "warty" else None
-    trump, tw = (TRUMPET_SMALL, 1) if p["flowers"] == "small" else (TRUMPET_BIG, 2)
-    th = 3 if trump is TRUMPET_SMALL else 4
+    trump, up = (TRUMPET_SMALL, 1) if p["flowers"] == "small" else (TRUMPET_BIG, 3)
     if stage == "budding":
         for tx, ty in tips:
-            place(pix, BUD, tx, ty - 2)
+            place(pix, BUD, tx, ty - 1)
     elif stage == "flowering":
         for tx, ty in tips:
-            place(pix, trump, tx - tw, ty - th + 1)
+            place(pix, trump, tx - 1, ty - up)
     elif stage == "fruiting":
-        w = 3 if p["capstyle"] == "long" else 2
-        for tx, ty in tips:
-            outlined(pix, cap, tx - w, ty - 2, remap)
+        w, h = (1, 1)
+        for tx, ty in tips[::2]:                        # fruit does not set on every tip
+            place(pix, cap, tx - w, ty - h, remap)
     elif stage == "ripe_capsule":
-        for tx, ty in tips:
-            outlined(pix, SPLIT_LONG if p["capstyle"] == "long" else SPLIT, tx - 2, ty - 2)
+        for tx, ty in tips[::2]:
+            place(pix, SPLIT_LONG if p["capstyle"] == "long" else SPLIT, tx - 1, ty - 1)
     if p.get("curve"):
         pix = {(x + round((15 - y) / 8), y): ch for (x, y), ch in pix.items()}
     return pix
@@ -266,7 +268,7 @@ def ipomoea_stage(stage):
     vine_x = lambda y, which: (4, 11)[which] + round(1.4 * math.sin(y / 2 + (0.0, 2.0)[which]))
     pix = {}
     hearts = ((1, 1, 0), (10, 5, 1), (2, 9, 0), (9, 12, 1))     # leaf at (ox, oy) hangs off vine `which` on a side shoot
-    heart = parse([".L.L.", "LLLLL", ".LlL.", "..L.."])
+    heart = parse(["L.L", "LLL", ".l."])
     for ox, oy, _ in hearts:
         place(pix, heart, ox, oy)
     for y in range(SIZE):                                       # twining main stems
@@ -280,8 +282,8 @@ def ipomoea_stage(stage):
         for ox, oy in ((6, 2), (13, 7), (6, 10), (0, 13)):
             place(pix, parse(["B", "B", "b"]), ox, oy)
     elif stage == "flowering":
-        big = parse(["HFFFH", ".FYF.", "..f.."])
-        for ox, oy in ((0, 0), (9, 3), (1, 8), (10, 11)):
+        big = parse(["HFH", ".Y.", ".f."])
+        for ox, oy in ((1, 0), (9, 3), (1, 8), (10, 11), (6, 5), (12, 8)):
             place(pix, big, ox, oy)
     elif stage == "seed_pod":
         for ox, oy in ((6, 2), (12, 6), (6, 10), (1, 12)):
@@ -362,6 +364,76 @@ def rosemary_stage(stage, kind="single"):
                     pix[(x + side, y)] = "B"; pix[(x + 2 * side, y)] = "H"
                     if rng.random() < 0.7:
                         pix[(x + side, y + 1)] = "h"
+    return pix, pal
+
+
+# ------------------------------------------------------------------ rice (tillers, arching blades, branched panicle)
+RICE_BASES = [5, 8, 11]                           # three tillers; the lower block uses the same x positions so the stems join
+
+
+def rice_stage(stage, kind="single"):
+    """Oryza sativa after the reference plate: a few upright jointed tillers, each with long slender blades arching
+    outward, fibrous roots, and a branched panicle whose branches droop under the grain when ripe."""
+    rng = random.Random("rice:" + stage + kind)
+    ripe = stage == "ripe"
+    pal = {"L": hx("#6fae48"), "l": hx("#4a8a38"), "y": hx("#b5bd4e"), "Y": hx("#d8cf60"), "S": hx("#8fb05a"), "s": hx("#c8b05a"),
+           "r": hx("#c9b79a"), "R": hx("#8a7a60"),
+           "G": hx("#e8c04a"), "g": hx("#c99a30"), "H": hx("#f4dc8a"), "P": hx("#cfe4a0"), "p": hx("#9fc070"), "A": hx("#f4e060"),
+           "K": hx("#8a5a38"), "k": hx("#5e3a22")}
+    pix = {}
+    if stage == "seed":                                    # husked grains: pointed tip, pale highlight, darker seam
+        grain = parse([".k.", "GHG", "GGg", ".g."])
+        for ox, oy in ((3, 8), (9, 7), (6, 11)):
+            place(pix, grain, ox, oy)
+        return pix, pal
+    if stage == "seedling":
+        for x in (5, 7, 8, 9, 11):                         # fibrous roots
+            pix[(x, 15)] = "r"
+        for x in (6, 10):
+            pix[(x, 14)] = "R"
+        poly(pix, [(8, 14), (8, 8)], "L")
+        poly(pix, [(7, 14), (5, 10)], "l")
+        poly(pix, [(9, 14), (11, 10)], "l")
+        pix[(8, 7)] = "L"
+        return pix, pal
+    tips = {5: (3, 6), 8: (8, 2), 11: (13, 5)}
+    if stage == "tillering":
+        tips = {5: (4, 9), 8: (8, 7), 11: (12, 9)}
+    leaf, stem = ("y" if ripe else "L"), ("s" if ripe else "S")
+    paths = {}
+    for xb in RICE_BASES:
+        tx, ty = tips[xb] if kind == "single" else (xb, 0)
+        paths[xb] = poly(pix, [(xb, 15), (tx, ty)], stem)
+    for xb, pts in paths.items():                          # one or two long slender blades from the nodes, arching outward
+        side = -1 if xb < 8 else 1 if xb > 8 else 0
+        for k, frac in enumerate((0.35, 0.65)):
+            nx, ny = pts[min(len(pts) - 1, int(len(pts) * frac))]
+            sd = side or (-1 if k == 0 else 1)
+            if k == 1 and side:
+                sd = -side
+            blade = [(nx, ny), (nx + sd * 2, ny - 2), (nx + sd * 4, ny - 2), (nx + sd * 5, ny)]
+            poly(pix, blade, leaf)
+            pix[blade[-1]] = "l"
+    if kind == "single" and stage in ("flowering", "ripe"):
+        # panicle: a branched inflorescence from the last internode of the main tiller
+        axis = poly({}, [(8, 6), (8, 3), (10, 1), (12, 2), (13, 4)] if ripe else [(8, 6), (8, 3), (8, 0)], "s")
+        for x, y in axis:
+            pix[(x, y)] = "s"
+        for i, (x, y) in enumerate(axis[2:], 2):
+            side = 1 if i % 2 else -1
+            bx, by = x + side, y + (1 if ripe else 0)
+            pix[(bx, by)] = "s"
+            if ripe:
+                pix[(bx + side, by + 1)] = "G"; pix[(bx + side, by + 2)] = "g"      # grain hangs from each branch tip
+                pix[(bx, by + 1)] = "H"
+            else:
+                pix[(bx + side, by)] = "P"; pix[(bx, by - 1)] = "p"                 # spikelets
+                if i % 2:
+                    pix[(bx + 2 * side, by - 1)] = "A"                              # yellow anthers
+    if kind == "single" and stage in ("tillering", "flowering", "ripe"):
+        for x in (4, 6, 8, 10, 12):                         # roots at the foot of the clump
+            if (x, 15) not in pix:
+                pix[(x, 15)] = "r"
     return pix, pal
 
 
@@ -547,10 +619,34 @@ def euc_seed():
 
 
 # ------------------------------------------------------------------ driver
+PLANTS = {}
+_SIZES = None
+
+
+def block_scale(pid):
+    """How much of a block's height the plant fills, from its sourced size: a plant whose typical height is under one
+    block is drawn only that tall, standing at the bottom of the block. Plants that can exceed a block fill it."""
+    global _SIZES
+    d = PLANTS.get(pid)
+    if not d or d["size"]["source"] == "pending":
+        return 1.0
+    if _SIZES is None:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("sample_sizes", ROOT / "tools" / "sample_sizes.py")
+        _SIZES = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(_SIZES)
+    cfg, per = _SIZES.load_cfg()
+    hs = d["size"].get("height_sources") or [dict(d["size"]["height_cm"])]
+    lo, hi, _ = _SIZES.typical_range(hs, cfg["range_mode"])
+    if hi > per:
+        return 1.0
+    return max(0.4, min(1.0, (lo + hi) / 2 / per))
+
+
 def draw_stage(pid, stage):
     """Return a 16x16 RGBA image for (species id, stage id)."""
     if pid.startswith("datura_"):
-        p = dict(DATURA_DEFAULT, **DATURA[pid])
+        p = dict(DATURA_DEFAULT, **DATURA[pid], s=block_scale(pid))
         return render(datura_stage(pid, stage, p), datura_palette(p))
     if pid == "ipomoea_tricolor":
         return render(*ipomoea_stage(stage))
@@ -558,6 +654,8 @@ def draw_stage(pid, stage):
         return render(*chara_stage(stage))
     if pid == "salvia_rosmarinus":
         return render(*rosemary_stage(stage))
+    if pid == "oryza_sativa":
+        return render(*rice_stage(stage))
     if pid == "prunus_persica":
         return peach_sapling() if stage == "sapling" else foliage_tile("peach", stage)
     if pid == "eucalyptus_deglupta":
@@ -575,6 +673,8 @@ def draw_segment(pid, role):
         return render(datura_stage(pid, "vegetative", p, "lower"), datura_palette(p))
     if pid == "salvia_rosmarinus" and role == "lower":
         return render(*rosemary_stage("mature", "lower"))
+    if pid == "oryza_sativa" and role == "lower":
+        return render(*rice_stage("tillering", "lower"))
     if pid == "prunus_persica":
         if role == "trunk_side":
             return peach_bark("trunk")
@@ -628,6 +728,7 @@ def main():
     for f in sorted((ROOT / "plants").glob("*.yaml")):
         d = yaml.safe_load(f.read_text(encoding="utf-8"))
         plants[d["id"]] = d
+    PLANTS.update(plants)
     missing = 0
     sheets = []
     for pid, d in plants.items():
