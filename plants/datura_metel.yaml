@@ -29,6 +29,12 @@ habitat:
   environment: Warm regions; weedy.
   height_m: up to 1.8
   life_form: annual_herb
+size:
+  height_cm:
+    max: 180
+  habit: bushy
+  source: wikipedia
+  quote: can grow up to 6 ft (1.8 m) high
 growth_stages:
 - id: seed
   name: Seed

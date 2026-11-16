@@ -33,6 +33,13 @@ habitat:
   climate: Does not tolerate below 5 C
   life_form: vine
   height_m: 2-4
+size:
+  height_cm:
+    min: 200
+    max: 400
+  habit: climbing
+  source: wikipedia
+  quote: twining liana growing to 2-4 m (7-13 ft) tall
 growth_stages:
 - id: seed
   name: Seed

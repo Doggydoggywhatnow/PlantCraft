@@ -30,6 +30,16 @@ habitat:
   environment: Temperate orchards; cultivated. Roots keep growing through winter.
   life_form: tree
   height_m: 3-10
+size:
+  height_cm:
+    min: 300
+    max: 1000
+  spread_cm:
+    min: 300
+    max: 400
+  habit: tree
+  source: wikipedia
+  quote: rarely up to 10 meters, more typically 3 m; crown spread ranges 3 to 4 m
 growth_stages:
 - id: sapling
   name: Sapling

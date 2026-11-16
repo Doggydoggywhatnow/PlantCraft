@@ -27,6 +27,12 @@ habitat:
   environment: Not yet researched (sources pending).
   height_m: small shrub
   life_form: shrub
+size:
+  height_cm:
+    max: 1
+  habit: bushy
+  source: pending
+  quote: No height figure in the fetched sources; max is a placeholder, not data.
 growth_stages:
 - id: seed
   name: Seed

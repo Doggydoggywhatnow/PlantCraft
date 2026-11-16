@@ -28,6 +28,13 @@ habitat:
   environment: Disturbed ground, field edges and waste places (weedy).
   height_m: 0.6-1.5
   life_form: annual_herb
+size:
+  height_cm:
+    min: 60
+    max: 150
+  habit: upright
+  source: wikipedia
+  quote: erect, annual, freely branching herb that forms a bush 60 to 150 cm (2 to 5 ft) tall
 growth_stages:
 - id: seed
   name: Seed

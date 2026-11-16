@@ -5,58 +5,171 @@
   "description": "One file per species. Sections are filled in by successive phases: data, graphics, implementation, use.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "status", "taxonomy", "names", "description", "habitat", "growth_stages", "reproduction", "sources", "implementation"],
+  "required": [
+    "id",
+    "status",
+    "taxonomy",
+    "names",
+    "description",
+    "habitat",
+    "growth_stages",
+    "reproduction",
+    "sources",
+    "implementation"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z]+_[a-z]+$", "description": "genus_species, lowercase. Must match the filename." },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+_[a-z]+$",
+      "description": "genus_species, lowercase. Must match the filename."
+    },
     "status": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["data", "graphics", "implementation", "use"],
+      "required": [
+        "data",
+        "graphics",
+        "implementation",
+        "use"
+      ],
       "properties": {
-        "data": { "enum": ["pending", "draft", "verified"] },
-        "graphics": { "enum": ["pending", "in_progress", "done"] },
-        "implementation": { "enum": ["pending", "in_progress", "done"] },
-        "use": { "enum": ["not_applicable", "pending", "in_progress", "done"] }
+        "data": {
+          "enum": [
+            "pending",
+            "draft",
+            "verified"
+          ]
+        },
+        "graphics": {
+          "enum": [
+            "pending",
+            "in_progress",
+            "done"
+          ]
+        },
+        "implementation": {
+          "enum": [
+            "pending",
+            "in_progress",
+            "done"
+          ]
+        },
+        "use": {
+          "enum": [
+            "not_applicable",
+            "pending",
+            "in_progress",
+            "done"
+          ]
+        }
       }
     },
-    "confidence": { "enum": ["low", "medium", "high"], "description": "How much the facts in this file are trusted until verified against sources." },
+    "confidence": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "description": "How much the facts in this file are trusted until verified against sources."
+    },
     "taxonomy": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["genus", "species", "family"],
+      "required": [
+        "genus",
+        "species",
+        "family"
+      ],
       "properties": {
-        "kingdom": { "type": "string" },
-        "clade": { "type": "string" },
-        "order": { "type": "string" },
-        "family": { "type": "string" },
-        "genus": { "type": "string" },
-        "species": { "type": "string" },
-        "authority": { "type": "string" },
-        "synonyms": { "type": "array", "items": { "type": "string" } }
+        "kingdom": {
+          "type": "string"
+        },
+        "clade": {
+          "type": "string"
+        },
+        "order": {
+          "type": "string"
+        },
+        "family": {
+          "type": "string"
+        },
+        "genus": {
+          "type": "string"
+        },
+        "species": {
+          "type": "string"
+        },
+        "authority": {
+          "type": "string"
+        },
+        "synonyms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     },
     "names": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["scientific", "common"],
+      "required": [
+        "scientific",
+        "common"
+      ],
       "properties": {
-        "scientific": { "type": "string" },
-        "common": { "type": "array", "minItems": 1, "items": { "type": "string" } },
-        "in_game": { "type": "string", "description": "Display name used in game. Latin name appears in the tooltip." }
+        "scientific": {
+          "type": "string"
+        },
+        "common": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "in_game": {
+          "type": "string",
+          "description": "Display name used in game. Latin name appears in the tooltip."
+        }
       }
     },
-    "description": { "type": "string" },
+    "description": {
+      "type": "string"
+    },
     "habitat": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["native_range", "environment"],
+      "required": [
+        "native_range",
+        "environment"
+      ],
       "properties": {
-        "native_range": { "type": "string" },
-        "introduced_range": { "type": "string" },
-        "environment": { "type": "string" },
-        "climate": { "type": "string" },
-        "life_form": { "enum": ["alga", "annual_herb", "perennial_herb", "shrub", "vine", "tree"] },
-        "height_m": { "type": "string" }
+        "native_range": {
+          "type": "string"
+        },
+        "introduced_range": {
+          "type": "string"
+        },
+        "environment": {
+          "type": "string"
+        },
+        "climate": {
+          "type": "string"
+        },
+        "life_form": {
+          "enum": [
+            "alga",
+            "annual_herb",
+            "perennial_herb",
+            "shrub",
+            "vine",
+            "tree"
+          ]
+        },
+        "height_m": {
+          "type": "string"
+        }
       }
     },
     "growth_stages": {
@@ -65,44 +178,115 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "name", "description"],
+        "required": [
+          "id",
+          "name",
+          "description"
+        ],
         "properties": {
-          "id": { "type": "string", "pattern": "^[a-z_]+$" },
-          "name": { "type": "string" },
-          "description": { "type": "string", "description": "What the plant looks like here; the graphics phase works from this." },
-          "visual_notes": { "type": "string" },
-          "texture": { "type": "string", "description": "Planned texture path; filled by the graphics phase." }
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z_]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "description": "What the plant looks like here; the graphics phase works from this."
+          },
+          "visual_notes": {
+            "type": "string"
+          },
+          "texture": {
+            "type": "string",
+            "description": "Planned texture path; filled by the graphics phase."
+          }
         }
       }
     },
     "reproduction": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["flowers", "fruit"],
+      "required": [
+        "flowers",
+        "fruit"
+      ],
       "properties": {
         "flowers": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["present"],
+          "required": [
+            "present"
+          ],
           "properties": {
-            "present": { "type": "boolean" },
-            "colors": { "type": "array", "items": { "type": "string" } },
-            "opens": { "enum": ["day", "night", "morning_only", "continuous", "not_applicable"] },
-            "season": { "type": "string" },
-            "pollination": { "type": "array", "items": { "enum": ["bees", "moths", "other_insects", "wind", "self", "water", "not_applicable"] } },
-            "notes": { "type": "string" }
+            "present": {
+              "type": "boolean"
+            },
+            "colors": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "opens": {
+              "enum": [
+                "day",
+                "night",
+                "morning_only",
+                "continuous",
+                "not_applicable"
+              ]
+            },
+            "season": {
+              "type": "string"
+            },
+            "pollination": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "bees",
+                  "moths",
+                  "other_insects",
+                  "wind",
+                  "self",
+                  "water",
+                  "not_applicable"
+                ]
+              }
+            },
+            "notes": {
+              "type": "string"
+            }
           }
         },
         "fruit": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["present"],
+          "required": [
+            "present"
+          ],
           "properties": {
-            "present": { "type": "boolean" },
-            "type": { "type": "string" },
-            "description": { "type": "string" },
-            "ripening": { "type": "string" },
-            "edible": { "enum": ["yes", "no", "toxic", "not_applicable"] }
+            "present": {
+              "type": "boolean"
+            },
+            "type": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "ripening": {
+              "type": "string"
+            },
+            "edible": {
+              "enum": [
+                "yes",
+                "no",
+                "toxic",
+                "not_applicable"
+              ]
+            }
           }
         }
       }
@@ -112,8 +296,18 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["use", "note"],
-        "properties": { "use": { "type": "string" }, "note": { "type": "string" } }
+        "required": [
+          "use",
+          "note"
+        ],
+        "properties": {
+          "use": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
       }
     },
     "images": {
@@ -121,12 +315,26 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["url", "license", "author", "shows"],
+        "required": [
+          "url",
+          "license",
+          "author",
+          "shows"
+        ],
         "properties": {
-          "url": { "type": "string" },
-          "license": { "type": "string" },
-          "author": { "type": "string" },
-          "shows": { "type": "string", "description": "Which growth stage or feature this reference photo shows." }
+          "url": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string"
+          },
+          "author": {
+            "type": "string"
+          },
+          "shows": {
+            "type": "string",
+            "description": "Which growth stage or feature this reference photo shows."
+          }
         }
       }
     },
@@ -136,48 +344,130 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "status"],
+        "required": [
+          "name",
+          "status"
+        ],
         "properties": {
-          "name": { "type": "string" },
-          "url": { "type": "string" },
-          "id": { "type": "string" },
-          "status": { "enum": ["pending", "checked"] }
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "pending",
+              "checked"
+            ]
+          }
         }
       }
     },
     "implementation": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["type", "growth", "spawn"],
+      "required": [
+        "type",
+        "growth",
+        "spawn"
+      ],
       "properties": {
-        "type": { "enum": ["flower_fruit_plant", "fruit_tree", "climbing_vine", "aquatic_plant"], "description": "Generic Java class that implements the plant." },
-        "behavior": { "type": "string", "description": "Optional id of a custom behavior hooked in by Java." },
+        "type": {
+          "enum": [
+            "flower_fruit_plant",
+            "fruit_tree",
+            "climbing_vine",
+            "aquatic_plant"
+          ],
+          "description": "Generic Java class that implements the plant."
+        },
+        "behavior": {
+          "type": "string",
+          "description": "Optional id of a custom behavior hooked in by Java."
+        },
         "growth": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["summary", "requirements"],
+          "required": [
+            "summary",
+            "requirements"
+          ],
           "properties": {
-            "summary": { "type": "string" },
-            "requirements": { "type": "array", "items": { "type": "string" } },
-            "flowering": { "type": "string", "description": "How the flower stage is triggered and shown in game." },
-            "pollination": { "type": "string" },
-            "fruiting": { "type": "string" },
-            "regrowth": { "type": "string" }
+            "summary": {
+              "type": "string"
+            },
+            "requirements": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "flowering": {
+              "type": "string",
+              "description": "How the flower stage is triggered and shown in game."
+            },
+            "pollination": {
+              "type": "string"
+            },
+            "fruiting": {
+              "type": "string"
+            },
+            "regrowth": {
+              "type": "string"
+            }
           }
         },
         "spawn": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["biomes", "feature"],
+          "required": [
+            "biomes",
+            "feature"
+          ],
           "properties": {
-            "biomes": { "type": "array", "items": { "type": "string" }, "description": "Minecraft biome or biome-tag ids." },
-            "feature": { "enum": ["patch", "single", "tree", "underwater_patch", "vine_on_wall"] },
-            "rarity": { "enum": ["common", "uncommon", "rare", "very_rare"] },
-            "reason": { "type": "string", "description": "Why these biomes match the real habitat." }
+            "biomes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Minecraft biome or biome-tag ids."
+            },
+            "feature": {
+              "enum": [
+                "patch",
+                "single",
+                "tree",
+                "underwater_patch",
+                "vine_on_wall"
+              ]
+            },
+            "rarity": {
+              "enum": [
+                "common",
+                "uncommon",
+                "rare",
+                "very_rare"
+              ]
+            },
+            "reason": {
+              "type": "string",
+              "description": "Why these biomes match the real habitat."
+            }
           }
         },
-        "drops": { "type": "array", "items": { "type": "string" } },
-        "notes": { "type": "string" }
+        "drops": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
       }
     },
     "game_uses": {
@@ -185,10 +475,92 @@
       "description": "Filled in by the use phase only.",
       "additionalProperties": false,
       "properties": {
-        "summary": { "type": "string" },
-        "recipes": { "type": "array", "items": { "type": "string" } },
-        "effects": { "type": "array", "items": { "type": "string" } },
-        "based_on": { "type": "string", "description": "The real-world use this game use comes from." }
+        "summary": {
+          "type": "string"
+        },
+        "recipes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "based_on": {
+          "type": "string",
+          "description": "The real-world use this game use comes from."
+        }
+      }
+    },
+    "size": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "height_cm",
+        "source"
+      ],
+      "description": "Real dimensions in centimetres. Block counts are derived from these by tools/derive_structure.py, never typed by hand.",
+      "properties": {
+        "height_cm": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "max"
+          ],
+          "properties": {
+            "min": {
+              "type": "number"
+            },
+            "max": {
+              "type": "number"
+            }
+          },
+          "description": "Adult height range. Omit min if the source gives only a maximum."
+        },
+        "spread_cm": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "max"
+          ],
+          "properties": {
+            "min": {
+              "type": "number"
+            },
+            "max": {
+              "type": "number"
+            }
+          },
+          "description": "Adult width of the crown/clump if a source gives it."
+        },
+        "habit": {
+          "enum": [
+            "prostrate",
+            "upright",
+            "bushy",
+            "sprawling",
+            "climbing",
+            "tree",
+            "aquatic_tuft"
+          ]
+        },
+        "source": {
+          "enum": [
+            "wikipedia",
+            "gbif",
+            "kew",
+            "pending"
+          ],
+          "description": "'pending' means no figure was found in the fetched sources."
+        },
+        "quote": {
+          "type": "string",
+          "description": "The source wording the figures come from."
+        }
       }
     }
   }

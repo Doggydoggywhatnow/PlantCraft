@@ -26,6 +26,12 @@ habitat:
   climate: Hot desert
   height_m: up to 1.4
   life_form: annual_herb
+size:
+  height_cm:
+    max: 140
+  habit: upright
+  source: wikipedia
+  quote: upright or low-lying shrub that can grow to 4.5 feet (1.4 m) tall
 growth_stages:
 - id: seed
   name: Seed

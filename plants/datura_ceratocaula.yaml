@@ -27,6 +27,13 @@ habitat:
   environment: Shallow water and swamps.
   height_m: 0.3-0.9
   life_form: annual_herb
+size:
+  height_cm:
+    min: 30
+    max: 91
+  habit: upright
+  source: wikipedia
+  quote: hollow gray-green stalk between 12 and 36 in. long
 growth_stages:
 - id: seed
   name: Seed

@@ -29,6 +29,12 @@ habitat:
     in many other waters.
   life_form: alga
   height_m: small, not stated
+size:
+  height_cm:
+    max: 1
+  habit: aquatic_tuft
+  source: pending
+  quote: No height figure in the fetched sources; max is a placeholder, not data.
 growth_stages:
 - id: spore
   name: Oospore

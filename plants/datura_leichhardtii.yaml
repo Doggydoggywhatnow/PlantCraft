@@ -28,6 +28,13 @@ habitat:
   climate: Hot
   height_m: 0.45-0.9
   life_form: shrub
+size:
+  height_cm:
+    min: 45
+    max: 90
+  habit: bushy
+  source: wikipedia
+  quote: grows into a bush from 1.5 to 3 ft tall
 growth_stages:
 - id: seed
   name: Seed

@@ -30,6 +30,13 @@ habitat:
   environment: Pasture and disturbed ground.
   height_m: 0.45-0.9
   life_form: annual_herb
+size:
+  height_cm:
+    min: 45
+    max: 90
+  habit: upright
+  source: wikipedia
+  quote: stout, upright annual herb 1.5 to 3 ft (45 to 90 cm) high
 growth_stages:
 - id: seed
   name: Seed

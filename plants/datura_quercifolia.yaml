@@ -26,6 +26,12 @@ habitat:
   environment: Dry or moist soil in full sun.
   height_m: up to 0.9
   life_form: shrub
+size:
+  height_cm:
+    max: 90
+  habit: bushy
+  source: wikipedia
+  quote: prostrate or upright bushy habit, bushier forms reaching up to 3 ft
 growth_stages:
 - id: seed
   name: Seed
