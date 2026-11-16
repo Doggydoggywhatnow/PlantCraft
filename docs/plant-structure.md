@@ -41,7 +41,26 @@ Previews of 2-block stacks are in `docs/preview/INDEX.md`.
 | *Prunus persica* | 3-10 m, crown 3-4 m wide | 3-10 |
 | other Datura | under 1 m, or no data | 1 |
 
+## Width
+
+`size.spread_sources` keeps every width figure found, with its source URL and wording, because sources disagree
+(wild plants vs garden plants, different authors). `size.spread_cm` is the envelope: lowest minimum to highest
+maximum. Blocks wide uses the same rule as height: ceil(width / cm_per_block).
+
+| Plant | Width found | Sources | Blocks wide at 1 m |
+|---|---|---|---|
+| *Datura stramonium* | 30-122 cm | PFAF (1 m), NC State (1-4 ft) | 1-2 |
+| *Datura wrightii* | 30-183 cm | Wikipedia (up to 1.5 m), NC State (3-6 ft) | 1-2 |
+| *Datura innoxia* | 91-183 cm | NC State (3-6 ft) | 1-2 |
+| *Datura metel* | 91-122 cm | NC State (3-4 ft) | 1-2 |
+| *Ipomoea tricolor* | 91-183 cm | NC State (3-6 ft) | 1-2 |
+| *Prunus persica* | 300-762 cm | Wikipedia (3-4 m), PFAF (6 m), NC State (15-25 ft) | 3-8 |
+
+No width figure was found for *D. arenicola*, *ceratocaula*, *discolor*, *ferox*, *kymatocarpa*, *lanosa*,
+*leichhardtii*, *pruinosa*, *quercifolia*, *reburra* or *Chara braunii*; they have no `spread_cm` yet.
+Horticultural sources (NC State, PFAF) describe garden plants and run larger than wild descriptions.
+
 ## Not done yet
 
-- Sideways spread for wide plants (*D. wrightii*, peach crown) needs extra blocks and a placement rule.
+- Sideways spread is recorded but not yet built: wide plants need extra blocks and a placement rule.
 - Six species have no height in the sources (`size.source: pending`) and stay 1 block until a real figure is found.

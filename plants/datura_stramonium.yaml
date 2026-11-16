@@ -35,6 +35,19 @@ size:
   habit: upright
   source: wikipedia
   quote: erect, annual, freely branching herb that forms a bush 60 to 150 cm (2 to 5 ft) tall
+  spread_cm:
+    min: 30
+    max: 122
+  spread_sources:
+  - name: PFAF
+    url: https://pfaf.org/user/Plant.aspx?LatinName=Datura+stramonium
+    max: 100
+    quote: growing to 1.5 m (5ft) by 1 m (3ft 3in)
+  - name: NC State Extension Plant Toolbox
+    url: https://plants.ces.ncsu.edu/plants/datura-stramonium/
+    min: 30
+    max: 122
+    quote: 'Width: 1 ft. 0 in. - 4 ft. 0 in.'
 growth_stages:
 - id: seed
   name: Seed
@@ -127,6 +140,12 @@ sources:
 - name: Plants of the World Online (Kew)
   url: https://powo.science.kew.org
   status: pending
+- name: PFAF
+  url: https://pfaf.org/user/Plant.aspx?LatinName=Datura+stramonium
+  status: checked
+- name: NC State Extension Plant Toolbox
+  url: https://plants.ces.ncsu.edu/plants/datura-stramonium/
+  status: checked
 implementation:
   type: flower_fruit_plant
   growth:

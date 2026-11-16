@@ -1,0 +1,85 @@
+{
+  "datura_stramonium": [
+    {
+      "name": "PFAF",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Datura+stramonium",
+      "min": null,
+      "max": 100,
+      "quote": "growing to 1.5 m (5ft) by 1 m (3ft 3in)"
+    },
+    {
+      "name": "NC State Extension Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/datura-stramonium/",
+      "min": 30,
+      "max": 122,
+      "quote": "Width: 1 ft. 0 in. - 4 ft. 0 in."
+    }
+  ],
+  "datura_wrightii": [
+    {
+      "name": "Wikipedia: Datura wrightii",
+      "url": "https://en.wikipedia.org/wiki/Datura_wrightii",
+      "min": 30,
+      "max": 150,
+      "quote": "grows 30 cm to 1.5 m tall and wide"
+    },
+    {
+      "name": "NC State Extension Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/datura-wrightii/",
+      "min": 91,
+      "max": 183,
+      "quote": "Width: 3 ft. 0 in. - 6 ft. 0 in."
+    }
+  ],
+  "datura_innoxia": [
+    {
+      "name": "NC State Extension Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/datura-innoxia/",
+      "min": 91,
+      "max": 183,
+      "quote": "Width: 3 ft. 0 in. - 6 ft. 0 in."
+    }
+  ],
+  "datura_metel": [
+    {
+      "name": "NC State Extension Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/datura-metel/",
+      "min": 91,
+      "max": 122,
+      "quote": "Width: 3 ft. 0 in. - 4 ft. 0 in."
+    }
+  ],
+  "ipomoea_tricolor": [
+    {
+      "name": "NC State Extension Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/ipomoea-tricolor/",
+      "min": 91,
+      "max": 183,
+      "quote": "Width: 3 ft. 0 in. - 6 ft. 0 in."
+    }
+  ],
+  "prunus_persica": [
+    {
+      "name": "Wikipedia: Peach",
+      "url": "https://en.wikipedia.org/wiki/Peach",
+      "min": 300,
+      "max": 400,
+      "quote": "The spread of the crown is similar to the height, ranging from 3 to 4 m"
+    },
+    {
+      "name": "PFAF",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Prunus+persica",
+      "min": null,
+      "max": 600,
+      "quote": "growing to 6 m (19ft) by 6 m (19ft)"
+    },
+    {
+      "name": "NC State Extension Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/prunus-persica/",
+      "min": 457,
+      "max": 762,
+      "quote": "Width: 15 ft. 0 in. - 25 ft. 0 in."
+    }
+  ],
+  "_note": "Width figures read from PFAF and NC State Extension pages on 2026-11-16; feet converted at 30.48 cm."
+}

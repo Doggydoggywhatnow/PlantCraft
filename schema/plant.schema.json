@@ -527,6 +527,7 @@
           "required": [
             "max"
           ],
+          "description": "Adult width envelope: lowest minimum to highest maximum across spread_sources. Omitted when no source gives a width.",
           "properties": {
             "min": {
               "type": "number"
@@ -534,8 +535,7 @@
             "max": {
               "type": "number"
             }
-          },
-          "description": "Adult width of the crown/clump if a source gives it."
+          }
         },
         "habit": {
           "enum": [
@@ -560,6 +560,37 @@
         "quote": {
           "type": "string",
           "description": "The source wording the figures come from."
+        },
+        "spread_sources": {
+          "type": "array",
+          "description": "Every width figure found, kept separately because sources disagree (wild vs garden plants).",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "url",
+              "max",
+              "quote"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              },
+              "min": {
+                "type": "number"
+              },
+              "max": {
+                "type": "number"
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          }
         }
       }
     },

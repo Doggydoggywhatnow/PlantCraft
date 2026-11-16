@@ -3,7 +3,9 @@
 
     python3 tools/derive_structure.py [cm_per_block ...]     (default: config/scale.yaml)
 
-Blocks tall = ceil(height / cm_per_block), never less than 1. Nothing is typed by hand:
+Blocks tall = ceil(height / cm_per_block), never less than 1; blocks wide uses the same rule on
+the width envelope (lowest minimum to highest maximum across spread_sources). Species with no
+width in any source are reported tall-only ("no width data"). Nothing is typed by hand:
 change the scale and every species follows. Species whose size source is 'pending'
 are reported as 1 block and flagged, because their height is not real data yet.
 """
@@ -34,7 +36,9 @@ def main(argv):
             t_lo = blocks(lo, per) if lo else None
             tall = f"{t_lo}-{t_hi}" if t_lo and t_lo != t_hi else f"{t_hi}"
             if "spread_cm" in z:
-                tall += f" x{blocks(z['spread_cm']['max'], per)}w"
+                w_hi = blocks(z["spread_cm"]["max"], per)
+                w_lo = blocks(z["spread_cm"]["min"], per) if z["spread_cm"].get("min") else None
+                tall += " x" + (f"{w_lo}-{w_hi}" if w_lo and w_lo != w_hi else f"{w_hi}") + "w"
             cells.append(tall)
         rng = f"{lo or '?'}-{hi}" if z["source"] != "pending" else "no data"
         rows.append((d["names"]["scientific"], rng + " cm", z["habit"], cells, z["source"] == "pending"))

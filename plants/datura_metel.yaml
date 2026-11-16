@@ -35,6 +35,15 @@ size:
   habit: bushy
   source: wikipedia
   quote: can grow up to 6 ft (1.8 m) high
+  spread_cm:
+    min: 91
+    max: 122
+  spread_sources:
+  - name: NC State Extension Plant Toolbox
+    url: https://plants.ces.ncsu.edu/plants/datura-metel/
+    min: 91
+    max: 122
+    quote: 'Width: 3 ft. 0 in. - 4 ft. 0 in.'
 growth_stages:
 - id: seed
   name: Seed
@@ -129,6 +138,9 @@ sources:
 - name: Plants of the World Online (Kew)
   url: https://powo.science.kew.org
   status: pending
+- name: NC State Extension Plant Toolbox
+  url: https://plants.ces.ncsu.edu/plants/datura-metel/
+  status: checked
 implementation:
   type: flower_fruit_plant
   growth:

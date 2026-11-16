@@ -40,6 +40,15 @@ size:
   habit: climbing
   source: wikipedia
   quote: twining liana growing to 2-4 m (7-13 ft) tall
+  spread_cm:
+    min: 91
+    max: 183
+  spread_sources:
+  - name: NC State Extension Plant Toolbox
+    url: https://plants.ces.ncsu.edu/plants/ipomoea-tricolor/
+    min: 91
+    max: 183
+    quote: 'Width: 3 ft. 0 in. - 6 ft. 0 in.'
 growth_stages:
 - id: seed
   name: Seed
@@ -125,6 +134,9 @@ sources:
 - name: Plants of the World Online (Kew)
   url: https://powo.science.kew.org
   status: pending
+- name: NC State Extension Plant Toolbox
+  url: https://plants.ces.ncsu.edu/plants/ipomoea-tricolor/
+  status: checked
 implementation:
   type: climbing_vine
   growth:
