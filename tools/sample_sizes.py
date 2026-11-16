@@ -97,7 +97,7 @@ def main(argv):
     n = int(argv[0]) if argv else 2000
     cfg, per = load_cfg(mode)
     print(f"{n} plants per species, {per:g} cm per block, range mode: {cfg['range_mode']}, correlation {cfg['size_correlation']}\n")
-    print(f"{'species':22}{'height range (cm)':20}{'blocks tall (share)':34}{'blocks wide'}")
+    print(f"{'species':32}{'height range (cm)':20}{'blocks tall (share)':34}{'blocks wide'}")
     for f in sorted((ROOT / "plants").glob("*.yaml")):
         d = yaml.safe_load(f.read_text(encoding="utf-8"))
         th, tw = Counter(), Counter()
@@ -113,7 +113,7 @@ def main(argv):
         fmt = lambda c: "  ".join(f"{k}:{'<1' if 0 < 100 * v / n < 1 else round(100 * v / n)}%" for k, v in sorted(c.items()))
         shown = (f"{rng[0]:g}-{rng[1]:g}" if rng and rng[0] != rng[1] else (f"{rng[0]:g} (fixed)" if rng else "no data"))
         flag = "  [" + rng[2] + "]" if rng and rng[2] else ""
-        print(f"{d['names']['scientific']:22}{shown:20}{fmt(th):34}{fmt(tw)}{flag}")
+        print(f"{d['names']['scientific']:32}{shown:20}{fmt(th):34}{fmt(tw)}{flag}")
     return 0
 
 

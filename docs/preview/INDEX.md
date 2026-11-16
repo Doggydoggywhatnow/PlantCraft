@@ -297,6 +297,28 @@ Confidence: **high**. Implementation type: `climbing_vine`.
 | 5 | Flowering | ![ipomoea_tricolor flowering](stages/ipomoea_tricolor/05_flowering.png) | Blue trumpet flowers with white centres open. Flower colour shifts red to blue during the bloom ('Heavenly Blue'). |
 | 6 | Seed pod | ![ipomoea_tricolor seed_pod](stages/ipomoea_tricolor/06_seed_pod.png) | Small dry round seed pods replace the spent flowers. |
 
+## Olea europaea subsp. europaea - Olive Tree
+
+Confidence: **high**. Implementation type: `fruit_tree`.
+
+| # | Stage | Image | What it shows |
+|---|---|---|---|
+| 1 | Stone | ![olea_europaea_europaea seed](stages/olea_europaea_europaea/01_seed.png) | The hard, pitted stone (pit) of the olive fruit; the seed is inside. |
+| 2 | Sapling | ![olea_europaea_europaea sapling](stages/olea_europaea_europaea/02_sapling.png) | Slim young tree with a thin grey stem and a few narrow grey-green leaves. |
+| 3 | Young tree | ![olea_europaea_europaea young_tree](stages/olea_europaea_europaea/03_young_tree.png) | Slow-growing young tree with a grey, beginning-to-twist trunk and twigs bearing oblong grey-green leaves. |
+| 4 | Mature tree | ![olea_europaea_europaea mature_tree](stages/olea_europaea_europaea/04_mature_tree.png) | Evergreen tree with a gnarled, twisted grey trunk and branches; leaves grey-green above and whitish below give a silvery look. |
+| 5 | Flowering | ![olea_europaea_europaea flowering](stages/olea_europaea_europaea/05_flowering.png) | Small white flowers (four yellowish-white petals) in erect racemes from the leaf axils on last year's twigs; a bloom lasts 5-6 days in hot weather, 2 weeks in colder areas. |
+| 6 | Unripe fruit | ![olea_europaea_europaea unripe](stages/olea_europaea_europaea/06_unripe.png) | Small drupes at full size but unripe, shades of green to yellow. |
+| 7 | Ripe fruit | ![olea_europaea_europaea ripe](stages/olea_europaea_europaea/07_ripe.png) | Ripe drupes 1-2.5 cm long turning through red-brown to purple, brown or black; picked from October onward in the Mediterranean. |
+
+Extra blocks for plants taller than 1 block at the configured scale:
+
+| Role | Image | Note |
+|---|---|---|
+| trunk_side | ![olea_europaea_europaea trunk_side](stages/olea_europaea_europaea/segment_trunk_side.png) | Grey, gnarled and twisted bark (Wikipedia). |
+| trunk_top | ![olea_europaea_europaea trunk_top](stages/olea_europaea_europaea/segment_trunk_top.png) | Cut end of trunk and limbs. |
+| branch_side | ![olea_europaea_europaea branch_side](stages/olea_europaea_europaea/segment_branch_side.png) | Limb bark: lighter, smoother grey than the trunk. |
+
 ## Oryza sativa - Rice
 
 Confidence: **high**. Implementation type: `flower_fruit_plant`.

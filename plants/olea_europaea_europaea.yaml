@@ -1,0 +1,224 @@
+id: olea_europaea_europaea
+status:
+  data: draft
+  graphics: done
+  implementation: pending
+  use: pending
+confidence: high
+taxonomy:
+  kingdom: Plantae
+  clade: Tracheophyta
+  order: Lamiales
+  family: Oleaceae
+  genus: Olea
+  species: europaea
+  subspecies: europaea
+  authority: L.
+names:
+  scientific: Olea europaea subsp. europaea
+  common:
+  - olive
+  - cultivated olive
+  - European olive
+  - olive tree
+  in_game: Olive Tree
+description: 'Subtropical evergreen tree that grows in a Mediterranean climate. The trunk is typically
+  gnarled and twisted; the tree grows to some 10 m with grey bark. Leaves are oblong, grey-green above
+  and whitish below. Small white flowers grow in erect racemes from the leaf axils, mostly on the previous
+  year''s wood. The fruit is a small drupe 1-2.5 cm long when ripe, with a stone (pit); wild olives have
+  thinner-fleshed, smaller fruit than cultivated ones. Slow-growing and long-lived: productive for centuries
+  when pruned. This is the cultivated olive (subspecies europaea of Olea europaea).'
+habitat:
+  native_range: Origins 20-40 million years ago in what is now Italy and the eastern Mediterranean; modern
+    cultivars trace mainly to the Near East, the Aegean Sea and the Strait of Gibraltar.
+  introduced_range: Cultivated across the Mediterranean basin and in Argentina, Australia, Chile and Peru;
+    brought to the New World by Spanish colonists in the 18th century and to Japan in 1908. Feral olives
+    have escaped repeatedly; a serious invasive species in South Australia.
+  environment: Prefers calcareous soils; grows best on limestone slopes and crags and in coastal climates.
+    Any light soil, even well-drained clay; rich soils predispose it to disease. Hot weather and sun,
+    no shade. Drought-tolerant thanks to a sturdy, extensive root system.
+  climate: Mediterranean; below -10 C may injure even a mature tree, but the rootstock survives and resprouts
+  life_form: tree
+  height_m: about 10
+size:
+  height_cm:
+    max: 1000
+  habit: tree
+  source: wikipedia
+  quote: 'It grows to some 10 m (35 ft) in height (Wikipedia: Olive). PFAF: ''growing to 10 m by 8 m at
+    a slow rate''. NC State: 20-30 ft tall, 15-25 ft wide.'
+  height_sources:
+  - name: 'Wikipedia: Olive'
+    url: https://en.wikipedia.org/wiki/Olive
+    max: 1000
+    quote: grows to some 10 m (35 ft) in height
+  - name: PFAF (Olea europaea, species level)
+    url: https://pfaf.org/user/Plant.aspx?LatinName=Olea+europaea
+    max: 1000
+    quote: growing to 10 m (32ft) by 8 m (26ft) at a slow rate
+  - name: NC State Extension Plant Toolbox (Olea europaea)
+    url: https://plants.ces.ncsu.edu/plants/olea-europaea/
+    min: 610
+    max: 914
+    quote: 'Height: 20 ft. 0 in. - 30 ft. 0 in.'
+  spread_cm:
+    min: 457
+    max: 800
+  spread_sources:
+  - name: PFAF (Olea europaea, species level)
+    url: https://pfaf.org/user/Plant.aspx?LatinName=Olea+europaea
+    max: 800
+    quote: growing to 10 m (32ft) by 8 m (26ft) at a slow rate
+  - name: NC State Extension Plant Toolbox (Olea europaea)
+    url: https://plants.ces.ncsu.edu/plants/olea-europaea/
+    min: 457
+    max: 762
+    quote: 'Width: 15 ft. 0 in. - 25 ft. 0 in.'
+growth_stages:
+- id: seed
+  name: Stone
+  description: The hard, pitted stone (pit) of the olive fruit; the seed is inside.
+  texture: textures/block/olea_europaea_europaea_seed.png
+- id: sapling
+  name: Sapling
+  description: Slim young tree with a thin grey stem and a few narrow grey-green leaves.
+  texture: textures/block/olea_europaea_europaea_sapling.png
+- id: young_tree
+  name: Young tree
+  description: Slow-growing young tree with a grey, beginning-to-twist trunk and twigs bearing oblong
+    grey-green leaves.
+  texture: textures/block/olea_europaea_europaea_young_tree.png
+- id: mature_tree
+  name: Mature tree
+  description: Evergreen tree with a gnarled, twisted grey trunk and branches; leaves grey-green above
+    and whitish below give a silvery look.
+  visual_notes: Silvery foliage, twisted grey limbs.
+  texture: textures/block/olea_europaea_europaea_mature_tree.png
+- id: flowering
+  name: Flowering
+  description: Small white flowers (four yellowish-white petals) in erect racemes from the leaf axils
+    on last year's twigs; a bloom lasts 5-6 days in hot weather, 2 weeks in colder areas.
+  texture: textures/block/olea_europaea_europaea_flowering.png
+- id: unripe
+  name: Unripe fruit
+  description: Small drupes at full size but unripe, shades of green to yellow.
+  texture: textures/block/olea_europaea_europaea_unripe.png
+- id: ripe
+  name: Ripe fruit
+  description: Ripe drupes 1-2.5 cm long turning through red-brown to purple, brown or black; picked from
+    October onward in the Mediterranean.
+  texture: textures/block/olea_europaea_europaea_ripe.png
+segment_textures:
+- role: trunk_side
+  texture: textures/block/olea_europaea_europaea_trunk_side.png
+  note: Grey, gnarled and twisted bark (Wikipedia).
+- role: trunk_top
+  texture: textures/block/olea_europaea_europaea_trunk_top.png
+  note: Cut end of trunk and limbs.
+- role: branch_side
+  texture: textures/block/olea_europaea_europaea_branch_side.png
+  note: 'Limb bark: lighter, smoother grey than the trunk.'
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - white
+    - yellowish white
+    opens: continuous
+    season: 'PFAF: August to September (species level; not stated in Wikipedia). Buds grow slowly for
+      4-6 weeks before blooming.'
+    pollination:
+    - wind
+    notes: 'Sources disagree on fertility: PFAF says wind-pollinated and self-fertile; Wikipedia says
+      many cultivars are almost or completely self-incompatible and are planted in pairs (a primary and
+      a secondary cultivar), with a two-group self-incompatibility system.'
+  fruit:
+    present: true
+    type: drupe
+    description: Small drupe 1-2.5 cm long when ripe; the pericarp is usually 60-70% oil. Raw olives are
+      very bitter and astringent (oleuropein) and are cured or fermented to be eaten, or pressed for oil.
+    ripening: Harvested from October onward in the Mediterranean
+    edible: 'yes'
+uses_real:
+- use: Table olives
+  note: Eaten after curing and fermentation; green olives are picked unripe at full size, semi-ripe ones
+    when turning colour, black olives at full maturity.
+- use: Olive oil
+  note: Pressed from the fruit; typical yield 1.5-2.2 kg of oil per tree per year; formerly also used
+    as lamp fuel.
+- use: Wood
+  note: Hard, straight-grained and dense; used for decorative objects, not outdoors.
+- use: Ornamental
+  note: Planted for gnarled trunks and evergreen silvery-grey foliage; smaller cultivars are used as indoor
+    plants.
+- use: Symbol
+  note: The olive branch is a symbol of peace.
+images:
+- url: https://commons.wikimedia.org/wiki/File%3AOlea_europaea_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-229.jpg
+  license: Public domain
+  author: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen
+  shows: Olea europaea - Köhler–s Medizinal-Pflanzen-229
+- url: https://commons.wikimedia.org/wiki/File%3AOlives_au_marche_de_Toulon_p1040238.jpg
+  license: CC BY-SA 3.0
+  author: David Monniaux
+  shows: Olives au marche de Toulon p1040238
+- url: https://commons.wikimedia.org/wiki/File%3AAceitunas_coloradas.jpg
+  license: CC BY-SA 4.0
+  author: E4024
+  shows: Aceitunas coloradas
+- url: https://commons.wikimedia.org/wiki/File%3AOliveira_%28Olea_europaea%29_na_Pra%C3%A7a_da_Esta%C3%A7%C3%A3o%2C_Bag%C3%A9%2C_RS%2C_Brasil_%288160_x_6120px%29.jpg
+  license: CC BY 4.0
+  author: Gabriel Collares
+  shows: Oliveira (Olea europaea) na Praça da Estação, Bagé, RS, Brasil (8160 x 6120px)
+sources:
+- name: 'Wikipedia: Olive'
+  url: https://en.wikipedia.org/wiki/Olive
+  status: checked
+- name: 'Wikidata (item Q1621080 describes the olive FRUIT, not the tree: use with care)'
+  url: https://www.wikidata.org/wiki/Q1621080
+  id: Q1621080
+  status: checked
+- name: 'GBIF (ACCEPTED: Olea europaea europaea)'
+  url: https://www.gbif.org/species/7164892
+  id: '7164892'
+  status: checked
+- name: PFAF (Olea europaea, species level)
+  url: https://pfaf.org/user/Plant.aspx?LatinName=Olea+europaea
+  status: checked
+- name: NC State Extension Plant Toolbox (Olea europaea)
+  url: https://plants.ces.ncsu.edu/plants/olea-europaea/
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: fruit_tree
+  growth:
+    summary: 'DRAFT ONLY (no implementation work yet): slow-growing evergreen tree; flowers, then green
+      drupes that ripen to black in autumn.'
+    requirements:
+    - Full light, no shade
+    - Light, well-drained soil; limestone and coastal ground suit it
+    - 'Warm: below -10 C can injure a mature tree'
+    flowering: Erect white racemes on last year's twigs.
+    pollination: Wind (PFAF); cultivar pairing is a data conflict to settle.
+    fruiting: Green drupes ripen through red-brown to purple-black; harvest from October.
+    regrowth: A frost-killed tree can resprout from its rootstock.
+  spawn:
+    biomes:
+    - minecraft:savanna
+    - minecraft:windswept_hills
+    - minecraft:stony_shore
+    - minecraft:plains
+    feature: tree
+    rarity: uncommon
+    reason: 'Draft placeholder: Mediterranean limestone slopes and coasts, drought-tolerant and sun-loving;
+      closest vanilla matches are dry open land and rocky coasts.'
+  drops:
+  - olive
+  - olive stone
+  - olive wood
+  notes: Draft design notes only; implementation is deferred. Propagation facts (cuttings, layering, suckers,
+    germination) are kept in docs/botanical-mechanics.md as future scope.
+game_uses:
+  summary: 'Not yet designed (use phase). Real uses recorded above: table olives, oil, wood, ornamental.'

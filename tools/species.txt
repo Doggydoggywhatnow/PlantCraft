@@ -21,3 +21,4 @@ Datura wrightii
 Salvia rosmarinus
 Eucalyptus deglupta
 Oryza sativa
+Olea europaea subsp. europaea

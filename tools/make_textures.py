@@ -461,6 +461,10 @@ def foliage_tile(tree, stage):
         pal = {"W": hx("#9a4638"), "w": hx("#6e2f25"), "L": hx("#5b9a3c"), "l": hx("#3d7029"), "m": hx("#6aae48"),
                "P": hx("#f7a8c4"), "Q": hx("#e4709d"), "R": hx("#ffd6e4"), "C": hx("#c94f7c"), "B": hx("#d9728f"), "b": hx("#a04860"),
                "g": hx("#a4c25a"), "G": hx("#86a844"), "u": hx("#c9d567"), "U": hx("#e8a05a"), "O": hx("#f2a63f"), "E": hx("#e4573d"), "H": hx("#ffd27a")}
+    elif tree == "olive":
+        pal = {"W": hx("#8a7a68"), "w": hx("#5e5040"), "L": hx("#7f9a7a"), "l": hx("#5f7a5f"), "m": hx("#c8d4c4"),
+               "F": hx("#f4f0dc"), "f": hx("#ffffff"), "y": hx("#e6dfae"),
+               "g": hx("#8fb04a"), "G": hx("#6e9038"), "u": hx("#c5c85a"), "B": hx("#3a2040"), "b": hx("#6a4a78"), "R": hx("#8a4a4a")}
     else:
         young = stage == "young_tree"
         pal = {"W": hx("#c89060"), "w": hx("#8a6a4a"),
@@ -472,12 +476,15 @@ def foliage_tile(tree, stage):
     for pi, path in enumerate(paths):
         for ni, (i, (x, y)) in enumerate(tile_nodes(path)):
             nx, ny = normals(path, i)
-            sides = (1, -1) if tree == "euc" else ((1, -1)[ni % 2],)           # eucalyptus: opposite pairs; peach: alternate
+            sides = (1, -1) if tree in ("euc", "olive") else ((1, -1)[ni % 2],)   # eucalyptus/olive: pairs; peach: alternate
             for sd in sides:
                 lx, ly = round(x + sd * nx * 2.2), round(y + sd * ny * 2.2)
                 if leafless and rng.random() < 0.75:
                     continue
-                blob(pix, lx, ly, 2, 1, "L" if rng.random() < 0.6 else "m", "l")
+                if tree == "olive":
+                    blob(pix, lx, ly, 2, 0, "L" if rng.random() < 0.65 else "m", "l")     # narrow oblong leaf, whitish underside shows
+                else:
+                    blob(pix, lx, ly, 2, 1, "L" if rng.random() < 0.6 else "m", "l")
     for path in paths:                                                         # twigs on top
         for i, (x, y) in enumerate(path):
             pix[(x, y)] = "w" if (tree == "euc" and i % 5 == 3) else "W"
@@ -503,6 +510,19 @@ def foliage_tile(tree, stage):
                             if (dx, dy) in ((0, 1), (2, 3)):
                                 continue
                             pix[(fx + dx - 1, fy + dy)] = cols[2] if (dx, dy) == (0, 2) and stage == "ripe" else cols[1] if (dx, dy) in ((2, 2), (1, 3)) else cols[0]
+            elif tree == "olive":
+                if stage == "flowering":                               # erect racemes from the leaf axils
+                    for k in range(3):
+                        pix[(fx, fy - k)] = "F" if k % 2 else "f"
+                    pix[(fx - 1, fy - 1)] = "y"; pix[(fx + 1, fy - 2)] = "y"
+                elif stage == "unripe":
+                    pix[(fx, fy)] = "g"; pix[(fx, fy + 1)] = "G"
+                    if ni % 2:
+                        pix[(fx + 1, fy + 1)] = "u"
+                elif stage == "ripe":
+                    pix[(fx, fy)] = "B"; pix[(fx, fy + 1)] = "B"; pix[(fx + 1, fy)] = "b"
+                    if ni % 3 == 0:
+                        pix[(fx - 1, fy + 2)] = "R"                    # some still turning colour
             else:
                 if stage == "flowering":
                     for dx, dy, c in ((0, 0, "F"), (1, 0, "f"), (-1, 1, "y"), (1, 1, "F")):
@@ -613,6 +633,40 @@ def euc_sapling():
     return render(pix, {"L": hx("#5f9a7a"), "l": hx("#3f7658"), "T": hx("#d9904a")})
 
 
+def olive_sapling():
+    pix = {}
+    for y, sd in ((12, 1), (9, -1), (6, 1), (3, -1)):
+        poly(pix, [(8, y), (8 + sd * 3, y - 1)], "L")
+        poly(pix, [(8, y + 1), (8 - sd * 3, y)], "m")
+    poly(pix, [(8, 15), (8, 2)], "T")
+    return render(pix, {"L": hx("#7f9a7a"), "m": hx("#c8d4c4"), "T": hx("#8a7a68")})
+
+
+def olive_stone():
+    stone = parse([".k.", "PpP", "pPP", "PpP", ".P."])           # the hard, pitted stone
+    out = {}
+    for ox, oy in ((4, 8), (9, 6), (7, 11)):
+        place(out, stone, ox, oy)
+    return render(out, {"P": hx("#9a7a56"), "p": hx("#6e5236"), "k": hx("#4a3624")})
+
+
+def gnarled_bark(kind):
+    """Grey, twisted bark: long grooves that wander sideways, lighter ridges between them."""
+    rng = random.Random("olive:bark:" + kind)
+    greys = ["#6e6a64", "#5a5650", "#85807a", "#4a4640"] if kind == "trunk" else ["#8a857e", "#78736c", "#9a958e", "#66625b"]
+    img = Image.new("RGBA", (SIZE, SIZE), hx(greys[0]))
+    for y in range(SIZE):
+        for x in range(SIZE):
+            img.putpixel((x, y), hx(rng.choice(greys[:3])))
+    for gx in (2, 6, 10, 14):                                    # twisting grooves
+        x = gx
+        for y in range(SIZE):
+            x += rng.choice((-1, 0, 0, 1)) if kind == "trunk" else rng.choice((0, 0, 1))
+            if 0 <= x < SIZE:
+                img.putpixel((x, y), hx(greys[3]))
+    return img
+
+
 def euc_seed():
     pix = parse(["................"] * 8 + [".....SS.........", "....SsS...SS....", ".....SS..SsS....", "..SS......SS....", ".SsS...SS.......", "..SS..SsS.......", "........SS......", "................"])
     return render(pix, {"S": hx("#7a5a3a"), "s": hx("#a98456")})
@@ -658,6 +712,12 @@ def draw_stage(pid, stage):
         return render(*rice_stage(stage))
     if pid == "prunus_persica":
         return peach_sapling() if stage == "sapling" else foliage_tile("peach", stage)
+    if pid == "olea_europaea_europaea":
+        if stage == "seed":
+            return olive_stone()
+        if stage == "sapling":
+            return olive_sapling()
+        return foliage_tile("olive", stage)
     if pid == "eucalyptus_deglupta":
         if stage == "seed":
             return euc_seed()
@@ -682,6 +742,13 @@ def draw_segment(pid, role):
             return peach_bark("branch")
         if role == "trunk_top":
             return trunk_top(["#3d3837"], "#946b45", "#7a5a3c")
+    if pid == "olea_europaea_europaea":
+        if role == "trunk_side":
+            return gnarled_bark("trunk")
+        if role == "branch_side":
+            return gnarled_bark("branch")
+        if role == "trunk_top":
+            return trunk_top(["#4a4640"], "#b8a888", "#8a7a60")
     if pid == "eucalyptus_deglupta":
         if role == "trunk_side":
             return bark("euc:trunk:main", EUC_BARK)

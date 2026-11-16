@@ -1,4 +1,7 @@
-# Botanical reproduction mechanics (design proposal, not implemented)
+# Botanical reproduction mechanics (FUTURE SCOPE: design proposal, not implemented)
+
+> Agreed to keep this as future scope. The data and graphics phases continue first; nothing here is built or added to the
+> plant-file schema yet. Propagation facts found along the way are collected below so they are not lost.
 
 **Principle:** whatever starts a new plant (seed, pit, grain, cutting) can only come from the real biological step
 that makes it. No saplings from breaking leaves.
@@ -31,6 +34,7 @@ flower opens -> pollinated (or self-fertile) -> fertilised -> fruit/seed develop
 | *Salvia rosmarinus* | Seeds often hard to start, low germination rate; bush should mature 2-3 years before harvest |
 | *Eucalyptus deglupta* | Seed germinates at about 20-22 C; cuttings work only from trees younger than 5 years (root inhibition after that); capsules hold 3-12 minute winged seeds |
 | *Oryza sativa* | Self-fertile; grain planted directly or as seedlings raised in a seedbed and transplanted; about 6 months seed to harvest; tropical plants can give a ratoon crop |
+| *Olea europaea* subsp. *europaea* | Propagated by cuttings and layering (roots easily; suckers rise from a cut stump); trees from seed or suckers yield poorly and are budded or grafted; to help seed germinate, the oily pericarp is softened by slight rotting or soaked in hot water or alkaline solution; a frost-killed tree resprouts from its rootstock; seeds are spread by foxes and birds (starling, emu) where feral. Pollination: wind and self-fertile (PFAF) vs many cultivars self-incompatible and planted in pairs (Wikipedia) |
 | *Ipomoea tricolor* | Seeds carry a symbiotic fungus; grows as an annual in cool climates; pollination not stated |
 | *Chara braunii* | Monoecious; oogonia and antheridia on the same plant; reproduces by oospores |
 

@@ -20,8 +20,8 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[a-z]+_[a-z]+$",
-      "description": "genus_species, lowercase. Must match the filename."
+      "pattern": "^[a-z]+_[a-z]+(_[a-z]+)?$",
+      "description": "genus_species, or genus_species_subspecies, lowercase. Must match the filename."
     },
     "status": {
       "type": "object",
@@ -107,6 +107,9 @@
           "items": {
             "type": "string"
           }
+        },
+        "subspecies": {
+          "type": "string"
         }
       }
     },

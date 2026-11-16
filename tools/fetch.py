@@ -65,10 +65,13 @@ def qs(**kw) -> str:
 
 
 def species_id(name: str) -> str:
-    return re.sub(r"[^a-z]+", "_", name.lower()).strip("_")
+    """'Olea europaea subsp. europaea' -> 'olea_europaea_europaea' (rank words dropped)."""
+    words = [w for w in re.split(r"[^a-z]+", name.lower()) if w and w not in ("subsp", "ssp", "var", "subspecies")]
+    return "_".join(words)
 
 
-def wikipedia(name: str) -> dict:
+def wikipedia(name: str, title: str = None) -> dict:
+    name = title or name
     wp = "https://en.wikipedia.org/w/api.php?"
     # Resolve the title (redirects handled) and get the full plain-text article.
     page = get(wp + qs(action="query", prop="extracts|pageprops|images|pageimages", explaintext=1,
@@ -172,8 +175,8 @@ def commons(files: list) -> list:
     return out
 
 
-def fetch(name: str) -> dict:
-    wp = wikipedia(name)
+def fetch(name: str, title: str = None) -> dict:
+    wp = wikipedia(name, title)
     qid = wp.get("wikidata_id")
     if not qid:  # fall back to a Wikidata name search
         hits = get("https://www.wikidata.org/w/api.php?" + qs(
@@ -183,6 +186,7 @@ def fetch(name: str) -> dict:
     # Wikipedia pages pull in unrelated template images, so keep only files whose
     # name mentions the genus or species epithet. Wikidata's P18 images are trusted.
     genus, _, epithet = name.partition(" ")
+    epithet = epithet.split()[-1] if epithet else epithet
     own = [f for f in wp.get("image_files", [])
            if genus.lower() in f.lower() or (epithet and epithet.lower() in f.lower())]
     files = wd.get("image_files", []) + own
@@ -202,6 +206,7 @@ def main() -> int:
     ap.add_argument("names", nargs="*")
     ap.add_argument("--list", help="file with one scientific name per line")
     ap.add_argument("--force", action="store_true", help="re-fetch species that already have a raw file")
+    ap.add_argument("--wiki", help="Wikipedia article title to use instead of the species name (e.g. a subspecies covered by a species article)")
     a = ap.parse_args()
     names = list(a.names)
     if a.list:
@@ -215,7 +220,7 @@ def main() -> int:
             print(f"skip {n} (cached; use --force)")
             continue
         try:
-            d = fetch(n)
+            d = fetch(n, a.wiki)
             (RAW / f"{d['id']}.json").write_text(json.dumps(d, indent=2, ensure_ascii=False), encoding="utf-8")
             print(f"ok   {n:28} wikipedia={'yes' if d['wikipedia'].get('found') else 'NO '} "
                   f"wikidata={d['wikidata'].get('id', '-')} gbif={d['gbif'].get('key', '-')} "
