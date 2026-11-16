@@ -41,6 +41,26 @@ Previews of 2-block stacks are in `docs/preview/INDEX.md`.
 | *Prunus persica* | 3-10 m, crown 3-4 m wide | 3-10 |
 | other Datura | under 1 m, or no data | 1 |
 
+## Individual variation
+
+Every plant is its own size. `tools/sample_sizes.py` is the reference implementation the game will follow:
+
+- A plant's **vigour** is a number in 0..1 from a hash of (world seed, x, z, species), so a plant keeps its size
+  forever and the same seed gives the same world.
+- **Height** = real minimum + vigour x (real maximum - minimum). **Width** comes from the width envelope and is
+  correlated with height (`size_correlation`, 0.7 by default: a big plant is usually broad too, but not always).
+- If a source says large sizes are rare (the peach: "more typically 3 m", "rarely up to 10 m"), the species has a
+  `common_max` (4 m). Most trees land in the common range and about 3% (`rare_tail_probability`) are giants.
+- If a source gives only a maximum (*D. metel* up to 180 cm), the minimum is a fraction of it
+  (`unknown_min_fraction`).
+- Species with no size data are not varied: they stay 1 block until a source is found.
+
+`config/variation.yaml` holds the three numbers above. **They are design choices, not botanical data.**
+
+Possible next step: make vigour depend on conditions as well as the hash. Wikipedia's Datura article says the same
+species is a flowering bush about 80 cm tall in a damp, half-shady spot but a thin plant of 13 cm or so in a very dry
+one, so water and light nearby could shift vigour.
+
 ## Width
 
 `size.spread_sources` keeps every width figure found, with its source URL and wording, because sources disagree

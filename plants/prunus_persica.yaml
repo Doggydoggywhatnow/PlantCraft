@@ -34,9 +34,11 @@ size:
   height_cm:
     min: 300
     max: 1000
+    common_max: 400
   habit: tree
   source: wikipedia
-  quote: rarely up to 10 meters, more typically 3 m; crown spread ranges 3 to 4 m
+  quote: 'rarely up to 10 meters, more typically 3 m, with large specimens reaching 4 m; crown spread
+    ranges 3 to 4 m (Wikipedia: Peach)'
   spread_cm:
     min: 300
     max: 762

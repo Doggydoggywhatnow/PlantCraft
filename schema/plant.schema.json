@@ -517,6 +517,10 @@
             },
             "max": {
               "type": "number"
+            },
+            "common_max": {
+              "type": "number",
+              "description": "Upper end of the commonly seen adult height when a source says larger sizes are rare. Most plants fall in [min, common_max]; a few reach max."
             }
           },
           "description": "Adult height range. Omit min if the source gives only a maximum."
