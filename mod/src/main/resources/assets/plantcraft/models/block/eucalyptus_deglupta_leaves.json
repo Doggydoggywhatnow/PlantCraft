@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:block/cube_all",
+ "textures": {
+  "all": "plantcraft:block/eucalyptus_deglupta_leaves"
+ }
+}

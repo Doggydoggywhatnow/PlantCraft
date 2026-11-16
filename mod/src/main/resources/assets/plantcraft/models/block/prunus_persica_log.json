@@ -1,0 +1,7 @@
+{
+ "parent": "minecraft:block/cube_column",
+ "textures": {
+  "end": "plantcraft:block/prunus_persica_log_top",
+  "side": "plantcraft:block/prunus_persica_log_side"
+ }
+}

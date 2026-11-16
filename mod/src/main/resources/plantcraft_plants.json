@@ -1,0 +1,196 @@
+[
+ {
+  "id": "chara_braunii",
+  "name": "Braun's Stonewort",
+  "latin": "Chara braunii",
+  "seed_id": "chara_braunii_seeds",
+  "kind": "item"
+ },
+ {
+  "id": "datura_arenicola",
+  "name": "Datura arenicola",
+  "latin": "Datura arenicola",
+  "seed_id": "datura_arenicola_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "datura_ceratocaula",
+  "name": "Swamp Datura",
+  "latin": "Datura ceratocaula",
+  "seed_id": "datura_ceratocaula_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "datura_discolor",
+  "name": "Desert Thorn-Apple",
+  "latin": "Datura discolor",
+  "seed_id": "datura_discolor_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "datura_ferox",
+  "name": "Long-Spined Thorn-Apple",
+  "latin": "Datura ferox",
+  "seed_id": "datura_ferox_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "datura_innoxia",
+  "name": "Pricklyburr",
+  "latin": "Datura innoxia",
+  "seed_id": "datura_innoxia_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "datura_kymatocarpa",
+  "name": "Datura kymatocarpa",
+  "latin": "Datura kymatocarpa",
+  "seed_id": "datura_kymatocarpa_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "datura_lanosa",
+  "name": "Datura lanosa",
+  "latin": "Datura lanosa",
+  "seed_id": "datura_lanosa_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "datura_leichhardtii",
+  "name": "Leichhardt's Datura",
+  "latin": "Datura leichhardtii",
+  "seed_id": "datura_leichhardtii_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "datura_metel",
+  "name": "Devil's Trumpet",
+  "latin": "Datura metel",
+  "seed_id": "datura_metel_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "datura_pruinosa",
+  "name": "Pruinose Thorn-Apple",
+  "latin": "Datura pruinosa",
+  "seed_id": "datura_pruinosa_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "datura_quercifolia",
+  "name": "Oak-Leaved Thorn-Apple",
+  "latin": "Datura quercifolia",
+  "seed_id": "datura_quercifolia_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "datura_reburra",
+  "name": "Datura reburra",
+  "latin": "Datura reburra",
+  "seed_id": "datura_reburra_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "datura_stramonium",
+  "name": "Jimsonweed",
+  "latin": "Datura stramonium",
+  "seed_id": "datura_stramonium_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "datura_wrightii",
+  "name": "Sacred Thorn-Apple",
+  "latin": "Datura wrightii",
+  "seed_id": "datura_wrightii_seeds",
+  "kind": "herb",
+  "max_age": 5
+ },
+ {
+  "id": "eucalyptus_deglupta",
+  "name": "Rainbow Eucalyptus",
+  "latin": "Eucalyptus deglupta",
+  "seed_id": "eucalyptus_deglupta_seeds",
+  "kind": "tree",
+  "tree": {
+   "sapling_id": "eucalyptus_deglupta_sapling",
+   "log_id": "eucalyptus_deglupta_log",
+   "leaves_id": "eucalyptus_deglupta_leaves",
+   "height_lo": 6000,
+   "height_hi": 7800,
+   "tail_hi": 0,
+   "width_lo": 0,
+   "width_hi": 0
+  }
+ },
+ {
+  "id": "ipomoea_tricolor",
+  "name": "Morning Glory",
+  "latin": "Ipomoea tricolor",
+  "seed_id": "ipomoea_tricolor_seeds",
+  "kind": "herb",
+  "max_age": 4
+ },
+ {
+  "id": "olea_europaea_europaea",
+  "name": "Olive Tree",
+  "latin": "Olea europaea subsp. europaea",
+  "seed_id": "olea_europaea_europaea_seeds",
+  "kind": "tree",
+  "tree": {
+   "sapling_id": "olea_europaea_europaea_sapling",
+   "log_id": "olea_europaea_europaea_log",
+   "leaves_id": "olea_europaea_europaea_leaves",
+   "height_lo": 610,
+   "height_hi": 914,
+   "tail_hi": 0,
+   "width_lo": 457,
+   "width_hi": 762
+  }
+ },
+ {
+  "id": "oryza_sativa",
+  "name": "Rice",
+  "latin": "Oryza sativa",
+  "seed_id": "oryza_sativa_seeds",
+  "kind": "herb",
+  "max_age": 3
+ },
+ {
+  "id": "prunus_persica",
+  "name": "Peach Tree",
+  "latin": "Prunus persica",
+  "seed_id": "prunus_persica_seeds",
+  "kind": "tree",
+  "tree": {
+   "sapling_id": "prunus_persica_sapling",
+   "log_id": "prunus_persica_log",
+   "leaves_id": "prunus_persica_leaves",
+   "height_lo": 300,
+   "height_hi": 400,
+   "tail_hi": 1000,
+   "width_lo": 300,
+   "width_hi": 400
+  }
+ },
+ {
+  "id": "salvia_rosmarinus",
+  "name": "Rosemary",
+  "latin": "Salvia rosmarinus",
+  "seed_id": "salvia_rosmarinus_seeds",
+  "kind": "herb",
+  "max_age": 3
+ }
+]

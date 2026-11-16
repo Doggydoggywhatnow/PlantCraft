@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "axis=y": {
+   "model": "plantcraft:block/olea_europaea_europaea_log"
+  },
+  "axis=z": {
+   "model": "plantcraft:block/olea_europaea_europaea_log",
+   "x": 90
+  },
+  "axis=x": {
+   "model": "plantcraft:block/olea_europaea_europaea_log",
+   "x": 90,
+   "y": 90
+  }
+ }
+}

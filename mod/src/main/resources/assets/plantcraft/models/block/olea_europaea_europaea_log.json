@@ -1,0 +1,7 @@
+{
+ "parent": "minecraft:block/cube_column",
+ "textures": {
+  "end": "plantcraft:block/olea_europaea_europaea_log_top",
+  "side": "plantcraft:block/olea_europaea_europaea_log_side"
+ }
+}

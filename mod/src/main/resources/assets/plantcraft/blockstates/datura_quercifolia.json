@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "age=0": {
+   "model": "plantcraft:block/datura_quercifolia_seedling"
+  },
+  "age=1": {
+   "model": "plantcraft:block/datura_quercifolia_vegetative"
+  },
+  "age=2": {
+   "model": "plantcraft:block/datura_quercifolia_budding"
+  },
+  "age=3": {
+   "model": "plantcraft:block/datura_quercifolia_flowering"
+  },
+  "age=4": {
+   "model": "plantcraft:block/datura_quercifolia_fruiting"
+  },
+  "age=5": {
+   "model": "plantcraft:block/datura_quercifolia_ripe_capsule"
+  }
+ }
+}

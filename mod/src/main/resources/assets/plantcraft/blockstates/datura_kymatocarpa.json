@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "age=0": {
+   "model": "plantcraft:block/datura_kymatocarpa_seedling"
+  },
+  "age=1": {
+   "model": "plantcraft:block/datura_kymatocarpa_vegetative"
+  },
+  "age=2": {
+   "model": "plantcraft:block/datura_kymatocarpa_budding"
+  },
+  "age=3": {
+   "model": "plantcraft:block/datura_kymatocarpa_flowering"
+  },
+  "age=4": {
+   "model": "plantcraft:block/datura_kymatocarpa_fruiting"
+  },
+  "age=5": {
+   "model": "plantcraft:block/datura_kymatocarpa_ripe_capsule"
+  }
+ }
+}

@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:block/cube_all",
+ "textures": {
+  "all": "plantcraft:block/olea_europaea_europaea_leaves"
+ }
+}

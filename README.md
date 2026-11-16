@@ -46,4 +46,4 @@ python3 tools/make_textures.py                    # redraw textures and preview 
 
 ## Mod
 
-`mod/` is the Fabric mod (Minecraft 26.3, Java 25). `python3 tools/make_mod_assets.py` regenerates its item assets from `plants/`; build with `cd mod && ./gradlew build` (jar in `mod/build/libs/`).
+`mod/` is the Fabric mod (Minecraft 26.3, Java 25): seeds and saplings in a creative tab; herbs grow through their stages and saplings grow into trees sized from the sourced size data. `python3 tools/make_mod_assets.py` regenerates its assets and data from `plants/`; build with `cd mod && ./gradlew build` (jar in `mod/build/libs/`).

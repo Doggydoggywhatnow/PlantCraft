@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "axis=y": {
+   "model": "plantcraft:block/eucalyptus_deglupta_log"
+  },
+  "axis=z": {
+   "model": "plantcraft:block/eucalyptus_deglupta_log",
+   "x": 90
+  },
+  "axis=x": {
+   "model": "plantcraft:block/eucalyptus_deglupta_log",
+   "x": 90,
+   "y": 90
+  }
+ }
+}

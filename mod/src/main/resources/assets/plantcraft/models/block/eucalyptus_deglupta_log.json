@@ -1,0 +1,7 @@
+{
+ "parent": "minecraft:block/cube_column",
+ "textures": {
+  "end": "plantcraft:block/eucalyptus_deglupta_log_top",
+  "side": "plantcraft:block/eucalyptus_deglupta_log_side"
+ }
+}
