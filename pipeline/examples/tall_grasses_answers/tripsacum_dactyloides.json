@@ -1,0 +1,132 @@
+{
+ "measurements": [
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 91,
+   "qualifier": "range",
+   "quote": "grows to a height of 2–3 feet (0.61–0.91 m)",
+   "min": 61
+  },
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 300,
+   "qualifier": "rare_maximum",
+   "quote": "it can be as high as 8–10 ft (2.4–3.0 m)"
+  },
+  {
+   "what": "spread",
+   "unit": "cm",
+   "max": 120,
+   "qualifier": "maximum",
+   "quote": "Each clump's diameter can increase up to 4 ft (1.2 m)"
+  },
+  {
+   "what": "leaf_length",
+   "unit": "cm",
+   "max": 150,
+   "qualifier": "typical",
+   "quote": "leaf-blade is around 1.5 m (4 ft 11 in) long",
+   "min": 150
+  },
+  {
+   "what": "leaf_width",
+   "unit": "cm",
+   "max": 3.5,
+   "qualifier": "range",
+   "quote": "9–35 millimetres (0.35–1.38 in) wide",
+   "min": 0.9
+  },
+  {
+   "what": "inflorescence_length",
+   "unit": "cm",
+   "max": 30,
+   "qualifier": "range",
+   "quote": "is 10–30 centimetres (3.9–11.8 in) long",
+   "min": 10
+  }
+ ],
+ "appearance": [
+  {
+   "part": "whole_plant",
+   "attribute": "color",
+   "value": "stems and leaves purplish and glabrous",
+   "quote": "The stems and leaves have a purplish color and are glabrous"
+  },
+  {
+   "part": "inflorescence",
+   "attribute": "form",
+   "value": "spikes of female and male spikelets; single raceme or panicle of two to three unisexual racemes",
+   "quote": "consist of spikes made up of female and male spikelets"
+  }
+ ],
+ "architecture": [
+  {
+   "aspect": "leaf_arrangement",
+   "value": "short internodes, so all leaves grow out from the plant's base",
+   "quote": "all the leaves grow out from the plant's base"
+  },
+  {
+   "aspect": "growth_habit",
+   "value": "warm-season, sod-forming bunch grass",
+   "quote": "a warm-season, sod-forming bunch grass"
+  },
+  {
+   "aspect": "root_system",
+   "value": "several short, fibrous, thick rhizomes; deep hollow roots from lower nodes",
+   "quote": "several short, fibrous, thick rhizomes"
+  }
+ ],
+ "phenology": [
+  {
+   "event": "flowering",
+   "when": "late March to early October",
+   "quote": "blooms from late March to early October"
+  },
+  {
+   "event": "fruiting",
+   "when": "seed-producing season June to September",
+   "quote": "The seed-producing season of the grass is from June to September"
+  }
+ ],
+ "propagation": [
+  {
+   "topic": "seed_dispersal",
+   "fact": "seedhead joints break into two as the fruit matures, each part holding one seed",
+   "quote": "The joints of the seedhead break into two as the fruit matures"
+  }
+ ],
+ "uses_real": [
+  {
+   "use": "Forage",
+   "category": "forage",
+   "part_used": "whole plant",
+   "note": "Widely cultivated for forage.",
+   "quote": "widely cultivated for its use as forage"
+  }
+ ],
+ "description": {
+  "value": "Warm-season, sod-forming bunch grass usually 0.6-0.9 m but up to 3 m, with long broad purplish leaves and spike-like flower heads.",
+  "quote": "Usually, gamagrass grows to a height of 2–3 feet (0.61–0.91 m)"
+ },
+ "native_range": {
+  "value": "Eastern United States to northern South America",
+  "quote": "native from the eastern United States to northern South America"
+ },
+ "environment": {
+  "value": "Sunny moist areas such as watercourses and wet prairies.",
+  "quote": "Its natural habitat is in sunny moist areas, such as along watercourses and in wet prairies"
+ },
+ "flowers": {
+  "present": true,
+  "season": "late March to early October",
+  "quote": "The flowers of eastern gamagrass, which blooms from late March to early October"
+ },
+ "fruit": {
+  "present": true,
+  "type": "seed in a seedhead that breaks into joints",
+  "ripening": "June to September",
+  "quote": "The joints of the seedhead break into two as the fruit matures"
+ }
+}

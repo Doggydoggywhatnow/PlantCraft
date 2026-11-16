@@ -1,0 +1,563 @@
+{
+  "query": "Molinia caerulea",
+  "id": "molinia_caerulea",
+  "fetched": "2026-11-16",
+  "wikipedia": {
+    "found": true,
+    "title": "Molinia caerulea",
+    "url": "https://en.wikipedia.org/wiki/Molinia_caerulea",
+    "wikidata_id": "Q157772",
+    "extract": "Molinia caerulea, known by the common name purple moor-grass, is a species of grass that is native to Europe, west Asia, and north Africa. It grows in locations from the lowlands up to 2,300 m (7,546 ft) in the Alps. Like most grasses, it grows best in acid soils, ideally pH values of between 3.5 and 5, however, it can continue to live under more extreme conditions, sometimes to as low as 2. It is common on moist heathland, bogs and moorland throughout Great Britain and Ireland. Introduced populations exist in northeastern and northwestern North America.\nThe specific epithet caerulea means \"deep blue\" and refers to the purple spikelets.\n\n\n== Description ==\nMolinia caerulea is a perennial herbaceous bunchgrass (tussock-forming), growing up to 120 cm (47 in) tall (taller when sheltered by gorse and heather), with many closely packed stems. The leaves are coarse, green, taper to a point, long, flat and sometimes slightly hairy on top. Due to the dense tussock it is very resistant to heath fires. Its ligule is a ring of hairs, as in heath grass (Danthonia decumbens). The long narrow purple spikelets are a major identification feature – the panicle is 15 cm (6 in) long.\nIt flowers between July and September, later than any other species.\n\n\n== Ecology ==\nThe caterpillars of some Lepidoptera use it as a foodplant, e.g., the chequered skipper (Carterocephalus palaemon).\nClaviceps purpurea is an ascomycetous fungus which grows on the seeds of purple moor grass.\nPurple moor grass and rush pastures were a United Kingdom Biodiversity Action Plan habitat, on account of their rarity.\nHowever, in 2025 it was reported that purple moor grass was spreading over Britain and displacing other vegetation in a way characteristic of invasive species, although it is native. Over the previous fifty years it had spread over large upland areas in much of Wales, Dartmoor, Exmoor, the Pennines, the Peak District, North York Moors, Yorkshire Dales and many parts of Scotland. Areas of moor grass support very little bird or insect life – a characteristic described as a \"terrestrial dead zone\" or desert – and is difficult for humans to walk through. It is not controlled by herbivores, who will favour other plant species over the grass and will not eat it whatsoever past early summer, when its nutritional value falls heavily. It is also unaffected by disease and the natural successional processes through which grassland typically transitions to other plant communities, such as temperate rainforest.\nThe cause of the spread is largely human activity: incentives to farmers to raise livestock, and the burning of moorland to produce fresh vegetation for animals, have pushed many environments where Molinia now dominates beyond their capacity to sustain a natural ecological balance. The heavy deposition of nitrogen, which accumulates in rainfall from livestock farming, traffic and industrial sources, and the drainage of naturally-wet peat bogs also contributes. Molinia's deep roots protect it from the burning that destroys other, competing, plant species. Most approaches to destroy the invasive Molinia—burning, weedkiller, livestock grazing—only work temporarily, with the moor grass recolonising cleared areas. Approaches such as blocking land drainage to restore its moisture levels, planting sphagnum moss to restore peat bogs, planting trees and excluding livestock are being trialled to combat the issue and restore areas overtaken by Molinia.\n\n\n== Cultivation ==\nMolinia caerulea is cultivated for its panicles of purple spikelets on yellow stems. In cultivation it grows to 1.5 m (5 ft) tall by 40 cm (16 in) broad. Numerous cultivars have been selected, of which the following have gained the Royal Horticultural Society's Award of Garden Merit: \n\nM. caerulea subsp. arundinacea 'Windspiel'\nM. caerulea subsp. caerulea 'Edith Dudszus'\nM. caerulea subsp. caerulea 'Moorhexe'\nM. caerulea subsp. caerulea 'Poul Petersen'\nM. caerulea subsp. caerulea 'Variegata'\n\n\n== Gallery ==\n\n\n== References ==\n\nFitter, Richard; Fitter, Alastair; Farrer, Ann (1984). Grasses, Sedges, Rushes and Ferns of Britain and Northern Europe. Collins Pocket Guides. Collins. ISBN 0002191369.\nRose, Frances (1974). The Observer's Book of Grasses, Sedges and Rushes. Frederick Warne & Co. pp. 18–19.\n\n\n== External links ==\nNoyes, Alfred (16 September 2021). \"The Highwayman\".",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Molinia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:Claviceps microcephala.jpg",
+      "File:Illustration Molinia caerulea0.jpg",
+      "File:Molinia-caerulea-habitat.JPG",
+      "File:Molinia-caerulea.jpg",
+      "File:Molinia.caerulea.2.jpg",
+      "File:Molinia.caerulea.3.jpg",
+      "File:Molinia.caerulea.jpg",
+      "File:Molinia.jpg",
+      "File:Molinia caerulea.jpeg",
+      "File:Molinia caerulea blatt.jpeg",
+      "File:Molinia caerulea habitus.jpeg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q157772",
+    "url": "https://www.wikidata.org/wiki/Q157772",
+    "label": "Molinia caerulea",
+    "description": "species of plant",
+    "english_common_names": [
+      "purple moorgrass",
+      "Purple Moor Grass",
+      "purple moor-grass"
+    ],
+    "taxon_name": [
+      "Molinia caerulea"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q161711"
+    ],
+    "image_files": [
+      "Molinia.jpg"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "5289877"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:98382-3"
+      ],
+      "ipni": [
+        "408809-1"
+      ],
+      "ncbi": [
+        "38689"
+      ],
+      "inaturalist": [
+        "165499"
+      ],
+      "eppo": [
+        "MOICO"
+      ]
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/5289877",
+    "key": 5289877,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Molinia caerulea (L.) Moench",
+    "canonical_name": "Molinia caerulea",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Molinia",
+      "species": "Molinia caerulea"
+    },
+    "english_vernacular_names": [
+      "Purple Moor Grass",
+      "Purple Moor-Grass",
+      "Purple Moor-grass",
+      "Purple moorgrass",
+      "moor grass",
+      "purple moor grass",
+      "purple moor-grass",
+      "purple moorgrass"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:Illustration Molinia caerulea0.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AIllustration_Molinia_caerulea0.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Illustration_Molinia_caerulea0.jpg/960px-Illustration_Molinia_caerulea0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/71/Illustration_Molinia_caerulea0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1448,
+      "height": 2436,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "",
+      "description": ""
+    },
+    {
+      "file": "File:Molinia.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMolinia.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Molinia.jpg/960px-Molinia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Molinia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1500,
+      "height": 2494,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Elke Freese",
+      "description": "Blaues Pfeifengras (Molinia caerulea), Höhe ca. 1,20 Meter, Moorstandort, Nordwestdeutschland"
+    },
+    {
+      "file": "File:Molinia-caerulea.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMolinia-caerulea.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/9/92/Molinia-caerulea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/92/Molinia-caerulea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 300,
+      "height": 225,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Mosepors at Danish Wikipedia",
+      "description": "Species:Molinia caerulea"
+    },
+    {
+      "file": "File:Molinia.caerulea.2.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMolinia.caerulea.2.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/0/01/Molinia.caerulea.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/01/Molinia.caerulea.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 398,
+      "height": 600,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "James K. Lindsey",
+      "description": "Picture taken in Commanster, Belgian High\nArdennes .\n\n\nSpecies: \n\nMolinia caerulea"
+    },
+    {
+      "file": "File:Molinia.caerulea.3.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMolinia.caerulea.3.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Molinia.caerulea.3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Molinia.caerulea.3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 600,
+      "height": 400,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "James K. Lindsey",
+      "description": "Picture taken in Commanster, Belgian High\nArdennes .\n\n\nSpecies: \n\nMolinia caerulea"
+    },
+    {
+      "file": "File:Molinia.caerulea.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMolinia.caerulea.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Molinia.caerulea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Molinia.caerulea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 640,
+      "height": 425,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "James K. Lindsey",
+      "description": "Picture taken in Commanster, Belgian High\nArdennes .\n\n\nSpecies: \n\nMolinia caerulea"
+    },
+    {
+      "file": "File:Molinia caerulea.jpeg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMolinia_caerulea.jpeg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/0/07/Molinia_caerulea.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Molinia_caerulea.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 600,
+      "height": 800,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Kristian Peters -- Fabelfroh 13:11, 14 March 2007 (UTC)",
+      "description": "Gewöhnliches Pfeifengras (Molinia caerulea)"
+    },
+    {
+      "file": "File:Molinia caerulea habitus.jpeg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMolinia_caerulea_habitus.jpeg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/1/13/Molinia_caerulea_habitus.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/13/Molinia_caerulea_habitus.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 600,
+      "height": 800,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Kristian Peters -- Fabelfroh 13:11, 14 March 2007 (UTC)",
+      "description": "Gewöhnliches Pfeifengras (Molinia caerulea)"
+    },
+    {
+      "file": "File:Molinia caerulea blatt.jpeg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMolinia_caerulea_blatt.jpeg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Molinia_caerulea_blatt.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Molinia_caerulea_blatt.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 800,
+      "height": 600,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Kristian Peters -- Fabelfroh 13:12, 14 March 2007 (UTC)",
+      "description": "Gewöhnliches Pfeifengras (Molinia caerulea), Blatt"
+    },
+    {
+      "file": "File:Molinia-caerulea-habitat.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMolinia-caerulea-habitat.JPG",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Molinia-caerulea-habitat.JPG/960px-Molinia-caerulea-habitat.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/84/Molinia-caerulea-habitat.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1200,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Sten Porse",
+      "description": "Molinia caerulea at a natural habitat near Silkeborg"
+    }
+  ],
+  "gbif_range": {
+    "total_records": 825599,
+    "sampled": 300,
+    "countries_top10": [
+      "GB",
+      "FR",
+      "SE",
+      "NL",
+      "DK",
+      "BE",
+      "NO",
+      "CH",
+      "DE",
+      "FI"
+    ],
+    "lat": {
+      "p5": 44.347965,
+      "p50": 53.1,
+      "p95": 59.13081
+    },
+    "lon": {
+      "p5": -4.762294,
+      "p50": 5.53555,
+      "p95": 16.29986
+    },
+    "elevation_m": null,
+    "note": "Records include cultivated and introduced plants; treat as an upper bound on range."
+  },
+  "distribution": {
+    "native": [
+      {
+        "region": "Albania",
+        "code": "ALB",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Algeria",
+        "code": "ALG",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Austria",
+        "code": "AUT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Baltic States",
+        "code": "BLT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Belarus",
+        "code": "BLR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Belgium",
+        "code": "BGM",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Bulgaria",
+        "code": "BUL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Central European Russia",
+        "code": "RUC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Czechia-Slovakia",
+        "code": "CZE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Denmark",
+        "code": "DEN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "East European Russia",
+        "code": "RUE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Ethiopia",
+        "code": "ETH",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Finland",
+        "code": "FIN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "France",
+        "code": "FRA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Føroyar",
+        "code": "FOR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Germany",
+        "code": "GER",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Great Britain",
+        "code": "GRB",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Greece",
+        "code": "GRC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Hungary",
+        "code": "HUN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Ireland",
+        "code": "IRE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Italy",
+        "code": "ITA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kazakhstan",
+        "code": "KAZ",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Lebanon-Syria",
+        "code": "LBS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Morocco",
+        "code": "MOR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "NW. Balkan Pen.",
+        "code": "YUG",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Netherlands",
+        "code": "NET",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "North Caucasus",
+        "code": "NCS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "North European Russia",
+        "code": "RUN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Northwest European Russia",
+        "code": "RUW",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Norway",
+        "code": "NOR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Poland",
+        "code": "POL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Portugal",
+        "code": "POR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Romania",
+        "code": "ROM",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "South European Russia",
+        "code": "RUS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Spain",
+        "code": "SPA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Sweden",
+        "code": "SWE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Switzerland",
+        "code": "SWI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Transcaucasus",
+        "code": "TCS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Tunisia",
+        "code": "TUN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Türkiye",
+        "code": "TUR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Türkiye-in-Europe",
+        "code": "TUE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Ukraine",
+        "code": "UKR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "West Siberia",
+        "code": "WSB",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      }
+    ],
+    "introduced": [
+      {
+        "region": "Connecticut",
+        "code": "CNT",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Japan",
+        "code": "JAP",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Maine",
+        "code": "MAI",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Massachusetts",
+        "code": "MAS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "New Jersey",
+        "code": "NWJ",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "New York",
+        "code": "NWY",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Newfoundland",
+        "code": "NFL",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Nova Scotia",
+        "code": "NSC",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Ontario",
+        "code": "ONT",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Oregon",
+        "code": "ORE",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Pennsylvania",
+        "code": "PEN",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Québec",
+        "code": "QUE",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Rhode I.",
+        "code": "RHO",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Vermont",
+        "code": "VER",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Wisconsin",
+        "code": "WIS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      }
+    ],
+    "records_total": 144,
+    "wcvp_records": 58,
+    "note": "WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution sources are not parsed."
+  },
+  "wikidata_taxon_range": []
+}

@@ -1,0 +1,170 @@
+{
+ "measurements": [
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 270,
+   "qualifier": "maximum",
+   "quote": "It can grow up to 2.7 m (8 ft 10 in) high"
+  },
+  {
+   "what": "leaf_length",
+   "unit": "cm",
+   "max": 90,
+   "qualifier": "range",
+   "quote": "The leaves are 30–90 cm (12–35 in) long",
+   "min": 30
+  },
+  {
+   "what": "inflorescence_length",
+   "unit": "cm",
+   "max": 60,
+   "qualifier": "maximum",
+   "quote": "panicle, often up to 60 cm (24 in) long"
+  },
+  {
+   "what": "seed_length",
+   "unit": "cm",
+   "max": 0.6,
+   "qualifier": "range",
+   "quote": "The seeds are 3–6 mm",
+   "min": 0.3
+  },
+  {
+   "what": "root_depth",
+   "unit": "cm",
+   "max": 180,
+   "qualifier": "typical",
+   "quote": "deeply rooted, > 1.8 m (5 ft 11 in) in favorable soils",
+   "min": 180
+  },
+  {
+   "what": "age_to_first_flowering",
+   "unit": "years",
+   "max": 3,
+   "qualifier": "maximum",
+   "quote": "can take up to three years to reach its full production potential"
+  },
+  {
+   "what": "lifespan",
+   "unit": "years",
+   "max": 10,
+   "qualifier": "typical",
+   "quote": "a switchgrass stand can survive for ten years or longer",
+   "min": 10
+  }
+ ],
+ "appearance": [
+  {
+   "part": "leaf",
+   "attribute": "midrib",
+   "value": "prominent midrib",
+   "quote": "with a prominent midrib"
+  },
+  {
+   "part": "seed",
+   "attribute": "color",
+   "value": "pink or dull-purple tinge when ripe, turning golden brown with the foliage in fall",
+   "quote": "sometimes take on a pink or dull-purple tinge",
+   "stage": "ripe"
+  }
+ ],
+ "architecture": [
+  {
+   "aspect": "growth_habit",
+   "value": "hardy, deep-rooted, perennial rhizomatous grass",
+   "quote": "hardy, deep-rooted, perennial rhizomatous grass"
+  },
+  {
+   "aspect": "growth_habit",
+   "value": "lowland types look bunchgrass-like; upland types are more sod-forming",
+   "quote": "the lowland cultivars may appear to have a bunchgrass habit, while the upland types tend to be more sod-forming"
+  },
+  {
+   "aspect": "flower_arrangement",
+   "value": "well-developed panicle",
+   "quote": "Its flowers have a well-developed panicle"
+  },
+  {
+   "aspect": "root_system",
+   "value": "deep fibrous roots and short rhizomes",
+   "quote": "have short rhizomes"
+  }
+ ],
+ "phenology": [
+  {
+   "event": "growth_rate",
+   "when": "growth begins in late spring and most growth is late spring through early fall; dormant in colder months",
+   "quote": "most of its growth occurs from late spring through early fall"
+  }
+ ],
+ "propagation": [
+  {
+   "topic": "seed_dispersal",
+   "fact": "self-seeding",
+   "quote": "self-seeding crop"
+  },
+  {
+   "topic": "dormancy",
+   "fact": "dormant and unproductive during colder months",
+   "quote": "it becomes dormant and unproductive during colder months"
+  }
+ ],
+ "uses_real": [
+  {
+   "use": "Ornamental grass",
+   "category": "ornamental",
+   "part_used": "whole plant",
+   "note": "Drought-resistant ornamental in average to wet soils, full sun to part shade.",
+   "quote": "grown as a drought-resistant ornamental grass"
+  },
+  {
+   "use": "Bioenergy feedstock",
+   "category": "fuel",
+   "part_used": "biomass",
+   "note": "Cellulosic ethanol, biogas, pellets and direct combustion.",
+   "quote": "feedstock for biomass energy production"
+  },
+  {
+   "use": "Soil conservation",
+   "category": "ecological",
+   "part_used": "whole plant and roots",
+   "note": "Ground cover and erosion control.",
+   "quote": "as ground cover for soil conservation, and to control erosion"
+  },
+  {
+   "use": "Forage and hay",
+   "category": "forage",
+   "part_used": "whole plant",
+   "note": "Hay, pasture and game cover.",
+   "quote": "for forages and grazing, as game cover"
+  }
+ ],
+ "life_form": {
+  "value": "perennial_herb",
+  "quote": "is a perennial warm season bunchgrass"
+ },
+ "description": {
+  "value": "Hardy, deep-rooted perennial warm-season bunchgrass up to 2.7 m tall with long leaves and large open panicles.",
+  "quote": "Switchgrass is a hardy, deep-rooted, perennial rhizomatous grass"
+ },
+ "native_range": {
+  "value": "North America, from 55 N in Canada south into the United States and Mexico",
+  "quote": "native to North America, where it occurs naturally from 55°N latitude in Canada southwards into the United States and Mexico"
+ },
+ "environment": {
+  "value": "Dominant species of the central North American tallgrass prairie, also remnant prairies, pastures and roadsides.",
+  "quote": "one of the dominant species of the central North American tallgrass prairie"
+ },
+ "flowers": {
+  "present": true,
+  "quote": "Its flowers have a well-developed panicle"
+ },
+ "fruit": {
+  "present": true,
+  "type": "seed (single-flowered spikelet)",
+  "description": "Seeds 3-6 mm long, pink or dull-purple when ripe, golden brown in fall.",
+  "ripening": "fall",
+  "quote": "developed from a single-flowered spikelet"
+ }
+}

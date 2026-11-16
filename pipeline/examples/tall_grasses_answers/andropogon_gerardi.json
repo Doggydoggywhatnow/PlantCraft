@@ -1,0 +1,91 @@
+{
+ "measurements": [
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 300,
+   "qualifier": "range",
+   "quote": "it grows to a height of 1–3 m",
+   "min": 100
+  },
+  {
+   "what": "root_depth",
+   "unit": "cm",
+   "max": 300,
+   "qualifier": "range",
+   "quote": "The main roots are 1.8–3 meters (6–10 feet) deep",
+   "min": 180
+  }
+ ],
+ "appearance": [
+  {
+   "part": "trunk",
+   "attribute": "color",
+   "value": "stem base turns blue or purple as it matures",
+   "quote": "The stem base turns blue or purple as it matures",
+   "stage": "mature"
+  },
+  {
+   "part": "inflorescence",
+   "attribute": "shape",
+   "value": "two to six, most commonly three, narrow spike-like racemes alternately arranged along the top of the stem, like a wild turkey's foot",
+   "quote": "a raceme of two to six, most commonly three, narrow spike-like racemes alternately arranged along the top of the stem"
+  },
+  {
+   "part": "inflorescence",
+   "attribute": "resemblance",
+   "value": "somewhat resembles a wild turkey's foot",
+   "quote": "It somewhat resembles a wild turkey's foot"
+  }
+ ],
+ "architecture": [
+  {
+   "aspect": "growth_habit",
+   "value": "perennial warm-season bunchgrass",
+   "quote": "perennial warm-season bunchgrass"
+  },
+  {
+   "aspect": "root_system",
+   "value": "deep roots and strong, tough rhizomes forming a very strong sod",
+   "quote": "the plants send out strong, tough rhizomes, so it forms very strong sod"
+  },
+  {
+   "aspect": "flower_arrangement",
+   "value": "paired spikelets: a stalkless fertile spikelet with an awn at the base of a stalked awnless one",
+   "quote": "Each pair has a stalked spikelet with another stalkless spikelet at the base of the stalk"
+  }
+ ],
+ "phenology": [
+  {
+   "event": "flowering",
+   "when": "summer",
+   "quote": "Big bluestem blooms in the summer and seeds into the fall"
+  },
+  {
+   "event": "seed_release",
+   "when": "seeds into the fall",
+   "quote": "seeds into the fall"
+  }
+ ],
+ "life_form": {
+  "value": "perennial_herb",
+  "quote": "a perennial warm-season bunchgrass"
+ },
+ "description": {
+  "value": "Tall perennial warm-season bunchgrass 1-3 m tall with a three-branched turkey-foot seed head and a blue-purple stem base.",
+  "quote": "Depending on soil and moisture conditions, it grows to a height of 1–3 m"
+ },
+ "native_range": {
+  "value": "Great Plains and grassland regions of central and eastern North America",
+  "quote": "native to much of the Great Plains and grassland regions of central and eastern North America"
+ },
+ "environment": {
+  "value": "Tolerant of a wide range of soil conditions.",
+  "quote": "It is tolerant of a wide range of soil conditions"
+ },
+ "flowers": {
+  "present": true,
+  "season": "summer",
+  "quote": "blooms in the summer and seeds into the fall"
+ }
+}

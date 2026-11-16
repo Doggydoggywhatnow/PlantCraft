@@ -1,0 +1,43 @@
+{
+ "appearance": [
+  {
+   "part": "inflorescence",
+   "attribute": "density",
+   "value": "particularly dense flowering plumes (cultivar 'Sunningdale Silver')",
+   "quote": "has particularly dense flowering plumes",
+   "stage": "cultivar Sunningdale Silver"
+  }
+ ],
+ "architecture": [
+  {
+   "aspect": "leaf_margin",
+   "value": "razor-sharp leaf margins",
+   "quote": "razor-sharp leaf margins"
+  }
+ ],
+ "uses_real": [
+  {
+   "use": "Ornamental grass",
+   "category": "ornamental",
+   "part_used": "whole plant",
+   "note": "Cultivated ornamental with RHS Award of Garden Merit cultivars.",
+   "quote": "cultivated ornamental"
+  }
+ ],
+ "description": {
+  "value": "Pampas grass: a flowering grass with razor-sharp leaf margins, native to southern South America and widely grown as an ornamental.",
+  "quote": "It is referred to by the common name pampas grass"
+ },
+ "native_range": {
+  "value": "Argentina, Bolivia, Brazil, Chile, Paraguay and Uruguay (southern South America, including the Pampas)",
+  "quote": "The native range of C. selloana includes Argentina, Bolivia, Brazil, Chile, Paraguay, and Uruguay"
+ },
+ "introduced_range": {
+  "value": "Widely distributed throughout the world as a cultivated ornamental and invasive species.",
+  "quote": "It is widely distributed throughout the world as a cultivated ornamental and invasive species"
+ },
+ "environment": {
+  "value": "Moist soil in riparian areas with plentiful light and soil moisture; lower, moister sites than C. jubata.",
+  "quote": "typically restricted to moist soil within riparian areas"
+ }
+}

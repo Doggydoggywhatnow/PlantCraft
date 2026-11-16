@@ -1,0 +1,80 @@
+{
+ "measurements": [
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 120,
+   "qualifier": "maximum",
+   "quote": "growing up to 120 cm (47 in) tall"
+  },
+  {
+   "what": "inflorescence_length",
+   "unit": "cm",
+   "max": 15,
+   "qualifier": "typical",
+   "quote": "the panicle is 15 cm (6 in) long",
+   "min": 15
+  }
+ ],
+ "appearance": [
+  {
+   "part": "leaf",
+   "attribute": "color and texture",
+   "value": "coarse, green, flat, tapering to a point, sometimes slightly hairy on top",
+   "quote": "The leaves are coarse, green, taper to a point, long, flat and sometimes slightly hairy on top"
+  },
+  {
+   "part": "inflorescence",
+   "attribute": "color",
+   "value": "long narrow purple spikelets",
+   "quote": "The long narrow purple spikelets are a major identification feature"
+  }
+ ],
+ "architecture": [
+  {
+   "aspect": "growth_habit",
+   "value": "perennial herbaceous bunchgrass forming tussocks with many closely packed stems",
+   "quote": "with many closely packed stems"
+  },
+  {
+   "aspect": "growth_habit",
+   "value": "tussock-forming bunchgrass",
+   "quote": "tussock-forming"
+  }
+ ],
+ "phenology": [
+  {
+   "event": "flowering",
+   "when": "July to September, later than any other species",
+   "quote": "It flowers between July and September"
+  }
+ ],
+ "life_form": {
+  "value": "perennial_herb",
+  "quote": "is a perennial herbaceous bunchgrass"
+ },
+ "description": {
+  "value": "Tussock-forming perennial bunchgrass up to 120 cm tall with coarse green leaves and long narrow purple spikelets.",
+  "quote": "growing up to 120 cm (47 in) tall"
+ },
+ "native_range": {
+  "value": "Europe, west Asia and north Africa",
+  "quote": "native to Europe, west Asia, and north Africa"
+ },
+ "introduced_range": {
+  "value": "Introduced populations in northeastern and northwestern North America.",
+  "quote": "Introduced populations exist in northeastern and northwestern North America"
+ },
+ "environment": {
+  "value": "Moist heathland, bogs and moorland; acid soils, ideally pH 3.5-5; lowlands to 2,300 m in the Alps.",
+  "quote": "It grows in locations from the lowlands up to 2,300 m"
+ },
+ "flowers": {
+  "present": true,
+  "colors": [
+   "purple"
+  ],
+  "season": "July to September",
+  "quote": "The long narrow purple spikelets are a major identification feature"
+ }
+}

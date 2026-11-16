@@ -1,0 +1,492 @@
+{
+  "query": "Sorghastrum nutans",
+  "id": "sorghastrum_nutans",
+  "fetched": "2026-11-16",
+  "wikipedia": {
+    "found": true,
+    "title": "Sorghastrum nutans",
+    "url": "https://en.wikipedia.org/wiki/Sorghastrum_nutans",
+    "wikidata_id": "Q3046578",
+    "extract": "Sorghastrum nutans,  known as Indiangrass, is a North American prairie grass found in the United States and Canada, especially in the Great Plains and tallgrass prairies. It is sometimes called Indian grass, yellow Indian-grass, or wood grass.\n\n\n== Description ==\nIndiangrass is a warm-season perennial bunchgrass. It is intolerant to shade. It grows 3 to 7 feet (1 to 2 m) tall, and is distinguished by a \"rifle-sight\" ligule where the leaf blade attaches to the leaf sheath. The leaf is about 3 feet (1 m) long.\nIt blooms from late summer to early fall, producing branched clusters (panicles) of spikelets. The spikelets are golden-brown during the blooming period, and each contain one perfect floret that has three large, showy yellow stamens and two feather-like stigmas. One of the two glumes at the base of the spikelets is covered in silky white hairs. The flowers are cross-pollinated by the wind.\nThe branches of pollinated flower clusters bend outwards. At maturity, the seeds fall to the ground. There are about 175,000 seeds per pound.\n\n\n== Ecology ==\nSorghastrum nutans is prominent in the tallgrass prairie ecosystem and the northern, central, and Flint Hills tall grassland ecoregions, along with the grasses big bluestem (Andropogon gerardi), little bluestem (Schizachyrium scoparium) and switchgrass (Panicum virgatum). It is also common in areas of longleaf pine.\nIndiangrass is adapted in the United States from the southern border to Canada and from the eastern seaboard to Montana, Wyoming and Utah.\nIt regrows with renewed vitality after fires, so controlled burns are used, replacing extirpated large herbivores (i.e. bison), for habitat renewal.\nIt is a larval host to the pepper-and-salt skipper.\n\n\n== Culture ==\nIndiangrass is the official state grass of both Oklahoma and South Carolina.\nThe USDA Natural Resources Conservation Service lists the following uses for Sorghastrum nutans: erosion control, livestock, pollinators, restoration, and wildlife.\n\n\n== References ==",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Sorghastrum_nutans_Tennessee.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:SorghastrumNutans.jpg",
+      "File:Sorghastrum nutans (3912211835).jpg",
+      "File:Sorghastrum nutans ARS-1.jpg",
+      "File:Sorghastrum nutans Tennessee.jpg",
+      "File:Sorghastrum nutans flowers closeup.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q3046578",
+    "url": "https://www.wikidata.org/wiki/Q3046578",
+    "label": "Sorghastrum nutans",
+    "description": "species of plant",
+    "english_common_names": [
+      "Indiangrass"
+    ],
+    "taxon_name": [
+      "Sorghastrum nutans"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q2328440"
+    ],
+    "image_files": [
+      "Sorghastrum nutans EPA-2.jpg"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "2704414"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:240823-2"
+      ],
+      "ipni": [
+        "240823-2"
+      ],
+      "ncbi": [
+        "79857"
+      ],
+      "inaturalist": [
+        "122608"
+      ],
+      "eppo": [
+        "SOSNU"
+      ]
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/2704414",
+    "key": 2704414,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Sorghastrum nutans (L.) Nash",
+    "canonical_name": "Sorghastrum nutans",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Sorghastrum",
+      "species": "Sorghastrum nutans"
+    },
+    "english_vernacular_names": [
+      "Indian Grass",
+      "Indian grass",
+      "Indiangrass",
+      "Nodding False-sorghum",
+      "Wood Grass",
+      "Yellow False-sorghum",
+      "Yellow Indian Grass",
+      "Yellow Indiangrass",
+      "nodding false-sorghum",
+      "wood grass",
+      "yellow Indian grass",
+      "yellow false-sorghum",
+      "yellow indian-grass"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:Sorghastrum nutans EPA-2.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASorghastrum_nutans_EPA-2.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Sorghastrum_nutans_EPA-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Sorghastrum_nutans_EPA-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 400,
+      "height": 600,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "",
+      "description": ""
+    },
+    {
+      "file": "File:SorghastrumNutans.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASorghastrumNutans.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/SorghastrumNutans.jpg/960px-SorghastrumNutans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1a/SorghastrumNutans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2816,
+      "height": 2112,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Chhe (talk)",
+      "description": "A picture of Sorghastrum nutans."
+    },
+    {
+      "file": "File:Sorghastrum nutans ARS-1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASorghastrum_nutans_ARS-1.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Sorghastrum_nutans_ARS-1.jpg/960px-Sorghastrum_nutans_ARS-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Sorghastrum_nutans_ARS-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2928,
+      "height": 1952,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Steve Hurst. Provided by ARS Systematic Botany and Mycology Laboratory. United States, DC, Washington.",
+      "description": "Sorghastrum nutans (L.) Nash - Indiangrass"
+    },
+    {
+      "file": "File:Sorghastrum nutans (3912211835).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASorghastrum_nutans_%283912211835%29.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Sorghastrum_nutans_%283912211835%29.jpg/960px-Sorghastrum_nutans_%283912211835%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sorghastrum_nutans_%283912211835%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1704,
+      "height": 2272,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Matt Lavin from Bozeman, Montana, USA",
+      "description": "The ligule protrudes from the leaf sheath rather than from the leaf blade and this is found in other related grasses of the tribe Andropogoneae."
+    },
+    {
+      "file": "File:Sorghastrum nutans Tennessee.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASorghastrum_nutans_Tennessee.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Sorghastrum_nutans_Tennessee.jpg/960px-Sorghastrum_nutans_Tennessee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/39/Sorghastrum_nutans_Tennessee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1348,
+      "height": 2052,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Mason Brock (Masebrock)",
+      "description": "Sorghastrum nutans, sandstone cobble of Daddys Creek, Cumberland County, Tennessee."
+    },
+    {
+      "file": "File:Sorghastrum nutans flowers closeup.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASorghastrum_nutans_flowers_closeup.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Sorghastrum_nutans_flowers_closeup.jpg/960px-Sorghastrum_nutans_flowers_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Sorghastrum_nutans_flowers_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3730,
+      "height": 6000,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Joshua Mayer",
+      "description": "Indiangrass (Sorghastrum nutans) flowers at Butenhoff Prairie in Green County, Wisconsin."
+    }
+  ],
+  "gbif_range": {
+    "total_records": 20809,
+    "sampled": 211,
+    "countries_top10": [
+      "US",
+      "CA",
+      "MX",
+      "BR",
+      "PY",
+      "EC",
+      "AU",
+      "PA",
+      "SA",
+      "TH"
+    ],
+    "lat": {
+      "p5": -27.661389,
+      "p50": 29.025,
+      "p95": 44.595422
+    },
+    "lon": {
+      "p5": -102.125,
+      "p50": -81.84883,
+      "p95": -47.905556
+    },
+    "elevation_m": {
+      "p5": 525.0,
+      "p95": 2450.0,
+      "n": 80
+    },
+    "note": "Records include cultivated and introduced plants; treat as an upper bound on range."
+  },
+  "distribution": {
+    "native": [
+      {
+        "region": "Alabama",
+        "code": "ALA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Arizona",
+        "code": "ARI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Arkansas",
+        "code": "ARK",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Colorado",
+        "code": "COL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Connecticut",
+        "code": "CNT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Delaware",
+        "code": "DEL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "District of Columbia",
+        "code": "WDC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Florida",
+        "code": "FLA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Georgia",
+        "code": "GEO",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Honduras",
+        "code": "HON",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Illinois",
+        "code": "ILL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Indiana",
+        "code": "INI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Iowa",
+        "code": "IOW",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kansas",
+        "code": "KAN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kentucky",
+        "code": "KTY",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Louisiana",
+        "code": "LOU",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Maine",
+        "code": "MAI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Manitoba",
+        "code": "MAN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Maryland",
+        "code": "MRY",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Massachusetts",
+        "code": "MAS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexican Pacific Is.",
+        "code": "MXI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexico Central",
+        "code": "MXC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexico Gulf",
+        "code": "MXG",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexico Northeast",
+        "code": "MXE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexico Southeast",
+        "code": "MXT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexico Southwest",
+        "code": "MXS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Michigan",
+        "code": "MIC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Minnesota",
+        "code": "MIN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mississippi",
+        "code": "MSI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Missouri",
+        "code": "MSO",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Montana",
+        "code": "MNT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Nebraska",
+        "code": "NEB",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New Hampshire",
+        "code": "NWH",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New Jersey",
+        "code": "NWJ",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New Mexico",
+        "code": "NWM",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New York",
+        "code": "NWY",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "North Carolina",
+        "code": "NCA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "North Dakota",
+        "code": "NDA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Ohio",
+        "code": "OHI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Oklahoma",
+        "code": "OKL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Ontario",
+        "code": "ONT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Pennsylvania",
+        "code": "PEN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Québec",
+        "code": "QUE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Rhode I.",
+        "code": "RHO",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Saskatchewan",
+        "code": "SAS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "South Carolina",
+        "code": "SCA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "South Dakota",
+        "code": "SDA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Tennessee",
+        "code": "TEN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Texas",
+        "code": "TEX",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Utah",
+        "code": "UTA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Vermont",
+        "code": "VER",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Virginia",
+        "code": "VRG",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "West Virginia",
+        "code": "WVA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Wisconsin",
+        "code": "WIS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Wyoming",
+        "code": "WYO",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      }
+    ],
+    "introduced": [
+      {
+        "region": "India",
+        "code": "IND",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      }
+    ],
+    "records_total": 121,
+    "wcvp_records": 56,
+    "note": "WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution sources are not parsed."
+  },
+  "wikidata_taxon_range": []
+}

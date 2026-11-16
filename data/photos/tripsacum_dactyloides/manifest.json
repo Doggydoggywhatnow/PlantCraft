@@ -1,0 +1,153 @@
+{
+  "id": "tripsacum_dactyloides",
+  "species": "Tripsacum dactyloides",
+  "fetched": "2026-11-16",
+  "note": "Photos are reference material only. Keep authors and licences with them.",
+  "candidates_examined": 33,
+  "coverage": {
+    "flower": 1,
+    "fruit": 0,
+    "seed": 0,
+    "leaf": 0,
+    "bark": 0,
+    "branches": 0,
+    "illustration": 2,
+    "habit": 3
+  },
+  "missing_roles": [
+    "fruit"
+  ],
+  "photos": [
+    {
+      "file": "data/photos/tripsacum_dactyloides/flower_01_eastern-gamma-grass-tripsacum-dactyloide.jpg",
+      "role": "flower",
+      "hints": [],
+      "title": "File:Eastern Gamma Grass - Tripsacum dactyloides, Occoquan Bay National Wildlife Refuge, Woodbridge, Virginia.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AEastern_Gamma_Grass_-_Tripsacum_dactyloides%2C_Occoquan_Bay_National_Wildlife_Refuge%2C_Woodbridge%2C_Virginia.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/73/Eastern_Gamma_Grass_-_Tripsacum_dactyloides%2C_Occoquan_Bay_National_Wildlife_Refuge%2C_Woodbridge%2C_Virginia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2136,
+      "height": 3025,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Judy Gallagher",
+      "description": "Eastern Gamma Grass - Tripsacum dactyloides, Occoquan Bay National Wildlife Refuge, Woodbridge, Virginia.",
+      "categories": [
+        "CC-BY-2.0",
+        "Flickr images verified by UploadWizard",
+        "Flower photographs by Judy Gallagher",
+        "New photographs by Judy Gallagher",
+        "Occoquan Bay National Wildlife Refuge",
+        "Tripsacum dactyloides"
+      ]
+    },
+    {
+      "file": "data/photos/tripsacum_dactyloides/illustration_01_tripsacum-dactyloides-marie-selby-botani.jpg",
+      "role": "illustration",
+      "hints": [
+        "botanical"
+      ],
+      "title": "File:Tripsacum dactyloides - Marie Selby Botanical Gardens - Sarasota, Florida - DSC01614.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATripsacum_dactyloides_-_Marie_Selby_Botanical_Gardens_-_Sarasota%2C_Florida_-_DSC01614.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Tripsacum_dactyloides_-_Marie_Selby_Botanical_Gardens_-_Sarasota%2C_Florida_-_DSC01614.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5392,
+      "height": 3204,
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Daderot",
+      "description": "Botanical specimen in the Marie Selby Botanical Gardens - Sarasota, Florida, USA.",
+      "categories": [
+        "CC-Zero",
+        "Files uploaded by Daderot",
+        "Self-published work",
+        "Specimens in the Marie Selby Botanical Gardens",
+        "Tripsacum dactyloides"
+      ]
+    },
+    {
+      "file": "data/photos/tripsacum_dactyloides/illustration_02_tripsacum-dactyloides-2021-09-18-02.jpg",
+      "role": "illustration",
+      "hints": [
+        "botanical"
+      ],
+      "title": "File:Tripsacum dactyloides 2021-09-18 02.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATripsacum_dactyloides_2021-09-18_02.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Tripsacum_dactyloides_2021-09-18_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4305,
+      "height": 2870,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Agnieszka Kwiecień, Nova",
+      "description": "Tripsacum dactyloides inflorescence, plant cultivated in Wrocław University Botanical Garden, Wrocław, Poland.",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Plants in Wrocław University Botanical Garden",
+        "Self-published work",
+        "Tripsacum dactyloides"
+      ]
+    },
+    {
+      "file": "data/photos/tripsacum_dactyloides/habit_01_eastern-gamagrass-tripsacum-dactyloides-.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Eastern Gamagrass - Tripsacum dactyloides, Occoquan Bay National Wildlife Refuge, Woodbridge, Virginia, August 26, 2020 (53346769934).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AEastern_Gamagrass_-_Tripsacum_dactyloides%2C_Occoquan_Bay_National_Wildlife_Refuge%2C_Woodbridge%2C_Virginia%2C_August_26%2C_2020_%2853346769934%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Eastern_Gamagrass_-_Tripsacum_dactyloides%2C_Occoquan_Bay_National_Wildlife_Refuge%2C_Woodbridge%2C_Virginia%2C_August_26%2C_2020_%2853346769934%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6720,
+      "height": 4480,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Judy Gallagher",
+      "description": "Eastern Gamagrass - Tripsacum dactyloides, Occoquan Bay National Wildlife Refuge, Woodbridge, Virginia, August 26, 2020",
+      "categories": [
+        "CC-BY-2.0",
+        "Flickr images reviewed by FlickreviewR 2",
+        "Tripsacum dactyloides"
+      ]
+    },
+    {
+      "file": "data/photos/tripsacum_dactyloides/habit_02_eastern-gamma-grass-or-tripsacum-dactylo.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Eastern Gamma grass or Tripsacum dactyloides.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AEastern_Gamma_grass_or_Tripsacum_dactyloides.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/57/Eastern_Gamma_grass_or_Tripsacum_dactyloides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3024,
+      "height": 4032,
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Gilbasolutions",
+      "description": "Eastern Gamma grass",
+      "categories": [
+        "CC-Zero",
+        "Self-published work",
+        "Tripsacum dactyloides"
+      ]
+    },
+    {
+      "file": "data/photos/tripsacum_dactyloides/habit_03_k7698-1-8496694263.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:K7698-1 (8496694263).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AK7698-1_%288496694263%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bc/K7698-1_%288496694263%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1859,
+      "height": 2790,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "USDAgov",
+      "description": "This is an image of a corn-eastern gamagrass hybrid. Eastern gamagrass is a native grass with a gene pool that has a lot to offer corn, including resistance to cold and insects, as well as tolerance to drought and flood. USDA photo by Scott Bauer.",
+      "categories": [
+        "Activities of the Agricultural Research Service",
+        "CC-BY-2.0",
+        "Files from U.S. Department of Agriculture Flickr stream",
+        "Flickr images missing SDC creator",
+        "Flickr images missing SDC published in",
+        "Flickr images reviewed by FlickreviewR 2",
+        "PD USDA",
+        "Tripsacum dactyloides",
+        "U.S. Department of Agriculture Flickr files uploaded by OptimusPrimeBot",
+        "United States photographs taken on 2013-02-12"
+      ]
+    }
+  ]
+}

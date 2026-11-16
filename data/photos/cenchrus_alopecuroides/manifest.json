@@ -1,0 +1,205 @@
+{
+  "id": "cenchrus_alopecuroides",
+  "species": "Cenchrus alopecuroides",
+  "fetched": "2026-11-16",
+  "note": "Photos are reference material only. Keep authors and licences with them.",
+  "candidates_examined": 61,
+  "coverage": {
+    "flower": 1,
+    "fruit": 0,
+    "seed": 0,
+    "leaf": 2,
+    "bark": 0,
+    "branches": 0,
+    "illustration": 2,
+    "habit": 3
+  },
+  "missing_roles": [
+    "fruit"
+  ],
+  "photos": [
+    {
+      "file": "data/photos/cenchrus_alopecuroides/flower_01_cenchrus-purpurascens-anthers1-776269616.jpg",
+      "role": "flower",
+      "hints": [
+        "spikelets"
+      ],
+      "title": "File:Cenchrus purpurascens anthers1 (7762696160).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACenchrus_purpurascens_anthers1_%287762696160%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Cenchrus_purpurascens_anthers1_%287762696160%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3404,
+      "height": 2426,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Harry Rose from South West Rocks, Australia",
+      "description": "Anthers protruding from spikelets.",
+      "categories": [
+        "CC-BY-2.0",
+        "Cenchrus alopecuroides",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by FlickreviewR",
+        "Photographs by Harry Rose"
+      ]
+    },
+    {
+      "file": "data/photos/cenchrus_alopecuroides/leaf_01_cenchrus-purpurascens-habit2-7762701354.jpg",
+      "role": "leaf",
+      "hints": [
+        "leaves"
+      ],
+      "title": "File:Cenchrus purpurascens habit2 (7762701354).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACenchrus_purpurascens_habit2_%287762701354%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/28/Cenchrus_purpurascens_habit2_%287762701354%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2592,
+      "height": 1944,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Harry Rose from South West Rocks, Australia",
+      "description": "Native, warm-season, perennial, erect, densely tufted, coarse grass to 1.5 m tall. Leaves are coarse and rough to the touch, with short and densely hairy ligules. Found in damp areas, such as seepage areas on hillslopes, along drainage lines and on poorly drained flats. Especially common on poorly drained heavy black clays in the Richmond Valley.",
+      "categories": [
+        "CC-BY-2.0",
+        "Cenchrus alopecuroides",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by FlickreviewR",
+        "Photographs by Harry Rose"
+      ]
+    },
+    {
+      "file": "data/photos/cenchrus_alopecuroides/leaf_02_cenchrus-purpurascens-habit4-7762702152.jpg",
+      "role": "leaf",
+      "hints": [
+        "leaves"
+      ],
+      "title": "File:Cenchrus purpurascens habit4 (7762702152).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACenchrus_purpurascens_habit4_%287762702152%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/69/Cenchrus_purpurascens_habit4_%287762702152%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2592,
+      "height": 1944,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Harry Rose from South West Rocks, Australia",
+      "description": "Native, warm-season, perennial, erect, densely tufted, coarse grass to 1.5 m tall. Leaves are coarse and rough to the touch, with short and densely hairy ligules. Found in damp areas, such as seepage areas on hillslopes, along drainage lines and on poorly drained flats. Especially common on poorly drained heavy black clays in the Richmond Valley.",
+      "categories": [
+        "CC-BY-2.0",
+        "Cenchrus alopecuroides",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by FlickreviewR",
+        "Photographs by Harry Rose"
+      ]
+    },
+    {
+      "file": "data/photos/cenchrus_alopecuroides/illustration_01_cenchrus-purpurascens-sl1.jpg",
+      "role": "illustration",
+      "hints": [],
+      "title": "File:Cenchrus purpurascens sl1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACenchrus_purpurascens_sl1.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Cenchrus_purpurascens_sl1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4128,
+      "height": 3096,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Stefan.lefnaer",
+      "description": "Habitus Taxonym: Cenchrus purpurascens (= `Pennisetum alopecuroides´) ss Fischer et al. EfÖLS 2008 ISBN 978-3-85474-187-9 Location: Donauinsel S of Reichsbrücke, Vienna-Donaustadt - ca. 160 m a.s.l. Habitat: wayside",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Cenchrus alopecuroides",
+        "Files with coordinates missing SDC location of creation",
+        "Flora of Austria in September",
+        "Flora of Donauinsel",
+        "Flora of Donaustadt",
+        "Pannonian Flora",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/cenchrus_alopecuroides/illustration_02_pennisetum-alopecuroides-berlin-botanica.jpg",
+      "role": "illustration",
+      "hints": [
+        "botanical"
+      ],
+      "title": "File:Pennisetum alopecuroides - Berlin Botanical Garden - IMG 8624.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3APennisetum_alopecuroides_-_Berlin_Botanical_Garden_-_IMG_8624.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/39/Pennisetum_alopecuroides_-_Berlin_Botanical_Garden_-_IMG_8624.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3264,
+      "height": 2448,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Daderot",
+      "description": "Pennisetum alopecuroides specimen in the Botanischer Garten, Berlin-Dahlem (Berlin Botanical Garden), Berlin, Germany.",
+      "categories": [
+        "Cenchrus alopecuroides",
+        "Files uploaded by Daderot",
+        "PD-self",
+        "Poaceae in the Botanischer Garten, Berlin-Dahlem",
+        "Self-published work",
+        "Taken with Canon Digital IXUS 860 IS"
+      ]
+    },
+    {
+      "file": "data/photos/cenchrus_alopecuroides/habit_01_cenchrus-purpurascens-flowerhead4-776269.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Cenchrus purpurascens flowerhead4 (7762696856).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACenchrus_purpurascens_flowerhead4_%287762696856%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/42/Cenchrus_purpurascens_flowerhead4_%287762696856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2658,
+      "height": 4000,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Harry Rose from South West Rocks, Australia",
+      "description": "Flowerheads are cylindrical, spike-like, contracted panicles up to 20 cm in length; purplish when young and turning white when mature.",
+      "categories": [
+        "CC-BY-2.0",
+        "Cenchrus alopecuroides",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by FlickreviewR",
+        "Images with extracted images",
+        "Photographs by Harry Rose"
+      ]
+    },
+    {
+      "file": "data/photos/cenchrus_alopecuroides/habit_02_cenchrus-alopecuroides-inaturalist-12882.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Cenchrus alopecuroides iNaturalist 1288254.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACenchrus_alopecuroides_iNaturalist_1288254.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Cenchrus_alopecuroides_iNaturalist_1288254.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2048,
+      "height": 1365,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "harum.koh",
+      "description": "Cenchrus alopecuroides",
+      "categories": [
+        "CC-BY-2.0",
+        "Cenchrus alopecuroides",
+        "Flickr images missing SDC creator",
+        "Flickr images missing SDC inception",
+        "Flickr images missing SDC source of file",
+        "Flickr images reviewed by trusted users"
+      ]
+    },
+    {
+      "file": "data/photos/cenchrus_alopecuroides/habit_03_cenchrus-alopecuroides-greg-tasney-46530.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Cenchrus alopecuroides - Greg Tasney - 465307234.jpeg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACenchrus_alopecuroides_-_Greg_Tasney_-_465307234.jpeg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Cenchrus_alopecuroides_-_Greg_Tasney_-_465307234.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2048,
+      "height": 1365,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Greg Tasney",
+      "description": "Cenchrus alopecuroides, Croftby QLD 4310, Australia, 2025-01-21 (iNaturalist).",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Cenchrus alopecuroides",
+        "INaturalist images missing SDC depicts",
+        "INaturalist images reviewed by iNaturalistReviewBot",
+        "Media from iNaturalist",
+        "Media uploaded with inat2wiki"
+      ]
+    }
+  ]
+}

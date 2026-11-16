@@ -1,0 +1,256 @@
+{
+  "id": "miscanthus_sinensis",
+  "species": "Miscanthus sinensis",
+  "fetched": "2026-11-16",
+  "note": "Photos are reference material only. Keep authors and licences with them.",
+  "candidates_examined": 63,
+  "coverage": {
+    "flower": 4,
+    "fruit": 0,
+    "seed": 1,
+    "leaf": 0,
+    "bark": 0,
+    "branches": 0,
+    "illustration": 1,
+    "habit": 3
+  },
+  "missing_roles": [
+    "fruit"
+  ],
+  "photos": [
+    {
+      "file": "data/photos/miscanthus_sinensis/flower_01_feeringbury-manor-ornamental-grass-feeri.jpg",
+      "role": "flower",
+      "hints": [
+        "flower"
+      ],
+      "title": "File:Feeringbury Manor ornamental grass, Feering Essex England.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AFeeringbury_Manor_ornamental_grass%2C_Feering_Essex_England.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Feeringbury_Manor_ornamental_grass%2C_Feering_Essex_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5472,
+      "height": 3648,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Acabashi",
+      "description": "Ornamental grass, Miscanthus sinensis, commonly Chinese silver grass, Eulalia grass, maiden grass, zebra grass, Susuki grass, or porcupine grass, in a flower border at Feeringbury Manor in the civil parish of Feering, Braintree, Essex, England.Software: RAW file lens-corrected, optimized and converted to JPEG with DxO OpticsPro 10 Elite, and likely further optimized and/or cropped and/or spun with",
+      "categories": [
+        "Acabashi photos: flowers in Essex",
+        "Autumn 2015 in the United Kingdom",
+        "Autumn flowers",
+        "Autumn in Essex",
+        "CC-BY-SA-4.0",
+        "England photographs taken on 2015-10-02",
+        "Feeringbury Manor",
+        "Feeringbury Manor Gardens open under the National Gardens Scheme",
+        "Files with coordinates missing SDC location of creation (51° N, 0° E)",
+        "Flora of Essex in October",
+        "Flower beds in Essex",
+        "Flowers in Essex"
+      ]
+    },
+    {
+      "file": "data/photos/miscanthus_sinensis/flower_02_chinaschilf-kohlerhecke-neuendettelsau-2.jpg",
+      "role": "flower",
+      "hints": [],
+      "title": "File:Chinaschilf (Kohlerhecke, Neuendettelsau) 20250919 142621.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AChinaschilf_%28Kohlerhecke%2C_Neuendettelsau%29_20250919_142621.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/49/Chinaschilf_%28Kohlerhecke%2C_Neuendettelsau%29_20250919_142621.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6120,
+      "height": 8160,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Alexander Rahm",
+      "description": "Neuendettelsau, Kohlerhecke: Blütenstände des Chinaschilfs",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Files with coordinates missing SDC location of creation (49° N, 10° E)",
+        "GFDL",
+        "License migration redundant",
+        "Miscanthus sinensis",
+        "Neuendettelsau photographs taken on 2025-09-19",
+        "Photographs by User:AlexanderRahm",
+        "Pink flowers in Neuendettelsau",
+        "Poaceae in Neuendettelsau",
+        "Self-published work",
+        "Taken with Samsung Galaxy S24 Ultra"
+      ]
+    },
+    {
+      "file": "data/photos/miscanthus_sinensis/flower_03_bloeiwijze-van-miscanthus-sinensis-locat.jpg",
+      "role": "flower",
+      "hints": [
+        "inflorescence"
+      ],
+      "title": "File:Bloeiwijze van Miscanthus sinensis. Locatie, De Kruidhof Buitenpost.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ABloeiwijze_van_Miscanthus_sinensis._Locatie%2C_De_Kruidhof_Buitenpost.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Bloeiwijze_van_Miscanthus_sinensis._Locatie%2C_De_Kruidhof_Buitenpost.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5184,
+      "height": 2953,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Dominicus Johannes Bergsma",
+      "description": "Inflorescence of Miscanthus sinensis. Location, The Kruidhof Buitenpost in the Netherlands.",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "De Kruidhof Buitenpost",
+        "Miscanthus sinensis",
+        "Netherlands photographs taken on 2015-10-10",
+        "Self-published work",
+        "Unassessed QI candidates"
+      ]
+    },
+    {
+      "file": "data/photos/miscanthus_sinensis/flower_04_chinaschilf-kohlerhecke-neuendettelsau-2.jpg",
+      "role": "flower",
+      "hints": [],
+      "title": "File:Chinaschilf (Kohlerhecke, Neuendettelsau) 20250919 143038.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AChinaschilf_%28Kohlerhecke%2C_Neuendettelsau%29_20250919_143038.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/72/Chinaschilf_%28Kohlerhecke%2C_Neuendettelsau%29_20250919_143038.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3000,
+      "height": 4000,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Alexander Rahm",
+      "description": "Neuendettelsau, Kohlerhecke: Blütenstände des Chinaschilfs",
+      "categories": [
+        "Beige flowers in Neuendettelsau",
+        "CC-BY-SA-4.0",
+        "Files with coordinates missing SDC location of creation (49° N, 10° E)",
+        "GFDL",
+        "License migration redundant",
+        "Miscanthus sinensis",
+        "Neuendettelsau photographs taken on 2025-09-19",
+        "Photographs by User:AlexanderRahm",
+        "Poaceae in Neuendettelsau",
+        "Self-published work",
+        "Taken with Samsung Galaxy S24 Ultra"
+      ]
+    },
+    {
+      "file": "data/photos/miscanthus_sinensis/seed_01_2026-10-22-13-45-53-maiden-grass-seeds-a.jpg",
+      "role": "seed",
+      "hints": [
+        "seeds"
+      ],
+      "title": "File:2026-10-22 13 45 53 Maiden Grass seeds along Lochatong Road in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3A2026-10-22_13_45_53_Maiden_Grass_seeds_along_Lochatong_Road_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c2/2026-10-22_13_45_53_Maiden_Grass_seeds_along_Lochatong_Road_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4032,
+      "height": 3024,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Famartin",
+      "description": "Maiden Grass seeds along Lochatong Road in the Mountainview section of Ewing Township, Mercer County, New Jersey",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Famartin's 2026 photos",
+        "Famartin's October 2026 photos",
+        "Famartin's temp category",
+        "Files with coordinates missing SDC location of creation",
+        "Miscanthus in Ewing Township, New Jersey",
+        "Miscanthus sinensis",
+        "October 2026 in New Jersey",
+        "Self-published work",
+        "United States photographs taken on 2026-10-22"
+      ]
+    },
+    {
+      "file": "data/photos/miscanthus_sinensis/illustration_01_botanischer-garten-berlin-dahlem-10-2014.jpg",
+      "role": "illustration",
+      "hints": [
+        "botanical"
+      ],
+      "title": "File:Botanischer Garten Berlin-Dahlem 10-2014 photo26 Themeda triandra.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ABotanischer_Garten_Berlin-Dahlem_10-2014_photo26_Themeda_triandra.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Botanischer_Garten_Berlin-Dahlem_10-2014_photo26_Themeda_triandra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4266,
+      "height": 2844,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "A.Savin",
+      "description": "Berlin-Dahlem Botanical Garden in autumn 2014 / Miscanthus sinensis, Themeda triandra",
+      "categories": [
+        "2010s photographs of Berlin",
+        "2014 in Steglitz-Zehlendorf",
+        "Autumn in Berlin-Dahlem Botanical Garden",
+        "CC-BY-SA-3.0,2.5,2.0,1.0",
+        "FAL",
+        "Files with coordinates missing SDC location of creation",
+        "Germany photographs taken on 2014-10-19",
+        "Miscanthus sinensis",
+        "Photographs by A.Savin/Germany",
+        "Photographs by A.Savin taken in 2014",
+        "Poaceae in the Botanischer Garten, Berlin-Dahlem",
+        "Quality images"
+      ]
+    },
+    {
+      "file": "data/photos/miscanthus_sinensis/habit_01_goodnestone-house-and-gardens-chinese-si.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Goodnestone House and Gardens, Chinese silver grass 'Miscanthus sinensis' 1 - geograph.org.uk - 7426666.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AGoodnestone_House_and_Gardens%2C_Chinese_silver_grass_%27Miscanthus_sinensis%27_1_-_geograph.org.uk_-_7426666.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Goodnestone_House_and_Gardens%2C_Chinese_silver_grass_%27Miscanthus_sinensis%27_1_-_geograph.org.uk_-_7426666.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 8256,
+      "height": 5504,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Michael Garlick",
+      "description": "Goodnestone House and Gardens: Chinese silver grass 'Miscanthus sinensis' 1",
+      "categories": [
+        "CC-BY-SA-2.0",
+        "Goodnestone Park",
+        "Images from Geograph Britain and Ireland",
+        "Miscanthus sinensis"
+      ]
+    },
+    {
+      "file": "data/photos/miscanthus_sinensis/habit_02_autumn-wakayama-51929773181.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Autumn Wakayama (51929773181).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAutumn_Wakayama_%2851929773181%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/93/Autumn_Wakayama_%2851929773181%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5928,
+      "height": 3952,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Raita Futo from Tokyo, Japan",
+      "description": "生石高原、ススキ野原",
+      "categories": [
+        "Autumn in Wakayama prefecture",
+        "CC-BY-2.0",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by FlickreviewR 2",
+        "Japan photographs taken on 2020-11-24",
+        "Miscanthus sinensis",
+        "November 2020 in Wakayama prefecture",
+        "Oishi Kogen"
+      ]
+    },
+    {
+      "file": "data/photos/miscanthus_sinensis/habit_03_chinaschilf-miscanthus-sinensis-blumeng-.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Chinaschilf (Miscanthus sinensis) Blumengärten Hirschstetten Wien 2014 c.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AChinaschilf_%28Miscanthus_sinensis%29_Blumeng%C3%A4rten_Hirschstetten_Wien_2014_c.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Chinaschilf_%28Miscanthus_sinensis%29_Blumeng%C3%A4rten_Hirschstetten_Wien_2014_c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5760,
+      "height": 3840,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Manfred Werner - Tsui",
+      "description": "Miscanthus sinensis at Blumengärten Hirschstetten in Vienna, Austria.",
+      "categories": [
+        "Blumengärten Hirschstetten",
+        "CC-BY-SA-3.0",
+        "Files with coordinates missing SDC location of creation",
+        "Miscanthus sinensis",
+        "Self-published work",
+        "Supported by Wikimedia Österreich",
+        "Taken with Canon EOS 5D Mark III",
+        "User:Tsui/Blumengärten Hirschstetten 2014-10-12"
+      ]
+    }
+  ]
+}

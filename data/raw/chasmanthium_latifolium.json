@@ -1,0 +1,322 @@
+{
+  "query": "Chasmanthium latifolium",
+  "id": "chasmanthium_latifolium",
+  "fetched": "2026-11-16",
+  "wikipedia": {
+    "found": true,
+    "title": "Chasmanthium latifolium",
+    "url": "https://en.wikipedia.org/wiki/Chasmanthium_latifolium",
+    "wikidata_id": "Q5087377",
+    "extract": "Chasmanthium latifolium, known as fish-on-a-fishing-pole, northern wood-oats, inland sea oats, northern sea oats, and river oats is a species of grass native to the central and eastern United States, Manitoba, and northeastern Mexico; it grows as far north as Pennsylvania and Michigan, where it is a threatened species. \n\n\n== Description ==\nChasmanthium latifolium is a cool-season, rhizomatous, perennial grass with culms about 1 meter (3.3 ft) tall. The inflorescence is an open, nodding panicle of laterally compressed (flattened) spikelets. The plant typically grows in wooded areas and riparian zones.\n\n\n== Taxonomy ==\nIt was first described as Uniola latifolia Michx. by André Michaux in 1803. It was moved to the genus Chasmanthium Link as Chasmanthium latifolium (Michx.) H.O.Yates by Harris Oliver Yates in 1966.\n\n\n=== Etymology ===\nThe genus name, Chasmanthium, has Greek origins and can be broken down into two parts. Chasme means \"gaping\" and anthemum means flower. The specific epithet can be translated to \"broad-leaved\".\n\n\n== Distribution and habitat ==\nChasmanthium latifolium is native to the lower forty-eight states.\nIn the arid west, Atlantic, Gulf Coastal Plain, Western mountains, valleys, and coast, C. latifolium is equally likely to be found in wetlands and non-wetland areas. In the Eastern mountains (Piedmont) and Great Plains, C. latifolium usually occurs in non-wetlands. In the Midwest, Northcentral and Northeast, C. latifolium usually occurs in wetlands.\nIn Mississippi, C. latifolium is a common species found in the river bank community, which is found between the start of the water and the high water mark. Here, the substrate is frequently disturbed and is made of sand, acidic soils, and rocky outcrops.\n\n\n== Ecology ==\nLike most of the Poaceae family, Chasmanthium latifolium is wind-pollinated. Limited pollination range has significantly reduced gene transfer along the range edge, thus lowering genetic diversity. This low genetic diversity and lack of gene transfer between populations of C. latifolium along the range edge makes it more susceptible to climate change and disease.\nThe optimal growing temperature for C. latifolium is 77 °F (25 °C). At 55 °F (13 °C), the plant can no longer grow.\nC. latifolium is a salt-tolerant species. Its shoot growth is not affected by salinity levels up to an electrical conductivity of 10.0 dS/m. Root growth increased at salinity levels of electrical conductivity of 5.0 dS/m and greater.\nC. latifolium is a shade-tolerant plant and maintains a positive carbon uptake in dense canopies. It continues carbon fixation at levels 10 times lower than other C4 grasses and light levels 80% less than their saturation point.\nIts seeds are eaten by birds and mammals. The northern pearly-eye uses it as a larval host plant. It is also eaten by the caterpillars of the pepper and salt skipper, Bell's roadside skipper, and bronzed roadside skipper butterflies.\nC. latifolium is a fire-adapted grass best adapted to a low frequency of fire. It increases in abundance after one fire but decreases in abundance with repeated burning.\n\n\n== Conservation ==\nChasmanthium latifolium is negatively impacted by invasive species like Lespedeza cuneata. It is at risk due to overuse of herbicides like glyphosate. It is also affected by applications of topramezone 0.05 kg a.i./ha or greater.\n\n\n== Uses ==\n\nIt is used in landscaping in North America, where it is noted as a native grass that thrives in partial shade; the plant is recommended for USDA hardiness zones 3–9 in acidic sands, loams, and clays. C. latifolium blooms in the late summer to early fall between the months of August and September. C. latifolium is recommended in southeastern rain gardens where intermittent flooding may be present. It can be slow to emerge and take at least one year to establish. Once established, C. latifolium can have a dry matter yield of up to 6,019 pounds per acre.\nChasmanthium latifolium has historically been used by the Cocopah Nation as a food source. They would harvest, dry, and grind the seed heads and then mix them with water to make a rudimentary dough.\nIn Korea, C. latifolium is used on green roofs and best performs on flat roofs.\nC. latifolium is planted as a perennial cool-season grass on old logging trails and landings to prevent erosion and provide wildlife habitat.\n\n\n== References ==\n\n\n== External links ==\nNRCS. \"Chasmanthium latifolium\". PLANTS Database. United States Department of Agriculture (USDA).",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Chasmanthium_latifolium_Boyle_Park.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:Chasmanthium latifolium Boyle Park.jpg",
+      "File:Riveroats.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q5087377",
+    "url": "https://www.wikidata.org/wiki/Q5087377",
+    "label": "Chasmanthium latifolium",
+    "description": "species of plant",
+    "english_common_names": [
+      "Indian woodoats"
+    ],
+    "taxon_name": [
+      "Chasmanthium latifolium"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q2398493"
+    ],
+    "image_files": [
+      "Chasmanthium latifolium Boyle Park.jpg"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "2703077"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:55649-2"
+      ],
+      "ipni": [
+        "55649-2"
+      ],
+      "ncbi": [
+        "38735"
+      ],
+      "inaturalist": [
+        "84364"
+      ],
+      "eppo": [
+        "UNILA"
+      ]
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/2703077",
+    "key": 2703077,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Chasmanthium latifolium (Michx.) H.O.Yates",
+    "canonical_name": "Chasmanthium latifolium",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Chasmanthium",
+      "species": "Chasmanthium latifolium"
+    },
+    "english_vernacular_names": [
+      "Broad-leaved Chasmanthium",
+      "Indian Wood Oats",
+      "Inland Wood Oats",
+      "Seaoats",
+      "broad-leaved chasmanthium",
+      "broadleaf chasmanthium",
+      "northern sea oats",
+      "river oats"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:Chasmanthium latifolium Boyle Park.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AChasmanthium_latifolium_Boyle_Park.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Chasmanthium_latifolium_Boyle_Park.jpg/960px-Chasmanthium_latifolium_Boyle_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/30/Chasmanthium_latifolium_Boyle_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2144,
+      "height": 1424,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Eric in SF",
+      "description": "Species from Eastern North America\nCommon name: Indian Woodoats\n\nBoyle Park, Little Rock, Pulaski County, Arkansas"
+    }
+  ],
+  "gbif_range": {
+    "total_records": 26203,
+    "sampled": 218,
+    "countries_top10": [
+      "US",
+      "CA",
+      "PT",
+      "AT",
+      "MX",
+      "JP",
+      "DE",
+      "NL",
+      "KR",
+      "AU"
+    ],
+    "lat": {
+      "p5": 25.258333,
+      "p50": 40.205091,
+      "p95": 48.328874
+    },
+    "lon": {
+      "p5": -99.996293,
+      "p50": -79.270223,
+      "p95": 139.42818
+    },
+    "elevation_m": {
+      "p5": 77.0,
+      "p95": 498.0,
+      "n": 83
+    },
+    "note": "Records include cultivated and introduced plants; treat as an upper bound on range."
+  },
+  "distribution": {
+    "native": [
+      {
+        "region": "Alabama",
+        "code": "ALA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Arizona",
+        "code": "ARI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Arkansas",
+        "code": "ARK",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Delaware",
+        "code": "DEL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "District of Columbia",
+        "code": "WDC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Florida",
+        "code": "FLA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Georgia",
+        "code": "GEO",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Illinois",
+        "code": "ILL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Indiana",
+        "code": "INI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kansas",
+        "code": "KAN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kentucky",
+        "code": "KTY",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Louisiana",
+        "code": "LOU",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Manitoba",
+        "code": "MAN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Maryland",
+        "code": "MRY",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexico Northeast",
+        "code": "MXE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Michigan",
+        "code": "MIC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mississippi",
+        "code": "MSI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Missouri",
+        "code": "MSO",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Nebraska",
+        "code": "NEB",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New Jersey",
+        "code": "NWJ",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New Mexico",
+        "code": "NWM",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "North Carolina",
+        "code": "NCA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Ohio",
+        "code": "OHI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Oklahoma",
+        "code": "OKL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Pennsylvania",
+        "code": "PEN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "South Carolina",
+        "code": "SCA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Tennessee",
+        "code": "TEN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Texas",
+        "code": "TEX",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Virginia",
+        "code": "VRG",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "West Virginia",
+        "code": "WVA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Wisconsin",
+        "code": "WIS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      }
+    ],
+    "introduced": [
+      {
+        "region": "Austria",
+        "code": "AUT",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Germany",
+        "code": "GER",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Japan",
+        "code": "JAP",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Massachusetts",
+        "code": "MAS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      }
+    ],
+    "records_total": 86,
+    "wcvp_records": 35,
+    "note": "WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution sources are not parsed."
+  },
+  "wikidata_taxon_range": []
+}

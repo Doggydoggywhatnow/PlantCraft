@@ -1,0 +1,338 @@
+id: chasmanthium_latifolium
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+taxonomy:
+  kingdom: Plantae
+  order: Poales
+  family: Poaceae
+  genus: Chasmanthium
+  species: latifolium
+  authority: (Michx.) H.O.Yates
+names:
+  scientific: Chasmanthium latifolium
+  common:
+  - Indian woodoats
+  - Broad-leaved Chasmanthium
+  - Indian Wood Oats
+  - Inland Wood Oats
+  - Seaoats
+  - broadleaf chasmanthium
+  in_game: Indian Woodoats
+description: Cool-season rhizomatous perennial grass about 1 m tall with an open, nodding panicle of flattened
+  spikelets.
+habitat:
+  native_range: Central and eastern United States, Manitoba and northeastern Mexico
+  environment: Wooded areas and riparian zones.
+  life_form: perennial_herb
+  native_regions:
+  - region: Alabama
+    code: ALA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Arizona
+    code: ARI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Arkansas
+    code: ARK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Delaware
+    code: DEL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: District of Columbia
+    code: WDC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Florida
+    code: FLA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Georgia
+    code: GEO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Illinois
+    code: ILL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Indiana
+    code: INI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kansas
+    code: KAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kentucky
+    code: KTY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Louisiana
+    code: LOU
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Manitoba
+    code: MAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Maryland
+    code: MRY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Northeast
+    code: MXE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Michigan
+    code: MIC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mississippi
+    code: MSI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Missouri
+    code: MSO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nebraska
+    code: NEB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Jersey
+    code: NWJ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Mexico
+    code: NWM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Carolina
+    code: NCA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ohio
+    code: OHI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Oklahoma
+    code: OKL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Pennsylvania
+    code: PEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South Carolina
+    code: SCA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tennessee
+    code: TEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Texas
+    code: TEX
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Virginia
+    code: VRG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: West Virginia
+    code: WVA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Wisconsin
+    code: WIS
+    source: World Checklist of Vascular Plants via GBIF
+  introduced_regions:
+  - region: Austria
+    code: AUT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Germany
+    code: GER
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Japan
+    code: JAP
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Massachusetts
+    code: MAS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  range_notes:
+  - WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution
+    sources are not parsed.
+  - GBIF occurrence latitude/elevation envelope (climate field) includes cultivated and introduced plants.
+  climate: GBIF records span latitude 25 to 48 deg, elevation 77-498 m
+growth_stages:
+- id: seed
+  name: Seed
+  description: Seed in the soil.
+  texture: textures/block/chasmanthium_latifolium_seed.png
+- id: seedling
+  name: Seedling
+  description: Small seedling.
+  texture: textures/block/chasmanthium_latifolium_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy growth before flowering.
+  texture: textures/block/chasmanthium_latifolium_vegetative.png
+- id: budding
+  name: Budding
+  description: Flower buds forming.
+  texture: textures/block/chasmanthium_latifolium_budding.png
+- id: flowering
+  name: Flowering
+  description: Open flowers.
+  texture: textures/block/chasmanthium_latifolium_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Fruit or seed head forming.
+  texture: textures/block/chasmanthium_latifolium_fruiting.png
+reproduction:
+  flowers:
+    present: true
+  fruit:
+    present: true
+    type: grain (caryopsis)
+    description: 'DEFAULT: All grasses set a one-seeded grain; family default, not read from the source.'
+sources:
+- name: 'GBIF (ACCEPTED: Chasmanthium latifolium)'
+  url: https://www.gbif.org/species/2703077
+  id: '2703077'
+  status: checked
+- name: 'Wikipedia: Chasmanthium latifolium'
+  url: https://en.wikipedia.org/wiki/Chasmanthium_latifolium
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q5087377
+  id: Q5087377
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: 'DEFAULT perennial_herb template: Seed -> Seedling -> Vegetative -> Budding -> Flowering
+      -> Fruiting.'
+    requirements:
+    - Light level 9 or more
+    - Plantable on dirt or grass
+  spawn:
+    biomes:
+    - minecraft:plains
+    - minecraft:forest
+    - minecraft:meadow
+    feature: patch
+    rarity: uncommon
+    reason: DRAFT guess from median GBIF record latitude 40 deg; review against real habitat.
+  notes: 'Auto-generated by pipeline/. Growth stages, spawn and rarity are defaults, not observations.
+    Not found in sources (blank or defaulted): fruit.'
+images:
+- url: https://commons.wikimedia.org/wiki/File%3AChasmanthium_latifolium-spikelet.jpg
+  license: Public domain
+  author: Jim Conrad
+  shows: Chasmanthium latifolium-spikelet - A spikelet from the grass species Chasmanthium latifolium
+    (Wild Oats, etc..). There are 10 florets (
+  role: flower
+  file: data/photos/chasmanthium_latifolium/flower_01_chasmanthium-latifolium-spikelet.jpg
+  width: 400
+  height: 678
+  hints:
+  - flowers
+  - spikelet
+- url: https://commons.wikimedia.org/wiki/File%3AChasmanthium_latifolium15.jpg
+  license: CC BY-SA 4.0
+  author: DouglasGoldman
+  shows: Chasmanthium latifolium15 - Fruiting floret.
+  role: flower
+  file: data/photos/chasmanthium_latifolium/flower_02_chasmanthium-latifolium15.jpg
+  width: 2710
+  height: 1814
+  hints:
+  - floret
+- url: https://commons.wikimedia.org/wiki/File%3AChasmanthium_latifolium_10zz.jpg
+  license: CC BY-SA 4.0
+  author: Photo by David J. Stang
+  shows: 'Chasmanthium latifolium 10zz - Location taken: Behnke Nurseries, Potomac MD USA. Names: Chasmanthium
+    latifolium (Michx.) H.O.Yates,'
+  role: leaf
+  file: data/photos/chasmanthium_latifolium/leaf_01_chasmanthium-latifolium-10zz.jpg
+  width: 3504
+  height: 2336
+  hints:
+  - leaf
+- url: https://commons.wikimedia.org/wiki/File%3AChasmanthium_latifolium_5zz.jpg
+  license: CC BY-SA 4.0
+  author: Photo by David J. Stang
+  shows: 'Chasmanthium latifolium 5zz - Location taken: Behnke Nurseries, Beltsville, MD USA. Names: Chasmanthium
+    latifolium (Michx.) H.O.Ya'
+  role: leaf
+  file: data/photos/chasmanthium_latifolium/leaf_02_chasmanthium-latifolium-5zz.jpg
+  width: 1728
+  height: 1152
+  hints:
+  - leaf
+- url: https://commons.wikimedia.org/wiki/File%3AChasmanthium_latifolium_-_Berlin_Botanical_Garden_-_IMG_8541.JPG
+  license: Public domain
+  author: Daderot
+  shows: Chasmanthium latifolium - Berlin Botanical Garden - IMG 8541 - Chasmanthium latifolium specimen
+    in the Botanischer Garten, Berlin-Dahlem (Berlin Botanical Garden),
+  role: illustration
+  file: data/photos/chasmanthium_latifolium/illustration_01_chasmanthium-latifolium-berlin-botanical.jpg
+  width: 3264
+  height: 2448
+  hints:
+  - botanical
+- url: https://commons.wikimedia.org/wiki/File%3AChasmanthium_latifolium_kz1.jpg
+  license: CC BY-SA 4.0
+  author: Krzysztof Ziarnek, Kenraiz
+  shows: Chasmanthium latifolium kz1 - Chasmanthium latifolium in Olbrich Botanical Gardens, Madison
+  role: illustration
+  file: data/photos/chasmanthium_latifolium/illustration_02_chasmanthium-latifolium-kz1.jpg
+  width: 3072
+  height: 4608
+  hints:
+  - botanical
+- url: https://commons.wikimedia.org/wiki/File%3AChasmanthium_latifolium_-_Botanischer_Garten_M%C3%BCnchen-Nymphenburg_-_DSC07862.JPG
+  license: Public domain
+  author: Daderot
+  shows: Chasmanthium latifolium - Botanischer Garten München-Nymphenburg - DSC07862 - Chasmanthium latifolium
+    specimen in the Botanischer Garten München-Nymphenburg, Munich, Germany.
+  role: habit
+  file: data/photos/chasmanthium_latifolium/habit_01_chasmanthium-latifolium-botanischer-gart.jpg
+  width: 3240
+  height: 4320
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3AChasmanthium_latifolium1.jpg
+  license: CC BY-SA 4.0
+  author: DouglasGoldman
+  shows: Chasmanthium latifolium1 - Chasmanthium latifolium
+  role: habit
+  file: data/photos/chasmanthium_latifolium/habit_02_chasmanthium-latifolium1.jpg
+  width: 2710
+  height: 1814
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3AChasmanthium_latifolium3.jpg
+  license: CC BY-SA 4.0
+  author: DouglasGoldman
+  shows: Chasmanthium latifolium3 - Chasmanthium latifolium
+  role: habit
+  file: data/photos/chasmanthium_latifolium/habit_03_chasmanthium-latifolium3.jpg
+  width: 2710
+  height: 1814
+  hints: []
+size:
+  height_cm:
+    max: 100
+  habit: upright
+  source: wikipedia
+  quote: culms about 1 meter (3.3 ft) tall
+  height_sources:
+  - name: 'Wikipedia: Chasmanthium latifolium'
+    url: https://en.wikipedia.org/wiki/Chasmanthium_latifolium
+    max: 100
+    quote: culms about 1 meter (3.3 ft) tall
+measurements:
+- what: height
+  unit: cm
+  max: 100
+  qualifier: typical
+  quote: culms about 1 meter (3.3 ft) tall
+  source: 'Wikipedia: Chasmanthium latifolium'
+appearance:
+- part: inflorescence
+  attribute: shape
+  value: open, nodding panicle of laterally compressed (flattened) spikelets
+  quote: an open, nodding panicle of laterally compressed (flattened) spikelets
+  source: 'Wikipedia: Chasmanthium latifolium'
+architecture:
+- aspect: growth_habit
+  value: cool-season, rhizomatous, perennial grass
+  quote: a cool-season, rhizomatous, perennial grass
+  source: 'Wikipedia: Chasmanthium latifolium'
+- aspect: flower_arrangement
+  value: open nodding panicle of flattened spikelets
+  quote: open, nodding panicle
+  source: 'Wikipedia: Chasmanthium latifolium'
+confidence: high

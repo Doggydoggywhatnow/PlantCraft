@@ -102,3 +102,31 @@ human step, same as the hand-made files.
 - Native range comes from WCVP via GBIF. A species with no WCVP record in GBIF (some synonyms) gets no `native_regions`;
   the draft says so and falls back to the Wikipedia statement and Wikidata's taxon range.
 - Download size: about 20 photos per species at 1024 px is a few MB. Set `photos.enabled: false` or lower `per_role` to trim.
+
+## Example run: 12 tall grasses
+
+`pipeline/lists/tall_grasses.txt` (hand-picked lush, somewhat tall grasses). Wall-clock times on this network:
+
+| Stage | Time | Notes |
+|---|---|---|
+| resolve | 1 s | flagged `Pennisetum alopecuroides` (genus moved to *Cenchrus*) and `Andropogon gerardii` (GBIF spells it *gerardi*) for review |
+| fetch | 116 s for 11 species | Wikipedia, Wikidata, GBIF, GBIF range and native regions, run concurrently |
+| photos | 395 s for 11 species | about 36 s per species; limited by Commons rate limits |
+| the review-list species (Andropogon) | 1 s + 9 s + 74 s | resolved with `--accept-fuzzy`, then fetched and photographed on its own |
+| extract (verify only) | 0.1 s | the extraction itself was written by hand (see below), so its model time is not measured |
+| assemble | 0.4 s | 12 schema-valid drafts |
+| report | 0.5 s | |
+
+About 10 minutes of network time for 12 species, roughly 50 s per species, almost all of it Wikipedia and Commons
+rate limiting. It should scale about linearly, so a few hundred species is a few hours; photos dominate.
+
+`pipeline/examples/tall_grasses_answers/` holds the extraction answers used in this run. They were written by hand to
+match what the extraction model returns (no API key was available), with every quote asserted against the source
+text. Import them with `python3 pipeline/extract.py --import-dir pipeline/examples/tall_grasses_answers`.
+
+Lessons from the run:
+- `resolve --force` rewrites the whole resolved list to the names given; re-resolve the full list afterwards.
+- Number words ("three years") now count as numbers when quote-checking measurements.
+- Poaceae get a flagged family default of a grain fruit, so every grass keeps a fruiting stage.
+- Source text is uneven: *Cortaderia selloana*'s article has almost no morphology, so its draft is `low` confidence with a
+  `pending` size. The sprite step falls back to photo colours and documented defaults for such species.

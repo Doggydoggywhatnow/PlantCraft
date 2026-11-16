@@ -1,0 +1,296 @@
+{
+  "id": "phalaris_arundinacea",
+  "species": "Phalaris arundinacea",
+  "fetched": "2026-11-16",
+  "note": "Photos are reference material only. Keep authors and licences with them.",
+  "candidates_examined": 61,
+  "coverage": {
+    "flower": 4,
+    "fruit": 0,
+    "seed": 0,
+    "leaf": 2,
+    "bark": 0,
+    "branches": 0,
+    "illustration": 2,
+    "habit": 3
+  },
+  "missing_roles": [
+    "fruit"
+  ],
+  "photos": [
+    {
+      "file": "data/photos/phalaris_arundinacea/flower_01_phalaris-arundinacea-3883207046.jpg",
+      "role": "flower",
+      "hints": [
+        "flowering",
+        "inflorescence",
+        "panicle"
+      ],
+      "title": "File:Phalaris arundinacea (3883207046).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_%283883207046%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Phalaris_arundinacea_%283883207046%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1704,
+      "height": 2272,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Matt Lavin from Bozeman, Montana, USA",
+      "description": "The inflorescence is narrow and contracted early and late in the year, but during mid summer flowering, the panicle branches spread and the spike opens.",
+      "categories": [
+        "CC-BY-SA-2.0",
+        "Files uploaded from Flickr by Jacopo Werther via Bot",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by File Upload Bot (Magnus Manske)",
+        "Flora of Montana",
+        "Grass inflorescence",
+        "Phalaris arundinacea",
+        "Photographs by Matt Lavin",
+        "Taken with Nikon Coolpix 4500"
+      ]
+    },
+    {
+      "file": "data/photos/phalaris_arundinacea/flower_02_phalaris-arundinacea-01-by-dpc.jpg",
+      "role": "flower",
+      "hints": [
+        "inflorescence"
+      ],
+      "title": "File:Phalaris arundinacea 01 by-dpc.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_01_by-dpc.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Phalaris_arundinacea_01_by-dpc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2592,
+      "height": 3872,
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "David Perez",
+      "description": "Inflorescence of reed canary grass (Phalaris arundinacea). León (Spain).",
+      "categories": [
+        "CC-BY-3.0",
+        "Files with coordinates missing SDC location of creation",
+        "GFDL",
+        "License migration redundant",
+        "Phalaris arundinacea",
+        "Photos by user:David Perez",
+        "Self-published work",
+        "Taken with Pentax K10D",
+        "Uploaded with Commonist"
+      ]
+    },
+    {
+      "file": "data/photos/phalaris_arundinacea/flower_03_phalaris-arundinacea-3882414219.jpg",
+      "role": "flower",
+      "hints": [
+        "flowering",
+        "inflorescence",
+        "panicle"
+      ],
+      "title": "File:Phalaris arundinacea (3882414219).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_%283882414219%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/49/Phalaris_arundinacea_%283882414219%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1704,
+      "height": 2272,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Matt Lavin from Bozeman, Montana, USA",
+      "description": "The inflorescence is narrow and contracted early and late in the year, but during mid summer flowering, the panicle branches spread and the spike opens.",
+      "categories": [
+        "CC-BY-SA-2.0",
+        "Files uploaded from Flickr by Jacopo Werther via Bot",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by File Upload Bot (Magnus Manske)",
+        "Flora of Montana",
+        "Grass inflorescence",
+        "Phalaris arundinacea",
+        "Photographs by Matt Lavin",
+        "Taken with Nikon Coolpix 4500"
+      ]
+    },
+    {
+      "file": "data/photos/phalaris_arundinacea/flower_04_phalaris-arundinacea-3883210312.jpg",
+      "role": "flower",
+      "hints": [
+        "flowering",
+        "inflorescence",
+        "panicle"
+      ],
+      "title": "File:Phalaris arundinacea (3883210312).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_%283883210312%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Phalaris_arundinacea_%283883210312%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1704,
+      "height": 2272,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Matt Lavin from Bozeman, Montana, USA",
+      "description": "The inflorescence is narrow and contracted early and late in the year, but during mid summer flowering, the panicle branches spread and the spike opens.",
+      "categories": [
+        "CC-BY-SA-2.0",
+        "Files uploaded from Flickr by Jacopo Werther via Bot",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by File Upload Bot (Magnus Manske)",
+        "Flora of Montana",
+        "Grass inflorescence",
+        "Phalaris arundinacea",
+        "Photographs by Matt Lavin",
+        "Taken with Nikon Coolpix 4500"
+      ]
+    },
+    {
+      "file": "data/photos/phalaris_arundinacea/leaf_01_150505-benesse-house-park-naoshima-kagaw.jpg",
+      "role": "leaf",
+      "hints": [],
+      "title": "File:150505 Benesse House Park Naoshima Kagawa pref Japan01n.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3A150505_Benesse_House_Park_Naoshima_Kagawa_pref_Japan01n.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a7/150505_Benesse_House_Park_Naoshima_Kagawa_pref_Japan01n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6000,
+      "height": 4000,
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "author": "663highland",
+      "description": "Benesse House \"Park\" of Benesse Art Site Naoshima in Naoshima, Kagawa prefecture, Japan",
+      "categories": [
+        "Benesse House Park",
+        "CC-BY-2.5",
+        "CC-BY-SA-3.0-migrated",
+        "Files with coordinates missing SDC location of creation",
+        "GFDL",
+        "Japan photographs taken on 2015-05-05",
+        "License migration redundant",
+        "May 2015 in Kagawa prefecture",
+        "Phalaris arundinacea",
+        "Poales in Japan",
+        "Self-published work",
+        "White leaves"
+      ]
+    },
+    {
+      "file": "data/photos/phalaris_arundinacea/leaf_02_broadleaf-cattails-bulrush-typha-latifol.jpg",
+      "role": "leaf",
+      "hints": [],
+      "title": "File:Broadleaf Cattails, bulrush Typha latifolia, Reed canarygrass Phalaris Arundinacea 7124.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ABroadleaf_Cattails%2C_bulrush_Typha_latifolia%2C_Reed_canarygrass_Phalaris_Arundinacea_7124.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Broadleaf_Cattails%2C_bulrush_Typha_latifolia%2C_Reed_canarygrass_Phalaris_Arundinacea_7124.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2977,
+      "height": 3009,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Paul Harrison",
+      "description": "Taken in Eastern Ontario Canada",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Grass in Canada",
+        "Nature of Ontario",
+        "Phalaris arundinacea",
+        "Self-published work",
+        "Typha latifolia (leaves)",
+        "Typha latifolia in Canada"
+      ]
+    },
+    {
+      "file": "data/photos/phalaris_arundinacea/illustration_01_phalaris-arundinacea-15-p-bot-phala-arun.jpg",
+      "role": "illustration",
+      "hints": [],
+      "title": "File:Phalaris arundinacea 15-p.bot-phala.arund-01.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_15-p.bot-phala.arund-01.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Phalaris_arundinacea_15-p.bot-phala.arund-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3456,
+      "height": 2592,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Ayotte, Gilles, 1948-",
+      "description": "Nom français : alpiste roseau. Nom anglais : reed canarygrass. Plants matures (inflorescence contractée, panicule) d'alpiste roseau, en milieu naturel.",
+      "categories": [
+        "Botanical collection of Université Laval",
+        "CC-BY-SA-4.0",
+        "Phalaris arundinacea",
+        "Uploaded with pattypan"
+      ]
+    },
+    {
+      "file": "data/photos/phalaris_arundinacea/illustration_02_phalaris-arundinacea-img-18725.jpg",
+      "role": "illustration",
+      "hints": [],
+      "title": "File:Phalaris arundinacea - img 18725.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_-_img_18725.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Phalaris_arundinacea_-_img_18725.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1664,
+      "height": 2496,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Pmau",
+      "description": "Baldingère ou Alpiste roseau",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Flora of Doubs",
+        "France photographs taken on 2010-07-29",
+        "Images by Pmau",
+        "Phalaris arundinacea",
+        "Poaceae in France",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/phalaris_arundinacea/habit_01_broadleaf-cattails-bulrush-typha-latifol.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Broadleaf Cattails, bulrush Typha latifolia, Reed canarygrass Phalaris Arundinacea 7129.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ABroadleaf_Cattails%2C_bulrush_Typha_latifolia%2C_Reed_canarygrass_Phalaris_Arundinacea_7129.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Broadleaf_Cattails%2C_bulrush_Typha_latifolia%2C_Reed_canarygrass_Phalaris_Arundinacea_7129.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5184,
+      "height": 3456,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Paul Harrison",
+      "description": "Taken in Eastern Ontario Canada",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Grass in Canada",
+        "Nature of Ontario",
+        "Phalaris arundinacea",
+        "Self-published work",
+        "Typha latifolia in Canada"
+      ]
+    },
+    {
+      "file": "data/photos/phalaris_arundinacea/habit_02_phalaris-arundinacea-reed-canary-grass.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Phalaris arundinacea - reed canary grass.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_-_reed_canary_grass.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Phalaris_arundinacea_-_reed_canary_grass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3000,
+      "height": 4000,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Matt Lavin",
+      "description": "Reed canary grass growing at the north end of the Indreland Audubon Wetland Preserve, Bozeman, Gallatin County, Montana. Reed canary grass is likely the most abundant grass throughout these wetlands.",
+      "categories": [
+        "CC-BY-SA-2.0",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by FlickreviewR 2",
+        "Phalaris arundinacea"
+      ]
+    },
+    {
+      "file": "data/photos/phalaris_arundinacea/habit_03_phalaris-arundinacea-3738642209.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Phalaris arundinacea (3738642209).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_%283738642209%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Phalaris_arundinacea_%283738642209%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3648,
+      "height": 2736,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Matt Lavin from Bozeman, Montana, USA",
+      "description": "This rhizomatous species forms dense stands along riparian courses and is abundant throughout Montana in such settings.",
+      "categories": [
+        "CC-BY-SA-2.0",
+        "Files uploaded from Flickr by Jacopo Werther via Bot",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by File Upload Bot (Magnus Manske)",
+        "Grass taxonomy",
+        "Phalaris arundinacea",
+        "Photographs by Matt Lavin",
+        "Taken with Nikon Coolpix S550"
+      ]
+    }
+  ]
+}

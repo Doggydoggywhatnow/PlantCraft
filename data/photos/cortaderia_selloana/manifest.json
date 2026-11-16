@@ -1,0 +1,190 @@
+{
+  "id": "cortaderia_selloana",
+  "species": "Cortaderia selloana",
+  "fetched": "2026-11-16",
+  "note": "Photos are reference material only. Keep authors and licences with them.",
+  "candidates_examined": 66,
+  "coverage": {
+    "flower": 0,
+    "fruit": 0,
+    "seed": 0,
+    "leaf": 2,
+    "bark": 0,
+    "branches": 0,
+    "illustration": 2,
+    "habit": 3
+  },
+  "missing_roles": [
+    "flower",
+    "fruit"
+  ],
+  "photos": [
+    {
+      "file": "data/photos/cortaderia_selloana/leaf_01_cortaderia-selloana-pampas-grass-upper-e.jpg",
+      "role": "leaf",
+      "hints": [
+        "leaf"
+      ],
+      "title": "File:Cortaderia selloana (Pampas Grass) upper epidermis of leaf, silica teeth bodies and veins - x20.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana_%28Pampas_Grass%29_upper_epidermis_of_leaf%2C_silica_teeth_bodies_and_veins_-_x20.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/36/Cortaderia_selloana_%28Pampas_Grass%29_upper_epidermis_of_leaf%2C_silica_teeth_bodies_and_veins_-_x20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1738,
+      "height": 2434,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Rosser1954",
+      "description": "Cortaderia selloana (Pampas Grass) upper epidermis of leaf, silica teeth bodies and veins - x20",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Cortaderia selloana",
+        "Images by Roger Griffith",
+        "Microscopic images of Poaceae leaves",
+        "Self-published work",
+        "Taken with Doro Liberto 820 Mini"
+      ]
+    },
+    {
+      "file": "data/photos/cortaderia_selloana/leaf_02_cortaderia-selloana-upper-epidermis-of-l.jpg",
+      "role": "leaf",
+      "hints": [
+        "leaf"
+      ],
+      "title": "File:Cortaderia selloana upper epidermis of leaf and veins - x20.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana_upper_epidermis_of_leaf_and_veins_-_x20.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Cortaderia_selloana_upper_epidermis_of_leaf_and_veins_-_x20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1920,
+      "height": 2560,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Rosser1954",
+      "description": "Cortaderia selloana (Pampas Grass) upper epidermis of leaf and veins - x20",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Cortaderia selloana",
+        "Images by Roger Griffith",
+        "Self-published work",
+        "Taken with Doro Liberto 820 Mini"
+      ]
+    },
+    {
+      "file": "data/photos/cortaderia_selloana/illustration_01_cortaderia-selloana-01.jpg",
+      "role": "illustration",
+      "hints": [
+        "botanical"
+      ],
+      "title": "File:Cortaderia selloana (01).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana_%2801%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Cortaderia_selloana_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3093,
+      "height": 4133,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Jana Sekyrová",
+      "description": "Pampas grass Cortaderia selloana in the Botanical Garden in Olomouc, Czechia.",
+      "categories": [
+        "Botanical Garden of Flora Olomouc",
+        "CC-BY-SA-4.0",
+        "Cortaderia selloana",
+        "Files by Anaj7",
+        "Files with coordinates missing SDC location of creation",
+        "Pictures taken during Wikiměsto Olomouc",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/cortaderia_selloana/illustration_02_cortaderia-selloana-001.jpg",
+      "role": "illustration",
+      "hints": [],
+      "title": "File:Cortaderia selloana 001.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana_001.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Cortaderia_selloana_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2357,
+      "height": 3648,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Marija Gajić",
+      "description": "Cortaderia selloana, commonly known as pampas grass, is a flowering plant native to southern South America, including the Pampas after which it is named.",
+      "categories": [
+        "Botanical Garden Jevremovac",
+        "CC-BY-SA-4.0",
+        "Cortaderia selloana (cultivated)",
+        "Park of Botanical Garden Jevremovac",
+        "Self-published work",
+        "Wikipedian in Residence 2015 WMRS - Photo materials"
+      ]
+    },
+    {
+      "file": "data/photos/cortaderia_selloana/habit_01_cortaderia-selloana-20260613.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Cortaderia selloana 20260613.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana_20260613.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Cortaderia_selloana_20260613.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4672,
+      "height": 7008,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Rjcastillo",
+      "description": "Cortaderia selloana.",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Cortaderia selloana",
+        "Files with coordinates missing SDC location of creation",
+        "Quality images",
+        "Quality images by Rjcastillo",
+        "Quality images missing SDC Commons quality assessment",
+        "Quality images missing SDC depicts",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/cortaderia_selloana/habit_02_pampas-grass-42385558184.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Pampas grass (42385558184).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APampas_grass_%2842385558184%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/46/Pampas_grass_%2842385558184%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5790,
+      "height": 3860,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Raita Futo from Tokyo, Japan",
+      "description": "パンパスグラス",
+      "categories": [
+        "CC-BY-2.0",
+        "Cortaderia selloana",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images missing SDC published in",
+        "Flickr images reviewed by FlickreviewR 2",
+        "Photographs by Raita Futo",
+        "Uploads by Matlin"
+      ]
+    },
+    {
+      "file": "data/photos/cortaderia_selloana/habit_03_2025-11-02-landscape-near-nadadouro-1.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:2025-11-02 Landscape near Nadadouro 1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3A2025-11-02_Landscape_near_Nadadouro_1.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/81/2025-11-02_Landscape_near_Nadadouro_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5486,
+      "height": 3657,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Alexkom000",
+      "description": "Landscape near Nadadouro, Caldas da Rainha",
+      "categories": [
+        "CC-BY-4.0",
+        "Caldas da Rainha",
+        "Caldas da Rainha municipality by user:Alexkom000",
+        "Cortaderia selloana",
+        "Files with coordinates missing SDC location of creation",
+        "Landscapes of Centro (Portugal)",
+        "November 2025 by user:Alexkom000",
+        "Portugal photographs taken on 2025-11-02",
+        "Self-published work",
+        "Taken with Sony ILCE-7M3 and Sony FE 24-105mm F4 G OSS by user:Alexkom000"
+      ]
+    }
+  ]
+}

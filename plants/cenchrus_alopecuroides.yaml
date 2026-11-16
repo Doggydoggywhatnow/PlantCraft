@@ -1,0 +1,437 @@
+id: cenchrus_alopecuroides
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+taxonomy:
+  kingdom: Plantae
+  order: Poales
+  family: Poaceae
+  genus: Cenchrus
+  species: alopecuroides
+  authority: (L.) Thunb.
+names:
+  scientific: Cenchrus alopecuroides
+  common:
+  - Chinese fountaingrass
+  - Black Fountaingrass
+  in_game: Chinese Fountaingrass
+description: Perennial ornamental grass in graceful spreading clumps with narrow green leaves and arching
+  bottlebrush flower spikes like a fountain.
+habitat:
+  native_range: Asia and Australia
+  environment: Sheltered position in full sun to light shade; moist, well-drained soil; mild or coastal
+    areas not below -5 C.
+  life_form: perennial_herb
+  native_regions:
+  - region: Andaman Is.
+    code: AND
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China North-Central
+    code: CHN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China South-Central
+    code: CHC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China Southeast
+    code: CHS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Hainan
+    code: CHH
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Japan
+    code: JAP
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Jawa
+    code: JAW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Korea
+    code: KOR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Malaya
+    code: MLY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Manchuria
+    code: CHM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Myanmar
+    code: MYA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nansei-shoto
+    code: NNS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New South Wales
+    code: NSW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nicobar Is.
+    code: NCB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Northern Territory
+    code: NTA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ogasawara-shoto
+    code: OGA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Philippines
+    code: PHI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Queensland
+    code: QLD
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Taiwan
+    code: TAI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tibet
+    code: CHT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Victoria
+    code: VIC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Vietnam
+    code: VIE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Western Australia
+    code: WAU
+    source: World Checklist of Vascular Plants via GBIF
+  introduced_regions:
+  - region: Arkansas
+    code: ARK
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Austria
+    code: AUT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Bulgaria
+    code: BUL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Colorado
+    code: COL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Czechia-Slovakia
+    code: CZE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Delaware
+    code: DEL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Germany
+    code: GER
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Illinois
+    code: ILL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: India
+    code: IND
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Italy
+    code: ITA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Maryland
+    code: MRY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New York
+    code: NWY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Zealand North
+    code: NZN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Zealand South
+    code: NZS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Pennsylvania
+    code: PEN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Romania
+    code: ROM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Transcaucasus
+    code: TCS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: West Himalaya
+    code: WHM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  range_notes:
+  - WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution
+    sources are not parsed.
+  - 'Wikidata taxon range (may include introduced areas; cross-check only): Beijing, People''s Republic
+    of China, Shanghai, Fujian, Guangdong, Zhoushan Archipelago'
+  - GBIF occurrence latitude/elevation envelope (climate field) includes cultivated and introduced plants.
+  climate: GBIF records span latitude -35 to 52 deg
+growth_stages:
+- id: seed
+  name: Seed
+  description: Seed in the soil.
+  texture: textures/block/cenchrus_alopecuroides_seed.png
+- id: seedling
+  name: Seedling
+  description: Small seedling.
+  texture: textures/block/cenchrus_alopecuroides_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy growth before flowering.
+  texture: textures/block/cenchrus_alopecuroides_vegetative.png
+- id: budding
+  name: Budding
+  description: Flower buds forming.
+  texture: textures/block/cenchrus_alopecuroides_budding.png
+- id: flowering
+  name: Flowering
+  description: Open flowers.
+  texture: textures/block/cenchrus_alopecuroides_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Fruit or seed head forming.
+  texture: textures/block/cenchrus_alopecuroides_fruiting.png
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - silvery
+    - pinkish-white
+    season: late summer
+  fruit:
+    present: true
+    type: seeds in the flower spike
+sources:
+- name: 'GBIF (ACCEPTED: Cenchrus alopecuroides)'
+  url: https://www.gbif.org/species/5671747
+  id: '5671747'
+  status: checked
+- name: 'Wikipedia: Cenchrus alopecuroides'
+  url: https://en.wikipedia.org/wiki/Cenchrus_alopecuroides
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q1433037
+  id: Q1433037
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: 'DEFAULT perennial_herb template: Seed -> Seedling -> Vegetative -> Budding -> Flowering
+      -> Fruiting.'
+    requirements:
+    - Light level 9 or more
+    - Plantable on dirt or grass
+  spawn:
+    biomes:
+    - minecraft:beach
+    - minecraft:stony_shore
+    feature: patch
+    rarity: uncommon
+    reason: DRAFT guess from habitat text mentions it; review against real habitat.
+  notes: Auto-generated by pipeline/. Growth stages, spawn and rarity are defaults, not observations.
+images:
+- url: https://commons.wikimedia.org/wiki/File%3ACenchrus_purpurascens_anthers1_%287762696160%29.jpg
+  license: CC BY 2.0
+  author: Harry Rose from South West Rocks, Australia
+  shows: Cenchrus purpurascens anthers1 (7762696160) - Anthers protruding from spikelets.
+  role: flower
+  file: data/photos/cenchrus_alopecuroides/flower_01_cenchrus-purpurascens-anthers1-776269616.jpg
+  width: 3404
+  height: 2426
+  hints:
+  - spikelets
+- url: https://commons.wikimedia.org/wiki/File%3ACenchrus_purpurascens_habit2_%287762701354%29.jpg
+  license: CC BY 2.0
+  author: Harry Rose from South West Rocks, Australia
+  shows: Cenchrus purpurascens habit2 (7762701354) - Native, warm-season, perennial, erect, densely tufted,
+    coarse grass to 1.5 m tall. Leaves are coarse
+  role: leaf
+  file: data/photos/cenchrus_alopecuroides/leaf_01_cenchrus-purpurascens-habit2-7762701354.jpg
+  width: 2592
+  height: 1944
+  hints:
+  - leaves
+- url: https://commons.wikimedia.org/wiki/File%3ACenchrus_purpurascens_habit4_%287762702152%29.jpg
+  license: CC BY 2.0
+  author: Harry Rose from South West Rocks, Australia
+  shows: Cenchrus purpurascens habit4 (7762702152) - Native, warm-season, perennial, erect, densely tufted,
+    coarse grass to 1.5 m tall. Leaves are coarse
+  role: leaf
+  file: data/photos/cenchrus_alopecuroides/leaf_02_cenchrus-purpurascens-habit4-7762702152.jpg
+  width: 2592
+  height: 1944
+  hints:
+  - leaves
+- url: https://commons.wikimedia.org/wiki/File%3ACenchrus_purpurascens_sl1.jpg
+  license: CC BY-SA 4.0
+  author: Stefan.lefnaer
+  shows: 'Cenchrus purpurascens sl1 - Habitus Taxonym: Cenchrus purpurascens (= `Pennisetum alopecuroides´)
+    ss Fischer et al. EfÖLS 2008 I'
+  role: illustration
+  file: data/photos/cenchrus_alopecuroides/illustration_01_cenchrus-purpurascens-sl1.jpg
+  width: 4128
+  height: 3096
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3APennisetum_alopecuroides_-_Berlin_Botanical_Garden_-_IMG_8624.JPG
+  license: Public domain
+  author: Daderot
+  shows: Pennisetum alopecuroides - Berlin Botanical Garden - IMG 8624 - Pennisetum alopecuroides specimen
+    in the Botanischer Garten, Berlin-Dahlem (Berlin Botanical Garden)
+  role: illustration
+  file: data/photos/cenchrus_alopecuroides/illustration_02_pennisetum-alopecuroides-berlin-botanica.jpg
+  width: 3264
+  height: 2448
+  hints:
+  - botanical
+- url: https://commons.wikimedia.org/wiki/File%3ACenchrus_purpurascens_flowerhead4_%287762696856%29.jpg
+  license: CC BY 2.0
+  author: Harry Rose from South West Rocks, Australia
+  shows: Cenchrus purpurascens flowerhead4 (7762696856) - Flowerheads are cylindrical, spike-like, contracted
+    panicles up to 20 cm in length; purplish when yo
+  role: habit
+  file: data/photos/cenchrus_alopecuroides/habit_01_cenchrus-purpurascens-flowerhead4-776269.jpg
+  width: 2658
+  height: 4000
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ACenchrus_alopecuroides_iNaturalist_1288254.jpg
+  license: CC BY 2.0
+  author: harum.koh
+  shows: Cenchrus alopecuroides iNaturalist 1288254 - Cenchrus alopecuroides
+  role: habit
+  file: data/photos/cenchrus_alopecuroides/habit_02_cenchrus-alopecuroides-inaturalist-12882.jpg
+  width: 2048
+  height: 1365
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ACenchrus_alopecuroides_-_Greg_Tasney_-_465307234.jpeg
+  license: CC BY-SA 4.0
+  author: Greg Tasney
+  shows: Cenchrus alopecuroides - Greg Tasney - 465307234 - Cenchrus alopecuroides, Croftby QLD 4310,
+    Australia, 2025-01-21 (iNaturalist).
+  role: habit
+  file: data/photos/cenchrus_alopecuroides/habit_03_cenchrus-alopecuroides-greg-tasney-46530.jpg
+  width: 2048
+  height: 1365
+  hints: []
+uses_real:
+- use: Ornamental grass
+  note: Warm season ornamental grass; many cultivars.
+  category: ornamental
+  part_used: whole plant
+  quote: a warm season ornamental grass
+size:
+  height_cm:
+    min: 61
+    max: 91
+  habit: upright
+  source: wikipedia
+  quote: typically grows in graceful, spreading clumps from 2–3 ft (0.61–0.91 m) tall and wide
+  height_sources:
+  - name: 'Wikipedia: Cenchrus alopecuroides'
+    url: https://en.wikipedia.org/wiki/Cenchrus_alopecuroides
+    min: 61
+    max: 91
+    quote: typically grows in graceful, spreading clumps from 2–3 ft (0.61–0.91 m) tall and wide
+  spread_cm:
+    min: 61
+    max: 91
+  spread_sources:
+  - name: 'Wikipedia: Cenchrus alopecuroides'
+    url: https://en.wikipedia.org/wiki/Cenchrus_alopecuroides
+    min: 61
+    max: 91
+    quote: spreading clumps from 2–3 ft (0.61–0.91 m) tall and wide
+measurements:
+- what: height
+  unit: cm
+  max: 91
+  qualifier: range
+  quote: typically grows in graceful, spreading clumps from 2–3 ft (0.61–0.91 m) tall and wide
+  min: 61
+  source: 'Wikipedia: Cenchrus alopecuroides'
+- what: spread
+  unit: cm
+  max: 91
+  qualifier: range
+  quote: spreading clumps from 2–3 ft (0.61–0.91 m) tall and wide
+  min: 61
+  source: 'Wikipedia: Cenchrus alopecuroides'
+- what: height
+  unit: cm
+  max: 100
+  qualifier: range
+  quote: The culms are erect, and 60–100 cm long
+  min: 60
+  source: 'Wikipedia: Cenchrus alopecuroides'
+- what: leaf_length
+  unit: cm
+  max: 45
+  qualifier: range
+  quote: from 10 to 45 cm long by 3–6 mm wide
+  min: 10
+  source: 'Wikipedia: Cenchrus alopecuroides'
+- what: leaf_width
+  unit: cm
+  max: 0.6
+  qualifier: range
+  quote: by 3–6 mm wide
+  min: 0.3
+  source: 'Wikipedia: Cenchrus alopecuroides'
+appearance:
+- part: leaf
+  attribute: color
+  value: narrow, medium to deep green in summer
+  quote: narrow, medium to deep green leaves
+  stage: summer
+  source: 'Wikipedia: Cenchrus alopecuroides'
+- part: leaf
+  attribute: color
+  value: golden yellow in fall, fading to beige in late fall
+  quote: changing to golden yellow in fall, and fading to beige in late fall
+  stage: autumn
+  source: 'Wikipedia: Cenchrus alopecuroides'
+- part: inflorescence
+  attribute: color and shape
+  value: showy, silvery to pinkish-white, bristly, bottle brush-like spikes that arch outward
+  quote: silvery to pinkish-white, bristly, bottle brush-like flower spikes arch outward from the clump
+  stage: flowering
+  source: 'Wikipedia: Cenchrus alopecuroides'
+- part: inflorescence
+  attribute: color
+  value: spikes turn brownish as the seeds form
+  quote: The flower spikes turn brownish as the seeds form
+  stage: fruiting
+  source: 'Wikipedia: Cenchrus alopecuroides'
+architecture:
+- aspect: growth_habit
+  value: graceful, spreading clumps
+  quote: graceful, spreading clumps
+  source: 'Wikipedia: Cenchrus alopecuroides'
+- aspect: leaf_shape
+  value: leaf blades erect or drooping, flat or folded lengthwise or rolled
+  quote: The leaf-blades are erect or drooping
+  source: 'Wikipedia: Cenchrus alopecuroides'
+- aspect: flower_arrangement
+  value: flower spikes arch outward from the clump like water spraying from a fountain
+  quote: arch outward from the clump in late summer like water spraying from a fountain
+  source: 'Wikipedia: Cenchrus alopecuroides'
+phenology:
+- event: flowering
+  when: late summer
+  quote: in late summer like water spraying from a fountain
+  source: 'Wikipedia: Cenchrus alopecuroides'
+- event: seed_release
+  when: flower spikes persist until late fall or early winter before shattering
+  quote: usually persist until late fall or early winter before shattering
+  source: 'Wikipedia: Cenchrus alopecuroides'
+confidence: high

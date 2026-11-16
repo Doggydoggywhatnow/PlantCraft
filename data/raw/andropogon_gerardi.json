@@ -1,0 +1,513 @@
+{
+  "query": "Andropogon gerardii",
+  "id": "andropogon_gerardi",
+  "fetched": "2026-11-16",
+  "wikipedia": {
+    "found": true,
+    "title": "Andropogon gerardi",
+    "url": "https://en.wikipedia.org/wiki/Andropogon_gerardi",
+    "wikidata_id": "Q663311",
+    "extract": "Andropogon gerardi, commonly known as big bluestem, is a species of tall grass native to much of the Great Plains and grassland regions of central and eastern North America. It is also known as tall bluestem, bluejoint, and turkeyfoot.\n\n\n== Description ==\nBig bluestem is a perennial warm-season bunchgrass. It is tolerant of a wide range of soil conditions. The main roots are 1.8–3 meters (6–10 feet) deep, and the plants send out strong, tough rhizomes, so it forms very strong sod. Depending on soil and moisture conditions, it grows to a height of 1–3 m (3+1⁄2–10 ft). The stem base turns blue or purple as it matures.\nBig bluestem blooms in the summer and seeds into the fall. The inflorescence (cluster of flowers) is a raceme of two to six, most commonly three, narrow spike-like racemes alternately arranged along the top of the stem. It somewhat resembles a wild turkey's foot. Each raceme contains pairs of spikelets. Each pair has a stalked spikelet with another stalkless spikelet at the base of the stalk. The stalkless spikelet usually has a fertile, perfect floret (with both female and male parts) and an awn (bristle), and the stalked spikelet is awnless, and is sterile or has a staminate (male) flower.\n\n\n== Taxonomy ==\nAndropogon gerardi was formally named in 1792 by Fulgenzio Vitman. It was named for French botanist Louis Gérard, who had first described the plant from specimens that had been cultivated in Provence, France.\nKew's International Plant Names Index and the United States Department of Agriculture (USDA) Germplasm Resources Information Network reject the spelling gerardii and provide reasoning for gerardi as being the correct spelling for the specific epithet of this taxon. Andropogon gerardii still makes appearances in various literature, including other USDA publications.\n\n\n== Ecology ==\nBig bluestem is a mid-successional grass in prairie and other grassland ecosystems. It grows in tall, dense stands that can outcompete other plant species. The stands grow until disturbance interrupts their spread. It is shade intolerant and is adapted to fire.\nIt is a host to larvae of several species of butterflies, including the arogos skipper, byssus skipper, cobweb skipper, common wood nymph, Delaware skipper, and dusted skipper.\nThe larvae of the leaf beetle Diabrotica cristata feed on the roots and the adults visit the flowers of other species of prairie flowers. Many ants decorate their nests with the seeds, including Formica glacialis, F. montana, and F. subsericea. Several species of ants, such as F. glacialis, F. montana, F. subsericea, Lasius minutus, and L. umbratus build nests around the base of this bunchgrass, forming large soil mounds. In larger mounds, the nest is shared by multiple species of ants, and is \"likened to an apartment complex with each ant species in its own nest partition\". Up to 12 species of ants have been recorded in mounds found in the Chicago region.\nThe rust fungus Puccinia andropogonis forms black telia on the leaves.\n\n\n== Uses ==\nThe grass and its variants are good forage for horses and cattle, and can also be cut and used for hay. The grass is high in protein. While not considered the highest quality native forage found in the US, it has long been considered a desirable and ecologically important grass by cattle ranchers and rangeland ecologists.\nBig bluestem is cultivated by specialty plant nurseries for its drought tolerance and native status. It is often grown for wildlife gardens, natural landscaping, and grassland habitat restoration projects.\nDue to its high biomass, big bluestem is being considered as a potential feedstock for ethanol production.\n\n\n== Symbols ==\nAndropogon gerardii is the state grass of Illinois and Missouri and the official prairie grass of Manitoba.\n\n\n== See also ==\nSchizachyrium scoparium (little bluestem)\n\n\n== References ==",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Andropogon_gerardii_%283904160434%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:Andropogon gerardii (3904160434).jpg",
+      "File:Andropogon gerardii (4055509299).jpg",
+      "File:Andropogon gerardii - Berlin Botanical Garden - IMG 8625.JPG",
+      "File:Andropogon gerardii spikelet pairs.jpg",
+      "File:Big bluestem (Andropogon gerardii) in flower Sand Lake Wetland Management District 01 (14635029543).jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q663311",
+    "url": "https://www.wikidata.org/wiki/Q663311",
+    "label": "Andropogon gerardi",
+    "description": "species of plant",
+    "english_common_names": [
+      "big bluestem"
+    ],
+    "taxon_name": [
+      "Andropogon gerardi"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q310768"
+    ],
+    "image_files": [
+      "Andropogon gerardii.jpg"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "2706099"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:30435428-2"
+      ],
+      "ipni": [
+        "387920-1",
+        "30435428-2"
+      ],
+      "ncbi": [
+        "79824",
+        "2491207"
+      ],
+      "inaturalist": [
+        "121968"
+      ],
+      "eppo": [
+        "ANOGE"
+      ]
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/4932035",
+    "key": 4932035,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Andropogon gerardi Vitman",
+    "canonical_name": "Andropogon gerardi",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Andropogon",
+      "species": "Andropogon gerardi"
+    },
+    "english_vernacular_names": [
+      "Big Bluestem",
+      "Blue-stem-grass",
+      "Bluejoint",
+      "Tall Bluestem",
+      "Turkeyfoot",
+      "big blue",
+      "big bluestem",
+      "blue-stem-grass",
+      "tall bluestem",
+      "turkeyfoot"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:Andropogon gerardii.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAndropogon_gerardii.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Andropogon_gerardii.jpg/960px-Andropogon_gerardii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Andropogon_gerardii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1492,
+      "height": 975,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "",
+      "description": ""
+    },
+    {
+      "file": "File:Andropogon gerardii - Berlin Botanical Garden - IMG 8625.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAndropogon_gerardii_-_Berlin_Botanical_Garden_-_IMG_8625.JPG",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Andropogon_gerardii_-_Berlin_Botanical_Garden_-_IMG_8625.JPG/960px-Andropogon_gerardii_-_Berlin_Botanical_Garden_-_IMG_8625.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/86/Andropogon_gerardii_-_Berlin_Botanical_Garden_-_IMG_8625.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3264,
+      "height": 2448,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Daderot",
+      "description": "Andropogon gerardii specimen in the Botanischer Garten, Berlin-Dahlem (Berlin Botanical Garden), Berlin, Germany."
+    },
+    {
+      "file": "File:Andropogon gerardii (3904160434).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAndropogon_gerardii_%283904160434%29.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Andropogon_gerardii_%283904160434%29.jpg/960px-Andropogon_gerardii_%283904160434%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Andropogon_gerardii_%283904160434%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2272,
+      "height": 1704,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Matt Lavin from Bozeman, Montana, USA",
+      "description": "The bunched habit is revealed along mowed roadsides during late summer where the cool season grasses (e.g., Bromus inermis) have not put on growth since mid summer mowing whereas Andropogon has. Most of the warm season grass diversity and abundance in eastern Montana is found roadside and not as muc"
+    },
+    {
+      "file": "File:Andropogon gerardii (4055509299).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAndropogon_gerardii_%284055509299%29.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/6/66/Andropogon_gerardii_%284055509299%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/66/Andropogon_gerardii_%284055509299%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 772,
+      "height": 1312,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Matt Lavin from Bozeman, Montana, USA",
+      "description": "The ligule is a lacerated membrane."
+    },
+    {
+      "file": "File:Big bluestem (Andropogon gerardii) in flower Sand Lake Wetland Management District 01 (14635029543).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ABig_bluestem_%28Andropogon_gerardii%29_in_flower_Sand_Lake_Wetland_Management_District_01_%2814635029543%29.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Big_bluestem_%28Andropogon_gerardii%29_in_flower_Sand_Lake_Wetland_Management_District_01_%2814635029543%29.jpg/960px-Big_bluestem_%28Andropogon_gerardii%29_in_flower_Sand_Lake_Wetland_Management_District_01_%2814635029543%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/69/Big_bluestem_%28Andropogon_gerardii%29_in_flower_Sand_Lake_Wetland_Management_District_01_%2814635029543%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3216,
+      "height": 2136,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "USFWS Mountain-Prairie",
+      "description": "Big bluestem is a dominant native grass in tallgrass prairie and is found in mixed grass prairies where extra water is available.  It is a warm season grass and grows best when temperatures exceed 80 degrees fahrenheit.  It is very palatable to livestock and many species of wildlife.  Big bluestem i"
+    },
+    {
+      "file": "File:Andropogon gerardii spikelet pairs.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAndropogon_gerardii_spikelet_pairs.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Andropogon_gerardii_spikelet_pairs.jpg/960px-Andropogon_gerardii_spikelet_pairs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/03/Andropogon_gerardii_spikelet_pairs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2352,
+      "height": 2987,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Erutuon",
+      "description": "One of the racemes of a big bluestem (Andropogon gerardii) inflorescence bent to show the pairs of spikelets that it is made up of."
+    }
+  ],
+  "gbif_range": {
+    "total_records": 21264,
+    "sampled": 232,
+    "countries_top10": [
+      "US",
+      "CA",
+      "MX",
+      "HN",
+      "FR",
+      "SE",
+      "CR",
+      "BR",
+      "NL",
+      "SV"
+    ],
+    "lat": {
+      "p5": 14.027222,
+      "p50": 40.053949,
+      "p95": 56.50977
+    },
+    "lon": {
+      "p5": -103.696,
+      "p50": -87.34277,
+      "p95": 11.94193
+    },
+    "elevation_m": {
+      "p5": 990.0,
+      "p95": 2450.0,
+      "n": 80
+    },
+    "note": "Records include cultivated and introduced plants; treat as an upper bound on range."
+  },
+  "distribution": {
+    "native": [
+      {
+        "region": "Alabama",
+        "code": "ALA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Arizona",
+        "code": "ARI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Arkansas",
+        "code": "ARK",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Belize",
+        "code": "BLZ",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Colorado",
+        "code": "COL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Connecticut",
+        "code": "CNT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Costa Rica",
+        "code": "COS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Delaware",
+        "code": "DEL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "District of Columbia",
+        "code": "WDC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "El Salvador",
+        "code": "ELS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Florida",
+        "code": "FLA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Georgia",
+        "code": "GEO",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Honduras",
+        "code": "HON",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Illinois",
+        "code": "ILL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Indiana",
+        "code": "INI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Iowa",
+        "code": "IOW",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kansas",
+        "code": "KAN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kentucky",
+        "code": "KTY",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Louisiana",
+        "code": "LOU",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Maine",
+        "code": "MAI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Manitoba",
+        "code": "MAN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Maryland",
+        "code": "MRY",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Massachusetts",
+        "code": "MAS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexico Central",
+        "code": "MXC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexico Northeast",
+        "code": "MXE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexico Northwest",
+        "code": "MXN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexico Southeast",
+        "code": "MXT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexico Southwest",
+        "code": "MXS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Michigan",
+        "code": "MIC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Minnesota",
+        "code": "MIN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mississippi",
+        "code": "MSI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Missouri",
+        "code": "MSO",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Montana",
+        "code": "MNT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Nebraska",
+        "code": "NEB",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New Hampshire",
+        "code": "NWH",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New Jersey",
+        "code": "NWJ",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New Mexico",
+        "code": "NWM",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New York",
+        "code": "NWY",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "North Carolina",
+        "code": "NCA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "North Dakota",
+        "code": "NDA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Ohio",
+        "code": "OHI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Oklahoma",
+        "code": "OKL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Ontario",
+        "code": "ONT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Pennsylvania",
+        "code": "PEN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Québec",
+        "code": "QUE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Rhode I.",
+        "code": "RHO",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Saskatchewan",
+        "code": "SAS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "South Carolina",
+        "code": "SCA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "South Dakota",
+        "code": "SDA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Tennessee",
+        "code": "TEN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Texas",
+        "code": "TEX",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Utah",
+        "code": "UTA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Vermont",
+        "code": "VER",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Virginia",
+        "code": "VRG",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "West Virginia",
+        "code": "WVA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Wisconsin",
+        "code": "WIS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Wyoming",
+        "code": "WYO",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      }
+    ],
+    "introduced": [
+      {
+        "region": "France",
+        "code": "FRA",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Hawaii",
+        "code": "HAW",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Myanmar",
+        "code": "MYA",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      }
+    ],
+    "records_total": 131,
+    "wcvp_records": 60,
+    "note": "WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution sources are not parsed."
+  },
+  "wikidata_taxon_range": []
+}

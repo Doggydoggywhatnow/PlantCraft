@@ -1,0 +1,720 @@
+{
+  "query": "Cortaderia selloana",
+  "id": "cortaderia_selloana",
+  "fetched": "2026-11-16",
+  "wikipedia": {
+    "found": true,
+    "title": "Cortaderia selloana",
+    "url": "https://en.wikipedia.org/wiki/Cortaderia_selloana",
+    "wikidata_id": "Q470109",
+    "extract": "Cortaderia selloana is a species of flowering plant in the family Poaceae. It is referred to by the common name pampas grass, and is native to southern South America, including the Pampas region after which it is named. It is widely distributed throughout the world as a cultivated ornamental and invasive species.\n\n\n== Etymology ==\nCortaderia is derived from the Argentine Spanish name cortadera, meaning 'cutter', in reference to its razor-sharp leaf margins.\nSelloana is named for Friedrich Sellow (1789–1831), a German botanist and naturalist from Potsdam who worked as a plant collector in Brazil. He studied the flora of South America, especially that of Brazil. The specific epithet selloana was given by Josef August and Julius Hermann Schultes in 1827.\n\n\n== Ecology ==\nThe native range of C. selloana includes Argentina, Bolivia, Brazil, Chile, Paraguay, and Uruguay. This region is dominated by subtropical forests and grasslands, but C. selloana is typically restricted to moist soil within riparian areas. It is found at lower elevations and at moister sites than the closely related C. jubata. It requires areas with plentiful light and soil moisture. It is a common invasive species in temperate regions around the world, where it can be found growing in moist, disturbed soil. \n\n\n=== Control ===\nPampas grass can be controlled through herbicide treatment. To accomplish this, the grass is cut down near the base. Next, a 2% glyphosate chemical solution is combined with a silicone-based surfactant and applied to enhance the penetration potential. This method works best in the fall because there is overall better control compared to other seasons. Another control method is to cut and bag inflorescences to prevent seeds from spreading or pulling seedlings.\n\n\n== Cultivation ==\n\nSeveral cultivars are available, of which the following have gained the Royal Horticultural Society's Award of Garden Merit:\n\nAureolineata\nEvita\nMonstrosa\nPatagonia\nPumila\nSilver Feather Notcort\nSunningdale Silver—grows to a height of 4 m (13.1 ft) and has particularly dense flowering plumes\n\n\n== Population biology ==\nOkada et al., 2007 find C. selloana populations are best distinguished by a Bayesian analysis of genetic features such as microsatellites. Algorithms such as STRUCTURE are suitable for this.\n\n\n== In culture ==\nAuthor Li Hengrui (李恒瑞), whose work Kite Capriccio (風箏暢想曲) describes life as a child in 1950s Fengtai County, Anhui, mentions the use of the long stem of the Puwei (蒲葦, Chinese for Cortaderia selloana) in the construction of kites.\nSeveral media outlets reported in the 2010s that it was planted by some couples who practise swinging in the United Kingdom as a way to indicate to other swingers that they enjoy that lifestyle. The reports caused a plunge in already declining sales, but the odd association has been dismissed by enthusiasts of the plant and gardening experts as \"silly\".\n\n\n== Diseases ==\nO'Donnell et al., 2004 first isolated Fusarium cortaderiae from this species. F. cortaderiae is the cause of Fusarium head blight (FHB) of C. selloana.\n\n\n== Gallery ==\n\n\n== References ==\n\n\n== External links ==\n\nPampas grass\nCortaderia selloana\nBlueplanetbiomes.org\nPampas Grass under the microscope\nPampas Grass\nMontserrat, Vila (2009). Cortaderia selloana (pampas grass). CABI. doi:10.1079/cabicompendium.11872. S2CID 253606262.",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Herbe_Pampa_FR_2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:Cortadera.jpg",
+      "File:Cortaderia selloana, Serbia.jpg",
+      "File:Cortaderia selloana 001.JPG",
+      "File:Cortaderia selloana 002.JPG",
+      "File:Cortaderia selloana 003.JPG",
+      "File:Herbe Pampa FR 2008.jpg",
+      "File:PampasGrass.jpg",
+      "File:Pampas Grass in Jindai Botanical Garden -Japan.jpg",
+      "File:Pampas Grass in Jindai Botanical Garden -Japan in 1964.jpg",
+      "File:Plantae Cortaderia Selloana(Pampas Grass) Flora.jpg",
+      "File:Unretouched national enquirer scandal photo.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q470109",
+    "url": "https://www.wikidata.org/wiki/Q470109",
+    "label": "Cortaderia selloana",
+    "description": "species of plant",
+    "english_common_names": [
+      "Uruguayan pampas grass",
+      "pampas grass"
+    ],
+    "taxon_name": [
+      "Cortaderia selloana"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q941632"
+    ],
+    "image_files": [
+      "PampasGrass.jpg",
+      "Cortaderia selloana0.jpg"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "2704523"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:66317-2"
+      ],
+      "ipni": [
+        "66317-2"
+      ],
+      "ncbi": [
+        "58286"
+      ],
+      "inaturalist": [
+        "64240"
+      ],
+      "eppo": [
+        "CDTSE"
+      ]
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/2704523",
+    "key": 2704523,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Cortaderia selloana (Schult. & Schult.f.) Asch. & Graebn.",
+    "canonical_name": "Cortaderia selloana",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Cortaderia",
+      "species": "Cortaderia selloana"
+    },
+    "english_vernacular_names": [
+      "Common Pampas Grass",
+      "Pampas",
+      "Pampas Grass",
+      "Pampas-grass",
+      "Papas Grass",
+      "Uruguayan pampas grass",
+      "pampas grass"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:Cortaderia selloana0.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana0.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Cortaderia_selloana0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Cortaderia_selloana0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 480,
+      "height": 640,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "",
+      "description": ""
+    },
+    {
+      "file": "File:PampasGrass.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APampasGrass.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/5/53/PampasGrass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/53/PampasGrass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 662,
+      "height": 1024,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "",
+      "description": ""
+    },
+    {
+      "file": "File:Cortaderia selloana 001.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana_001.JPG",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Cortaderia_selloana_001.JPG/960px-Cortaderia_selloana_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Cortaderia_selloana_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2357,
+      "height": 3648,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Marija Gajić",
+      "description": "Cortaderia selloana, commonly known as pampas grass, is a flowering plant native to southern South America, including the Pampas after which it is named."
+    },
+    {
+      "file": "File:Cortaderia selloana 002.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana_002.JPG",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Cortaderia_selloana_002.JPG/960px-Cortaderia_selloana_002.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/98/Cortaderia_selloana_002.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3648,
+      "height": 2736,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Marija Gajić",
+      "description": "Cortaderia selloana, commonly known as pampas grass, is a flowering plant native to southern South America, including the Pampas after which it is named."
+    },
+    {
+      "file": "File:Cortaderia selloana 003.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana_003.JPG",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Cortaderia_selloana_003.JPG/960px-Cortaderia_selloana_003.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Cortaderia_selloana_003.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3648,
+      "height": 2736,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Marija Gajić",
+      "description": "Cortaderia selloana, commonly known as pampas grass, is a flowering plant native to southern South America, including the Pampas after which it is named."
+    },
+    {
+      "file": "File:Cortaderia selloana, Serbia.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana%2C_Serbia.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cortaderia_selloana%2C_Serbia.jpg/960px-Cortaderia_selloana%2C_Serbia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Cortaderia_selloana%2C_Serbia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1365,
+      "height": 2048,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Zennora Brna",
+      "description": "Cortaderia selloana"
+    },
+    {
+      "file": "File:Plantae Cortaderia Selloana(Pampas Grass) Flora.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APlantae_Cortaderia_Selloana%28Pampas_Grass%29_Flora.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Plantae_Cortaderia_Selloana%28Pampas_Grass%29_Flora.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Plantae_Cortaderia_Selloana%28Pampas_Grass%29_Flora.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 720,
+      "height": 960,
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Wxao Zexw",
+      "description": "Cortaderia selloana, commonly known as Pampas Grass, native plant species in South America."
+    }
+  ],
+  "gbif_range": {
+    "total_records": 48565,
+    "sampled": 300,
+    "countries_top10": [
+      "FR",
+      "PT",
+      "GB",
+      "ES",
+      "AU",
+      "NZ",
+      "US",
+      "AR",
+      "ZA",
+      "IT"
+    ],
+    "lat": {
+      "p5": -38.1167,
+      "p50": 40.213464,
+      "p95": 52.865505
+    },
+    "lon": {
+      "p5": -8.433523,
+      "p50": 2.05919,
+      "p95": 174.758185
+    },
+    "elevation_m": {
+      "p5": 5.0,
+      "p95": 656.8,
+      "n": 62
+    },
+    "note": "Records include cultivated and introduced plants; treat as an upper bound on range."
+  },
+  "distribution": {
+    "native": [
+      {
+        "region": "Argentina Northeast",
+        "code": "AGE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Argentina Northwest",
+        "code": "AGW",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Argentina South",
+        "code": "AGS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Bolivia",
+        "code": "BOL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Brazil South",
+        "code": "BZS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Chile Central",
+        "code": "CLC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Chile North",
+        "code": "CLN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Chile South",
+        "code": "CLS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Paraguay",
+        "code": "PAR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Uruguay",
+        "code": "URU",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      }
+    ],
+    "introduced": [
+      {
+        "region": "Alabama",
+        "code": "ALA",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Angola",
+        "code": "ANG",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Austria",
+        "code": "AUT",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Azores",
+        "code": "AZO",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Belgium",
+        "code": "BGM",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Brazil Northeast",
+        "code": "BZE",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "California",
+        "code": "CAL",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Canary Is.",
+        "code": "CNY",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Cape Provinces",
+        "code": "CPP",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "China Southeast",
+        "code": "CHS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Colombia",
+        "code": "CLM",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Corse",
+        "code": "COR",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Costa Rica",
+        "code": "COS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Cyprus",
+        "code": "CYP",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "East Aegean Is.",
+        "code": "EAI",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Egypt",
+        "code": "EGY",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Eswatini",
+        "code": "SWZ",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Florida",
+        "code": "FLA",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "France",
+        "code": "FRA",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Georgia",
+        "code": "GEO",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Germany",
+        "code": "GER",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Great Britain",
+        "code": "GRB",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Hawaii",
+        "code": "HAW",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Honduras",
+        "code": "HON",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "India",
+        "code": "IND",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Ireland",
+        "code": "IRE",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Italy",
+        "code": "ITA",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Japan",
+        "code": "JAP",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Jawa",
+        "code": "JAW",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Kriti",
+        "code": "KRI",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "KwaZulu-Natal",
+        "code": "NAT",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Libya",
+        "code": "LBY",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Louisiana",
+        "code": "LOU",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Madeira",
+        "code": "MDR",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Mexico Central",
+        "code": "MXC",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Mexico Northeast",
+        "code": "MXE",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Mexico Northwest",
+        "code": "MXN",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Mexico Southeast",
+        "code": "MXT",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Mexico Southwest",
+        "code": "MXS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Morocco",
+        "code": "MOR",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "NW. Balkan Pen.",
+        "code": "YUG",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Netherlands",
+        "code": "NET",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "New Jersey",
+        "code": "NWJ",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "New South Wales",
+        "code": "NSW",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "New Zealand North",
+        "code": "NZN",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "New Zealand South",
+        "code": "NZS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "North Caucasus",
+        "code": "NCS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Northern Provinces",
+        "code": "TVL",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Oregon",
+        "code": "ORE",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Philippines",
+        "code": "PHI",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Portugal",
+        "code": "POR",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Queensland",
+        "code": "QLD",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Réunion",
+        "code": "REU",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Sardegna",
+        "code": "SAR",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Saudi Arabia",
+        "code": "SAU",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "South Australia",
+        "code": "SOA",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "South Carolina",
+        "code": "SCA",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Spain",
+        "code": "SPA",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Taiwan",
+        "code": "TAI",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Tasmania",
+        "code": "TAS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Tennessee",
+        "code": "TEN",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Texas",
+        "code": "TEX",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Transcaucasus",
+        "code": "TCS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Trinidad-Tobago",
+        "code": "TRT",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Tunisia",
+        "code": "TUN",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Türkiye",
+        "code": "TUR",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Türkiye-in-Europe",
+        "code": "TUE",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Utah",
+        "code": "UTA",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Venezuela",
+        "code": "VEN",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Victoria",
+        "code": "VIC",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Virginia",
+        "code": "VRG",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Western Australia",
+        "code": "WAU",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      }
+    ],
+    "records_total": 286,
+    "wcvp_records": 82,
+    "note": "WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution sources are not parsed."
+  },
+  "wikidata_taxon_range": [
+    "Santa Catarina",
+    "Atlantic Forest",
+    "Paraná",
+    "Minas Gerais",
+    "São Paulo",
+    "Goiás",
+    "Rio de Janeiro",
+    "Cerrado",
+    "Federal District",
+    "Rio Grande do Sul",
+    "South America",
+    "Shanghai"
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "panicum_virgatum",
+  "species": "Panicum virgatum",
+  "fetched": "2026-11-16",
+  "note": "Photos are reference material only. Keep authors and licences with them.",
+  "candidates_examined": 64,
+  "coverage": {
+    "flower": 0,
+    "fruit": 0,
+    "seed": 1,
+    "leaf": 0,
+    "bark": 1,
+    "branches": 0,
+    "illustration": 2,
+    "habit": 3
+  },
+  "missing_roles": [
+    "flower",
+    "fruit"
+  ],
+  "photos": [
+    {
+      "file": "data/photos/panicum_virgatum/seed_01_panicum-virgatum-jdp.jpg",
+      "role": "seed",
+      "hints": [
+        "seeds"
+      ],
+      "title": "File:Panicum virgatum JdP.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APanicum_virgatum_JdP.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/Panicum_virgatum_JdP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3019,
+      "height": 2009,
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Jebulon",
+      "description": "A bush of switchgrass (Panicum virgatum L.) with seeds. Jardin des Plantes, Paris.",
+      "categories": [
+        "CC-Zero",
+        "Files with coordinates missing SDC location of creation (48° N, 2° E)",
+        "France photographs taken on 2011-10-15",
+        "Panicum virgatum",
+        "Plants in the Jardin des Plantes de Paris",
+        "Quality images",
+        "Quality images by Jebulon",
+        "Quality images missing SDC depicts",
+        "Quality images of Jardin des Plantes de Paris",
+        "Self-published work",
+        "Taken with Sony DSLR-A550"
+      ]
+    },
+    {
+      "file": "data/photos/panicum_virgatum/bark_01_measuring-switchgrass-usda.jpg",
+      "role": "bark",
+      "hints": [
+        "stem"
+      ],
+      "title": "File:Measuring switchgrass.usda.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMeasuring_switchgrass.usda.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Measuring_switchgrass.usda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1769,
+      "height": 2700,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Peggy Greb, USDA",
+      "description": "Technicians Calvin Vick (left) and John Massey measure switchgrass stem density and geometry at the upstream end of a riparian gully at Little Topashaw Creek in Mississippi. Photo by Peggy Greb.",
+      "categories": [
+        "PD USDA ARS",
+        "Panicum virgatum"
+      ]
+    },
+    {
+      "file": "data/photos/panicum_virgatum/illustration_01_coastal-georgia-botanical-gardens-switch.jpg",
+      "role": "illustration",
+      "hints": [
+        "botanical"
+      ],
+      "title": "File:Coastal Georgia Botanical Gardens, Switchgrass Panicum Vigatum 'Heavy Metal'.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACoastal_Georgia_Botanical_Gardens%2C_Switchgrass_Panicum_Vigatum_%27Heavy_Metal%27.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Coastal_Georgia_Botanical_Gardens%2C_Switchgrass_Panicum_Vigatum_%27Heavy_Metal%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5184,
+      "height": 3456,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Michael Rivera",
+      "description": "Coastal Georgia Botanical Gardens, Savannah, Chatham County, Georgia",
+      "categories": [
+        "2017 Georgia (U.S. state) photos by Mjrmtg",
+        "CC-BY-SA-4.0",
+        "Coastal Georgia Botanical Gardens",
+        "Files with coordinates missing SDC location of creation",
+        "Flora of Georgia (U.S. state) in June",
+        "June 2017 in Georgia (U.S. state)",
+        "Panicum virgatum",
+        "Plants identified by botanic label",
+        "Self-published work",
+        "Taken with Canon EOS 700D",
+        "United States photographs taken on 2017-06-10"
+      ]
+    },
+    {
+      "file": "data/photos/panicum_virgatum/illustration_02_panicum-virgatum-botanical-garden-in-kai.jpg",
+      "role": "illustration",
+      "hints": [
+        "botanical"
+      ],
+      "title": "File:Panicum virgatum - Botanical Garden in Kaisaniemi, Helsinki - DSC03560.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3APanicum_virgatum_-_Botanical_Garden_in_Kaisaniemi%2C_Helsinki_-_DSC03560.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Panicum_virgatum_-_Botanical_Garden_in_Kaisaniemi%2C_Helsinki_-_DSC03560.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3240,
+      "height": 4320,
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Daderot",
+      "description": "Botanical specimen. The University of Helsinki Botanical Garden at Kaisaniemi. This appears to be Panicum virgatum 'Fontaine.'",
+      "categories": [
+        "CC-Zero",
+        "Files uploaded by Daderot",
+        "Grasses in Botanical Garden in Kaisaniemi",
+        "Panicum virgatum",
+        "Taken with Sony DSC-H55"
+      ]
+    },
+    {
+      "file": "data/photos/panicum_virgatum/habit_01_panicum-virgatum-apache-rose-img-8666.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Panicum virgatum 'Apache rose' IMG 8666.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APanicum_virgatum_%27Apache_rose%27_IMG_8666.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/23/Panicum_virgatum_%27Apache_rose%27_IMG_8666.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4000,
+      "height": 6000,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Don McCulley",
+      "description": "'Apache rose' switchgrass (Panicum virgatum) at the University of Georgia Trial Gardens on September 30, 2018. Identified by sign.",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Panicum virgatum",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/panicum_virgatum/habit_02_07483-switchgrass-14392365357.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:07483 Switchgrass (14392365357).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3A07483_Switchgrass_%2814392365357%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3f/07483_Switchgrass_%2814392365357%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4912,
+      "height": 3264,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "rockerBOO",
+      "description": "'Heavy Metal'",
+      "categories": [
+        "CC-BY-SA-2.0",
+        "Flickr images reviewed by FlickreviewR 2",
+        "Panicum virgatum",
+        "Water droplets on grass"
+      ]
+    },
+    {
+      "file": "data/photos/panicum_virgatum/habit_03_panicum-virgatum-20481223663.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Panicum virgatum (20481223663).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APanicum_virgatum_%2820481223663%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Panicum_virgatum_%2820481223663%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4608,
+      "height": 3456,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Matt Lavin from Bozeman, Montana, USA",
+      "description": "Panicum virgatum (switchgrass) coexists with many other warm season grasses especially along roadsides, suggesting warm season grasses in general tolerate fairly frequent intervals of physical disturbance.",
+      "categories": [
+        "CC-BY-SA-2.0",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by FlickreviewR",
+        "Panicum virgatum",
+        "Photographs by Matt Lavin"
+      ]
+    }
+  ]
+}

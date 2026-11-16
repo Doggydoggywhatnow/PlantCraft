@@ -1,0 +1,519 @@
+id: cortaderia_selloana
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+taxonomy:
+  kingdom: Plantae
+  order: Poales
+  family: Poaceae
+  genus: Cortaderia
+  species: selloana
+  authority: (Schult. & Schult.f.) Asch. & Graebn.
+names:
+  scientific: Cortaderia selloana
+  common:
+  - Uruguayan pampas grass
+  - pampas grass
+  - Common Pampas Grass
+  - Pampas
+  - Pampas-grass
+  - Papas Grass
+  in_game: Uruguayan Pampas Grass
+description: 'Pampas grass: a flowering grass with razor-sharp leaf margins, native to southern South
+  America and widely grown as an ornamental.'
+habitat:
+  native_range: Argentina, Bolivia, Brazil, Chile, Paraguay and Uruguay (southern South America, including
+    the Pampas)
+  environment: Moist soil in riparian areas with plentiful light and soil moisture; lower, moister sites
+    than C. jubata.
+  introduced_range: Widely distributed throughout the world as a cultivated ornamental and invasive species.
+  native_regions:
+  - region: Argentina Northeast
+    code: AGE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Argentina Northwest
+    code: AGW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Argentina South
+    code: AGS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Bolivia
+    code: BOL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Brazil South
+    code: BZS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Chile Central
+    code: CLC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Chile North
+    code: CLN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Chile South
+    code: CLS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Paraguay
+    code: PAR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Uruguay
+    code: URU
+    source: World Checklist of Vascular Plants via GBIF
+  introduced_regions:
+  - region: Alabama
+    code: ALA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Angola
+    code: ANG
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Austria
+    code: AUT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Azores
+    code: AZO
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Belgium
+    code: BGM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Brazil Northeast
+    code: BZE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: California
+    code: CAL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Canary Is.
+    code: CNY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Cape Provinces
+    code: CPP
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: China Southeast
+    code: CHS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Colombia
+    code: CLM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Corse
+    code: COR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Costa Rica
+    code: COS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Cyprus
+    code: CYP
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: East Aegean Is.
+    code: EAI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Egypt
+    code: EGY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Eswatini
+    code: SWZ
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Florida
+    code: FLA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: France
+    code: FRA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Georgia
+    code: GEO
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Germany
+    code: GER
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Great Britain
+    code: GRB
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Hawaii
+    code: HAW
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Honduras
+    code: HON
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: India
+    code: IND
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Ireland
+    code: IRE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Italy
+    code: ITA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Japan
+    code: JAP
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Jawa
+    code: JAW
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Kriti
+    code: KRI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: KwaZulu-Natal
+    code: NAT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Libya
+    code: LBY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Louisiana
+    code: LOU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Madeira
+    code: MDR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mexico Central
+    code: MXC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mexico Northeast
+    code: MXE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mexico Northwest
+    code: MXN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mexico Southeast
+    code: MXT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mexico Southwest
+    code: MXS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Morocco
+    code: MOR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: NW. Balkan Pen.
+    code: YUG
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Netherlands
+    code: NET
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Jersey
+    code: NWJ
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New South Wales
+    code: NSW
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Zealand North
+    code: NZN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Zealand South
+    code: NZS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: North Caucasus
+    code: NCS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Northern Provinces
+    code: TVL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Oregon
+    code: ORE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Philippines
+    code: PHI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Portugal
+    code: POR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Queensland
+    code: QLD
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Réunion
+    code: REU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Sardegna
+    code: SAR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Saudi Arabia
+    code: SAU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: South Australia
+    code: SOA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: South Carolina
+    code: SCA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Spain
+    code: SPA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Taiwan
+    code: TAI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Tasmania
+    code: TAS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Tennessee
+    code: TEN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Texas
+    code: TEX
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Transcaucasus
+    code: TCS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Trinidad-Tobago
+    code: TRT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Tunisia
+    code: TUN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Türkiye
+    code: TUR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Türkiye-in-Europe
+    code: TUE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Utah
+    code: UTA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Venezuela
+    code: VEN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Victoria
+    code: VIC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Virginia
+    code: VRG
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Western Australia
+    code: WAU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  range_notes:
+  - WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution
+    sources are not parsed.
+  - 'Wikidata taxon range (may include introduced areas; cross-check only): Santa Catarina, Atlantic Forest,
+    Paraná, Minas Gerais, São Paulo, Goiás, Rio de Janeiro, Cerrado, Federal District, Rio Grande do Sul,
+    South America, Shanghai'
+  - GBIF occurrence latitude/elevation envelope (climate field) includes cultivated and introduced plants.
+  climate: GBIF records span latitude -38 to 53 deg, elevation 5-657 m
+growth_stages:
+- id: seed
+  name: Seed
+  description: Seed in the soil.
+  texture: textures/block/cortaderia_selloana_seed.png
+- id: seedling
+  name: Seedling
+  description: Small seedling.
+  texture: textures/block/cortaderia_selloana_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy growth before flowering.
+  texture: textures/block/cortaderia_selloana_vegetative.png
+- id: budding
+  name: Budding
+  description: Flower buds forming.
+  texture: textures/block/cortaderia_selloana_budding.png
+- id: flowering
+  name: Flowering
+  description: Open flowers.
+  texture: textures/block/cortaderia_selloana_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Fruit or seed head forming.
+  texture: textures/block/cortaderia_selloana_fruiting.png
+reproduction:
+  flowers:
+    present: true
+  fruit:
+    present: true
+    type: grain (caryopsis)
+    description: 'DEFAULT: All grasses set a one-seeded grain; family default, not read from the source.'
+sources:
+- name: 'GBIF (ACCEPTED: Cortaderia selloana)'
+  url: https://www.gbif.org/species/2704523
+  id: '2704523'
+  status: checked
+- name: 'Wikipedia: Cortaderia selloana'
+  url: https://en.wikipedia.org/wiki/Cortaderia_selloana
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q470109
+  id: Q470109
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: 'DEFAULT unknown template: Seed -> Seedling -> Vegetative -> Budding -> Flowering -> Fruiting.'
+    requirements:
+    - Light level 9 or more
+    - Plantable on dirt or grass
+  spawn:
+    biomes:
+    - minecraft:plains
+    - minecraft:forest
+    - minecraft:meadow
+    feature: patch
+    rarity: uncommon
+    reason: DRAFT guess from median GBIF record latitude 40 deg; review against real habitat.
+  notes: 'Auto-generated by pipeline/. Growth stages, spawn and rarity are defaults, not observations.
+    Not found in sources (blank or defaulted): life_form, height, flowers, fruit.'
+images:
+- url: https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana_%28Pampas_Grass%29_upper_epidermis_of_leaf%2C_silica_teeth_bodies_and_veins_-_x20.jpg
+  license: CC BY-SA 4.0
+  author: Rosser1954
+  shows: Cortaderia selloana (Pampas Grass) upper epidermis of leaf, silica teeth bodies and veins - x20
+    - Cortaderia selloana (Pampas Grass) upper epidermis of leaf, silica teeth bodies and veins - x20
+  role: leaf
+  file: data/photos/cortaderia_selloana/leaf_01_cortaderia-selloana-pampas-grass-upper-e.jpg
+  width: 1738
+  height: 2434
+  hints:
+  - leaf
+- url: https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana_upper_epidermis_of_leaf_and_veins_-_x20.jpg
+  license: CC BY-SA 4.0
+  author: Rosser1954
+  shows: Cortaderia selloana upper epidermis of leaf and veins - x20 - Cortaderia selloana (Pampas Grass)
+    upper epidermis of leaf and veins - x20
+  role: leaf
+  file: data/photos/cortaderia_selloana/leaf_02_cortaderia-selloana-upper-epidermis-of-l.jpg
+  width: 1920
+  height: 2560
+  hints:
+  - leaf
+- url: https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana_%2801%29.jpg
+  license: CC BY-SA 4.0
+  author: Jana Sekyrová
+  shows: Cortaderia selloana (01) - Pampas grass Cortaderia selloana in the Botanical Garden in Olomouc,
+    Czechia.
+  role: illustration
+  file: data/photos/cortaderia_selloana/illustration_01_cortaderia-selloana-01.jpg
+  width: 3093
+  height: 4133
+  hints:
+  - botanical
+- url: https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana_001.JPG
+  license: CC BY-SA 4.0
+  author: Marija Gajić
+  shows: Cortaderia selloana 001 - Cortaderia selloana, commonly known as pampas grass, is a flowering
+    plant native to southern South A
+  role: illustration
+  file: data/photos/cortaderia_selloana/illustration_02_cortaderia-selloana-001.jpg
+  width: 2357
+  height: 3648
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ACortaderia_selloana_20260613.jpg
+  license: CC BY-SA 4.0
+  author: Rjcastillo
+  shows: Cortaderia selloana 20260613 - Cortaderia selloana.
+  role: habit
+  file: data/photos/cortaderia_selloana/habit_01_cortaderia-selloana-20260613.jpg
+  width: 4672
+  height: 7008
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3APampas_grass_%2842385558184%29.jpg
+  license: CC BY 2.0
+  author: Raita Futo from Tokyo, Japan
+  shows: Pampas grass (42385558184) - パンパスグラス
+  role: habit
+  file: data/photos/cortaderia_selloana/habit_02_pampas-grass-42385558184.jpg
+  width: 5790
+  height: 3860
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3A2025-11-02_Landscape_near_Nadadouro_1.jpg
+  license: CC BY 4.0
+  author: Alexkom000
+  shows: 2025-11-02 Landscape near Nadadouro 1 - Landscape near Nadadouro, Caldas da Rainha
+  role: habit
+  file: data/photos/cortaderia_selloana/habit_03_2025-11-02-landscape-near-nadadouro-1.jpg
+  width: 5486
+  height: 3657
+  hints: []
+uses_real:
+- use: Ornamental grass
+  note: Cultivated ornamental with RHS Award of Garden Merit cultivars.
+  category: ornamental
+  part_used: whole plant
+  quote: cultivated ornamental
+size:
+  height_cm:
+    max: 1
+  habit: upright
+  source: pending
+  quote: No height figure in the fetched sources; max is a placeholder, not data.
+appearance:
+- part: inflorescence
+  attribute: density
+  value: particularly dense flowering plumes (cultivar 'Sunningdale Silver')
+  quote: has particularly dense flowering plumes
+  stage: cultivar Sunningdale Silver
+  source: 'Wikipedia: Cortaderia selloana'
+architecture:
+- aspect: leaf_margin
+  value: razor-sharp leaf margins
+  quote: razor-sharp leaf margins
+  source: 'Wikipedia: Cortaderia selloana'
+confidence: low

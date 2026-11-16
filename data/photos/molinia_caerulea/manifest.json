@@ -1,0 +1,135 @@
+{
+  "id": "molinia_caerulea",
+  "species": "Molinia caerulea",
+  "fetched": "2026-11-16",
+  "note": "Photos are reference material only. Keep authors and licences with them.",
+  "candidates_examined": 62,
+  "coverage": {
+    "flower": 0,
+    "fruit": 0,
+    "seed": 0,
+    "leaf": 0,
+    "bark": 0,
+    "branches": 0,
+    "illustration": 2,
+    "habit": 3
+  },
+  "missing_roles": [
+    "flower",
+    "fruit"
+  ],
+  "photos": [
+    {
+      "file": "data/photos/molinia_caerulea/illustration_01_illustration-molinia-caerulea0.jpg",
+      "role": "illustration",
+      "hints": [
+        "illustration"
+      ],
+      "title": "File:Illustration Molinia caerulea0.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AIllustration_Molinia_caerulea0.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/71/Illustration_Molinia_caerulea0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1448,
+      "height": 2436,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "unknown",
+      "description": "",
+      "categories": [
+        "Brachypodium sylvaticum - botanical illustrations",
+        "CC-PD-Mark",
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "Media missing infobox template",
+        "Molinia caerulea - botanical illustrations",
+        "PD-old-100-expired",
+        "PD-scan (PD-old-auto-expired)",
+        "Thomé, Flora von Deutschland"
+      ]
+    },
+    {
+      "file": "data/photos/molinia_caerulea/illustration_02_molinia-caerulea-vandusen-botanical-gard.jpg",
+      "role": "illustration",
+      "hints": [
+        "botanical"
+      ],
+      "title": "File:Molinia caerulea - VanDusen Botanical Garden - Vancouver, BC - DSC06736.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMolinia_caerulea_-_VanDusen_Botanical_Garden_-_Vancouver%2C_BC_-_DSC06736.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Molinia_caerulea_-_VanDusen_Botanical_Garden_-_Vancouver%2C_BC_-_DSC06736.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5472,
+      "height": 3648,
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Daderot",
+      "description": "Botanical specimen in the VanDusen Botanical Garden - Vancouver, BC, Canada.",
+      "categories": [
+        "CC-Zero",
+        "Files uploaded by Daderot",
+        "Molinia caerulea",
+        "Self-published work",
+        "Specimens in the VanDusen Botanical Garden"
+      ]
+    },
+    {
+      "file": "data/photos/molinia_caerulea/habit_01_molinia-caerulea-kz08.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Molinia caerulea kz08.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMolinia_caerulea_kz08.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Molinia_caerulea_kz08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6048,
+      "height": 4024,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "description": "Molinia caerulea N from Glewice near Goleniów, NW Poland",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Molinia caerulea",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/molinia_caerulea/habit_02_molinia-caerulea-schauching-01.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Molinia caerulea Schauching 01.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3AMolinia_caerulea_Schauching_01.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Molinia_caerulea_Schauching_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3456,
+      "height": 4608,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Schurdl",
+      "description": "Gewöhnliches Pfeifengras (Molinia caerulea), Habitus",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Files with coordinates missing SDC location of creation",
+        "Molinia caerulea",
+        "Photographs by Schurdl",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/molinia_caerulea/habit_03_pfeifengras-molinia-caerulea-20190902.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Pfeifengras Molinia caerulea–20190902.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3APfeifengras_Molinia_caerulea%E2%80%9320190902.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Pfeifengras_Molinia_caerulea%E2%80%9320190902.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4608,
+      "height": 3456,
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Hajotthu",
+      "description": "Pfeifengras (Molinia caerulea) im Naturpark Südheide",
+      "categories": [
+        "CC-BY-3.0",
+        "GFDL",
+        "License migration redundant",
+        "Molinia caerulea",
+        "Poales in Naturpark Südheide",
+        "Self-published work"
+      ]
+    }
+  ]
+}

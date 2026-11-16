@@ -87,3 +87,7 @@ biome_keywords:
   grassland: [minecraft:plains]
   woodland: [minecraft:forest]
   forest: [minecraft:forest]
+
+# Family-level defaults for facts the text often omits. Flagged in the draft as defaults, not observations.
+fruit_by_family:
+  Poaceae: {type: "grain (caryopsis)", note: "All grasses set a one-seeded grain; family default, not read from the source."}

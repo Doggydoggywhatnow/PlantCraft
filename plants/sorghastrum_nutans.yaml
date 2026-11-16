@@ -1,0 +1,463 @@
+id: sorghastrum_nutans
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+taxonomy:
+  kingdom: Plantae
+  order: Poales
+  family: Poaceae
+  genus: Sorghastrum
+  species: nutans
+  authority: (L.) Nash
+names:
+  scientific: Sorghastrum nutans
+  common:
+  - Indiangrass
+  - Indian Grass
+  - Nodding False-sorghum
+  - Wood Grass
+  - Yellow False-sorghum
+  - Yellow Indian Grass
+  in_game: Indiangrass
+description: Tall warm-season perennial bunchgrass 1-2 m tall with golden-brown, feathery branched panicles.
+habitat:
+  native_range: United States and Canada, especially the Great Plains and tallgrass prairies
+  environment: Intolerant of shade; tallgrass prairie and longleaf pine areas.
+  life_form: perennial_herb
+  native_regions:
+  - region: Alabama
+    code: ALA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Arizona
+    code: ARI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Arkansas
+    code: ARK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Colorado
+    code: COL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Connecticut
+    code: CNT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Delaware
+    code: DEL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: District of Columbia
+    code: WDC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Florida
+    code: FLA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Georgia
+    code: GEO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Honduras
+    code: HON
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Illinois
+    code: ILL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Indiana
+    code: INI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Iowa
+    code: IOW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kansas
+    code: KAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kentucky
+    code: KTY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Louisiana
+    code: LOU
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Maine
+    code: MAI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Manitoba
+    code: MAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Maryland
+    code: MRY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Massachusetts
+    code: MAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexican Pacific Is.
+    code: MXI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Central
+    code: MXC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Gulf
+    code: MXG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Northeast
+    code: MXE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Southeast
+    code: MXT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Southwest
+    code: MXS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Michigan
+    code: MIC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Minnesota
+    code: MIN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mississippi
+    code: MSI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Missouri
+    code: MSO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Montana
+    code: MNT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nebraska
+    code: NEB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Hampshire
+    code: NWH
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Jersey
+    code: NWJ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Mexico
+    code: NWM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New York
+    code: NWY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Carolina
+    code: NCA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Dakota
+    code: NDA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ohio
+    code: OHI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Oklahoma
+    code: OKL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ontario
+    code: ONT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Pennsylvania
+    code: PEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Québec
+    code: QUE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Rhode I.
+    code: RHO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Saskatchewan
+    code: SAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South Carolina
+    code: SCA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South Dakota
+    code: SDA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tennessee
+    code: TEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Texas
+    code: TEX
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Utah
+    code: UTA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Vermont
+    code: VER
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Virginia
+    code: VRG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: West Virginia
+    code: WVA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Wisconsin
+    code: WIS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Wyoming
+    code: WYO
+    source: World Checklist of Vascular Plants via GBIF
+  introduced_regions:
+  - region: India
+    code: IND
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  range_notes:
+  - WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution
+    sources are not parsed.
+  - GBIF occurrence latitude/elevation envelope (climate field) includes cultivated and introduced plants.
+  climate: GBIF records span latitude -28 to 45 deg, elevation 525-2450 m
+growth_stages:
+- id: seed
+  name: Seed
+  description: Seed in the soil.
+  texture: textures/block/sorghastrum_nutans_seed.png
+- id: seedling
+  name: Seedling
+  description: Small seedling.
+  texture: textures/block/sorghastrum_nutans_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy growth before flowering.
+  texture: textures/block/sorghastrum_nutans_vegetative.png
+- id: budding
+  name: Budding
+  description: Flower buds forming.
+  texture: textures/block/sorghastrum_nutans_budding.png
+- id: flowering
+  name: Flowering
+  description: Open flowers.
+  texture: textures/block/sorghastrum_nutans_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Fruit or seed head forming.
+  texture: textures/block/sorghastrum_nutans_fruiting.png
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - golden-brown
+    - yellow
+    season: late summer to early fall
+    pollination:
+    - wind
+  fruit:
+    present: true
+    type: grain (caryopsis)
+    description: 'DEFAULT: All grasses set a one-seeded grain; family default, not read from the source.'
+sources:
+- name: 'GBIF (ACCEPTED: Sorghastrum nutans)'
+  url: https://www.gbif.org/species/2704414
+  id: '2704414'
+  status: checked
+- name: 'Wikipedia: Sorghastrum nutans'
+  url: https://en.wikipedia.org/wiki/Sorghastrum_nutans
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q3046578
+  id: Q3046578
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: 'DEFAULT perennial_herb template: Seed -> Seedling -> Vegetative -> Budding -> Flowering
+      -> Fruiting.'
+    requirements:
+    - Light level 9 or more
+    - Plantable on dirt or grass
+  spawn:
+    biomes:
+    - minecraft:savanna
+    - minecraft:plains
+    - minecraft:desert
+    feature: patch
+    rarity: uncommon
+    reason: DRAFT guess from median GBIF record latitude 29 deg; review against real habitat.
+  notes: 'Auto-generated by pipeline/. Growth stages, spawn and rarity are defaults, not observations.
+    Not found in sources (blank or defaulted): fruit.'
+images:
+- url: https://commons.wikimedia.org/wiki/File%3ASorghastrum_nutans_%283912213615%29.jpg
+  license: CC BY-SA 2.0
+  author: Matt Lavin from Bozeman, Montana, USA
+  shows: Sorghastrum nutans (3912213615) - The inflorescence comprises a panicle of spikelet pairs (sessile
+    and pedicellate), but in Sorghastru
+  role: flower
+  file: data/photos/sorghastrum_nutans/flower_01_sorghastrum-nutans-3912213615.jpg
+  width: 2272
+  height: 1704
+  hints:
+  - inflorescence
+  - panicle
+  - spikelet
+- url: https://commons.wikimedia.org/wiki/File%3ASorghastrum_nutans_flowers_closeup.jpg
+  license: CC BY-SA 2.0
+  author: Joshua Mayer
+  shows: Sorghastrum nutans flowers closeup - Indiangrass (Sorghastrum nutans) flowers at Butenhoff Prairie
+    in Green County, Wisconsin.
+  role: flower
+  file: data/photos/sorghastrum_nutans/flower_02_sorghastrum-nutans-flowers-closeup.jpg
+  width: 3730
+  height: 6000
+  hints:
+  - flowers
+- url: https://commons.wikimedia.org/wiki/File%3ASorghastrum_nutans_%283912996406%29.jpg
+  license: CC BY-SA 2.0
+  author: Matt Lavin from Bozeman, Montana, USA
+  shows: Sorghastrum nutans (3912996406) - The inflorescence comprises a panicle of spikelet pairs (sessile
+    and pedicellate), but in Sorghastru
+  role: flower
+  file: data/photos/sorghastrum_nutans/flower_03_sorghastrum-nutans-3912996406.jpg
+  width: 1704
+  height: 2272
+  hints:
+  - inflorescence
+  - panicle
+  - spikelet
+  - spikelets
+- url: https://commons.wikimedia.org/wiki/File%3ASorghastrum_nutans_%283912997616%29.jpg
+  license: CC BY-SA 2.0
+  author: Matt Lavin from Bozeman, Montana, USA
+  shows: Sorghastrum nutans (3912997616) - Two sessile spikelets are pictured here, where the lower (right
+    hand) one is associated with one nak
+  role: flower
+  file: data/photos/sorghastrum_nutans/flower_04_sorghastrum-nutans-3912997616.jpg
+  width: 2272
+  height: 1704
+  hints:
+  - inflorescence
+  - spikelets
+- url: https://commons.wikimedia.org/wiki/File%3ASorghastrum_nutans_%283912211835%29.jpg
+  license: CC BY-SA 2.0
+  author: Matt Lavin from Bozeman, Montana, USA
+  shows: Sorghastrum nutans (3912211835) - The ligule protrudes from the leaf sheath rather than from
+    the leaf blade and this is found in other
+  role: leaf
+  file: data/photos/sorghastrum_nutans/leaf_01_sorghastrum-nutans-3912211835.jpg
+  width: 1704
+  height: 2272
+  hints:
+  - leaf
+- url: https://commons.wikimedia.org/wiki/File%3ASorghastrum_nutans_-_Berlin_Botanical_Garden_-_IMG_8616.JPG
+  license: Public domain
+  author: Daderot
+  shows: Sorghastrum nutans - Berlin Botanical Garden - IMG 8616 - Sorghastrum nutans specimen in the
+    Botanischer Garten, Berlin-Dahlem (Berlin Botanical Garden), Berl
+  role: illustration
+  file: data/photos/sorghastrum_nutans/illustration_01_sorghastrum-nutans-berlin-botanical-gard.jpg
+  width: 3264
+  height: 2448
+  hints:
+  - botanical
+- url: https://commons.wikimedia.org/wiki/File%3AArroyo_El_Coyote_Nuevo_Laredo.png
+  license: CC BY 4.0
+  author: Miguel Angel Omaña Rojas
+  shows: Arroyo El Coyote Nuevo Laredo - Vegetation of the area where the El Coyote Creek flows into the
+    Rio Grande River, in Nuevo Laredo, T
+  role: illustration
+  file: data/photos/sorghastrum_nutans/illustration_02_arroyo-el-coyote-nuevo-laredo.png
+  width: 6400
+  height: 4763
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ASorghastrum_nutans_-_Botanischer_Garten_M%C3%BCnchen-Nymphenburg_-_DSC07702.JPG
+  license: Public domain
+  author: Daderot
+  shows: Sorghastrum nutans - Botanischer Garten München-Nymphenburg - DSC07702 - Sorghastrum nutans specimen
+    in the Botanischer Garten München-Nymphenburg, Munich, Germany.
+  role: habit
+  file: data/photos/sorghastrum_nutans/habit_01_sorghastrum-nutans-botanischer-garten-m-.jpg
+  width: 4320
+  height: 3240
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ASorghastrum_nutans_%28Indiangrass%29_%2854310114070%29.jpg
+  license: Public domain
+  author: USFWS Mountain Prairie
+  shows: 'Sorghastrum nutans (Indiangrass) (54310114070) - Photo: Tom Koerner / USFWS'
+  role: habit
+  file: data/photos/sorghastrum_nutans/habit_02_sorghastrum-nutans-indiangrass-543101140.jpg
+  width: 3186
+  height: 4000
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ASorghum_nutans_kz1.jpg
+  license: CC BY-SA 4.0
+  author: Krzystzof Ziarnek, Kenraiz
+  shows: Sorghum nutans kz1 - Sorghastrum nutans at Chicago Botanic Garden
+  role: habit
+  file: data/photos/sorghastrum_nutans/habit_03_sorghum-nutans-kz1.jpg
+  width: 3072
+  height: 4056
+  hints: []
+size:
+  height_cm:
+    min: 100
+    max: 200
+  habit: upright
+  source: wikipedia
+  quote: It grows 3 to 7 feet (1 to 2 m) tall
+  height_sources:
+  - name: 'Wikipedia: Sorghastrum nutans'
+    url: https://en.wikipedia.org/wiki/Sorghastrum_nutans
+    min: 100
+    max: 200
+    quote: It grows 3 to 7 feet (1 to 2 m) tall
+segment_textures:
+- role: lower
+  texture: textures/block/sorghastrum_nutans_lower.png
+  note: Lower block(s) under the stage texture when the plant is taller than one block.
+measurements:
+- what: height
+  unit: cm
+  max: 200
+  qualifier: range
+  quote: It grows 3 to 7 feet (1 to 2 m) tall
+  min: 100
+  source: 'Wikipedia: Sorghastrum nutans'
+- what: leaf_length
+  unit: cm
+  max: 100
+  qualifier: typical
+  quote: The leaf is about 3 feet (1 m) long
+  min: 100
+  source: 'Wikipedia: Sorghastrum nutans'
+appearance:
+- part: flower
+  attribute: color
+  value: spikelets golden-brown during blooming; three large showy yellow stamens
+  quote: The spikelets are golden-brown during the blooming period
+  stage: flowering
+  source: 'Wikipedia: Sorghastrum nutans'
+- part: flower
+  attribute: stamens
+  value: three large, showy yellow stamens and two feather-like stigmas
+  quote: three large, showy yellow stamens and two feather-like stigmas
+  source: 'Wikipedia: Sorghastrum nutans'
+- part: inflorescence
+  attribute: hairs
+  value: one glume covered in silky white hairs
+  quote: covered in silky white hairs
+  source: 'Wikipedia: Sorghastrum nutans'
+architecture:
+- aspect: growth_habit
+  value: warm-season perennial bunchgrass
+  quote: a warm-season perennial bunchgrass
+  source: 'Wikipedia: Sorghastrum nutans'
+- aspect: flower_arrangement
+  value: branched clusters (panicles) of spikelets; branches of pollinated clusters bend outwards
+  quote: producing branched clusters (panicles) of spikelets
+  source: 'Wikipedia: Sorghastrum nutans'
+- aspect: flower_arrangement
+  value: branches of pollinated flower clusters bend outwards
+  quote: The branches of pollinated flower clusters bend outwards
+  source: 'Wikipedia: Sorghastrum nutans'
+phenology:
+- event: flowering
+  when: late summer to early fall
+  quote: It blooms from late summer to early fall
+  source: 'Wikipedia: Sorghastrum nutans'
+propagation:
+- topic: pollination
+  fact: cross-pollinated by the wind
+  quote: The flowers are cross-pollinated by the wind
+  source: 'Wikipedia: Sorghastrum nutans'
+- topic: seed_dispersal
+  fact: seeds fall to the ground at maturity
+  quote: At maturity, the seeds fall to the ground
+  source: 'Wikipedia: Sorghastrum nutans'
+confidence: high

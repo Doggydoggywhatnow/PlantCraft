@@ -58,7 +58,9 @@ def _label(item: dict) -> str:
 
 def _quote_ok(item: dict, hay: str, numeric: bool) -> bool:
     q = norm(item.get("quote"))
-    return bool(q) and q in hay and (not numeric or bool(re.search(r"\d", q)))
+    has_number = bool(re.search(r"\d", q)) or bool(re.search(
+        r"\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|twenty|thirty|fifty|hundred|thousand|half|dozen)\b", q))
+    return bool(q) and q in hay and (not numeric or has_number)
 
 
 def verify(facts: dict, text: str):

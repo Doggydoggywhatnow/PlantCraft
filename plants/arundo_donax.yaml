@@ -1,0 +1,960 @@
+id: arundo_donax
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+taxonomy:
+  kingdom: Plantae
+  order: Poales
+  family: Poaceae
+  genus: Arundo
+  species: donax
+  authority: L.
+names:
+  scientific: Arundo donax
+  common:
+  - Giant Reed
+  - Arundo grass, Bamboo reed, Cow cane, Donax cane, Giant cane, River cane, Spanish cane/reed, Wild cane,
+    Reedgrass
+  - Bamboo Reed
+  - Cana brava
+  - Elephant Grass
+  - Reed
+  in_game: Giant Reed
+description: Tall perennial reed or cane, generally 6 m, with hollow stems, grey-green swordlike leaves
+  and upright white feathery plumes.
+habitat:
+  native_range: Eastern Mediterranean region and across southern Asia to Japan
+  environment: Damp soils, fresh or moderately saline; dense stands on disturbed sites, dunes, wetlands
+    and riparian habitats.
+  introduced_range: Widely planted and naturalised in mild temperate, subtropical and tropical regions;
+    invasive in North America and Oceania.
+  life_form: perennial_herb
+  native_regions:
+  - region: Afghanistan
+    code: AFG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Assam
+    code: ASS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Bangladesh
+    code: BAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Cambodia
+    code: CBD
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China South-Central
+    code: CHC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China Southeast
+    code: CHS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Cyprus
+    code: CYP
+    source: World Checklist of Vascular Plants via GBIF
+  - region: East Himalaya
+    code: EHM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Gulf States
+    code: GST
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Hainan
+    code: CHH
+    source: World Checklist of Vascular Plants via GBIF
+  - region: India
+    code: IND
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Iran
+    code: IRN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Iraq
+    code: IRQ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Japan
+    code: JAP
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kazakhstan
+    code: KAZ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Laos
+    code: LAO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Lebanon-Syria
+    code: LBS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Myanmar
+    code: MYA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nansei-shoto
+    code: NNS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nepal
+    code: NEP
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ogasawara-shoto
+    code: OGA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Oman
+    code: OMA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Pakistan
+    code: PAK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Palestine
+    code: PAL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Sinai
+    code: SIN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tadzhikistan
+    code: TZK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Thailand
+    code: THA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tibet
+    code: CHT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Transcaucasus
+    code: TCS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Turkmenistan
+    code: TKM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Türkiye
+    code: TUR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Uzbekistan
+    code: UZB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Vietnam
+    code: VIE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: West Himalaya
+    code: WHM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Yemen
+    code: YEM
+    source: World Checklist of Vascular Plants via GBIF
+  introduced_regions:
+  - region: Alabama
+    code: ALA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Albania
+    code: ALB
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Aldabra
+    code: ALD
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Algeria
+    code: ALG
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Andaman Is.
+    code: AND
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Angola
+    code: ANG
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Argentina Northeast
+    code: AGE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Argentina Northwest
+    code: AGW
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Arizona
+    code: ARI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Arkansas
+    code: ARK
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Austria
+    code: AUT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Azores
+    code: AZO
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Bahamas
+    code: BAH
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Baleares
+    code: BAL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Bermuda
+    code: BER
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Bolivia
+    code: BOL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Botswana
+    code: BOT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Brazil South
+    code: BZS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Brazil Southeast
+    code: BZL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Brazil West-Central
+    code: BZC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Bulgaria
+    code: BUL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Burundi
+    code: BUR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: California
+    code: CAL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Canary Is.
+    code: CNY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Cape Provinces
+    code: CPP
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Cape Verde
+    code: CVI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Caroline Is.
+    code: CRL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Cayman Is.
+    code: CAY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Chile Central
+    code: CLC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Chile North
+    code: CLN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Christmas I.
+    code: XMS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Colombia
+    code: CLM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Cook Is.
+    code: COO
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Corse
+    code: COR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Costa Rica
+    code: COS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Cuba
+    code: CUB
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: DR Congo
+    code: ZAI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Delaware
+    code: DEL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Desventurados Is.
+    code: DSV
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Dominican Republic
+    code: DOM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: East Aegean Is.
+    code: EAI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Easter Is.
+    code: EAS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Ecuador
+    code: ECU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Egypt
+    code: EGY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: El Salvador
+    code: ELS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Ethiopia
+    code: ETH
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Fiji
+    code: FIJ
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Florida
+    code: FLA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: France
+    code: FRA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Free State
+    code: OFS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: French Guiana
+    code: FRG
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Georgia
+    code: GEO
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Germany
+    code: GER
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Greece
+    code: GRC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Guatemala
+    code: GUA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Haiti
+    code: HAI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Hawaii
+    code: HAW
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Illinois
+    code: ILL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Italy
+    code: ITA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Jamaica
+    code: JAM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Jawa
+    code: JAW
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Kansas
+    code: KAN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Kentucky
+    code: KTY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Korea
+    code: KOR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Kriti
+    code: KRI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: KwaZulu-Natal
+    code: NAT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Leeward Is.
+    code: LEE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Libya
+    code: LBY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Louisiana
+    code: LOU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Madagascar
+    code: MDG
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Madeira
+    code: MDR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Malaya
+    code: MLY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Maluku
+    code: MOL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Marianas
+    code: MRN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Marquesas
+    code: MRQ
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Marshall Is.
+    code: MRS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Maryland
+    code: MRY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mexico Central
+    code: MXC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mexico Gulf
+    code: MXG
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mexico Northeast
+    code: MXE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mexico Northwest
+    code: MXN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mexico Southeast
+    code: MXT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mexico Southwest
+    code: MXS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mississippi
+    code: MSI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Missouri
+    code: MSO
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Morocco
+    code: MOR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: NW. Balkan Pen.
+    code: YUG
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Namibia
+    code: NAM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Nauru
+    code: NRU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Nevada
+    code: NEV
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Caledonia
+    code: NWC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Guinea
+    code: NWG
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Mexico
+    code: NWM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New South Wales
+    code: NSW
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Zealand North
+    code: NZN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Zealand South
+    code: NZS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Nicaragua
+    code: NIC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Niue
+    code: NUE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Norfolk Is.
+    code: NFK
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: North Carolina
+    code: NCA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Northern Provinces
+    code: TVL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Northern Territory
+    code: NTA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Oklahoma
+    code: OKL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Peru
+    code: PER
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Philippines
+    code: PHI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Portugal
+    code: POR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Puerto Rico
+    code: PUE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Queensland
+    code: QLD
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Samoa
+    code: SAM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Sardegna
+    code: SAR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Saudi Arabia
+    code: SAU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Seychelles
+    code: SEY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Sicilia
+    code: SIC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Society Is.
+    code: SCI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Somalia
+    code: SOM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: South Australia
+    code: SOA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: South Carolina
+    code: SCA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Spain
+    code: SPA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Sri Lanka
+    code: SRL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: St.Helena
+    code: STH
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Sumatera
+    code: SUM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Suriname
+    code: SUR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Tennessee
+    code: TEN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Texas
+    code: TEX
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Tonga
+    code: TON
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Trinidad-Tobago
+    code: TRT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Tunisia
+    code: TUN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Türkiye-in-Europe
+    code: TUE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Utah
+    code: UTA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Vanuatu
+    code: VAN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Venezuela
+    code: VEN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Venezuelan Antilles
+    code: VNA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Virginia
+    code: VRG
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Wallis-Futuna Is.
+    code: WAL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: West Virginia
+    code: WVA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Western Australia
+    code: WAU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Western Sahara
+    code: WSA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Windward Is.
+    code: WIN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  range_notes:
+  - WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution
+    sources are not parsed.
+  - 'Wikidata taxon range (may include introduced areas; cross-check only): Brazil, Beijing, People''s
+    Republic of China, Shanghai, Fujian, Tibet Autonomous Region, Guangdong, Zhoushan Archipelago, Myanmar'
+  - GBIF occurrence latitude/elevation envelope (climate field) includes cultivated and introduced plants.
+  climate: GBIF records span latitude -35 to 44 deg, elevation 9-249 m
+growth_stages:
+- id: seed
+  name: Seed
+  description: Seed in the soil.
+  texture: textures/block/arundo_donax_seed.png
+- id: seedling
+  name: Seedling
+  description: Small seedling.
+  texture: textures/block/arundo_donax_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy growth before flowering.
+  texture: textures/block/arundo_donax_vegetative.png
+- id: budding
+  name: Budding
+  description: Flower buds forming.
+  texture: textures/block/arundo_donax_budding.png
+- id: flowering
+  name: Flowering
+  description: Open flowers.
+  texture: textures/block/arundo_donax_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Fruit or seed head forming.
+  texture: textures/block/arundo_donax_fruiting.png
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - white
+    season: late summer
+  fruit:
+    present: true
+    type: grain (caryopsis)
+    description: 'DEFAULT: All grasses set a one-seeded grain; family default, not read from the source.'
+sources:
+- name: 'GBIF (ACCEPTED: Arundo donax)'
+  url: https://www.gbif.org/species/2703041
+  id: '2703041'
+  status: checked
+- name: 'Wikipedia: Arundo donax'
+  url: https://en.wikipedia.org/wiki/Arundo_donax
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q161114
+  id: Q161114
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: 'DEFAULT perennial_herb template: Seed -> Seedling -> Vegetative -> Budding -> Flowering
+      -> Fruiting.'
+    requirements:
+    - Light level 9 or more
+    - Plantable on dirt or grass
+  spawn:
+    biomes:
+    - minecraft:swamp
+    feature: patch
+    rarity: uncommon
+    reason: DRAFT guess from habitat text mentions it; review against real habitat.
+  notes: 'Auto-generated by pipeline/. Growth stages, spawn and rarity are defaults, not observations.
+    Not found in sources (blank or defaulted): fruit.'
+images:
+- url: https://commons.wikimedia.org/wiki/File%3AArundo_donax_Inflorescence_2009December13_DehesaBoyaldePuertollano.jpg
+  license: Public domain
+  author: Javier martin
+  shows: Arundo donax Inflorescence 2009December13 DehesaBoyaldePuertollano - Arundo donax inflorescence,
+    Dehesa Boyal de Puertollano, Spain
+  role: flower
+  file: data/photos/arundo_donax/flower_01_arundo-donax-inflorescence-2009december1.jpg
+  width: 2736
+  height: 3648
+  hints:
+  - inflorescence
+- url: https://commons.wikimedia.org/wiki/File%3AArundo_donax_sl3.jpg
+  license: CC BY-SA 4.0
+  author: Stefan.lefnaer
+  shows: 'Arundo donax sl3 - Stem with leaf sheaths and leaves Taxonym: Arundo donax ss Rottensteiner:
+    Exkursionsflora für Istrie'
+  role: leaf
+  file: data/photos/arundo_donax/leaf_01_arundo-donax-sl3.jpg
+  width: 3096
+  height: 4128
+  hints:
+  - leaf
+  - leaves
+- url: https://commons.wikimedia.org/wiki/File%3AArundo_donax_habit3_%286804288514%29_%282%29.jpg
+  license: CC BY 2.0
+  author: Harry Rose from South West Rocks, Australia
+  shows: Arundo donax habit3 (6804288514) (2) - Leaves are evenly spread in 2 rows along thick cane-like
+    stems and remain green over winter.
+  role: leaf
+  file: data/photos/arundo_donax/leaf_02_arundo-donax-habit3-6804288514-2.jpg
+  width: 2256
+  height: 3008
+  hints:
+  - leaves
+- url: https://commons.wikimedia.org/wiki/File%3AIllustration_Arundo_donax0.jpg
+  license: Public domain
+  author: unknown
+  shows: Illustration Arundo donax0
+  role: illustration
+  file: data/photos/arundo_donax/illustration_01_illustration-arundo-donax0.jpg
+  width: 1344
+  height: 2374
+  hints:
+  - illustration
+- url: https://commons.wikimedia.org/wiki/File%3ABotanischer_Garten_Berlin-Dahlem_10-2014_photo21_Arundo_donax.jpg
+  license: CC BY-SA 3.0
+  author: A.Savin
+  shows: Botanischer Garten Berlin-Dahlem 10-2014 photo21 Arundo donax - Berlin-Dahlem Botanical Garden
+    in autumn 2014 / Arundo donax
+  role: illustration
+  file: data/photos/arundo_donax/illustration_02_botanischer-garten-berlin-dahlem-10-2014.jpg
+  width: 3456
+  height: 4608
+  hints:
+  - botanical
+- url: https://commons.wikimedia.org/wiki/File%3AArundo_donax_-_Chelsea_Physic_Garden_-_DSC02804.jpg
+  license: CC0
+  author: Daderot
+  shows: Arundo donax - Chelsea Physic Garden - DSC02804 - Specimen in the Chelsea Physic Garden, London,
+    England.
+  role: habit
+  file: data/photos/arundo_donax/habit_01_arundo-donax-chelsea-physic-garden-dsc02.jpg
+  width: 3648
+  height: 5472
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ACa%C3%B1a_de_Castilla_Arundo_donax.jpg
+  license: CC BY-SA 4.0
+  author: Andariego 33
+  shows: Caña de Castilla Arundo donax - Caña de Castilla
+  role: habit
+  file: data/photos/arundo_donax/habit_02_ca-a-de-castilla-arundo-donax.jpg
+  width: 3264
+  height: 4928
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3AArundo_donax_kz1.jpg
+  license: CC BY-SA 4.0
+  author: Krzysztof Ziarnek, Kenraiz
+  shows: Arundo donax kz1 - Arundo donax on Akamas Peninsula, Cyprus
+  role: habit
+  file: data/photos/arundo_donax/habit_03_arundo-donax-kz1.jpg
+  width: 3072
+  height: 4608
+  hints: []
+size:
+  height_cm:
+    max: 1000
+    common_max: 600
+  habit: upright
+  source: wikipedia
+  quote: generally grows to 6 metres (20 ft) in height
+  height_sources:
+  - name: 'Wikipedia: Arundo donax'
+    url: https://en.wikipedia.org/wiki/Arundo_donax
+    max: 1000
+    quote: generally grows to 6 metres (20 ft) in height
+    common_max: 600
+segment_textures:
+- role: lower
+  texture: textures/block/arundo_donax_lower.png
+  note: Lower block(s) under the stage texture when the plant is taller than one block.
+measurements:
+- what: height
+  unit: cm
+  max: 600
+  qualifier: typical
+  quote: generally grows to 6 metres (20 ft) in height
+  source: 'Wikipedia: Arundo donax'
+- what: height
+  unit: cm
+  max: 1000
+  qualifier: rare_maximum
+  quote: in ideal conditions can exceed 10 metres
+  source: 'Wikipedia: Arundo donax'
+- what: stem_diameter
+  unit: cm
+  max: 3
+  qualifier: range
+  quote: The hollow stems are 1 to 3 centimetres
+  min: 1
+  source: 'Wikipedia: Arundo donax'
+- what: leaf_length
+  unit: cm
+  max: 60
+  qualifier: range
+  quote: 30 to 60 centimetres (12 to 24 in) long and 2 to 6 centimetres
+  min: 30
+  source: 'Wikipedia: Arundo donax'
+- what: leaf_width
+  unit: cm
+  max: 6
+  qualifier: range
+  quote: 2 to 6 centimetres (0.79 to 2.36 in) wide
+  min: 2
+  source: 'Wikipedia: Arundo donax'
+- what: inflorescence_length
+  unit: cm
+  max: 60
+  qualifier: range
+  quote: white feathery plumes 30 to 60 centimetres
+  min: 30
+  source: 'Wikipedia: Arundo donax'
+- what: root_depth
+  unit: cm
+  max: 100
+  qualifier: maximum
+  quote: penetrate deep into the soil, up to 1 metre
+  source: 'Wikipedia: Arundo donax'
+appearance:
+- part: leaf
+  attribute: color and shape
+  value: grey-green, swordlike, tapered tip, hairy tuft at the base
+  quote: The grey-green swordlike leaves
+  source: 'Wikipedia: Arundo donax'
+- part: inflorescence
+  attribute: color and shape
+  value: upright, white, feathery plumes
+  quote: upright, white feathery plumes
+  source: 'Wikipedia: Arundo donax'
+architecture:
+- aspect: stem_type
+  value: hollow stems, unbranched or with small bamboo-like side shoots
+  quote: either unbranched or with small bamboo-like side shoots
+  source: 'Wikipedia: Arundo donax'
+- aspect: leaf_arrangement
+  value: alternate
+  quote: are alternate
+  source: 'Wikipedia: Arundo donax'
+- aspect: growth_habit
+  value: tall perennial reed or cane; resembles an outsize common reed or bamboo; forms dense stands
+  quote: Overall, the plant resembles an outsize common reed
+  source: 'Wikipedia: Arundo donax'
+- aspect: root_system
+  value: tough fibrous underground rhizomes forming knotty spreading mats
+  quote: tough, fibrous underground rhizomes that form knotty, spreading mats
+  source: 'Wikipedia: Arundo donax'
+phenology:
+- event: flowering
+  when: late summer
+  quote: It flowers in late summer
+  source: 'Wikipedia: Arundo donax'
+propagation:
+- topic: vegetative_propagation
+  fact: mostly reproduces vegetatively by rhizomes; stem and rhizome pieces with a single node can sprout
+  quote: mostly reproduces vegetatively by tough, fibrous underground rhizomes
+  source: 'Wikipedia: Arundo donax'
+- topic: vegetative_propagation
+  fact: pieces under 5 cm with a single node sprout readily; floods spread pieces downstream
+  quote: containing a single node could sprout readily under a variety of conditions
+  source: 'Wikipedia: Arundo donax'
+- topic: seed_dispersal
+  fact: usually seedless or with rarely fertile seeds
+  quote: usually seedless or with seeds that are rarely fertile
+  source: 'Wikipedia: Arundo donax'
+confidence: high

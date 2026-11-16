@@ -1,0 +1,404 @@
+id: andropogon_gerardi
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+taxonomy:
+  kingdom: Plantae
+  order: Poales
+  family: Poaceae
+  genus: Andropogon
+  species: gerardi
+  authority: Vitman
+names:
+  scientific: Andropogon gerardi
+  common:
+  - big bluestem
+  - Blue-stem-grass
+  - Bluejoint
+  - Tall Bluestem
+  - Turkeyfoot
+  - big blue
+  in_game: Big Bluestem
+description: Tall perennial warm-season bunchgrass 1-3 m tall with a three-branched turkey-foot seed head
+  and a blue-purple stem base.
+habitat:
+  native_range: Great Plains and grassland regions of central and eastern North America
+  environment: Tolerant of a wide range of soil conditions.
+  life_form: perennial_herb
+  native_regions:
+  - region: Alabama
+    code: ALA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Arizona
+    code: ARI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Arkansas
+    code: ARK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Belize
+    code: BLZ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Colorado
+    code: COL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Connecticut
+    code: CNT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Costa Rica
+    code: COS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Delaware
+    code: DEL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: District of Columbia
+    code: WDC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: El Salvador
+    code: ELS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Florida
+    code: FLA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Georgia
+    code: GEO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Honduras
+    code: HON
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Illinois
+    code: ILL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Indiana
+    code: INI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Iowa
+    code: IOW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kansas
+    code: KAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kentucky
+    code: KTY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Louisiana
+    code: LOU
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Maine
+    code: MAI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Manitoba
+    code: MAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Maryland
+    code: MRY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Massachusetts
+    code: MAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Central
+    code: MXC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Northeast
+    code: MXE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Northwest
+    code: MXN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Southeast
+    code: MXT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Southwest
+    code: MXS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Michigan
+    code: MIC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Minnesota
+    code: MIN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mississippi
+    code: MSI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Missouri
+    code: MSO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Montana
+    code: MNT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nebraska
+    code: NEB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Hampshire
+    code: NWH
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Jersey
+    code: NWJ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Mexico
+    code: NWM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New York
+    code: NWY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Carolina
+    code: NCA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Dakota
+    code: NDA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ohio
+    code: OHI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Oklahoma
+    code: OKL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ontario
+    code: ONT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Pennsylvania
+    code: PEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Québec
+    code: QUE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Rhode I.
+    code: RHO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Saskatchewan
+    code: SAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South Carolina
+    code: SCA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South Dakota
+    code: SDA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tennessee
+    code: TEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Texas
+    code: TEX
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Utah
+    code: UTA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Vermont
+    code: VER
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Virginia
+    code: VRG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: West Virginia
+    code: WVA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Wisconsin
+    code: WIS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Wyoming
+    code: WYO
+    source: World Checklist of Vascular Plants via GBIF
+  introduced_regions:
+  - region: France
+    code: FRA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Hawaii
+    code: HAW
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Myanmar
+    code: MYA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  range_notes:
+  - WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution
+    sources are not parsed.
+  - GBIF occurrence latitude/elevation envelope (climate field) includes cultivated and introduced plants.
+  climate: GBIF records span latitude 14 to 57 deg, elevation 990-2450 m
+growth_stages:
+- id: seed
+  name: Seed
+  description: Seed in the soil.
+  texture: textures/block/andropogon_gerardi_seed.png
+- id: seedling
+  name: Seedling
+  description: Small seedling.
+  texture: textures/block/andropogon_gerardi_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy growth before flowering.
+  texture: textures/block/andropogon_gerardi_vegetative.png
+- id: budding
+  name: Budding
+  description: Flower buds forming.
+  texture: textures/block/andropogon_gerardi_budding.png
+- id: flowering
+  name: Flowering
+  description: Open flowers.
+  texture: textures/block/andropogon_gerardi_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Fruit or seed head forming.
+  texture: textures/block/andropogon_gerardi_fruiting.png
+reproduction:
+  flowers:
+    present: true
+    season: summer
+  fruit:
+    present: true
+    type: grain (caryopsis)
+    description: 'DEFAULT: All grasses set a one-seeded grain; family default, not read from the source.'
+sources:
+- name: 'GBIF (ACCEPTED: Andropogon gerardi)'
+  url: https://www.gbif.org/species/4932035
+  id: '4932035'
+  status: checked
+- name: 'Wikipedia: Andropogon gerardi'
+  url: https://en.wikipedia.org/wiki/Andropogon_gerardi
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q663311
+  id: Q663311
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: 'DEFAULT perennial_herb template: Seed -> Seedling -> Vegetative -> Budding -> Flowering
+      -> Fruiting.'
+    requirements:
+    - Light level 9 or more
+    - Plantable on dirt or grass
+  spawn:
+    biomes:
+    - minecraft:plains
+    - minecraft:forest
+    - minecraft:meadow
+    feature: patch
+    rarity: uncommon
+    reason: DRAFT guess from median GBIF record latitude 40 deg; review against real habitat.
+  notes: 'Auto-generated by pipeline/. Growth stages, spawn and rarity are defaults, not observations.
+    Not found in sources (blank or defaulted): fruit.'
+images:
+- url: https://commons.wikimedia.org/wiki/File%3AAndropogon_gerardii_spikelet_pairs.jpg
+  license: CC BY-SA 4.0
+  author: Erutuon
+  shows: Andropogon gerardii spikelet pairs - One of the racemes of a big bluestem (Andropogon gerardii)
+    inflorescence bent to show the pairs of s
+  role: flower
+  file: data/photos/andropogon_gerardi/flower_01_andropogon-gerardii-spikelet-pairs.jpg
+  width: 2352
+  height: 2987
+  hints:
+  - inflorescence
+  - spikelet
+  - spikelets
+- url: https://commons.wikimedia.org/wiki/File%3AAndropogon_gerardii_-_Berlin_Botanical_Garden_-_IMG_8625.JPG
+  license: Public domain
+  author: Daderot
+  shows: Andropogon gerardii - Berlin Botanical Garden - IMG 8625 - Andropogon gerardii specimen in the
+    Botanischer Garten, Berlin-Dahlem (Berlin Botanical Garden), Ber
+  role: illustration
+  file: data/photos/andropogon_gerardi/illustration_01_andropogon-gerardii-berlin-botanical-gar.jpg
+  width: 3264
+  height: 2448
+  hints:
+  - botanical
+- url: https://commons.wikimedia.org/wiki/File%3AAndropogon_gerardii_%283904160434%29.jpg
+  license: CC BY-SA 2.0
+  author: Matt Lavin from Bozeman, Montana, USA
+  shows: Andropogon gerardii (3904160434) - The bunched habit is revealed along mowed roadsides during
+    late summer where the cool season grasses
+  role: habit
+  file: data/photos/andropogon_gerardi/habit_01_andropogon-gerardii-3904160434.jpg
+  width: 2272
+  height: 1704
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3AAndropogon_gerardii.jpg
+  license: Public domain
+  author: unknown
+  shows: Andropogon gerardii
+  role: habit
+  file: data/photos/andropogon_gerardi/habit_02_andropogon-gerardii.jpg
+  width: 1492
+  height: 975
+  hints: []
+size:
+  height_cm:
+    min: 100
+    max: 300
+  habit: upright
+  source: wikipedia
+  quote: it grows to a height of 1–3 m
+  height_sources:
+  - name: 'Wikipedia: Andropogon gerardi'
+    url: https://en.wikipedia.org/wiki/Andropogon_gerardi
+    min: 100
+    max: 300
+    quote: it grows to a height of 1–3 m
+segment_textures:
+- role: lower
+  texture: textures/block/andropogon_gerardi_lower.png
+  note: Lower block(s) under the stage texture when the plant is taller than one block.
+measurements:
+- what: height
+  unit: cm
+  max: 300
+  qualifier: range
+  quote: it grows to a height of 1–3 m
+  min: 100
+  source: 'Wikipedia: Andropogon gerardi'
+- what: root_depth
+  unit: cm
+  max: 300
+  qualifier: range
+  quote: The main roots are 1.8–3 meters (6–10 feet) deep
+  min: 180
+  source: 'Wikipedia: Andropogon gerardi'
+appearance:
+- part: trunk
+  attribute: color
+  value: stem base turns blue or purple as it matures
+  quote: The stem base turns blue or purple as it matures
+  stage: mature
+  source: 'Wikipedia: Andropogon gerardi'
+- part: inflorescence
+  attribute: shape
+  value: two to six, most commonly three, narrow spike-like racemes alternately arranged along the top
+    of the stem, like a wild turkey's foot
+  quote: a raceme of two to six, most commonly three, narrow spike-like racemes alternately arranged along
+    the top of the stem
+  source: 'Wikipedia: Andropogon gerardi'
+- part: inflorescence
+  attribute: resemblance
+  value: somewhat resembles a wild turkey's foot
+  quote: It somewhat resembles a wild turkey's foot
+  source: 'Wikipedia: Andropogon gerardi'
+architecture:
+- aspect: growth_habit
+  value: perennial warm-season bunchgrass
+  quote: perennial warm-season bunchgrass
+  source: 'Wikipedia: Andropogon gerardi'
+- aspect: root_system
+  value: deep roots and strong, tough rhizomes forming a very strong sod
+  quote: the plants send out strong, tough rhizomes, so it forms very strong sod
+  source: 'Wikipedia: Andropogon gerardi'
+- aspect: flower_arrangement
+  value: 'paired spikelets: a stalkless fertile spikelet with an awn at the base of a stalked awnless
+    one'
+  quote: Each pair has a stalked spikelet with another stalkless spikelet at the base of the stalk
+  source: 'Wikipedia: Andropogon gerardi'
+phenology:
+- event: flowering
+  when: summer
+  quote: Big bluestem blooms in the summer and seeds into the fall
+  source: 'Wikipedia: Andropogon gerardi'
+- event: seed_release
+  when: seeds into the fall
+  quote: seeds into the fall
+  source: 'Wikipedia: Andropogon gerardi'
+confidence: high

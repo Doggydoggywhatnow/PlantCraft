@@ -1,0 +1,549 @@
+id: miscanthus_sinensis
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+taxonomy:
+  kingdom: Plantae
+  order: Poales
+  family: Poaceae
+  genus: Miscanthus
+  species: sinensis
+  authority: Andersson
+names:
+  scientific: Miscanthus sinensis
+  common:
+  - Chinese silvergrass
+  - maiden silvergrass
+  - Chinese fairy grass
+  - Eulalia
+  - Maiden Grass
+  - Miscanthus
+  in_game: Chinese Silvergrass
+description: Herbaceous perennial grass forming dense clumps, 0.8-2 m tall with purplish flowers held
+  above the leaves.
+habitat:
+  native_range: East Asia (China, Japan, Taiwan, Korea) and Southeast Asia
+  environment: not found in fetched sources
+  introduced_range: Invasive in parts of North America.
+  life_form: perennial_herb
+  native_regions:
+  - region: Borneo
+    code: BOR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China North-Central
+    code: CHN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China South-Central
+    code: CHC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China Southeast
+    code: CHS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Hainan
+    code: CHH
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Japan
+    code: JAP
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Jawa
+    code: JAW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kazan-retto
+    code: KZN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Khabarovsk
+    code: KHA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Korea
+    code: KOR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kuril Is.
+    code: KUR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Laos
+    code: LAO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Maluku
+    code: MOL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Manchuria
+    code: CHM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nansei-shoto
+    code: NNS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ogasawara-shoto
+    code: OGA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Philippines
+    code: PHI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Primorye
+    code: PRM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Sakhalin
+    code: SAK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South China Sea
+    code: SCS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Taiwan
+    code: TAI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Thailand
+    code: THA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Vietnam
+    code: VIE
+    source: World Checklist of Vascular Plants via GBIF
+  introduced_regions:
+  - region: Alabama
+    code: ALA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Altay
+    code: ALT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Arkansas
+    code: ARK
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Austria
+    code: AUT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Brazil South
+    code: BZS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Brazil Southeast
+    code: BZL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Brazil West-Central
+    code: BZC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: California
+    code: CAL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Chile Central
+    code: CLC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Colorado
+    code: COL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Connecticut
+    code: CNT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Cuba
+    code: CUB
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Czechia-Slovakia
+    code: CZE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Delaware
+    code: DEL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: District of Columbia
+    code: WDC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Egypt
+    code: EGY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Florida
+    code: FLA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Georgia
+    code: GEO
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Germany
+    code: GER
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Great Britain
+    code: GRB
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Illinois
+    code: ILL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Ireland
+    code: IRE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Italy
+    code: ITA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Kentucky
+    code: KTY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Louisiana
+    code: LOU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Marshall Is.
+    code: MRS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Maryland
+    code: MRY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Massachusetts
+    code: MAS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mexico Southeast
+    code: MXT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Michigan
+    code: MIC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Minnesota
+    code: MIN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mississippi
+    code: MSI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Missouri
+    code: MSO
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Jersey
+    code: NWJ
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New York
+    code: NWY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Zealand North
+    code: NZN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Zealand South
+    code: NZS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: North Carolina
+    code: NCA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Ohio
+    code: OHI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Ontario
+    code: ONT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Pennsylvania
+    code: PEN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Puerto Rico
+    code: PUE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Rhode I.
+    code: RHO
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: South Carolina
+    code: SCA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Tennessee
+    code: TEN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Transcaucasus
+    code: TCS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Türkiye
+    code: TUR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Uruguay
+    code: URU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Virginia
+    code: VRG
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: West Virginia
+    code: WVA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  range_notes:
+  - WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution
+    sources are not parsed.
+  - 'Wikidata taxon range (may include introduced areas; cross-check only): People''s Republic of China,
+    Shanghai, Fujian, Tianjin, Guangdong, Zhoushan Archipelago'
+  - GBIF occurrence latitude/elevation envelope (climate field) includes cultivated and introduced plants.
+  climate: GBIF records span latitude 24 to 52 deg, elevation 15-566 m
+growth_stages:
+- id: seed
+  name: Seed
+  description: Seed in the soil.
+  texture: textures/block/miscanthus_sinensis_seed.png
+- id: seedling
+  name: Seedling
+  description: Small seedling.
+  texture: textures/block/miscanthus_sinensis_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy growth before flowering.
+  texture: textures/block/miscanthus_sinensis_vegetative.png
+- id: budding
+  name: Budding
+  description: Flower buds forming.
+  texture: textures/block/miscanthus_sinensis_budding.png
+- id: flowering
+  name: Flowering
+  description: Open flowers.
+  texture: textures/block/miscanthus_sinensis_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Fruit or seed head forming.
+  texture: textures/block/miscanthus_sinensis_fruiting.png
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - purplish
+  fruit:
+    present: true
+    type: grain (caryopsis)
+    description: 'DEFAULT: All grasses set a one-seeded grain; family default, not read from the source.'
+sources:
+- name: 'GBIF (ACCEPTED: Miscanthus sinensis)'
+  url: https://www.gbif.org/species/2706026
+  id: '2706026'
+  status: checked
+- name: 'Wikipedia: Miscanthus sinensis'
+  url: https://en.wikipedia.org/wiki/Miscanthus_sinensis
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q1073621
+  id: Q1073621
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: 'DEFAULT perennial_herb template: Seed -> Seedling -> Vegetative -> Budding -> Flowering
+      -> Fruiting.'
+    requirements:
+    - Light level 9 or more
+    - Plantable on dirt or grass
+  spawn:
+    biomes:
+    - minecraft:plains
+    - minecraft:forest
+    - minecraft:meadow
+    feature: patch
+    rarity: uncommon
+    reason: DRAFT guess from median GBIF record latitude 35 deg; review against real habitat.
+  notes: 'Auto-generated by pipeline/. Growth stages, spawn and rarity are defaults, not observations.
+    Not found in sources (blank or defaulted): environment, fruit.'
+images:
+- url: https://commons.wikimedia.org/wiki/File%3AFeeringbury_Manor_ornamental_grass%2C_Feering_Essex_England.jpg
+  license: CC BY-SA 4.0
+  author: Acabashi
+  shows: Feeringbury Manor ornamental grass, Feering Essex England - Ornamental grass, Miscanthus sinensis,
+    commonly Chinese silver grass, Eulalia grass, maiden grass, z
+  role: flower
+  file: data/photos/miscanthus_sinensis/flower_01_feeringbury-manor-ornamental-grass-feeri.jpg
+  width: 5472
+  height: 3648
+  hints:
+  - flower
+- url: https://commons.wikimedia.org/wiki/File%3AChinaschilf_%28Kohlerhecke%2C_Neuendettelsau%29_20250919_142621.jpg
+  license: CC BY-SA 4.0
+  author: Alexander Rahm
+  shows: 'Chinaschilf (Kohlerhecke, Neuendettelsau) 20250919 142621 - Neuendettelsau, Kohlerhecke: Blütenstände
+    des Chinaschilfs'
+  role: flower
+  file: data/photos/miscanthus_sinensis/flower_02_chinaschilf-kohlerhecke-neuendettelsau-2.jpg
+  width: 6120
+  height: 8160
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ABloeiwijze_van_Miscanthus_sinensis._Locatie%2C_De_Kruidhof_Buitenpost.jpg
+  license: CC BY-SA 4.0
+  author: Dominicus Johannes Bergsma
+  shows: Bloeiwijze van Miscanthus sinensis. Locatie, De Kruidhof Buitenpost - Inflorescence of Miscanthus
+    sinensis. Location, The Kruidhof Buitenpost in the Netherlands.
+  role: flower
+  file: data/photos/miscanthus_sinensis/flower_03_bloeiwijze-van-miscanthus-sinensis-locat.jpg
+  width: 5184
+  height: 2953
+  hints:
+  - inflorescence
+- url: https://commons.wikimedia.org/wiki/File%3AChinaschilf_%28Kohlerhecke%2C_Neuendettelsau%29_20250919_143038.jpg
+  license: CC BY-SA 4.0
+  author: Alexander Rahm
+  shows: 'Chinaschilf (Kohlerhecke, Neuendettelsau) 20250919 143038 - Neuendettelsau, Kohlerhecke: Blütenstände
+    des Chinaschilfs'
+  role: flower
+  file: data/photos/miscanthus_sinensis/flower_04_chinaschilf-kohlerhecke-neuendettelsau-2.jpg
+  width: 3000
+  height: 4000
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3A2026-10-22_13_45_53_Maiden_Grass_seeds_along_Lochatong_Road_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg
+  license: CC BY-SA 4.0
+  author: Famartin
+  shows: 2026-10-22 13 45 53 Maiden Grass seeds along Lochatong Road in the Mountainview section of Ewing
+    Township, Mercer County, New Jersey - Maiden Grass seeds along Lochatong Road in the Mountainview
+    section of Ewing Township, Mercer County
+  role: seed
+  file: data/photos/miscanthus_sinensis/seed_01_2026-10-22-13-45-53-maiden-grass-seeds-a.jpg
+  width: 4032
+  height: 3024
+  hints:
+  - seeds
+- url: https://commons.wikimedia.org/wiki/File%3ABotanischer_Garten_Berlin-Dahlem_10-2014_photo26_Themeda_triandra.jpg
+  license: CC BY-SA 3.0
+  author: A.Savin
+  shows: Botanischer Garten Berlin-Dahlem 10-2014 photo26 Themeda triandra - Berlin-Dahlem Botanical Garden
+    in autumn 2014 / Miscanthus sinensis, Themeda triandra
+  role: illustration
+  file: data/photos/miscanthus_sinensis/illustration_01_botanischer-garten-berlin-dahlem-10-2014.jpg
+  width: 4266
+  height: 2844
+  hints:
+  - botanical
+- url: https://commons.wikimedia.org/wiki/File%3AGoodnestone_House_and_Gardens%2C_Chinese_silver_grass_%27Miscanthus_sinensis%27_1_-_geograph.org.uk_-_7426666.jpg
+  license: CC BY-SA 2.0
+  author: Michael Garlick
+  shows: 'Goodnestone House and Gardens, Chinese silver grass ''Miscanthus sinensis'' 1 - geograph.org.uk
+    - 7426666 - Goodnestone House and Gardens: Chinese silver grass ''Miscanthus sinensis'' 1'
+  role: habit
+  file: data/photos/miscanthus_sinensis/habit_01_goodnestone-house-and-gardens-chinese-si.jpg
+  width: 8256
+  height: 5504
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3AAutumn_Wakayama_%2851929773181%29.jpg
+  license: CC BY 2.0
+  author: Raita Futo from Tokyo, Japan
+  shows: Autumn Wakayama (51929773181) - 生石高原、ススキ野原
+  role: habit
+  file: data/photos/miscanthus_sinensis/habit_02_autumn-wakayama-51929773181.jpg
+  width: 5928
+  height: 3952
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3AChinaschilf_%28Miscanthus_sinensis%29_Blumeng%C3%A4rten_Hirschstetten_Wien_2014_c.jpg
+  license: CC BY-SA 3.0
+  author: Manfred Werner - Tsui
+  shows: Chinaschilf (Miscanthus sinensis) Blumengärten Hirschstetten Wien 2014 c - Miscanthus sinensis
+    at Blumengärten Hirschstetten in Vienna, Austria.
+  role: habit
+  file: data/photos/miscanthus_sinensis/habit_03_chinaschilf-miscanthus-sinensis-blumeng-.jpg
+  width: 5760
+  height: 3840
+  hints: []
+uses_real:
+- use: Ornamental grass
+  note: Widely cultivated in temperate climates.
+  category: ornamental
+  part_used: whole plant
+  quote: widely cultivated as an ornamental plant in temperate climates
+- use: Bioenergy crop
+  note: Burned in power plants or fermented to bioethanol and biomethane.
+  category: fuel
+  part_used: dry biomass
+  quote: can be burned directly in straw fire power plants for electricity production
+size:
+  height_cm:
+    min: 80
+    max: 400
+    common_max: 200
+  habit: upright
+  source: wikipedia
+  quote: growing to 0.8–2 m (3–7 ft) tall
+  height_sources:
+  - name: 'Wikipedia: Miscanthus sinensis'
+    url: https://en.wikipedia.org/wiki/Miscanthus_sinensis
+    min: 80
+    max: 400
+    quote: growing to 0.8–2 m (3–7 ft) tall
+    common_max: 200
+segment_textures:
+- role: lower
+  texture: textures/block/miscanthus_sinensis_lower.png
+  note: Lower block(s) under the stage texture when the plant is taller than one block.
+measurements:
+- what: height
+  unit: cm
+  max: 200
+  qualifier: range
+  quote: growing to 0.8–2 m (3–7 ft) tall
+  min: 80
+  source: 'Wikipedia: Miscanthus sinensis'
+- what: height
+  unit: cm
+  max: 400
+  qualifier: rare_maximum
+  quote: rarely 4 m (13 ft)
+  source: 'Wikipedia: Miscanthus sinensis'
+- what: leaf_length
+  unit: cm
+  max: 75
+  qualifier: range
+  quote: The leaves are 18–75 cm (7–30 in) tall and 0.3–2 cm broad
+  min: 18
+  source: 'Wikipedia: Miscanthus sinensis'
+- what: leaf_width
+  unit: cm
+  max: 2
+  qualifier: range
+  quote: 0.3–2 cm broad
+  min: 0.3
+  source: 'Wikipedia: Miscanthus sinensis'
+appearance:
+- part: flower
+  attribute: color
+  value: purplish, held above the foliage
+  quote: The flowers are purplish, held above the foliage
+  source: 'Wikipedia: Miscanthus sinensis'
+architecture:
+- aspect: growth_habit
+  value: dense clumps from an underground rhizome
+  quote: forming dense clumps from an underground rhizome
+  source: 'Wikipedia: Miscanthus sinensis'
+- aspect: root_system
+  value: underground rhizome
+  quote: from an underground rhizome
+  source: 'Wikipedia: Miscanthus sinensis'
+propagation:
+- topic: seed_dispersal
+  fact: propagated cheaply by seed; invasive in parts of North America
+  quote: low-cost propagation by seed
+  source: 'Wikipedia: Miscanthus sinensis'
+confidence: medium

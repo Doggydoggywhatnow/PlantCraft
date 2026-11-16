@@ -63,6 +63,13 @@ class NewFactTypes(unittest.TestCase):
         self.assertEqual(dropped, ["architecture:crown_shape"])
 
 
+    def test_number_words_count_as_numbers(self):
+        facts = {"measurements": [{"what": "lifespan", "unit": "years", "max": 10, "quote": "a stand can survive for ten years"}]}
+        kept, dropped = extract.verify(facts, "Once established, a stand can survive for ten years or longer.")
+        self.assertEqual(len(kept["measurements"]), 1)
+        self.assertEqual(dropped, [])
+
+
 class SizeSection(unittest.TestCase):
     WP = {"found": True, "title": "Peach", "url": "https://en.wikipedia.org/wiki/Peach"}
 

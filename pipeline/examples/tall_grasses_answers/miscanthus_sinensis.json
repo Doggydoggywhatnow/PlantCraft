@@ -1,0 +1,101 @@
+{
+ "measurements": [
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 200,
+   "qualifier": "range",
+   "quote": "growing to 0.8–2 m (3–7 ft) tall",
+   "min": 80
+  },
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 400,
+   "qualifier": "rare_maximum",
+   "quote": "rarely 4 m (13 ft)"
+  },
+  {
+   "what": "leaf_length",
+   "unit": "cm",
+   "max": 75,
+   "qualifier": "range",
+   "quote": "The leaves are 18–75 cm (7–30 in) tall and 0.3–2 cm broad",
+   "min": 18
+  },
+  {
+   "what": "leaf_width",
+   "unit": "cm",
+   "max": 2,
+   "qualifier": "range",
+   "quote": "0.3–2 cm broad",
+   "min": 0.3
+  }
+ ],
+ "appearance": [
+  {
+   "part": "flower",
+   "attribute": "color",
+   "value": "purplish, held above the foliage",
+   "quote": "The flowers are purplish, held above the foliage"
+  }
+ ],
+ "architecture": [
+  {
+   "aspect": "growth_habit",
+   "value": "dense clumps from an underground rhizome",
+   "quote": "forming dense clumps from an underground rhizome"
+  },
+  {
+   "aspect": "root_system",
+   "value": "underground rhizome",
+   "quote": "from an underground rhizome"
+  }
+ ],
+ "propagation": [
+  {
+   "topic": "seed_dispersal",
+   "fact": "propagated cheaply by seed; invasive in parts of North America",
+   "quote": "low-cost propagation by seed"
+  }
+ ],
+ "uses_real": [
+  {
+   "use": "Ornamental grass",
+   "category": "ornamental",
+   "part_used": "whole plant",
+   "note": "Widely cultivated in temperate climates.",
+   "quote": "widely cultivated as an ornamental plant in temperate climates"
+  },
+  {
+   "use": "Bioenergy crop",
+   "category": "fuel",
+   "part_used": "dry biomass",
+   "note": "Burned in power plants or fermented to bioethanol and biomethane.",
+   "quote": "can be burned directly in straw fire power plants for electricity production"
+  }
+ ],
+ "life_form": {
+  "value": "perennial_herb",
+  "quote": "It is an herbaceous perennial grass"
+ },
+ "description": {
+  "value": "Herbaceous perennial grass forming dense clumps, 0.8-2 m tall with purplish flowers held above the leaves.",
+  "quote": "It is an herbaceous perennial grass, growing to 0.8–2 m (3–7 ft) tall"
+ },
+ "native_range": {
+  "value": "East Asia (China, Japan, Taiwan, Korea) and Southeast Asia",
+  "quote": "native to most of East Asia (China, Japan, Taiwan and Korea) and Southeast Asia"
+ },
+ "introduced_range": {
+  "value": "Invasive in parts of North America.",
+  "quote": "It has become an invasive species in parts of North America"
+ },
+ "flowers": {
+  "present": true,
+  "colors": [
+   "purplish"
+  ],
+  "quote": "The flowers are purplish, held above the foliage"
+ }
+}

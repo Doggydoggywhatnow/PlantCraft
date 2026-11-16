@@ -1,0 +1,105 @@
+{
+ "measurements": [
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 200,
+   "qualifier": "range",
+   "quote": "It grows 3 to 7 feet (1 to 2 m) tall",
+   "min": 100
+  },
+  {
+   "what": "leaf_length",
+   "unit": "cm",
+   "max": 100,
+   "qualifier": "typical",
+   "quote": "The leaf is about 3 feet (1 m) long",
+   "min": 100
+  }
+ ],
+ "appearance": [
+  {
+   "part": "flower",
+   "attribute": "color",
+   "value": "spikelets golden-brown during blooming; three large showy yellow stamens",
+   "quote": "The spikelets are golden-brown during the blooming period",
+   "stage": "flowering"
+  },
+  {
+   "part": "flower",
+   "attribute": "stamens",
+   "value": "three large, showy yellow stamens and two feather-like stigmas",
+   "quote": "three large, showy yellow stamens and two feather-like stigmas"
+  },
+  {
+   "part": "inflorescence",
+   "attribute": "hairs",
+   "value": "one glume covered in silky white hairs",
+   "quote": "covered in silky white hairs"
+  }
+ ],
+ "architecture": [
+  {
+   "aspect": "growth_habit",
+   "value": "warm-season perennial bunchgrass",
+   "quote": "a warm-season perennial bunchgrass"
+  },
+  {
+   "aspect": "flower_arrangement",
+   "value": "branched clusters (panicles) of spikelets; branches of pollinated clusters bend outwards",
+   "quote": "producing branched clusters (panicles) of spikelets"
+  },
+  {
+   "aspect": "flower_arrangement",
+   "value": "branches of pollinated flower clusters bend outwards",
+   "quote": "The branches of pollinated flower clusters bend outwards"
+  }
+ ],
+ "phenology": [
+  {
+   "event": "flowering",
+   "when": "late summer to early fall",
+   "quote": "It blooms from late summer to early fall"
+  }
+ ],
+ "propagation": [
+  {
+   "topic": "pollination",
+   "fact": "cross-pollinated by the wind",
+   "quote": "The flowers are cross-pollinated by the wind"
+  },
+  {
+   "topic": "seed_dispersal",
+   "fact": "seeds fall to the ground at maturity",
+   "quote": "At maturity, the seeds fall to the ground"
+  }
+ ],
+ "life_form": {
+  "value": "perennial_herb",
+  "quote": "a warm-season perennial bunchgrass"
+ },
+ "description": {
+  "value": "Tall warm-season perennial bunchgrass 1-2 m tall with golden-brown, feathery branched panicles.",
+  "quote": "It grows 3 to 7 feet (1 to 2 m) tall"
+ },
+ "native_range": {
+  "value": "United States and Canada, especially the Great Plains and tallgrass prairies",
+  "quote": "a North American prairie grass found in the United States and Canada, especially in the Great Plains and tallgrass prairies"
+ },
+ "environment": {
+  "value": "Intolerant of shade; tallgrass prairie and longleaf pine areas.",
+  "quote": "It is intolerant to shade"
+ },
+ "flowers": {
+  "present": true,
+  "colors": [
+   "golden-brown",
+   "yellow"
+  ],
+  "season": "late summer to early fall",
+  "pollination": [
+   "wind"
+  ],
+  "quote": "The flowers are cross-pollinated by the wind"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "measurements": [
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 100,
+   "qualifier": "typical",
+   "quote": "culms about 1 meter (3.3 ft) tall"
+  }
+ ],
+ "appearance": [
+  {
+   "part": "inflorescence",
+   "attribute": "shape",
+   "value": "open, nodding panicle of laterally compressed (flattened) spikelets",
+   "quote": "an open, nodding panicle of laterally compressed (flattened) spikelets"
+  }
+ ],
+ "architecture": [
+  {
+   "aspect": "growth_habit",
+   "value": "cool-season, rhizomatous, perennial grass",
+   "quote": "a cool-season, rhizomatous, perennial grass"
+  },
+  {
+   "aspect": "flower_arrangement",
+   "value": "open nodding panicle of flattened spikelets",
+   "quote": "open, nodding panicle"
+  }
+ ],
+ "life_form": {
+  "value": "perennial_herb",
+  "quote": "rhizomatous, perennial grass"
+ },
+ "description": {
+  "value": "Cool-season rhizomatous perennial grass about 1 m tall with an open, nodding panicle of flattened spikelets.",
+  "quote": "The inflorescence is an open, nodding panicle of laterally compressed (flattened) spikelets"
+ },
+ "native_range": {
+  "value": "Central and eastern United States, Manitoba and northeastern Mexico",
+  "quote": "native to the central and eastern United States, Manitoba, and northeastern Mexico"
+ },
+ "environment": {
+  "value": "Wooded areas and riparian zones.",
+  "quote": "The plant typically grows in wooded areas and riparian zones"
+ },
+ "flowers": {
+  "present": true,
+  "quote": "The inflorescence is an open, nodding panicle"
+ }
+}

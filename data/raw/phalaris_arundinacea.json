@@ -1,0 +1,1024 @@
+{
+  "query": "Phalaris arundinacea",
+  "id": "phalaris_arundinacea",
+  "fetched": "2026-11-16",
+  "wikipedia": {
+    "found": true,
+    "title": "Phalaris arundinacea",
+    "url": "https://en.wikipedia.org/wiki/Phalaris_arundinacea",
+    "wikidata_id": "Q157419",
+    "extract": "Phalaris arundinacea, or reed canary grass, is a tall, perennial grass that commonly forms extensive single-species stands along the margins of lakes and streams and in wet open areas, with a wide distribution in Europe, Asia, northern Africa and North America. Other common names for the plant include gardener's-garters and ribbon grass in English, alpiste roseau in French, Rohrglanzgras in German, kusa-yoshi in Japanese, caniço-malhado in Portuguese, and hierba cinta and pasto cinto in Spanish.\n\n\n== Description ==\nThe stems can reach 2 metres (6.6 ft) in height. The leaf blades are usually green, but may be variegated. The panicles are up to 30 centimetres (12 in) long. The spikelets are light green, often streaked with darker green or purple. This is a perennial grass which spreads underground by its thick rhizomes.\n\n\n== Uses ==\nA number of cultivars of P. arundinacea have been selected for use as ornamental plants, including variegated (striped) cultivars – sometimes called ribbon grass – such as 'Castor' and 'Feesey'. The latter has a pink tinge to the leaves. When grown, although drought-tolerant, it likes abundant water and can even be grown as an aquatic plant.\nReed canary grass grows well on poor soil and contaminated industrial sites. Researchers at Teesside University's Contaminated Land & Water Centre have suggested it is ideal for phytoremediation, which improves soil quality and biodiversity at brownfield sites.\nThe grass can also easily be turned into bricks or pellets for burning in biomass power stations. Furthermore, it provides fibers which find use in pulp and papermaking processes.\nP. arundinacea is also planted as a hay crop or for forage.\nThis species of Phalaris may also be used as a source of the psychedelic drugs DMT, 5-MeO-DMT and 5-OH-DMT (bufotenin), as well as Hordenine and 5-MeO-NMT; however, N,N-DMT is considered most desirable. Although the concentrations of these compounds are lower than in other potential sources, such as Psychotria viridis and Mimosa tenuiflora, large enough quantities of the grass can be refined to make an ad hoc ayahuasca brew.\n\n\n== Ecology ==\nIn many places, P. arundinacea is an invasive species in wetlands, particularly in disturbed areas. It has been reported as an invasive weed in floodplains, riverside meadows, and other wetland habitats around the world. When P. arundinacea invades a wetland, it inhibits native vegetation and reduces biological diversity. It alters the entire ecosystem. The grass propagates by seed and rhizome, and once established, is difficult to eradicate.\n\n\n== Distribution ==\nP. arundinacea now has a worldwide distribution. While it is generally considered to be native to both North America and Eurasia, this is a matter of debate. It appears that the North American populations are a mixture of introduced European cultivars and indigenous varieties.\n\n\n== Chemical properties ==\nSpecimens contain varying levels of hordenine and gramine.\nLeaves of P. arundinacea contain DMT, 5-MeO-DMT and related compounds. Levels of beta-carbolines and hordenine have also been reported.\n\n\n== References ==\n\n\n== External links ==\n\nFlora Europaea: Phalaris arundinacea\nJepson Manual Treatment – taxonomy and distribution within California",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Phalaris_arundinacea_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:Phalaris arundinacea 1.jpg",
+      "File:Phalaris arundinacea NP.JPG"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q157419",
+    "url": "https://www.wikidata.org/wiki/Q157419",
+    "label": "Phalaris arundinacea",
+    "description": "species of plant",
+    "english_common_names": [
+      "reed canarygrass",
+      "Reed canary grass",
+      "Reed Canary-grass",
+      "Reed Canary Grass",
+      "reed-grass, reed-canary grass"
+    ],
+    "taxon_name": [
+      "Phalaris arundinacea"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q157573"
+    ],
+    "image_files": [
+      "Phalaris arundinacea 1.jpg"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "5289756"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:415571-1"
+      ],
+      "ipni": [
+        "415571-1"
+      ],
+      "ncbi": [
+        "96050"
+      ],
+      "inaturalist": [
+        "63337"
+      ],
+      "eppo": [
+        "TYPAR"
+      ]
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/5289756",
+    "key": 5289756,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Phalaris arundinacea L.",
+    "canonical_name": "Phalaris arundinacea",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Phalaris",
+      "species": "Phalaris arundinacea"
+    },
+    "english_vernacular_names": [
+      "Gardener's Garters",
+      "Gardener's-garters",
+      "Reed Canary Grass",
+      "Reed Canary-Grass",
+      "Reed Canary-grass",
+      "Reed Canarygrass",
+      "Reed canary grass",
+      "Reed canarygrass",
+      "Reed-grass, Reed-canary Grass",
+      "Ribbon Grass",
+      "Variegated Grass",
+      "Variegated Ribbon Grass",
+      "Zebra Grass",
+      "gardener's-garters"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:Phalaris arundinacea 1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_1.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Phalaris_arundinacea_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Phalaris_arundinacea_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 950,
+      "height": 1550,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Franz Xaver",
+      "description": "Rohr-Glanzgras (Phalaris arundinacea), Süßgräser (Poaceae) - Österreich/Austria/Autriche: Oberösterreich, Hausruckviertel, Niederholzham N Schwanenstadt"
+    },
+    {
+      "file": "File:Phalaris arundinacea NP.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_NP.JPG",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Phalaris_arundinacea_NP.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Phalaris_arundinacea_NP.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 640,
+      "height": 480,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Krish Dulal",
+      "description": "Phalaris arundinacea in garden of Islington college, Nepal."
+    }
+  ],
+  "gbif_range": {
+    "total_records": 786293,
+    "sampled": 300,
+    "countries_top10": [
+      "GB",
+      "FR",
+      "NL",
+      "DE",
+      "DK",
+      "BE",
+      "US",
+      "SE",
+      "FI",
+      "CH"
+    ],
+    "lat": {
+      "p5": 47.08939,
+      "p50": 51.22383,
+      "p95": 56.558396
+    },
+    "lon": {
+      "p5": -2.625165,
+      "p50": 4.88844,
+      "p95": 12.65
+    },
+    "elevation_m": null,
+    "note": "Records include cultivated and introduced plants; treat as an upper bound on range."
+  },
+  "distribution": {
+    "native": [
+      {
+        "region": "Afghanistan",
+        "code": "AFG",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Alabama",
+        "code": "ALA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Alaska",
+        "code": "ASK",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Albania",
+        "code": "ALB",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Alberta",
+        "code": "ABT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Altay",
+        "code": "ALT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Amur",
+        "code": "AMU",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Arizona",
+        "code": "ARI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Arkansas",
+        "code": "ARK",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Austria",
+        "code": "AUT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Baltic States",
+        "code": "BLT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Belarus",
+        "code": "BLR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Belgium",
+        "code": "BGM",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "British Columbia",
+        "code": "BRC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Bulgaria",
+        "code": "BUL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Buryatiya",
+        "code": "BRY",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "California",
+        "code": "CAL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Central European Russia",
+        "code": "RUC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "China North-Central",
+        "code": "CHN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "China South-Central",
+        "code": "CHC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "China Southeast",
+        "code": "CHS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Chita",
+        "code": "CTA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Colorado",
+        "code": "COL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Connecticut",
+        "code": "CNT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Corse",
+        "code": "COR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Czechia-Slovakia",
+        "code": "CZE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Delaware",
+        "code": "DEL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Denmark",
+        "code": "DEN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "District of Columbia",
+        "code": "WDC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "East European Russia",
+        "code": "RUE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "East Himalaya",
+        "code": "EHM",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Ethiopia",
+        "code": "ETH",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Finland",
+        "code": "FIN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "France",
+        "code": "FRA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Føroyar",
+        "code": "FOR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Germany",
+        "code": "GER",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Great Britain",
+        "code": "GRB",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Greece",
+        "code": "GRC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Hungary",
+        "code": "HUN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Illinois",
+        "code": "ILL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Indiana",
+        "code": "INI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Inner Mongolia",
+        "code": "CHI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Iowa",
+        "code": "IOW",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Iran",
+        "code": "IRN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Iraq",
+        "code": "IRQ",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Ireland",
+        "code": "IRE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Irkutsk",
+        "code": "IRK",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Italy",
+        "code": "ITA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Japan",
+        "code": "JAP",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kamchatka",
+        "code": "KAM",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kansas",
+        "code": "KAN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kazakhstan",
+        "code": "KAZ",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kentucky",
+        "code": "KTY",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kenya",
+        "code": "KEN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Khabarovsk",
+        "code": "KHA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kirgizstan",
+        "code": "KGZ",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Korea",
+        "code": "KOR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Krasnoyarsk",
+        "code": "KRA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Krym",
+        "code": "KRY",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Kuril Is.",
+        "code": "KUR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Lebanon-Syria",
+        "code": "LBS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Madagascar",
+        "code": "MDG",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Magadan",
+        "code": "MAG",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Maine",
+        "code": "MAI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Manchuria",
+        "code": "CHM",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Manitoba",
+        "code": "MAN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Maryland",
+        "code": "MRY",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Massachusetts",
+        "code": "MAS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexico Northeast",
+        "code": "MXE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mexico Northwest",
+        "code": "MXN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Michigan",
+        "code": "MIC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Minnesota",
+        "code": "MIN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Missouri",
+        "code": "MSO",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Mongolia",
+        "code": "MON",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Montana",
+        "code": "MNT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Myanmar",
+        "code": "MYA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "NW. Balkan Pen.",
+        "code": "YUG",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Nebraska",
+        "code": "NEB",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Nepal",
+        "code": "NEP",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Netherlands",
+        "code": "NET",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Nevada",
+        "code": "NEV",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New Brunswick",
+        "code": "NBR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New Hampshire",
+        "code": "NWH",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New Jersey",
+        "code": "NWJ",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New Mexico",
+        "code": "NWM",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New York",
+        "code": "NWY",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Newfoundland",
+        "code": "NFL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "North Carolina",
+        "code": "NCA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "North Caucasus",
+        "code": "NCS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "North Dakota",
+        "code": "NDA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "North European Russia",
+        "code": "RUN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Northwest European Russia",
+        "code": "RUW",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Northwest Territories",
+        "code": "NWT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Norway",
+        "code": "NOR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Nova Scotia",
+        "code": "NSC",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Ohio",
+        "code": "OHI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Oklahoma",
+        "code": "OKL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Ontario",
+        "code": "ONT",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Oregon",
+        "code": "ORE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Pakistan",
+        "code": "PAK",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Pennsylvania",
+        "code": "PEN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Poland",
+        "code": "POL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Portugal",
+        "code": "POR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Primorye",
+        "code": "PRM",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Prince Edward I.",
+        "code": "PEI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Qinghai",
+        "code": "CHQ",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Québec",
+        "code": "QUE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Rhode I.",
+        "code": "RHO",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Romania",
+        "code": "ROM",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Rwanda",
+        "code": "RWA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Sakhalin",
+        "code": "SAK",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Sardegna",
+        "code": "SAR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Saskatchewan",
+        "code": "SAS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "South Dakota",
+        "code": "SDA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "South European Russia",
+        "code": "RUS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Spain",
+        "code": "SPA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Sri Lanka",
+        "code": "SRL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Sweden",
+        "code": "SWE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Switzerland",
+        "code": "SWI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Tadzhikistan",
+        "code": "TZK",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Taiwan",
+        "code": "TAI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Tanzania",
+        "code": "TAN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Tennessee",
+        "code": "TEN",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Transcaucasus",
+        "code": "TCS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Tuva",
+        "code": "TVA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Türkiye",
+        "code": "TUR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Türkiye-in-Europe",
+        "code": "TUE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Ukraine",
+        "code": "UKR",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Utah",
+        "code": "UTA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Uzbekistan",
+        "code": "UZB",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Vermont",
+        "code": "VER",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Vietnam",
+        "code": "VIE",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Virginia",
+        "code": "VRG",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Washington",
+        "code": "WAS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "West Himalaya",
+        "code": "WHM",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "West Siberia",
+        "code": "WSB",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "West Virginia",
+        "code": "WVA",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Wisconsin",
+        "code": "WIS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Wyoming",
+        "code": "WYO",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Xinjiang",
+        "code": "CHX",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Yakutiya",
+        "code": "YAK",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Yukon",
+        "code": "YUK",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      }
+    ],
+    "introduced": [
+      {
+        "region": "Algeria",
+        "code": "ALG",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Argentina Northeast",
+        "code": "AGE",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Azores",
+        "code": "AZO",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Brazil South",
+        "code": "BZS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Cape Provinces",
+        "code": "CPP",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Colombia",
+        "code": "CLM",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Egypt",
+        "code": "EGY",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Free State",
+        "code": "OFS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Iceland",
+        "code": "ICE",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Jawa",
+        "code": "JAW",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "KwaZulu-Natal",
+        "code": "NAT",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Lesotho",
+        "code": "LES",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Mauritius",
+        "code": "MAU",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Nansei-shoto",
+        "code": "NNS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "New South Wales",
+        "code": "NSW",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "New Zealand North",
+        "code": "NZN",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "New Zealand South",
+        "code": "NZS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Northern Provinces",
+        "code": "TVL",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Peru",
+        "code": "PER",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "South Australia",
+        "code": "SOA",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Tasmania",
+        "code": "TAS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Uruguay",
+        "code": "URU",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Victoria",
+        "code": "VIC",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Western Australia",
+        "code": "WAU",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      }
+    ],
+    "records_total": 418,
+    "wcvp_records": 166,
+    "note": "WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution sources are not parsed."
+  },
+  "wikidata_taxon_range": [
+    "Beijing",
+    "People's Republic of China",
+    "Shanghai",
+    "Fujian",
+    "Tianjin",
+    "Xinjiang",
+    "Guangdong",
+    "Zhoushan Archipelago"
+  ]
+}

@@ -167,14 +167,18 @@ def build(raw: dict, ext: dict) -> dict:
         for k in ("colors", "opens", "season", "pollination"):
             if fl.get(k):
                 flowers[k] = fl[k]
-    fruit = {"present": fr["present"] if fr else False}
+    fam_default = DEFAULTS.get("fruit_by_family", {}).get(cls.get("family"))
+    fruit = {"present": fr["present"] if fr else bool(fam_default)}
+    if fam_default and not fr:
+        fruit["type"] = fam_default["type"]
+        fruit["description"] = "DEFAULT: " + fam_default["note"]
     if fr:
         for k in ("type", "description", "ripening", "edible"):
             if fr.get(k):
                 fruit[k] = fr[k]
 
     biomes, why = pick_biomes(life or "perennial_herb", env or wp.get("extract", "")[:1500], lat)
-    stages = [{"id": i, "name": n, "description": d} for i, n, d in lf["stages"]]
+    stages = [{"id": i, "name": n, "description": d, "texture": f"textures/block/{raw['id']}_{i}.png"} for i, n, d in lf["stages"]]
     if not fruit["present"]:
         stages = [s for s in stages if s["id"] != "fruiting"]
     if not flowers["present"]:
@@ -227,6 +231,10 @@ def build(raw: dict, ext: dict) -> dict:
     if facts.get("uses_real"):
         draft["uses_real"] = [{k: u[k] for k in ("use", "note", "category", "part_used", "quote") if u.get(k)} for u in facts["uses_real"]]
     draft["size"] = build_size(facts, lf["habit"], wp)
+    per = float(yaml.safe_load((ROOT / "config" / "scale.yaml").read_text())["cm_per_block"])
+    if draft["size"]["source"] != "pending" and draft["size"]["height_cm"]["max"] > per:
+        draft["segment_textures"] = [{"role": "lower", "texture": f"textures/block/{raw['id']}_lower.png",
+                                      "note": "Lower block(s) under the stage texture when the plant is taller than one block."}]
     # Structured, quote-backed facts for the sprite artist and future mechanics. Never defaulted: absent means not in sources.
     srcname = f"Wikipedia: {wp['title']}" if wp.get("found") else "Wikipedia"
     for key in ("measurements", "appearance", "architecture", "phenology", "propagation"):

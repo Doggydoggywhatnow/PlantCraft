@@ -1,0 +1,216 @@
+{
+  "id": "arundo_donax",
+  "species": "Arundo donax",
+  "fetched": "2026-11-16",
+  "note": "Photos are reference material only. Keep authors and licences with them.",
+  "candidates_examined": 66,
+  "coverage": {
+    "flower": 1,
+    "fruit": 0,
+    "seed": 0,
+    "leaf": 2,
+    "bark": 0,
+    "branches": 0,
+    "illustration": 2,
+    "habit": 3
+  },
+  "missing_roles": [
+    "fruit"
+  ],
+  "photos": [
+    {
+      "file": "data/photos/arundo_donax/flower_01_arundo-donax-inflorescence-2009december1.jpg",
+      "role": "flower",
+      "hints": [
+        "inflorescence"
+      ],
+      "title": "File:Arundo donax Inflorescence 2009December13 DehesaBoyaldePuertollano.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AArundo_donax_Inflorescence_2009December13_DehesaBoyaldePuertollano.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/53/Arundo_donax_Inflorescence_2009December13_DehesaBoyaldePuertollano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2736,
+      "height": 3648,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Javier martin",
+      "description": "Arundo donax inflorescence, Dehesa Boyal de Puertollano, Spain",
+      "categories": [
+        "Arundo donax",
+        "PD-self",
+        "Poales in Dehesa Boyal de Puertollano",
+        "Self-published work",
+        "Taken with Airis DC200"
+      ]
+    },
+    {
+      "file": "data/photos/arundo_donax/leaf_01_arundo-donax-sl3.jpg",
+      "role": "leaf",
+      "hints": [
+        "leaf",
+        "leaves"
+      ],
+      "title": "File:Arundo donax sl3.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AArundo_donax_sl3.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/db/Arundo_donax_sl3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3096,
+      "height": 4128,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Stefan.lefnaer",
+      "description": "Stem with leaf sheaths and leaves Taxonym: Arundo donax ss Rottensteiner: Exkursionsflora für Istrien ISBN 978-3-85328-067-6 Location: stream next to Jurandvor, community Baška, Krk, County Primorje-Gorski kotar, Croatia Habitat: brookside",
+      "categories": [
+        "Arundo donax",
+        "CC-BY-SA-4.0",
+        "Croatia photographs taken on 2019-10-13",
+        "Files with coordinates missing SDC location of creation",
+        "Flora of Krk",
+        "Poaceae in Croatia",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/arundo_donax/leaf_02_arundo-donax-habit3-6804288514-2.jpg",
+      "role": "leaf",
+      "hints": [
+        "leaves"
+      ],
+      "title": "File:Arundo donax habit3 (6804288514) (2).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AArundo_donax_habit3_%286804288514%29_%282%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Arundo_donax_habit3_%286804288514%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2256,
+      "height": 3008,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Harry Rose from South West Rocks, Australia",
+      "description": "Leaves are evenly spread in 2 rows along thick cane-like stems and remain green over winter.",
+      "categories": [
+        "Arundo donax",
+        "CC-BY-2.0",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by FlickreviewR",
+        "Poaceae in New South Wales",
+        "Poaceae in the Southern Hemisphere in March",
+        "Poales in New South Wales in March"
+      ]
+    },
+    {
+      "file": "data/photos/arundo_donax/illustration_01_illustration-arundo-donax0.jpg",
+      "role": "illustration",
+      "hints": [
+        "illustration"
+      ],
+      "title": "File:Illustration Arundo donax0.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AIllustration_Arundo_donax0.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Illustration_Arundo_donax0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1344,
+      "height": 2374,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "unknown",
+      "description": "",
+      "categories": [
+        "Arundo donax - botanical illustrations",
+        "CC-PD-Mark",
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "Media missing infobox template",
+        "PD-old-100-expired",
+        "PD-old missing SDC copyright status",
+        "PD-scan (PD-old-auto-expired)",
+        "Thomé, Flora von Deutschland (original)"
+      ]
+    },
+    {
+      "file": "data/photos/arundo_donax/illustration_02_botanischer-garten-berlin-dahlem-10-2014.jpg",
+      "role": "illustration",
+      "hints": [
+        "botanical"
+      ],
+      "title": "File:Botanischer Garten Berlin-Dahlem 10-2014 photo21 Arundo donax.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ABotanischer_Garten_Berlin-Dahlem_10-2014_photo21_Arundo_donax.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/37/Botanischer_Garten_Berlin-Dahlem_10-2014_photo21_Arundo_donax.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3456,
+      "height": 4608,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "A.Savin",
+      "description": "Berlin-Dahlem Botanical Garden in autumn 2014 / Arundo donax",
+      "categories": [
+        "2010s photographs of Berlin",
+        "2014 in Steglitz-Zehlendorf",
+        "Arundo donax",
+        "Autumn in Berlin-Dahlem Botanical Garden",
+        "CC-BY-SA-3.0,2.5,2.0,1.0",
+        "FAL",
+        "Files with coordinates missing SDC location of creation",
+        "Germany photographs taken on 2014-10-19",
+        "Photographs by A.Savin/Germany",
+        "Photographs by A.Savin taken in 2014",
+        "Poaceae in the Botanischer Garten, Berlin-Dahlem",
+        "Quality images"
+      ]
+    },
+    {
+      "file": "data/photos/arundo_donax/habit_01_arundo-donax-chelsea-physic-garden-dsc02.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Arundo donax - Chelsea Physic Garden - DSC02804.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AArundo_donax_-_Chelsea_Physic_Garden_-_DSC02804.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Arundo_donax_-_Chelsea_Physic_Garden_-_DSC02804.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3648,
+      "height": 5472,
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Daderot",
+      "description": "Specimen in the Chelsea Physic Garden, London, England.",
+      "categories": [
+        "Arundo donax",
+        "CC-Zero",
+        "Self-published work",
+        "Specimens in the Chelsea Physic Garden"
+      ]
+    },
+    {
+      "file": "data/photos/arundo_donax/habit_02_ca-a-de-castilla-arundo-donax.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Caña de Castilla Arundo donax.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACa%C3%B1a_de_Castilla_Arundo_donax.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ca%C3%B1a_de_Castilla_Arundo_donax.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3264,
+      "height": 4928,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Andariego 33",
+      "description": "Caña de Castilla",
+      "categories": [
+        "Arundo donax",
+        "Biodiversidad viva y fósil del Arroyo Balta",
+        "CC-BY-SA-4.0",
+        "Files with coordinates missing SDC location of creation",
+        "Mercedes, Buenos Aires",
+        "Reserva Natural Municipal Arroyo Balta",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/arundo_donax/habit_03_arundo-donax-kz1.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Arundo donax kz1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AArundo_donax_kz1.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Arundo_donax_kz1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3072,
+      "height": 4608,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "description": "Arundo donax on Akamas Peninsula, Cyprus",
+      "categories": [
+        "Arundo donax",
+        "CC-BY-SA-4.0",
+        "Cyprus in 2017 by Kenraiz",
+        "Self-published work"
+      ]
+    }
+  ]
+}

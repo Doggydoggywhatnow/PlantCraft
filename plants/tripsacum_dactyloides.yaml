@@ -1,0 +1,475 @@
+id: tripsacum_dactyloides
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+taxonomy:
+  kingdom: Plantae
+  order: Poales
+  family: Poaceae
+  genus: Tripsacum
+  species: dactyloides
+  authority: (L.) L.
+names:
+  scientific: Tripsacum dactyloides
+  common:
+  - eastern gamagrass
+  - Eastern gamma grass
+  - Eastern mock grama
+  - Fakahatchee grass
+  - Northern Gamagrass
+  - Tripsacum
+  in_game: Eastern Gamagrass
+description: Warm-season, sod-forming bunch grass usually 0.6-0.9 m but up to 3 m, with long broad purplish
+  leaves and spike-like flower heads.
+habitat:
+  native_range: Eastern United States to northern South America
+  environment: Sunny moist areas such as watercourses and wet prairies.
+  native_regions:
+  - region: Alabama
+    code: ALA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Arkansas
+    code: ARK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Bahamas
+    code: BAH
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Belize
+    code: BLZ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Colombia
+    code: CLM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Connecticut
+    code: CNT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Costa Rica
+    code: COS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Cuba
+    code: CUB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Delaware
+    code: DEL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: District of Columbia
+    code: WDC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Dominican Republic
+    code: DOM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ecuador
+    code: ECU
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Florida
+    code: FLA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: French Guiana
+    code: FRG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Georgia
+    code: GEO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Guatemala
+    code: GUA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Guyana
+    code: GUY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Haiti
+    code: HAI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Honduras
+    code: HON
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Illinois
+    code: ILL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Indiana
+    code: INI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Iowa
+    code: IOW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kansas
+    code: KAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kentucky
+    code: KTY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Louisiana
+    code: LOU
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Maryland
+    code: MRY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Massachusetts
+    code: MAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Central
+    code: MXC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Northeast
+    code: MXE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Northwest
+    code: MXN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Southeast
+    code: MXT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Southwest
+    code: MXS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Michigan
+    code: MIC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mississippi
+    code: MSI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Missouri
+    code: MSO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nebraska
+    code: NEB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Jersey
+    code: NWJ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New York
+    code: NWY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nicaragua
+    code: NIC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Carolina
+    code: NCA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ohio
+    code: OHI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Oklahoma
+    code: OKL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Panamá
+    code: PAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Pennsylvania
+    code: PEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Rhode I.
+    code: RHO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South Carolina
+    code: SCA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Suriname
+    code: SUR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tennessee
+    code: TEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Texas
+    code: TEX
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Trinidad-Tobago
+    code: TRT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Venezuela
+    code: VEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Virginia
+    code: VRG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: West Virginia
+    code: WVA
+    source: World Checklist of Vascular Plants via GBIF
+  introduced_regions:
+  - region: Borneo
+    code: BOR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Brazil Northeast
+    code: BZE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Congo
+    code: CON
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: India
+    code: IND
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Malaya
+    code: MLY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Paraguay
+    code: PAR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Philippines
+    code: PHI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Queensland
+    code: QLD
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Taiwan
+    code: TAI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Victoria
+    code: VIC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  range_notes:
+  - WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution
+    sources are not parsed.
+  - GBIF occurrence latitude/elevation envelope (climate field) includes cultivated and introduced plants.
+  climate: GBIF records span latitude 6 to 40 deg, elevation 77-706 m
+growth_stages:
+- id: seed
+  name: Seed
+  description: Seed in the soil.
+  texture: textures/block/tripsacum_dactyloides_seed.png
+- id: seedling
+  name: Seedling
+  description: Small seedling.
+  texture: textures/block/tripsacum_dactyloides_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy growth before flowering.
+  texture: textures/block/tripsacum_dactyloides_vegetative.png
+- id: budding
+  name: Budding
+  description: Flower buds forming.
+  texture: textures/block/tripsacum_dactyloides_budding.png
+- id: flowering
+  name: Flowering
+  description: Open flowers.
+  texture: textures/block/tripsacum_dactyloides_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Fruit or seed head forming.
+  texture: textures/block/tripsacum_dactyloides_fruiting.png
+reproduction:
+  flowers:
+    present: true
+    season: late March to early October
+  fruit:
+    present: true
+    type: seed in a seedhead that breaks into joints
+    ripening: June to September
+sources:
+- name: 'GBIF (ACCEPTED: Tripsacum dactyloides)'
+  url: https://www.gbif.org/species/2705536
+  id: '2705536'
+  status: checked
+- name: 'Wikipedia: Tripsacum dactyloides'
+  url: https://en.wikipedia.org/wiki/Tripsacum_dactyloides
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q2421782
+  id: Q2421782
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: 'DEFAULT unknown template: Seed -> Seedling -> Vegetative -> Budding -> Flowering -> Fruiting.'
+    requirements:
+    - Light level 9 or more
+    - Plantable on dirt or grass
+  spawn:
+    biomes:
+    - minecraft:savanna
+    - minecraft:plains
+    - minecraft:desert
+    feature: patch
+    rarity: uncommon
+    reason: DRAFT guess from median GBIF record latitude 19 deg; review against real habitat.
+  notes: 'Auto-generated by pipeline/. Growth stages, spawn and rarity are defaults, not observations.
+    Not found in sources (blank or defaulted): life_form.'
+images:
+- url: https://commons.wikimedia.org/wiki/File%3AEastern_Gamma_Grass_-_Tripsacum_dactyloides%2C_Occoquan_Bay_National_Wildlife_Refuge%2C_Woodbridge%2C_Virginia.jpg
+  license: CC BY 2.0
+  author: Judy Gallagher
+  shows: Eastern Gamma Grass - Tripsacum dactyloides, Occoquan Bay National Wildlife Refuge, Woodbridge,
+    Virginia - Eastern Gamma Grass - Tripsacum dactyloides, Occoquan Bay National Wildlife Refuge, Woodbridge,
+    Virg
+  role: flower
+  file: data/photos/tripsacum_dactyloides/flower_01_eastern-gamma-grass-tripsacum-dactyloide.jpg
+  width: 2136
+  height: 3025
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ATripsacum_dactyloides_-_Marie_Selby_Botanical_Gardens_-_Sarasota%2C_Florida_-_DSC01614.jpg
+  license: CC0
+  author: Daderot
+  shows: Tripsacum dactyloides - Marie Selby Botanical Gardens - Sarasota, Florida - DSC01614 - Botanical
+    specimen in the Marie Selby Botanical Gardens - Sarasota, Florida, USA.
+  role: illustration
+  file: data/photos/tripsacum_dactyloides/illustration_01_tripsacum-dactyloides-marie-selby-botani.jpg
+  width: 5392
+  height: 3204
+  hints:
+  - botanical
+- url: https://commons.wikimedia.org/wiki/File%3ATripsacum_dactyloides_2021-09-18_02.jpg
+  license: CC BY-SA 4.0
+  author: Agnieszka Kwiecień, Nova
+  shows: Tripsacum dactyloides 2021-09-18 02 - Tripsacum dactyloides inflorescence, plant cultivated in
+    Wrocław University Botanical Garden, Wrocła
+  role: illustration
+  file: data/photos/tripsacum_dactyloides/illustration_02_tripsacum-dactyloides-2021-09-18-02.jpg
+  width: 4305
+  height: 2870
+  hints:
+  - botanical
+- url: https://commons.wikimedia.org/wiki/File%3AEastern_Gamagrass_-_Tripsacum_dactyloides%2C_Occoquan_Bay_National_Wildlife_Refuge%2C_Woodbridge%2C_Virginia%2C_August_26%2C_2020_%2853346769934%29.jpg
+  license: CC BY 2.0
+  author: Judy Gallagher
+  shows: Eastern Gamagrass - Tripsacum dactyloides, Occoquan Bay National Wildlife Refuge, Woodbridge,
+    Virginia, August 26, 2020 (53346769934) - Eastern Gamagrass - Tripsacum dactyloides, Occoquan Bay
+    National Wildlife Refuge, Woodbridge, Virgin
+  role: habit
+  file: data/photos/tripsacum_dactyloides/habit_01_eastern-gamagrass-tripsacum-dactyloides-.jpg
+  width: 6720
+  height: 4480
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3AEastern_Gamma_grass_or_Tripsacum_dactyloides.jpg
+  license: CC0
+  author: Gilbasolutions
+  shows: Eastern Gamma grass or Tripsacum dactyloides - Eastern Gamma grass
+  role: habit
+  file: data/photos/tripsacum_dactyloides/habit_02_eastern-gamma-grass-or-tripsacum-dactylo.jpg
+  width: 3024
+  height: 4032
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3AK7698-1_%288496694263%29.jpg
+  license: Public domain
+  author: USDAgov
+  shows: K7698-1 (8496694263) - This is an image of a corn-eastern gamagrass hybrid. Eastern gamagrass
+    is a native grass with a gene
+  role: habit
+  file: data/photos/tripsacum_dactyloides/habit_03_k7698-1-8496694263.jpg
+  width: 1859
+  height: 2790
+  hints: []
+uses_real:
+- use: Forage
+  note: Widely cultivated for forage.
+  category: forage
+  part_used: whole plant
+  quote: widely cultivated for its use as forage
+size:
+  height_cm:
+    min: 61
+    max: 300
+    common_max: 91
+  habit: upright
+  source: wikipedia
+  quote: grows to a height of 2–3 feet (0.61–0.91 m)
+  height_sources:
+  - name: 'Wikipedia: Tripsacum dactyloides'
+    url: https://en.wikipedia.org/wiki/Tripsacum_dactyloides
+    min: 61
+    max: 300
+    quote: grows to a height of 2–3 feet (0.61–0.91 m)
+    common_max: 91
+  spread_cm:
+    max: 120
+  spread_sources:
+  - name: 'Wikipedia: Tripsacum dactyloides'
+    url: https://en.wikipedia.org/wiki/Tripsacum_dactyloides
+    max: 120
+    quote: Each clump's diameter can increase up to 4 ft (1.2 m)
+segment_textures:
+- role: lower
+  texture: textures/block/tripsacum_dactyloides_lower.png
+  note: Lower block(s) under the stage texture when the plant is taller than one block.
+measurements:
+- what: height
+  unit: cm
+  max: 91
+  qualifier: range
+  quote: grows to a height of 2–3 feet (0.61–0.91 m)
+  min: 61
+  source: 'Wikipedia: Tripsacum dactyloides'
+- what: height
+  unit: cm
+  max: 300
+  qualifier: rare_maximum
+  quote: it can be as high as 8–10 ft (2.4–3.0 m)
+  source: 'Wikipedia: Tripsacum dactyloides'
+- what: spread
+  unit: cm
+  max: 120
+  qualifier: maximum
+  quote: Each clump's diameter can increase up to 4 ft (1.2 m)
+  source: 'Wikipedia: Tripsacum dactyloides'
+- what: leaf_length
+  unit: cm
+  max: 150
+  qualifier: typical
+  quote: leaf-blade is around 1.5 m (4 ft 11 in) long
+  min: 150
+  source: 'Wikipedia: Tripsacum dactyloides'
+- what: leaf_width
+  unit: cm
+  max: 3.5
+  qualifier: range
+  quote: 9–35 millimetres (0.35–1.38 in) wide
+  min: 0.9
+  source: 'Wikipedia: Tripsacum dactyloides'
+- what: inflorescence_length
+  unit: cm
+  max: 30
+  qualifier: range
+  quote: is 10–30 centimetres (3.9–11.8 in) long
+  min: 10
+  source: 'Wikipedia: Tripsacum dactyloides'
+appearance:
+- part: whole_plant
+  attribute: color
+  value: stems and leaves purplish and glabrous
+  quote: The stems and leaves have a purplish color and are glabrous
+  source: 'Wikipedia: Tripsacum dactyloides'
+- part: inflorescence
+  attribute: form
+  value: spikes of female and male spikelets; single raceme or panicle of two to three unisexual racemes
+  quote: consist of spikes made up of female and male spikelets
+  source: 'Wikipedia: Tripsacum dactyloides'
+architecture:
+- aspect: leaf_arrangement
+  value: short internodes, so all leaves grow out from the plant's base
+  quote: all the leaves grow out from the plant's base
+  source: 'Wikipedia: Tripsacum dactyloides'
+- aspect: growth_habit
+  value: warm-season, sod-forming bunch grass
+  quote: a warm-season, sod-forming bunch grass
+  source: 'Wikipedia: Tripsacum dactyloides'
+- aspect: root_system
+  value: several short, fibrous, thick rhizomes; deep hollow roots from lower nodes
+  quote: several short, fibrous, thick rhizomes
+  source: 'Wikipedia: Tripsacum dactyloides'
+phenology:
+- event: flowering
+  when: late March to early October
+  quote: blooms from late March to early October
+  source: 'Wikipedia: Tripsacum dactyloides'
+- event: fruiting
+  when: seed-producing season June to September
+  quote: The seed-producing season of the grass is from June to September
+  source: 'Wikipedia: Tripsacum dactyloides'
+propagation:
+- topic: seed_dispersal
+  fact: seedhead joints break into two as the fruit matures, each part holding one seed
+  quote: The joints of the seedhead break into two as the fruit matures
+  source: 'Wikipedia: Tripsacum dactyloides'
+confidence: high

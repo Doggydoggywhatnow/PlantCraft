@@ -1,0 +1,557 @@
+id: panicum_virgatum
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+taxonomy:
+  kingdom: Plantae
+  order: Poales
+  family: Poaceae
+  genus: Panicum
+  species: virgatum
+  authority: L.
+names:
+  scientific: Panicum virgatum
+  common:
+  - switchgrass
+  - Blackwell Switch Grass
+  - Old Switch Panic Grass
+  - Old Switch Panicgrass
+  - Switch Grass
+  - Wand Panicgrass
+  in_game: Switchgrass
+description: Hardy, deep-rooted perennial warm-season bunchgrass up to 2.7 m tall with long leaves and
+  large open panicles.
+habitat:
+  native_range: North America, from 55 N in Canada south into the United States and Mexico
+  environment: Dominant species of the central North American tallgrass prairie, also remnant prairies,
+    pastures and roadsides.
+  life_form: perennial_herb
+  native_regions:
+  - region: Alabama
+    code: ALA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Arizona
+    code: ARI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Arkansas
+    code: ARK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Belize
+    code: BLZ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Bermuda
+    code: BER
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Colorado
+    code: COL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Connecticut
+    code: CNT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Cuba
+    code: CUB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Delaware
+    code: DEL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: District of Columbia
+    code: WDC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: El Salvador
+    code: ELS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Florida
+    code: FLA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Georgia
+    code: GEO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Honduras
+    code: HON
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Illinois
+    code: ILL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Indiana
+    code: INI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Iowa
+    code: IOW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kansas
+    code: KAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kentucky
+    code: KTY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Louisiana
+    code: LOU
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Manitoba
+    code: MAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Maryland
+    code: MRY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Massachusetts
+    code: MAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Central
+    code: MXC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Gulf
+    code: MXG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Northeast
+    code: MXE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Northwest
+    code: MXN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Southeast
+    code: MXT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Southwest
+    code: MXS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Michigan
+    code: MIC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Minnesota
+    code: MIN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mississippi
+    code: MSI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Missouri
+    code: MSO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Montana
+    code: MNT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nebraska
+    code: NEB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nevada
+    code: NEV
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Hampshire
+    code: NWH
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Jersey
+    code: NWJ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Mexico
+    code: NWM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New York
+    code: NWY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nicaragua
+    code: NIC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Carolina
+    code: NCA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Dakota
+    code: NDA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nova Scotia
+    code: NSC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ohio
+    code: OHI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Oklahoma
+    code: OKL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ontario
+    code: ONT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Pennsylvania
+    code: PEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Québec
+    code: QUE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Rhode I.
+    code: RHO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Saskatchewan
+    code: SAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South Carolina
+    code: SCA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South Dakota
+    code: SDA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tennessee
+    code: TEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Texas
+    code: TEX
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Utah
+    code: UTA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Vermont
+    code: VER
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Virginia
+    code: VRG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: West Virginia
+    code: WVA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Wisconsin
+    code: WIS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Wyoming
+    code: WYO
+    source: World Checklist of Vascular Plants via GBIF
+  introduced_regions:
+  - region: Austria
+    code: AUT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Belgium
+    code: BGM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Brazil North
+    code: BZN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Brazil Northeast
+    code: BZE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Brazil Southeast
+    code: BZL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: China North-Central
+    code: CHN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: China South-Central
+    code: CHC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: China Southeast
+    code: CHS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Germany
+    code: GER
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Great Britain
+    code: GRB
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Hawaii
+    code: HAW
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Idaho
+    code: IDA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: India
+    code: IND
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Japan
+    code: JAP
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Korea
+    code: KOR
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Oregon
+    code: ORE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Washington
+    code: WAS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  range_notes:
+  - WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution
+    sources are not parsed.
+  - 'Wikidata taxon range (may include introduced areas; cross-check only): People''s Republic of China'
+  - GBIF occurrence latitude/elevation envelope (climate field) includes cultivated and introduced plants.
+  climate: GBIF records span latitude 17 to 57 deg, elevation 7-1868 m
+growth_stages:
+- id: seed
+  name: Seed
+  description: Seed in the soil.
+  texture: textures/block/panicum_virgatum_seed.png
+- id: seedling
+  name: Seedling
+  description: Small seedling.
+  texture: textures/block/panicum_virgatum_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy growth before flowering.
+  texture: textures/block/panicum_virgatum_vegetative.png
+- id: budding
+  name: Budding
+  description: Flower buds forming.
+  texture: textures/block/panicum_virgatum_budding.png
+- id: flowering
+  name: Flowering
+  description: Open flowers.
+  texture: textures/block/panicum_virgatum_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Fruit or seed head forming.
+  texture: textures/block/panicum_virgatum_fruiting.png
+reproduction:
+  flowers:
+    present: true
+  fruit:
+    present: true
+    type: seed (single-flowered spikelet)
+    description: Seeds 3-6 mm long, pink or dull-purple when ripe, golden brown in fall.
+    ripening: fall
+sources:
+- name: 'GBIF (ACCEPTED: Panicum virgatum)'
+  url: https://www.gbif.org/species/2705081
+  id: '2705081'
+  status: checked
+- name: 'Wikipedia: Panicum virgatum'
+  url: https://en.wikipedia.org/wiki/Panicum_virgatum
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q1466543
+  id: Q1466543
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: 'DEFAULT perennial_herb template: Seed -> Seedling -> Vegetative -> Budding -> Flowering
+      -> Fruiting.'
+    requirements:
+    - Light level 9 or more
+    - Plantable on dirt or grass
+  spawn:
+    biomes:
+    - minecraft:forest
+    - minecraft:birch_forest
+    - minecraft:taiga
+    feature: patch
+    rarity: uncommon
+    reason: DRAFT guess from median GBIF record latitude 50 deg; review against real habitat.
+  notes: Auto-generated by pipeline/. Growth stages, spawn and rarity are defaults, not observations.
+images:
+- url: https://commons.wikimedia.org/wiki/File%3APanicum_virgatum_JdP.jpg
+  license: CC0
+  author: Jebulon
+  shows: Panicum virgatum JdP - A bush of switchgrass (Panicum virgatum L.) with seeds. Jardin des Plantes,
+    Paris.
+  role: seed
+  file: data/photos/panicum_virgatum/seed_01_panicum-virgatum-jdp.jpg
+  width: 3019
+  height: 2009
+  hints:
+  - seeds
+- url: https://commons.wikimedia.org/wiki/File%3AMeasuring_switchgrass.usda.jpg
+  license: Public domain
+  author: Peggy Greb, USDA
+  shows: 'Measuring switchgrass.usda - Technicians Calvin Vick (left) and John Massey measure switchgrass
+    stem density and geometry at the '
+  role: bark
+  file: data/photos/panicum_virgatum/bark_01_measuring-switchgrass-usda.jpg
+  width: 1769
+  height: 2700
+  hints:
+  - stem
+- url: https://commons.wikimedia.org/wiki/File%3ACoastal_Georgia_Botanical_Gardens%2C_Switchgrass_Panicum_Vigatum_%27Heavy_Metal%27.jpg
+  license: CC BY-SA 4.0
+  author: Michael Rivera
+  shows: Coastal Georgia Botanical Gardens, Switchgrass Panicum Vigatum 'Heavy Metal' - Coastal Georgia
+    Botanical Gardens, Savannah, Chatham County, Georgia
+  role: illustration
+  file: data/photos/panicum_virgatum/illustration_01_coastal-georgia-botanical-gardens-switch.jpg
+  width: 5184
+  height: 3456
+  hints:
+  - botanical
+- url: https://commons.wikimedia.org/wiki/File%3APanicum_virgatum_-_Botanical_Garden_in_Kaisaniemi%2C_Helsinki_-_DSC03560.JPG
+  license: CC0
+  author: Daderot
+  shows: Panicum virgatum - Botanical Garden in Kaisaniemi, Helsinki - DSC03560 - Botanical specimen.
+    The University of Helsinki Botanical Garden at Kaisaniemi. This appears to be Pa
+  role: illustration
+  file: data/photos/panicum_virgatum/illustration_02_panicum-virgatum-botanical-garden-in-kai.jpg
+  width: 3240
+  height: 4320
+  hints:
+  - botanical
+- url: https://commons.wikimedia.org/wiki/File%3APanicum_virgatum_%27Apache_rose%27_IMG_8666.jpg
+  license: CC BY-SA 4.0
+  author: Don McCulley
+  shows: Panicum virgatum 'Apache rose' IMG 8666 - 'Apache rose' switchgrass (Panicum virgatum) at the
+    University of Georgia Trial Gardens on September
+  role: habit
+  file: data/photos/panicum_virgatum/habit_01_panicum-virgatum-apache-rose-img-8666.jpg
+  width: 4000
+  height: 6000
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3A07483_Switchgrass_%2814392365357%29.jpg
+  license: CC BY-SA 2.0
+  author: rockerBOO
+  shows: 07483 Switchgrass (14392365357) - 'Heavy Metal'
+  role: habit
+  file: data/photos/panicum_virgatum/habit_02_07483-switchgrass-14392365357.jpg
+  width: 4912
+  height: 3264
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3APanicum_virgatum_%2820481223663%29.jpg
+  license: CC BY-SA 2.0
+  author: Matt Lavin from Bozeman, Montana, USA
+  shows: Panicum virgatum (20481223663) - Panicum virgatum (switchgrass) coexists with many other warm
+    season grasses especially along roadsid
+  role: habit
+  file: data/photos/panicum_virgatum/habit_03_panicum-virgatum-20481223663.jpg
+  width: 4608
+  height: 3456
+  hints: []
+uses_real:
+- use: Ornamental grass
+  note: Drought-resistant ornamental in average to wet soils, full sun to part shade.
+  category: ornamental
+  part_used: whole plant
+  quote: grown as a drought-resistant ornamental grass
+- use: Bioenergy feedstock
+  note: Cellulosic ethanol, biogas, pellets and direct combustion.
+  category: fuel
+  part_used: biomass
+  quote: feedstock for biomass energy production
+- use: Soil conservation
+  note: Ground cover and erosion control.
+  category: ecological
+  part_used: whole plant and roots
+  quote: as ground cover for soil conservation, and to control erosion
+- use: Forage and hay
+  note: Hay, pasture and game cover.
+  category: forage
+  part_used: whole plant
+  quote: for forages and grazing, as game cover
+size:
+  height_cm:
+    max: 270
+  habit: upright
+  source: wikipedia
+  quote: It can grow up to 2.7 m (8 ft 10 in) high
+  height_sources:
+  - name: 'Wikipedia: Panicum virgatum'
+    url: https://en.wikipedia.org/wiki/Panicum_virgatum
+    max: 270
+    quote: It can grow up to 2.7 m (8 ft 10 in) high
+segment_textures:
+- role: lower
+  texture: textures/block/panicum_virgatum_lower.png
+  note: Lower block(s) under the stage texture when the plant is taller than one block.
+measurements:
+- what: height
+  unit: cm
+  max: 270
+  qualifier: maximum
+  quote: It can grow up to 2.7 m (8 ft 10 in) high
+  source: 'Wikipedia: Panicum virgatum'
+- what: leaf_length
+  unit: cm
+  max: 90
+  qualifier: range
+  quote: The leaves are 30–90 cm (12–35 in) long
+  min: 30
+  source: 'Wikipedia: Panicum virgatum'
+- what: inflorescence_length
+  unit: cm
+  max: 60
+  qualifier: maximum
+  quote: panicle, often up to 60 cm (24 in) long
+  source: 'Wikipedia: Panicum virgatum'
+- what: seed_length
+  unit: cm
+  max: 0.6
+  qualifier: range
+  quote: The seeds are 3–6 mm
+  min: 0.3
+  source: 'Wikipedia: Panicum virgatum'
+- what: root_depth
+  unit: cm
+  max: 180
+  qualifier: typical
+  quote: deeply rooted, > 1.8 m (5 ft 11 in) in favorable soils
+  min: 180
+  source: 'Wikipedia: Panicum virgatum'
+- what: age_to_first_flowering
+  unit: years
+  max: 3
+  qualifier: maximum
+  quote: can take up to three years to reach its full production potential
+  source: 'Wikipedia: Panicum virgatum'
+- what: lifespan
+  unit: years
+  max: 10
+  qualifier: typical
+  quote: a switchgrass stand can survive for ten years or longer
+  min: 10
+  source: 'Wikipedia: Panicum virgatum'
+appearance:
+- part: leaf
+  attribute: midrib
+  value: prominent midrib
+  quote: with a prominent midrib
+  source: 'Wikipedia: Panicum virgatum'
+- part: seed
+  attribute: color
+  value: pink or dull-purple tinge when ripe, turning golden brown with the foliage in fall
+  quote: sometimes take on a pink or dull-purple tinge
+  stage: ripe
+  source: 'Wikipedia: Panicum virgatum'
+architecture:
+- aspect: growth_habit
+  value: hardy, deep-rooted, perennial rhizomatous grass
+  quote: hardy, deep-rooted, perennial rhizomatous grass
+  source: 'Wikipedia: Panicum virgatum'
+- aspect: growth_habit
+  value: lowland types look bunchgrass-like; upland types are more sod-forming
+  quote: the lowland cultivars may appear to have a bunchgrass habit, while the upland types tend to be
+    more sod-forming
+  source: 'Wikipedia: Panicum virgatum'
+- aspect: flower_arrangement
+  value: well-developed panicle
+  quote: Its flowers have a well-developed panicle
+  source: 'Wikipedia: Panicum virgatum'
+- aspect: root_system
+  value: deep fibrous roots and short rhizomes
+  quote: have short rhizomes
+  source: 'Wikipedia: Panicum virgatum'
+phenology:
+- event: growth_rate
+  when: growth begins in late spring and most growth is late spring through early fall; dormant in colder
+    months
+  quote: most of its growth occurs from late spring through early fall
+  source: 'Wikipedia: Panicum virgatum'
+propagation:
+- topic: seed_dispersal
+  fact: self-seeding
+  quote: self-seeding crop
+  source: 'Wikipedia: Panicum virgatum'
+- topic: dormancy
+  fact: dormant and unproductive during colder months
+  quote: it becomes dormant and unproductive during colder months
+  source: 'Wikipedia: Panicum virgatum'
+confidence: high

@@ -1,0 +1,807 @@
+id: phalaris_arundinacea
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+taxonomy:
+  kingdom: Plantae
+  order: Poales
+  family: Poaceae
+  genus: Phalaris
+  species: arundinacea
+  authority: L.
+names:
+  scientific: Phalaris arundinacea
+  common:
+  - reed canarygrass
+  - Reed canary grass
+  - Reed Canary-grass
+  - reed-grass, reed-canary grass
+  - Gardener's Garters
+  - Gardener's-garters
+  in_game: Reed Canarygrass
+description: Tall perennial grass forming extensive stands by thick rhizomes, stems to 2 m with panicles
+  to 30 cm.
+habitat:
+  native_range: Europe, Asia, northern Africa and North America
+  environment: Margins of lakes and streams and wet open areas; grows on poor soil; likes abundant water.
+  life_form: perennial_herb
+  native_regions:
+  - region: Afghanistan
+    code: AFG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Alabama
+    code: ALA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Alaska
+    code: ASK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Albania
+    code: ALB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Alberta
+    code: ABT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Altay
+    code: ALT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Amur
+    code: AMU
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Arizona
+    code: ARI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Arkansas
+    code: ARK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Austria
+    code: AUT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Baltic States
+    code: BLT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Belarus
+    code: BLR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Belgium
+    code: BGM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: British Columbia
+    code: BRC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Bulgaria
+    code: BUL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Buryatiya
+    code: BRY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: California
+    code: CAL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Central European Russia
+    code: RUC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China North-Central
+    code: CHN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China South-Central
+    code: CHC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China Southeast
+    code: CHS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Chita
+    code: CTA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Colorado
+    code: COL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Connecticut
+    code: CNT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Corse
+    code: COR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Czechia-Slovakia
+    code: CZE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Delaware
+    code: DEL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Denmark
+    code: DEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: District of Columbia
+    code: WDC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: East European Russia
+    code: RUE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: East Himalaya
+    code: EHM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ethiopia
+    code: ETH
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Finland
+    code: FIN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: France
+    code: FRA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Føroyar
+    code: FOR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Germany
+    code: GER
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Great Britain
+    code: GRB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Greece
+    code: GRC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Hungary
+    code: HUN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Illinois
+    code: ILL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Indiana
+    code: INI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Inner Mongolia
+    code: CHI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Iowa
+    code: IOW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Iran
+    code: IRN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Iraq
+    code: IRQ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ireland
+    code: IRE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Irkutsk
+    code: IRK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Italy
+    code: ITA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Japan
+    code: JAP
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kamchatka
+    code: KAM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kansas
+    code: KAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kazakhstan
+    code: KAZ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kentucky
+    code: KTY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kenya
+    code: KEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Khabarovsk
+    code: KHA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kirgizstan
+    code: KGZ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Korea
+    code: KOR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Krasnoyarsk
+    code: KRA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Krym
+    code: KRY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kuril Is.
+    code: KUR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Lebanon-Syria
+    code: LBS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Madagascar
+    code: MDG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Magadan
+    code: MAG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Maine
+    code: MAI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Manchuria
+    code: CHM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Manitoba
+    code: MAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Maryland
+    code: MRY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Massachusetts
+    code: MAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Northeast
+    code: MXE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Northwest
+    code: MXN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Michigan
+    code: MIC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Minnesota
+    code: MIN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Missouri
+    code: MSO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mongolia
+    code: MON
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Montana
+    code: MNT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Myanmar
+    code: MYA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: NW. Balkan Pen.
+    code: YUG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nebraska
+    code: NEB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nepal
+    code: NEP
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Netherlands
+    code: NET
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nevada
+    code: NEV
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Brunswick
+    code: NBR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Hampshire
+    code: NWH
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Jersey
+    code: NWJ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Mexico
+    code: NWM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New York
+    code: NWY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Newfoundland
+    code: NFL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Carolina
+    code: NCA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Caucasus
+    code: NCS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Dakota
+    code: NDA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North European Russia
+    code: RUN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Northwest European Russia
+    code: RUW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Northwest Territories
+    code: NWT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Norway
+    code: NOR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nova Scotia
+    code: NSC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ohio
+    code: OHI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Oklahoma
+    code: OKL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ontario
+    code: ONT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Oregon
+    code: ORE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Pakistan
+    code: PAK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Pennsylvania
+    code: PEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Poland
+    code: POL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Portugal
+    code: POR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Primorye
+    code: PRM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Prince Edward I.
+    code: PEI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Qinghai
+    code: CHQ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Québec
+    code: QUE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Rhode I.
+    code: RHO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Romania
+    code: ROM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Rwanda
+    code: RWA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Sakhalin
+    code: SAK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Sardegna
+    code: SAR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Saskatchewan
+    code: SAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South Dakota
+    code: SDA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South European Russia
+    code: RUS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Spain
+    code: SPA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Sri Lanka
+    code: SRL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Sweden
+    code: SWE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Switzerland
+    code: SWI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tadzhikistan
+    code: TZK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Taiwan
+    code: TAI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tanzania
+    code: TAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tennessee
+    code: TEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Transcaucasus
+    code: TCS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tuva
+    code: TVA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Türkiye
+    code: TUR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Türkiye-in-Europe
+    code: TUE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ukraine
+    code: UKR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Utah
+    code: UTA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Uzbekistan
+    code: UZB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Vermont
+    code: VER
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Vietnam
+    code: VIE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Virginia
+    code: VRG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Washington
+    code: WAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: West Himalaya
+    code: WHM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: West Siberia
+    code: WSB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: West Virginia
+    code: WVA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Wisconsin
+    code: WIS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Wyoming
+    code: WYO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Xinjiang
+    code: CHX
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Yakutiya
+    code: YAK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Yukon
+    code: YUK
+    source: World Checklist of Vascular Plants via GBIF
+  introduced_regions:
+  - region: Algeria
+    code: ALG
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Argentina Northeast
+    code: AGE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Azores
+    code: AZO
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Brazil South
+    code: BZS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Cape Provinces
+    code: CPP
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Colombia
+    code: CLM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Egypt
+    code: EGY
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Free State
+    code: OFS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Iceland
+    code: ICE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Jawa
+    code: JAW
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: KwaZulu-Natal
+    code: NAT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Lesotho
+    code: LES
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Mauritius
+    code: MAU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Nansei-shoto
+    code: NNS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New South Wales
+    code: NSW
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Zealand North
+    code: NZN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Zealand South
+    code: NZS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Northern Provinces
+    code: TVL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Peru
+    code: PER
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: South Australia
+    code: SOA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Tasmania
+    code: TAS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Uruguay
+    code: URU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Victoria
+    code: VIC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Western Australia
+    code: WAU
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  range_notes:
+  - WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution
+    sources are not parsed.
+  - 'Wikidata taxon range (may include introduced areas; cross-check only): Beijing, People''s Republic
+    of China, Shanghai, Fujian, Tianjin, Xinjiang, Guangdong, Zhoushan Archipelago'
+  - GBIF occurrence latitude/elevation envelope (climate field) includes cultivated and introduced plants.
+  climate: GBIF records span latitude 47 to 57 deg
+growth_stages:
+- id: seed
+  name: Seed
+  description: Seed in the soil.
+  texture: textures/block/phalaris_arundinacea_seed.png
+- id: seedling
+  name: Seedling
+  description: Small seedling.
+  texture: textures/block/phalaris_arundinacea_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy growth before flowering.
+  texture: textures/block/phalaris_arundinacea_vegetative.png
+- id: budding
+  name: Budding
+  description: Flower buds forming.
+  texture: textures/block/phalaris_arundinacea_budding.png
+- id: flowering
+  name: Flowering
+  description: Open flowers.
+  texture: textures/block/phalaris_arundinacea_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Fruit or seed head forming.
+  texture: textures/block/phalaris_arundinacea_fruiting.png
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - light green
+  fruit:
+    present: true
+    type: grain (caryopsis)
+    description: 'DEFAULT: All grasses set a one-seeded grain; family default, not read from the source.'
+sources:
+- name: 'GBIF (ACCEPTED: Phalaris arundinacea)'
+  url: https://www.gbif.org/species/5289756
+  id: '5289756'
+  status: checked
+- name: 'Wikipedia: Phalaris arundinacea'
+  url: https://en.wikipedia.org/wiki/Phalaris_arundinacea
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q157419
+  id: Q157419
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: 'DEFAULT perennial_herb template: Seed -> Seedling -> Vegetative -> Budding -> Flowering
+      -> Fruiting.'
+    requirements:
+    - Light level 9 or more
+    - Plantable on dirt or grass
+  spawn:
+    biomes:
+    - minecraft:forest
+    - minecraft:birch_forest
+    - minecraft:taiga
+    feature: patch
+    rarity: uncommon
+    reason: DRAFT guess from median GBIF record latitude 51 deg; review against real habitat.
+  notes: 'Auto-generated by pipeline/. Growth stages, spawn and rarity are defaults, not observations.
+    Not found in sources (blank or defaulted): fruit.'
+images:
+- url: https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_%283883207046%29.jpg
+  license: CC BY-SA 2.0
+  author: Matt Lavin from Bozeman, Montana, USA
+  shows: Phalaris arundinacea (3883207046) - The inflorescence is narrow and contracted early and late
+    in the year, but during mid summer floweri
+  role: flower
+  file: data/photos/phalaris_arundinacea/flower_01_phalaris-arundinacea-3883207046.jpg
+  width: 1704
+  height: 2272
+  hints:
+  - flowering
+  - inflorescence
+  - panicle
+- url: https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_01_by-dpc.jpg
+  license: CC BY 3.0
+  author: David Perez
+  shows: Phalaris arundinacea 01 by-dpc - Inflorescence of reed canary grass (Phalaris arundinacea). León
+    (Spain).
+  role: flower
+  file: data/photos/phalaris_arundinacea/flower_02_phalaris-arundinacea-01-by-dpc.jpg
+  width: 2592
+  height: 3872
+  hints:
+  - inflorescence
+- url: https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_%283882414219%29.jpg
+  license: CC BY-SA 2.0
+  author: Matt Lavin from Bozeman, Montana, USA
+  shows: Phalaris arundinacea (3882414219) - The inflorescence is narrow and contracted early and late
+    in the year, but during mid summer floweri
+  role: flower
+  file: data/photos/phalaris_arundinacea/flower_03_phalaris-arundinacea-3882414219.jpg
+  width: 1704
+  height: 2272
+  hints:
+  - flowering
+  - inflorescence
+  - panicle
+- url: https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_%283883210312%29.jpg
+  license: CC BY-SA 2.0
+  author: Matt Lavin from Bozeman, Montana, USA
+  shows: Phalaris arundinacea (3883210312) - The inflorescence is narrow and contracted early and late
+    in the year, but during mid summer floweri
+  role: flower
+  file: data/photos/phalaris_arundinacea/flower_04_phalaris-arundinacea-3883210312.jpg
+  width: 1704
+  height: 2272
+  hints:
+  - flowering
+  - inflorescence
+  - panicle
+- url: https://commons.wikimedia.org/wiki/File%3A150505_Benesse_House_Park_Naoshima_Kagawa_pref_Japan01n.jpg
+  license: CC BY 2.5
+  author: 663highland
+  shows: 150505 Benesse House Park Naoshima Kagawa pref Japan01n - Benesse House "Park" of Benesse Art
+    Site Naoshima in Naoshima, Kagawa prefecture, Japan
+  role: leaf
+  file: data/photos/phalaris_arundinacea/leaf_01_150505-benesse-house-park-naoshima-kagaw.jpg
+  width: 6000
+  height: 4000
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ABroadleaf_Cattails%2C_bulrush_Typha_latifolia%2C_Reed_canarygrass_Phalaris_Arundinacea_7124.jpg
+  license: CC BY-SA 4.0
+  author: Paul Harrison
+  shows: Broadleaf Cattails, bulrush Typha latifolia, Reed canarygrass Phalaris Arundinacea 7124 - Taken
+    in Eastern Ontario Canada
+  role: leaf
+  file: data/photos/phalaris_arundinacea/leaf_02_broadleaf-cattails-bulrush-typha-latifol.jpg
+  width: 2977
+  height: 3009
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_15-p.bot-phala.arund-01.jpg
+  license: CC BY-SA 4.0
+  author: Ayotte, Gilles, 1948-
+  shows: 'Phalaris arundinacea 15-p.bot-phala.arund-01 - Nom français : alpiste roseau. Nom anglais :
+    reed canarygrass. Plants matures (inflorescence contrac'
+  role: illustration
+  file: data/photos/phalaris_arundinacea/illustration_01_phalaris-arundinacea-15-p-bot-phala-arun.jpg
+  width: 3456
+  height: 2592
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_-_img_18725.jpg
+  license: CC BY-SA 4.0
+  author: Pmau
+  shows: Phalaris arundinacea - img 18725 - Baldingère ou Alpiste roseau
+  role: illustration
+  file: data/photos/phalaris_arundinacea/illustration_02_phalaris-arundinacea-img-18725.jpg
+  width: 1664
+  height: 2496
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ABroadleaf_Cattails%2C_bulrush_Typha_latifolia%2C_Reed_canarygrass_Phalaris_Arundinacea_7129.jpg
+  license: CC BY-SA 4.0
+  author: Paul Harrison
+  shows: Broadleaf Cattails, bulrush Typha latifolia, Reed canarygrass Phalaris Arundinacea 7129 - Taken
+    in Eastern Ontario Canada
+  role: habit
+  file: data/photos/phalaris_arundinacea/habit_01_broadleaf-cattails-bulrush-typha-latifol.jpg
+  width: 5184
+  height: 3456
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_-_reed_canary_grass.jpg
+  license: CC BY-SA 2.0
+  author: Matt Lavin
+  shows: Phalaris arundinacea - reed canary grass - Reed canary grass growing at the north end of the
+    Indreland Audubon Wetland Preserve, Bozeman, Galla
+  role: habit
+  file: data/photos/phalaris_arundinacea/habit_02_phalaris-arundinacea-reed-canary-grass.jpg
+  width: 3000
+  height: 4000
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3APhalaris_arundinacea_%283738642209%29.jpg
+  license: CC BY-SA 2.0
+  author: Matt Lavin from Bozeman, Montana, USA
+  shows: Phalaris arundinacea (3738642209) - This rhizomatous species forms dense stands along riparian
+    courses and is abundant throughout Montan
+  role: habit
+  file: data/photos/phalaris_arundinacea/habit_03_phalaris-arundinacea-3738642209.jpg
+  width: 3648
+  height: 2736
+  hints: []
+uses_real:
+- use: Ornamental grass
+  note: Variegated 'ribbon grass' cultivars such as 'Castor' and 'Feesey'.
+  category: ornamental
+  part_used: whole plant
+  quote: have been selected for use as ornamental plants, including variegated (striped) cultivars
+- use: Phytoremediation
+  note: Suggested as ideal for improving soil at brownfield sites.
+  category: ecological
+  part_used: whole plant
+  quote: it is ideal for phytoremediation
+size:
+  height_cm:
+    max: 200
+  habit: upright
+  source: wikipedia
+  quote: The stems can reach 2 metres (6.6 ft) in height
+  height_sources:
+  - name: 'Wikipedia: Phalaris arundinacea'
+    url: https://en.wikipedia.org/wiki/Phalaris_arundinacea
+    max: 200
+    quote: The stems can reach 2 metres (6.6 ft) in height
+segment_textures:
+- role: lower
+  texture: textures/block/phalaris_arundinacea_lower.png
+  note: Lower block(s) under the stage texture when the plant is taller than one block.
+measurements:
+- what: height
+  unit: cm
+  max: 200
+  qualifier: maximum
+  quote: The stems can reach 2 metres (6.6 ft) in height
+  source: 'Wikipedia: Phalaris arundinacea'
+- what: inflorescence_length
+  unit: cm
+  max: 30
+  qualifier: maximum
+  quote: The panicles are up to 30 centimetres
+  source: 'Wikipedia: Phalaris arundinacea'
+appearance:
+- part: leaf
+  attribute: color
+  value: usually green, may be variegated
+  quote: The leaf blades are usually green, but may be variegated
+  source: 'Wikipedia: Phalaris arundinacea'
+- part: inflorescence
+  attribute: color
+  value: spikelets light green, often streaked with darker green or purple
+  quote: The spikelets are light green, often streaked with darker green or purple
+  source: 'Wikipedia: Phalaris arundinacea'
+architecture:
+- aspect: growth_habit
+  value: forms extensive single-species stands along lake and stream margins
+  quote: commonly forms extensive single-species stands along the margins of lakes and streams
+  source: 'Wikipedia: Phalaris arundinacea'
+- aspect: root_system
+  value: spreads underground by thick rhizomes
+  quote: spreads underground by its thick rhizomes
+  source: 'Wikipedia: Phalaris arundinacea'
+confidence: high

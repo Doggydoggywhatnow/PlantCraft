@@ -1,0 +1,142 @@
+{
+ "measurements": [
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 91,
+   "qualifier": "range",
+   "quote": "typically grows in graceful, spreading clumps from 2–3 ft (0.61–0.91 m) tall and wide",
+   "min": 61
+  },
+  {
+   "what": "spread",
+   "unit": "cm",
+   "max": 91,
+   "qualifier": "range",
+   "quote": "spreading clumps from 2–3 ft (0.61–0.91 m) tall and wide",
+   "min": 61
+  },
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 100,
+   "qualifier": "range",
+   "quote": "The culms are erect, and 60–100 cm long",
+   "min": 60
+  },
+  {
+   "what": "leaf_length",
+   "unit": "cm",
+   "max": 45,
+   "qualifier": "range",
+   "quote": "from 10 to 45 cm long by 3–6 mm wide",
+   "min": 10
+  },
+  {
+   "what": "leaf_width",
+   "unit": "cm",
+   "max": 0.6,
+   "qualifier": "range",
+   "quote": "by 3–6 mm wide",
+   "min": 0.3
+  }
+ ],
+ "appearance": [
+  {
+   "part": "leaf",
+   "attribute": "color",
+   "value": "narrow, medium to deep green in summer",
+   "quote": "narrow, medium to deep green leaves",
+   "stage": "summer"
+  },
+  {
+   "part": "leaf",
+   "attribute": "color",
+   "value": "golden yellow in fall, fading to beige in late fall",
+   "quote": "changing to golden yellow in fall, and fading to beige in late fall",
+   "stage": "autumn"
+  },
+  {
+   "part": "inflorescence",
+   "attribute": "color and shape",
+   "value": "showy, silvery to pinkish-white, bristly, bottle brush-like spikes that arch outward",
+   "quote": "silvery to pinkish-white, bristly, bottle brush-like flower spikes arch outward from the clump",
+   "stage": "flowering"
+  },
+  {
+   "part": "inflorescence",
+   "attribute": "color",
+   "value": "spikes turn brownish as the seeds form",
+   "quote": "The flower spikes turn brownish as the seeds form",
+   "stage": "fruiting"
+  }
+ ],
+ "architecture": [
+  {
+   "aspect": "growth_habit",
+   "value": "graceful, spreading clumps",
+   "quote": "graceful, spreading clumps"
+  },
+  {
+   "aspect": "leaf_shape",
+   "value": "leaf blades erect or drooping, flat or folded lengthwise or rolled",
+   "quote": "The leaf-blades are erect or drooping"
+  },
+  {
+   "aspect": "flower_arrangement",
+   "value": "flower spikes arch outward from the clump like water spraying from a fountain",
+   "quote": "arch outward from the clump in late summer like water spraying from a fountain"
+  }
+ ],
+ "phenology": [
+  {
+   "event": "flowering",
+   "when": "late summer",
+   "quote": "in late summer like water spraying from a fountain"
+  },
+  {
+   "event": "seed_release",
+   "when": "flower spikes persist until late fall or early winter before shattering",
+   "quote": "usually persist until late fall or early winter before shattering"
+  }
+ ],
+ "uses_real": [
+  {
+   "use": "Ornamental grass",
+   "category": "ornamental",
+   "part_used": "whole plant",
+   "note": "Warm season ornamental grass; many cultivars.",
+   "quote": "a warm season ornamental grass"
+  }
+ ],
+ "life_form": {
+  "value": "perennial_herb",
+  "quote": "is a species of perennial grass"
+ },
+ "description": {
+  "value": "Perennial ornamental grass in graceful spreading clumps with narrow green leaves and arching bottlebrush flower spikes like a fountain.",
+  "quote": "Showy, silvery to pinkish-white, bristly, bottle brush-like flower spikes arch outward from the clump"
+ },
+ "native_range": {
+  "value": "Asia and Australia",
+  "quote": "species of perennial grass native to Asia and Australia"
+ },
+ "environment": {
+  "value": "Sheltered position in full sun to light shade; moist, well-drained soil; mild or coastal areas not below -5 C.",
+  "quote": "It prefers moist, well-drained soil"
+ },
+ "flowers": {
+  "present": true,
+  "colors": [
+   "silvery",
+   "pinkish-white"
+  ],
+  "season": "late summer",
+  "quote": "silvery to pinkish-white, bristly, bottle brush-like flower spikes"
+ },
+ "fruit": {
+  "present": true,
+  "type": "seeds in the flower spike",
+  "quote": "The flower spikes turn brownish as the seeds form"
+ }
+}

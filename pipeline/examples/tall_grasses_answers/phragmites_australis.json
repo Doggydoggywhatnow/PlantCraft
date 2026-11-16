@@ -1,0 +1,134 @@
+{
+ "measurements": [
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 400,
+   "qualifier": "range",
+   "quote": "The erect stems grow to 1.5–4 m (4.9–13.1 ft) tall",
+   "min": 150
+  },
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 600,
+   "qualifier": "rare_maximum",
+   "quote": "occasionally to 6 m (20 ft)"
+  },
+  {
+   "what": "stem_diameter",
+   "unit": "cm",
+   "max": 1,
+   "qualifier": "typical",
+   "quote": "The stems (culms) are typically 5–10 mm broad",
+   "min": 0.5
+  },
+  {
+   "what": "leaf_length",
+   "unit": "cm",
+   "max": 60,
+   "qualifier": "range",
+   "quote": "The leaves are 18–60 centimetres (7.1–23.6 in) long",
+   "min": 18
+  },
+  {
+   "what": "leaf_width",
+   "unit": "cm",
+   "max": 3,
+   "qualifier": "range",
+   "quote": "1–3 cm (0.39–1.18 in) broad",
+   "min": 1
+  },
+  {
+   "what": "inflorescence_length",
+   "unit": "cm",
+   "max": 50,
+   "qualifier": "range",
+   "quote": "dense, dark purple panicle, 15–50 cm",
+   "min": 15
+  }
+ ],
+ "appearance": [
+  {
+   "part": "leaf",
+   "attribute": "color",
+   "value": "glaucous green to greyish-green, fading to buff-brown in autumn",
+   "quote": "glaucous green to greyish-green, fading to buff-brown in autumn",
+   "stage": "autumn"
+  },
+  {
+   "part": "inflorescence",
+   "attribute": "color",
+   "value": "dense, dark purple panicle in late summer",
+   "quote": "in a dense, dark purple panicle"
+  },
+  {
+   "part": "seed",
+   "attribute": "hairs",
+   "value": "spikelets appear greyer from long, silky hairs that help disperse the minute seeds",
+   "quote": "appear greyer due to the growth of long, silky hairs",
+   "stage": "fruiting"
+  }
+ ],
+ "architecture": [
+  {
+   "aspect": "growth_habit",
+   "value": "forms extensive stands (reed beds)",
+   "quote": "commonly forms extensive stands"
+  },
+  {
+   "aspect": "stem_type",
+   "value": "erect stems (culms) that stay standing through the winter after the leaves fall",
+   "quote": "before falling to leave the stems standing through the winter"
+  },
+  {
+   "aspect": "root_system",
+   "value": "horizontal runners that put down roots at regular intervals",
+   "quote": "by horizontal runners, which put down roots at regular intervals"
+  }
+ ],
+ "phenology": [
+  {
+   "event": "flowering",
+   "when": "late summer",
+   "quote": "The flowers are produced in late summer"
+  },
+  {
+   "event": "leaf_fall",
+   "when": "leaves fade to buff-brown in autumn before falling",
+   "quote": "fading to buff-brown in autumn before falling"
+  }
+ ],
+ "propagation": [
+  {
+   "topic": "vegetative_propagation",
+   "fact": "spreads 5 m or more per year by horizontal runners",
+   "quote": "spread at 5 metres (16 feet) or more per year by horizontal runners"
+  },
+  {
+   "topic": "seed_dispersal",
+   "fact": "long silky hairs help disperse the minute seeds",
+   "quote": "help disperse the minute seeds"
+  }
+ ],
+ "description": {
+  "value": "Tall wetland reed forming extensive stands, with erect stems 1.5-4 m tall, glaucous leaves and dense dark purple panicles.",
+  "quote": "It is a wetland grass that can grow up to 2–6 metres (7–20 ft) tall"
+ },
+ "native_range": {
+  "value": "Cosmopolitan distribution worldwide",
+  "quote": "has a cosmopolitan distribution worldwide"
+ },
+ "environment": {
+  "value": "Damp ground, standing water up to 1 m deep or floating mats; tallest in hot summers and fertile conditions.",
+  "quote": "It can grow in damp ground, in standing water up to 1 m (3 ft 3 in) deep, or as a floating mat"
+ },
+ "flowers": {
+  "present": true,
+  "colors": [
+   "dark purple"
+  ],
+  "season": "late summer",
+  "quote": "The flowers are produced in late summer in a dense, dark purple panicle"
+ }
+}

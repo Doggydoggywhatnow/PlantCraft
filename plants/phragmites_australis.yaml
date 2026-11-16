@@ -1,0 +1,1105 @@
+id: phragmites_australis
+status:
+  data: draft
+  graphics: pending
+  implementation: pending
+  use: pending
+taxonomy:
+  kingdom: Plantae
+  order: Poales
+  family: Poaceae
+  genus: Phragmites
+  species: australis
+  authority: (Cav.) Trin. ex Steud.
+names:
+  scientific: Phragmites australis
+  common:
+  - Common Reed
+  - Ditch Reed
+  - Giant Reed
+  - Phragmites
+  - Reed Grass
+  - cane grass
+  in_game: Common Reed
+description: Tall wetland reed forming extensive stands, with erect stems 1.5-4 m tall, glaucous leaves
+  and dense dark purple panicles.
+habitat:
+  native_range: Cosmopolitan distribution worldwide
+  environment: Damp ground, standing water up to 1 m deep or floating mats; tallest in hot summers and
+    fertile conditions.
+  native_regions:
+  - region: Afghanistan
+    code: AFG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Alabama
+    code: ALA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Albania
+    code: ALB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Alberta
+    code: ABT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Algeria
+    code: ALG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Altay
+    code: ALT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Amur
+    code: AMU
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Angola
+    code: ANG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Argentina Northeast
+    code: AGE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Argentina Northwest
+    code: AGW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Argentina South
+    code: AGS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Arizona
+    code: ARI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Arkansas
+    code: ARK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Austria
+    code: AUT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Baleares
+    code: BAL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Baltic States
+    code: BLT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Belarus
+    code: BLR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Belgium
+    code: BGM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Belize
+    code: BLZ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Benin
+    code: BEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Bolivia
+    code: BOL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Botswana
+    code: BOT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: British Columbia
+    code: BRC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Bulgaria
+    code: BUL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Burkina
+    code: BKN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Buryatiya
+    code: BRY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: California
+    code: CAL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Cameroon
+    code: CMN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Canary Is.
+    code: CNY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Cape Provinces
+    code: CPP
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Cape Verde
+    code: CVI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Central European Russia
+    code: RUC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Chad
+    code: CHA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Chile Central
+    code: CLC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Chile North
+    code: CLN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Chile South
+    code: CLS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China North-Central
+    code: CHN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China South-Central
+    code: CHC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: China Southeast
+    code: CHS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Chita
+    code: CTA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Colombia
+    code: CLM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Colorado
+    code: COL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Congo
+    code: CON
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Connecticut
+    code: CNT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Corse
+    code: COR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Costa Rica
+    code: COS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Cyprus
+    code: CYP
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Czechia-Slovakia
+    code: CZE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: DR Congo
+    code: ZAI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Delaware
+    code: DEL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Denmark
+    code: DEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: District of Columbia
+    code: WDC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: East Aegean Is.
+    code: EAI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: East European Russia
+    code: RUE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ecuador
+    code: ECU
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Egypt
+    code: EGY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: El Salvador
+    code: ELS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Eritrea
+    code: ERI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Eswatini
+    code: SWZ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ethiopia
+    code: ETH
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Finland
+    code: FIN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Florida
+    code: FLA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: France
+    code: FRA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Free State
+    code: OFS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: French Guiana
+    code: FRG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Gambia
+    code: GAM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Georgia
+    code: GEO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Germany
+    code: GER
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Great Britain
+    code: GRB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Greece
+    code: GRC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Guatemala
+    code: GUA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Guinea-Bissau
+    code: GNB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Gulf States
+    code: GST
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Gulf of Guinea Is.
+    code: GGI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Guyana
+    code: GUY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Hainan
+    code: CHH
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Honduras
+    code: HON
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Hungary
+    code: HUN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Idaho
+    code: IDA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Illinois
+    code: ILL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: India
+    code: IND
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Indiana
+    code: INI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Inner Mongolia
+    code: CHI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Iowa
+    code: IOW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Iran
+    code: IRN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Iraq
+    code: IRQ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ireland
+    code: IRE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Irkutsk
+    code: IRK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Italy
+    code: ITA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Japan
+    code: JAP
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kamchatka
+    code: KAM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kansas
+    code: KAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kazakhstan
+    code: KAZ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kentucky
+    code: KTY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kenya
+    code: KEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Khabarovsk
+    code: KHA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kirgizstan
+    code: KGZ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Korea
+    code: KOR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Krasnoyarsk
+    code: KRA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kriti
+    code: KRI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Krym
+    code: KRY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kuril Is.
+    code: KUR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Kuwait
+    code: KUW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: KwaZulu-Natal
+    code: NAT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Lebanon-Syria
+    code: LBS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Lesotho
+    code: LES
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Libya
+    code: LBY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Louisiana
+    code: LOU
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Madeira
+    code: MDR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Maine
+    code: MAI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Malaya
+    code: MLY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Manchuria
+    code: CHM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Manitoba
+    code: MAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Maryland
+    code: MRY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Massachusetts
+    code: MAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mauritania
+    code: MTN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Central
+    code: MXC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Gulf
+    code: MXG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Northeast
+    code: MXE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Northwest
+    code: MXN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Southeast
+    code: MXT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mexico Southwest
+    code: MXS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Michigan
+    code: MIC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Minnesota
+    code: MIN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mississippi
+    code: MSI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Missouri
+    code: MSO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mongolia
+    code: MON
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Montana
+    code: MNT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Morocco
+    code: MOR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Mozambique
+    code: MOZ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: NW. Balkan Pen.
+    code: YUG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Namibia
+    code: NAM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nansei-shoto
+    code: NNS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nebraska
+    code: NEB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nepal
+    code: NEP
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Netherlands
+    code: NET
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nevada
+    code: NEV
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Brunswick
+    code: NBR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Hampshire
+    code: NWH
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Jersey
+    code: NWJ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New Mexico
+    code: NWM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New South Wales
+    code: NSW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: New York
+    code: NWY
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nicaragua
+    code: NIC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Niger
+    code: NGR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nigeria
+    code: NGA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Norfolk Is.
+    code: NFK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Carolina
+    code: NCA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Caucasus
+    code: NCS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North Dakota
+    code: NDA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: North European Russia
+    code: RUN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Northern Provinces
+    code: TVL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Northern Territory
+    code: NTA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Northwest European Russia
+    code: RUW
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Northwest Territories
+    code: NWT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Norway
+    code: NOR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Nova Scotia
+    code: NSC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ohio
+    code: OHI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Oklahoma
+    code: OKL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Oman
+    code: OMA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ontario
+    code: ONT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Oregon
+    code: ORE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Pakistan
+    code: PAK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Palestine
+    code: PAL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Panamá
+    code: PAN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Pennsylvania
+    code: PEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Peru
+    code: PER
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Poland
+    code: POL
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Portugal
+    code: POR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Primorye
+    code: PRM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Prince Edward I.
+    code: PEI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Qinghai
+    code: CHQ
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Queensland
+    code: QLD
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Québec
+    code: QUE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Rhode I.
+    code: RHO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Romania
+    code: ROM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Sakhalin
+    code: SAK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Sardegna
+    code: SAR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Saskatchewan
+    code: SAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Saudi Arabia
+    code: SAU
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Senegal
+    code: SEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Sicilia
+    code: SIC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Sinai
+    code: SIN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Somalia
+    code: SOM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South Australia
+    code: SOA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South Dakota
+    code: SDA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: South European Russia
+    code: RUS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Spain
+    code: SPA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Sudan-South Sudan
+    code: SUD
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Suriname
+    code: SUR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Sweden
+    code: SWE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Switzerland
+    code: SWI
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tadzhikistan
+    code: TZK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tasmania
+    code: TAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tennessee
+    code: TEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Texas
+    code: TEX
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tibet
+    code: CHT
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Transcaucasus
+    code: TCS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tunisia
+    code: TUN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Turkmenistan
+    code: TKM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Tuva
+    code: TVA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Türkiye
+    code: TUR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Türkiye-in-Europe
+    code: TUE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Ukraine
+    code: UKR
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Uruguay
+    code: URU
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Utah
+    code: UTA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Uzbekistan
+    code: UZB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Venezuela
+    code: VEN
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Vermont
+    code: VER
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Victoria
+    code: VIC
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Vietnam
+    code: VIE
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Virginia
+    code: VRG
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Washington
+    code: WAS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: West Himalaya
+    code: WHM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: West Siberia
+    code: WSB
+    source: World Checklist of Vascular Plants via GBIF
+  - region: West Virginia
+    code: WVA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Western Australia
+    code: WAU
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Western Sahara
+    code: WSA
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Wisconsin
+    code: WIS
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Wyoming
+    code: WYO
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Xinjiang
+    code: CHX
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Yakutiya
+    code: YAK
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Yemen
+    code: YEM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Zambia
+    code: ZAM
+    source: World Checklist of Vascular Plants via GBIF
+  - region: Zimbabwe
+    code: ZIM
+    source: World Checklist of Vascular Plants via GBIF
+  introduced_regions:
+  - region: Bahamas
+    code: BAH
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Brazil Southeast
+    code: BZL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Cook Is.
+    code: COO
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Dominican Republic
+    code: DOM
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Haiti
+    code: HAI
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Hawaii
+    code: HAW
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Leeward Is.
+    code: LEE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Caledonia
+    code: NWC
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Zealand North
+    code: NZN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: New Zealand South
+    code: NZS
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Newfoundland
+    code: NFL
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Puerto Rico
+    code: PUE
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: South Carolina
+    code: SCA
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Trinidad-Tobago
+    code: TRT
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  - region: Windward Is.
+    code: WIN
+    source: World Checklist of Vascular Plants via GBIF
+    status: introduced
+  range_notes:
+  - WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution
+    sources are not parsed.
+  - 'Wikidata taxon range (may include introduced areas; cross-check only): Brazil, Beijing, People''s
+    Republic of China, Tibetan Plateau, Shanghai, Fujian, Tianjin, Xinjiang, Tibet Autonomous Region,
+    Guangdong, Zhoushan Archipelago'
+  - GBIF occurrence latitude/elevation envelope (climate field) includes cultivated and introduced plants.
+  climate: GBIF records span latitude 44 to 63 deg
+growth_stages:
+- id: seed
+  name: Seed
+  description: Seed in the soil.
+  texture: textures/block/phragmites_australis_seed.png
+- id: seedling
+  name: Seedling
+  description: Small seedling.
+  texture: textures/block/phragmites_australis_seedling.png
+- id: vegetative
+  name: Vegetative
+  description: Leafy growth before flowering.
+  texture: textures/block/phragmites_australis_vegetative.png
+- id: budding
+  name: Budding
+  description: Flower buds forming.
+  texture: textures/block/phragmites_australis_budding.png
+- id: flowering
+  name: Flowering
+  description: Open flowers.
+  texture: textures/block/phragmites_australis_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Fruit or seed head forming.
+  texture: textures/block/phragmites_australis_fruiting.png
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - dark purple
+    season: late summer
+  fruit:
+    present: true
+    type: grain (caryopsis)
+    description: 'DEFAULT: All grasses set a one-seeded grain; family default, not read from the source.'
+sources:
+- name: 'GBIF (ACCEPTED: Phragmites australis)'
+  url: https://www.gbif.org/species/5290149
+  id: '5290149'
+  status: checked
+- name: 'Wikipedia: Phragmites australis'
+  url: https://en.wikipedia.org/wiki/Phragmites_australis
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q28557
+  id: Q28557
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  growth:
+    summary: 'DEFAULT unknown template: Seed -> Seedling -> Vegetative -> Budding -> Flowering -> Fruiting.'
+    requirements:
+    - Light level 9 or more
+    - Plantable on dirt or grass
+  spawn:
+    biomes:
+    - minecraft:forest
+    - minecraft:birch_forest
+    - minecraft:taiga
+    feature: patch
+    rarity: uncommon
+    reason: DRAFT guess from median GBIF record latitude 53 deg; review against real habitat.
+  notes: 'Auto-generated by pipeline/. Growth stages, spawn and rarity are defaults, not observations.
+    Not found in sources (blank or defaulted): life_form, fruit.'
+images:
+- url: https://commons.wikimedia.org/wiki/File%3APhragmites_australis_floret1_%289171584736%29.jpg
+  license: CC BY 2.0
+  author: Harry Rose from South West Rocks, Australia
+  shows: Phragmites australis floret1 (9171584736) - Spikelets have 4-8 hairless florets and the rachilla
+    (stem joining spikelet together) has hairs abou
+  role: flower
+  file: data/photos/phragmites_australis/flower_01_phragmites-australis-floret1-9171584736.jpg
+  width: 4912
+  height: 3264
+  hints:
+  - floret
+  - spikelet
+  - spikelets
+- url: https://commons.wikimedia.org/wiki/File%3APhragmites_australis_blossom.jpg
+  license: CC BY-SA 3.0
+  author: No machine-readable author provided. MatthiasKabel assumed (based on copyright claims).
+  shows: Phragmites australis blossom - Blossom of Phragmites_australis
+  role: flower
+  file: data/photos/phragmites_australis/flower_02_phragmites-australis-blossom.jpg
+  width: 3456
+  height: 2304
+  hints:
+  - blossom
+- url: https://commons.wikimedia.org/wiki/File%3ACoomon_reed.jpg
+  license: CC BY-SA 4.0
+  author: Koremetšo
+  shows: Coomon reed - Here's a close up view of a common reed illuminated by low angle evening light.
+    To capture the image
+  role: flower
+  file: data/photos/phragmites_australis/flower_03_coomon-reed.jpg
+  width: 6000
+  height: 4000
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ANoordwijk_-_Riet_%28Phragmites_australis%29.jpg
+  license: CC BY-SA 4.0
+  author: Rudolphous
+  shows: Noordwijk - Riet (Phragmites australis) - Noordwijk - Riet (Phragmites australis)
+  role: flower
+  file: data/photos/phragmites_australis/flower_04_noordwijk-riet-phragmites-australis.jpg
+  width: 4000
+  height: 6000
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3AFruchtendes_Schilfrohr_%28Phragmites_australis%29_vor_der_aufgehenden_Sonne.jpg
+  license: CC BY-SA 4.0
+  author: Yannik Sibold
+  shows: Fruchtendes Schilfrohr (Phragmites australis) vor der aufgehenden Sonne - Fruchtendes Schilfrohr
+    (Phragmites australis) vor der aufgehenden Sonne im FFH-Gebiet „Rheinniederun
+  role: fruit
+  file: data/photos/phragmites_australis/fruit_01_fruchtendes-schilfrohr-phragmites-austra.jpg
+  width: 6000
+  height: 4000
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3AEuropean_Stonechat_%28Saxicola_rubicola%29_on_Common_Reed_%28Phragmites_australis%29_-_Parc_Natural_de_s%27Albufera%2C_Spain_2022-04-18.jpg
+  license: CC BY-SA 4.0
+  author: Ryan Hodnett
+  shows: European Stonechat (Saxicola rubicola) on Common Reed (Phragmites australis) - Parc Natural de
+    s'Albufera, Spain 2022-04-18 - European Stonechat (Saxicola rubicola) on Common Reed (Phragmites australis)
+    in Parc Natural de s'Al
+  role: fruit
+  file: data/photos/phragmites_australis/fruit_02_european-stonechat-saxicola-rubicola-on-.jpg
+  width: 5931
+  height: 3336
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ACommon_Reeds_%28Phragmites_australis%29_%2815481575183%29.jpg
+  license: CC BY-SA 2.0
+  author: Bernard DUPONT from FRANCE
+  shows: Common Reeds (Phragmites australis) (15481575183) - Salagou Lake, Octon, Hérault, FRANCE
+  role: fruit
+  file: data/photos/phragmites_australis/fruit_03_common-reeds-phragmites-australis-154815.jpg
+  width: 4949
+  height: 3046
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ABladvass_fr%C3%A5n_fjol%C3%A5ret%2C_%C3%96rebro%2C_N%C3%A4rke%2C_Maj_2017_%2834796392753%29.jpg
+  license: CC BY 2.0
+  author: Hans Norelius from Älvsjö, Sweden
+  shows: Bladvass från fjolåret, Örebro, Närke, Maj 2017 (34796392753) - Common Reed, Phragmites australis
+  role: fruit
+  file: data/photos/phragmites_australis/fruit_04_bladvass-fr-n-fjol-ret-rebro-n-rke-maj-2.jpg
+  width: 4928
+  height: 2772
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3APhragmites_australis_leaf2_%288252873419%29.jpg
+  license: CC BY 2.0
+  author: Harry Rose from South West Rocks, Australia
+  shows: Phragmites australis leaf2 (8252873419) - Leaves are long and strap-like, to 3.5 cm wide and
+    mostly on stems.
+  role: leaf
+  file: data/photos/phragmites_australis/leaf_01_phragmites-australis-leaf2-8252873419.jpg
+  width: 2000
+  height: 3008
+  hints:
+  - leaf
+  - leaves
+- url: https://commons.wikimedia.org/wiki/File%3A263_Common_Reed_Phragmites_australis_01_LEAF_epidermis_print.jpg
+  license: CC BY-SA 4.0
+  author: ChrisInMilton
+  shows: 263 Common Reed Phragmites australis 01 LEAF epidermis print - Common Reed Phragmites australis
+    01 LEAF epidermis print
+  role: leaf
+  file: data/photos/phragmites_australis/leaf_02_263-common-reed-phragmites-australis-01-.jpg
+  width: 2592
+  height: 1944
+  hints:
+  - leaf
+- url: https://commons.wikimedia.org/wiki/File%3APhragmites_australis_sl9.jpg
+  license: CC BY-SA 4.0
+  author: Stefan.lefnaer
+  shows: 'Phragmites australis sl9 - Leaf sheath with ligule Taxonym: Phragmites australis ss Fischer
+    et al. EfÖLS 2008 ISBN 978-3-85474-'
+  role: illustration
+  file: data/photos/phragmites_australis/illustration_01_phragmites-australis-sl9.jpg
+  width: 2008
+  height: 2956
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ABARRANC_DE_LA_FIGUEROSA_-_IB-218.JPG
+  license: CC BY-SA 3.0
+  author: Isidre blanc
+  shows: 'BARRANC DE LA FIGUEROSA - IB-218 - This is a a photo of a wetland in Catalonia, Spain, with
+    id:'
+  role: illustration
+  file: data/photos/phragmites_australis/illustration_02_barranc-de-la-figuerosa-ib-218.jpg
+  width: 1536
+  height: 2048
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3A%2A_%EA%B0%88%EB%8C%80_%2A.jpg
+  license: CC BY-SA 4.0
+  author: 최옥석
+  shows: '* 갈대 * - 볏과의 여러해살이 풀 갈대뿌리는독을 풀어주는 작용 폐경 위경에작용'
+  role: habit
+  file: data/photos/phragmites_australis/habit_01_photo.jpg
+  width: 5184
+  height: 3456
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3ABaiyangdian_Lake.JPG
+  license: CC BY-SA 3.0
+  author: Fanghong
+  shows: Baiyangdian Lake - The reeds on Baiyangdian Lake,the largest fresh waterlake in North China.
+  role: habit
+  file: data/photos/phragmites_australis/habit_02_baiyangdian-lake.jpg
+  width: 4928
+  height: 3264
+  hints: []
+- url: https://commons.wikimedia.org/wiki/File%3A2814_-_Mogliano_Veneto%2C_Cave_di_Marocco%2C_Stagno_delle_ninfee%2C_agosto_1984.jpg
+  license: CC BY-SA 4.0
+  author: C. Wladi
+  shows: 2814 - Mogliano Veneto, Cave di Marocco, Stagno delle ninfee, agosto 1984 - Mogliano Veneto,
+    Cave di Marocco, stagno delle ninfee, agosto 1984.
+  role: habit
+  file: data/photos/phragmites_australis/habit_03_2814-mogliano-veneto-cave-di-marocco-sta.jpg
+  width: 4457
+  height: 2970
+  hints: []
+size:
+  height_cm:
+    min: 150
+    max: 600
+    common_max: 400
+  habit: upright
+  source: wikipedia
+  quote: The erect stems grow to 1.5–4 m (4.9–13.1 ft) tall
+  height_sources:
+  - name: 'Wikipedia: Phragmites australis'
+    url: https://en.wikipedia.org/wiki/Phragmites_australis
+    min: 150
+    max: 600
+    quote: The erect stems grow to 1.5–4 m (4.9–13.1 ft) tall
+    common_max: 400
+segment_textures:
+- role: lower
+  texture: textures/block/phragmites_australis_lower.png
+  note: Lower block(s) under the stage texture when the plant is taller than one block.
+measurements:
+- what: height
+  unit: cm
+  max: 400
+  qualifier: range
+  quote: The erect stems grow to 1.5–4 m (4.9–13.1 ft) tall
+  min: 150
+  source: 'Wikipedia: Phragmites australis'
+- what: height
+  unit: cm
+  max: 600
+  qualifier: rare_maximum
+  quote: occasionally to 6 m (20 ft)
+  source: 'Wikipedia: Phragmites australis'
+- what: stem_diameter
+  unit: cm
+  max: 1
+  qualifier: typical
+  quote: The stems (culms) are typically 5–10 mm broad
+  min: 0.5
+  source: 'Wikipedia: Phragmites australis'
+- what: leaf_length
+  unit: cm
+  max: 60
+  qualifier: range
+  quote: The leaves are 18–60 centimetres (7.1–23.6 in) long
+  min: 18
+  source: 'Wikipedia: Phragmites australis'
+- what: leaf_width
+  unit: cm
+  max: 3
+  qualifier: range
+  quote: 1–3 cm (0.39–1.18 in) broad
+  min: 1
+  source: 'Wikipedia: Phragmites australis'
+- what: inflorescence_length
+  unit: cm
+  max: 50
+  qualifier: range
+  quote: dense, dark purple panicle, 15–50 cm
+  min: 15
+  source: 'Wikipedia: Phragmites australis'
+appearance:
+- part: leaf
+  attribute: color
+  value: glaucous green to greyish-green, fading to buff-brown in autumn
+  quote: glaucous green to greyish-green, fading to buff-brown in autumn
+  stage: autumn
+  source: 'Wikipedia: Phragmites australis'
+- part: inflorescence
+  attribute: color
+  value: dense, dark purple panicle in late summer
+  quote: in a dense, dark purple panicle
+  source: 'Wikipedia: Phragmites australis'
+- part: seed
+  attribute: hairs
+  value: spikelets appear greyer from long, silky hairs that help disperse the minute seeds
+  quote: appear greyer due to the growth of long, silky hairs
+  stage: fruiting
+  source: 'Wikipedia: Phragmites australis'
+architecture:
+- aspect: growth_habit
+  value: forms extensive stands (reed beds)
+  quote: commonly forms extensive stands
+  source: 'Wikipedia: Phragmites australis'
+- aspect: stem_type
+  value: erect stems (culms) that stay standing through the winter after the leaves fall
+  quote: before falling to leave the stems standing through the winter
+  source: 'Wikipedia: Phragmites australis'
+- aspect: root_system
+  value: horizontal runners that put down roots at regular intervals
+  quote: by horizontal runners, which put down roots at regular intervals
+  source: 'Wikipedia: Phragmites australis'
+phenology:
+- event: flowering
+  when: late summer
+  quote: The flowers are produced in late summer
+  source: 'Wikipedia: Phragmites australis'
+- event: leaf_fall
+  when: leaves fade to buff-brown in autumn before falling
+  quote: fading to buff-brown in autumn before falling
+  source: 'Wikipedia: Phragmites australis'
+propagation:
+- topic: vegetative_propagation
+  fact: spreads 5 m or more per year by horizontal runners
+  quote: spread at 5 metres (16 feet) or more per year by horizontal runners
+  source: 'Wikipedia: Phragmites australis'
+- topic: seed_dispersal
+  fact: long silky hairs help disperse the minute seeds
+  quote: help disperse the minute seeds
+  source: 'Wikipedia: Phragmites australis'
+confidence: medium

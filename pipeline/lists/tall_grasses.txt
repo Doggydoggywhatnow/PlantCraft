@@ -1,0 +1,13 @@
+# 12 lush, somewhat tall grasses (Poaceae), chosen by hand for variety of plume and leaf form
+Cenchrus alopecuroides        # fountain grass (formerly Pennisetum alopecuroides): arching leaves, bottlebrush plumes
+Miscanthus sinensis          # Chinese silver grass: tall arching clump, silvery plumes
+Panicum virgatum             # switchgrass: upright, airy open panicles
+Andropogon gerardii          # big bluestem: tall prairie grass, three-branched "turkey foot" seed heads
+Sorghastrum nutans           # Indiangrass: tall, golden feathery panicles
+Cortaderia selloana          # pampas grass: very tall tussock, large white plumes
+Phragmites australis         # common reed: tall stands, feathery purple-brown plumes
+Arundo donax                 # giant reed: tall cane-like stems, broad leaves
+Phalaris arundinacea         # reed canary grass: lush, dense, tall stands
+Chasmanthium latifolium      # northern sea oats: flat dangling oat-like spikelets
+Molinia caerulea             # purple moor grass: tufts with tall airy panicles
+Tripsacum dactyloides        # eastern gamagrass: lush broad-leaved bunchgrass

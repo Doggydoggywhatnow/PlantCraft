@@ -1,0 +1,83 @@
+{
+ "measurements": [
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 200,
+   "qualifier": "maximum",
+   "quote": "The stems can reach 2 metres (6.6 ft) in height"
+  },
+  {
+   "what": "inflorescence_length",
+   "unit": "cm",
+   "max": 30,
+   "qualifier": "maximum",
+   "quote": "The panicles are up to 30 centimetres"
+  }
+ ],
+ "appearance": [
+  {
+   "part": "leaf",
+   "attribute": "color",
+   "value": "usually green, may be variegated",
+   "quote": "The leaf blades are usually green, but may be variegated"
+  },
+  {
+   "part": "inflorescence",
+   "attribute": "color",
+   "value": "spikelets light green, often streaked with darker green or purple",
+   "quote": "The spikelets are light green, often streaked with darker green or purple"
+  }
+ ],
+ "architecture": [
+  {
+   "aspect": "growth_habit",
+   "value": "forms extensive single-species stands along lake and stream margins",
+   "quote": "commonly forms extensive single-species stands along the margins of lakes and streams"
+  },
+  {
+   "aspect": "root_system",
+   "value": "spreads underground by thick rhizomes",
+   "quote": "spreads underground by its thick rhizomes"
+  }
+ ],
+ "uses_real": [
+  {
+   "use": "Ornamental grass",
+   "category": "ornamental",
+   "part_used": "whole plant",
+   "note": "Variegated 'ribbon grass' cultivars such as 'Castor' and 'Feesey'.",
+   "quote": "have been selected for use as ornamental plants, including variegated (striped) cultivars"
+  },
+  {
+   "use": "Phytoremediation",
+   "category": "ecological",
+   "part_used": "whole plant",
+   "note": "Suggested as ideal for improving soil at brownfield sites.",
+   "quote": "it is ideal for phytoremediation"
+  }
+ ],
+ "life_form": {
+  "value": "perennial_herb",
+  "quote": "is a tall, perennial grass"
+ },
+ "description": {
+  "value": "Tall perennial grass forming extensive stands by thick rhizomes, stems to 2 m with panicles to 30 cm.",
+  "quote": "is a tall, perennial grass that commonly forms extensive single-species stands"
+ },
+ "native_range": {
+  "value": "Europe, Asia, northern Africa and North America",
+  "quote": "with a wide distribution in Europe, Asia, northern Africa and North America"
+ },
+ "environment": {
+  "value": "Margins of lakes and streams and wet open areas; grows on poor soil; likes abundant water.",
+  "quote": "in wet open areas"
+ },
+ "flowers": {
+  "present": true,
+  "colors": [
+   "light green"
+  ],
+  "quote": "The spikelets are light green, often streaked with darker green or purple"
+ }
+}

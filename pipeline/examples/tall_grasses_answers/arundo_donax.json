@@ -1,0 +1,145 @@
+{
+ "measurements": [
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 600,
+   "qualifier": "typical",
+   "quote": "generally grows to 6 metres (20 ft) in height"
+  },
+  {
+   "what": "height",
+   "unit": "cm",
+   "max": 1000,
+   "qualifier": "rare_maximum",
+   "quote": "in ideal conditions can exceed 10 metres"
+  },
+  {
+   "what": "stem_diameter",
+   "unit": "cm",
+   "max": 3,
+   "qualifier": "range",
+   "quote": "The hollow stems are 1 to 3 centimetres",
+   "min": 1
+  },
+  {
+   "what": "leaf_length",
+   "unit": "cm",
+   "max": 60,
+   "qualifier": "range",
+   "quote": "30 to 60 centimetres (12 to 24 in) long and 2 to 6 centimetres",
+   "min": 30
+  },
+  {
+   "what": "leaf_width",
+   "unit": "cm",
+   "max": 6,
+   "qualifier": "range",
+   "quote": "2 to 6 centimetres (0.79 to 2.36 in) wide",
+   "min": 2
+  },
+  {
+   "what": "inflorescence_length",
+   "unit": "cm",
+   "max": 60,
+   "qualifier": "range",
+   "quote": "white feathery plumes 30 to 60 centimetres",
+   "min": 30
+  },
+  {
+   "what": "root_depth",
+   "unit": "cm",
+   "max": 100,
+   "qualifier": "maximum",
+   "quote": "penetrate deep into the soil, up to 1 metre"
+  }
+ ],
+ "appearance": [
+  {
+   "part": "leaf",
+   "attribute": "color and shape",
+   "value": "grey-green, swordlike, tapered tip, hairy tuft at the base",
+   "quote": "The grey-green swordlike leaves"
+  },
+  {
+   "part": "inflorescence",
+   "attribute": "color and shape",
+   "value": "upright, white, feathery plumes",
+   "quote": "upright, white feathery plumes"
+  }
+ ],
+ "architecture": [
+  {
+   "aspect": "stem_type",
+   "value": "hollow stems, unbranched or with small bamboo-like side shoots",
+   "quote": "either unbranched or with small bamboo-like side shoots"
+  },
+  {
+   "aspect": "leaf_arrangement",
+   "value": "alternate",
+   "quote": "are alternate"
+  },
+  {
+   "aspect": "growth_habit",
+   "value": "tall perennial reed or cane; resembles an outsize common reed or bamboo; forms dense stands",
+   "quote": "Overall, the plant resembles an outsize common reed"
+  },
+  {
+   "aspect": "root_system",
+   "value": "tough fibrous underground rhizomes forming knotty spreading mats",
+   "quote": "tough, fibrous underground rhizomes that form knotty, spreading mats"
+  }
+ ],
+ "phenology": [
+  {
+   "event": "flowering",
+   "when": "late summer",
+   "quote": "It flowers in late summer"
+  }
+ ],
+ "propagation": [
+  {
+   "topic": "vegetative_propagation",
+   "fact": "mostly reproduces vegetatively by rhizomes; stem and rhizome pieces with a single node can sprout",
+   "quote": "mostly reproduces vegetatively by tough, fibrous underground rhizomes"
+  },
+  {
+   "topic": "vegetative_propagation",
+   "fact": "pieces under 5 cm with a single node sprout readily; floods spread pieces downstream",
+   "quote": "containing a single node could sprout readily under a variety of conditions"
+  },
+  {
+   "topic": "seed_dispersal",
+   "fact": "usually seedless or with rarely fertile seeds",
+   "quote": "usually seedless or with seeds that are rarely fertile"
+  }
+ ],
+ "life_form": {
+  "value": "perennial_herb",
+  "quote": "is a tall perennial reed or cane species"
+ },
+ "description": {
+  "value": "Tall perennial reed or cane, generally 6 m, with hollow stems, grey-green swordlike leaves and upright white feathery plumes.",
+  "quote": "Arundo donax generally grows to 6 metres (20 ft) in height"
+ },
+ "native_range": {
+  "value": "Eastern Mediterranean region and across southern Asia to Japan",
+  "quote": "is native to the eastern Mediterranean region and across southern Asia to Japan"
+ },
+ "introduced_range": {
+  "value": "Widely planted and naturalised in mild temperate, subtropical and tropical regions; invasive in North America and Oceania.",
+  "quote": "has been widely planted and naturalised in the mild temperate, subtropical and tropical regions of both hemispheres"
+ },
+ "environment": {
+  "value": "Damp soils, fresh or moderately saline; dense stands on disturbed sites, dunes, wetlands and riparian habitats.",
+  "quote": "grows in damp soils, either fresh or moderately saline"
+ },
+ "flowers": {
+  "present": true,
+  "colors": [
+   "white"
+  ],
+  "season": "late summer",
+  "quote": "bearing upright, white feathery plumes"
+ }
+}
