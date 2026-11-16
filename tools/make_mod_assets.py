@@ -6,7 +6,8 @@
 Writes into mod/src/main/resources: plantcraft_plants.json (read by the mod at startup), blockstates, block and item
 models, item model definitions, loot tables, lang, and textures (copied from the graphics phase).
 
-  * herbs (no `sapling` stage): a growable plant block with one model per growth stage after the seed, plus a seed item
+  * herbs (no `sapling` stage): a growable plant block with one model per growth stage after the seed, plus a seed item;
+    herbs taller than one block also get a stem block that stacks under them as they grow to their sourced height
   * trees (has a `sapling` stage): a sapling block that grows into a trunk and crown, with log and leaves blocks;
     tree height and width come from the plants' sourced size ranges (tools/sample_sizes.py)
   * chara_braunii: item only (aquatic planting is not built yet)
@@ -65,7 +66,7 @@ def loot(bid, entries, extra=None):
 
 def main():
     ss = sizes()
-    cfg, _ = ss.load_cfg()
+    cfg, per = ss.load_cfg()
     for sub in ("assets", "data"):
         shutil.rmtree(RES / sub, ignore_errors=True)
     plants, lang = [], {"itemGroup.%s" % NS: "PlantCraft"}
@@ -134,6 +135,19 @@ def main():
                 variants[f"age={age}"] = {"model": f"{NS}:block/{bn}"}
             write(RES / f"assets/{NS}/blockstates/{pid}.json", {"variants": variants})
             lang[f"block.{NS}.{pid}"] = name
+            # plants taller than one block (at the configured scale) grow upward: a stem block with the plant's `lower`
+            # texture stacks under the top block until the plant reaches a height drawn from its sourced size range
+            segs = {sg["role"]: sg["texture"] for sg in d.get("segment_textures", [])}
+            if "lower" in segs and d["size"]["source"] != "pending":
+                hs = d["size"].get("height_sources") or [dict(d["size"]["height_cm"])]
+                lo, hi, _ = ss.typical_range(hs, cfg["range_mode"])
+                if hi > per:
+                    stem_id = f"{pid}_stem"
+                    copy_tex(segs["lower"], stem_id, "block")
+                    write(RES / f"assets/{NS}/models/block/{stem_id}.json", {"parent": "minecraft:block/cross", "textures": {"cross": f"{NS}:block/{stem_id}"}})
+                    write(RES / f"assets/{NS}/blockstates/{stem_id}.json", {"variants": {"": {"model": f"{NS}:block/{stem_id}"}}})
+                    lang[f"block.{NS}.{stem_id}"] = f"{name} Stem"
+                    entry["tall"] = {"stem_id": stem_id, "height_lo": lo, "height_hi": hi, "tail_hi": hs[0]["max"] if "common_max" in hs[0] else 0}
             ripe = f"{max(0, len(grow) - 1)}"
             loot(pid, [seed_id], {"rolls": 1, "entries": [{"type": "minecraft:item", "name": f"{NS}:{seed_id}"}],
                                    "conditions": [{"condition": "minecraft:block_state_property", "block": f"{NS}:{pid}", "properties": {"age": ripe}}]})

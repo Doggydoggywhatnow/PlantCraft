@@ -13,6 +13,17 @@ final class TreeGen {
 	/** Sourced ranges in centimetres; wHi = 0 means no width data; tail > 0 means rare giants up to that height. */
 	record Spec(double hLo, double hHi, double tail, double wLo, double wHi) {}
 
+	/** How many blocks tall the plant rooted at `base` will be: drawn from its sourced range, fixed by position and world seed. */
+	static int blocksTall(ServerLevel level, BlockPos base, Spec s) {
+		RandomSource r = RandomSource.create(base.asLong() * 6364136223846793005L + level.getSeed());
+		double u = r.nextDouble();
+		double heightCm = s.hLo() + u * (s.hHi() - s.hLo());
+		if (s.tail() > 0 && r.nextDouble() < 0.03) {
+			heightCm = s.hHi() + u * (s.tail() - s.hHi());
+		}
+		return Math.max(1, (int) Math.ceil(heightCm / 100.0));
+	}
+
 	static void grow(ServerLevel level, BlockPos base, Spec s, Block log, Block leaves) {
 		RandomSource r = RandomSource.create(base.asLong() * 6364136223846793005L + level.getSeed());
 		double u = r.nextDouble();

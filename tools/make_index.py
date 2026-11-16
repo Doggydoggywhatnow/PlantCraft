@@ -20,13 +20,15 @@ SIZE = 16
 
 def enlarge(src: Path) -> Image.Image:
     im = Image.open(src).convert("RGBA")
-    bg = Image.new("RGBA", (SIZE * SCALE, SIZE * SCALE))
+    n = im.width                                          # 16 or 32 px textures, enlarged to the same size
+    z = SIZE * SCALE // n
+    bg = Image.new("RGBA", (n * z, n * z))
     d = ImageDraw.Draw(bg)
-    for y in range(SIZE):
-        for x in range(SIZE):
+    for y in range(n):
+        for x in range(n):
             c = (88, 96, 108, 255) if (x + y) % 2 else (72, 80, 92, 255)
-            d.rectangle([x * SCALE, y * SCALE, (x + 1) * SCALE - 1, (y + 1) * SCALE - 1], fill=c)
-    bg.alpha_composite(im.resize((SIZE * SCALE, SIZE * SCALE), Image.NEAREST))
+            d.rectangle([x * z, y * z, (x + 1) * z - 1, (y + 1) * z - 1], fill=c)
+    bg.alpha_composite(im.resize((n * z, n * z), Image.NEAREST))
     return bg
 
 

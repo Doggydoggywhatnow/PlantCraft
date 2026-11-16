@@ -5,7 +5,13 @@
   "latin": "Andropogon gerardi",
   "seed_id": "andropogon_gerardi_seeds",
   "kind": "herb",
-  "max_age": 4
+  "max_age": 4,
+  "tall": {
+   "stem_id": "andropogon_gerardi_stem",
+   "height_lo": 100,
+   "height_hi": 300,
+   "tail_hi": 0
+  }
  },
  {
   "id": "arundo_donax",
@@ -13,7 +19,13 @@
   "latin": "Arundo donax",
   "seed_id": "arundo_donax_seeds",
   "kind": "herb",
-  "max_age": 4
+  "max_age": 4,
+  "tall": {
+   "stem_id": "arundo_donax_stem",
+   "height_lo": 600,
+   "height_hi": 600,
+   "tail_hi": 1000
+  }
  },
  {
   "id": "cenchrus_alopecuroides",
@@ -68,7 +80,13 @@
   "latin": "Datura discolor",
   "seed_id": "datura_discolor_seeds",
   "kind": "herb",
-  "max_age": 5
+  "max_age": 5,
+  "tall": {
+   "stem_id": "datura_discolor_stem",
+   "height_lo": 140,
+   "height_hi": 140,
+   "tail_hi": 0
+  }
  },
  {
   "id": "datura_ferox",
@@ -116,7 +134,13 @@
   "latin": "Datura metel",
   "seed_id": "datura_metel_seeds",
   "kind": "herb",
-  "max_age": 5
+  "max_age": 5,
+  "tall": {
+   "stem_id": "datura_metel_stem",
+   "height_lo": 91,
+   "height_hi": 122,
+   "tail_hi": 0
+  }
  },
  {
   "id": "datura_pruinosa",
@@ -148,7 +172,13 @@
   "latin": "Datura stramonium",
   "seed_id": "datura_stramonium_seeds",
   "kind": "herb",
-  "max_age": 5
+  "max_age": 5,
+  "tall": {
+   "stem_id": "datura_stramonium_stem",
+   "height_lo": 60,
+   "height_hi": 122,
+   "tail_hi": 0
+  }
  },
  {
   "id": "datura_wrightii",
@@ -156,7 +186,13 @@
   "latin": "Datura wrightii",
   "seed_id": "datura_wrightii_seeds",
   "kind": "herb",
-  "max_age": 5
+  "max_age": 5,
+  "tall": {
+   "stem_id": "datura_wrightii_stem",
+   "height_lo": 61,
+   "height_hi": 150,
+   "tail_hi": 0
+  }
  },
  {
   "id": "eucalyptus_deglupta",
@@ -189,7 +225,13 @@
   "latin": "Miscanthus sinensis",
   "seed_id": "miscanthus_sinensis_seeds",
   "kind": "herb",
-  "max_age": 4
+  "max_age": 4,
+  "tall": {
+   "stem_id": "miscanthus_sinensis_stem",
+   "height_lo": 80,
+   "height_hi": 200,
+   "tail_hi": 400
+  }
  },
  {
   "id": "molinia_caerulea",
@@ -197,7 +239,13 @@
   "latin": "Molinia caerulea",
   "seed_id": "molinia_caerulea_seeds",
   "kind": "herb",
-  "max_age": 4
+  "max_age": 4,
+  "tall": {
+   "stem_id": "molinia_caerulea_stem",
+   "height_lo": 120,
+   "height_hi": 120,
+   "tail_hi": 0
+  }
  },
  {
   "id": "olea_europaea_europaea",
@@ -222,7 +270,13 @@
   "latin": "Oryza sativa",
   "seed_id": "oryza_sativa_seeds",
   "kind": "herb",
-  "max_age": 3
+  "max_age": 3,
+  "tall": {
+   "stem_id": "oryza_sativa_stem",
+   "height_lo": 80,
+   "height_hi": 120,
+   "tail_hi": 0
+  }
  },
  {
   "id": "panicum_virgatum",
@@ -230,7 +284,13 @@
   "latin": "Panicum virgatum",
   "seed_id": "panicum_virgatum_seeds",
   "kind": "herb",
-  "max_age": 4
+  "max_age": 4,
+  "tall": {
+   "stem_id": "panicum_virgatum_stem",
+   "height_lo": 270,
+   "height_hi": 270,
+   "tail_hi": 0
+  }
  },
  {
   "id": "phalaris_arundinacea",
@@ -238,7 +298,13 @@
   "latin": "Phalaris arundinacea",
   "seed_id": "phalaris_arundinacea_seeds",
   "kind": "herb",
-  "max_age": 4
+  "max_age": 4,
+  "tall": {
+   "stem_id": "phalaris_arundinacea_stem",
+   "height_lo": 200,
+   "height_hi": 200,
+   "tail_hi": 0
+  }
  },
  {
   "id": "phragmites_australis",
@@ -246,7 +312,13 @@
   "latin": "Phragmites australis",
   "seed_id": "phragmites_australis_seeds",
   "kind": "herb",
-  "max_age": 4
+  "max_age": 4,
+  "tall": {
+   "stem_id": "phragmites_australis_stem",
+   "height_lo": 150,
+   "height_hi": 400,
+   "tail_hi": 600
+  }
  },
  {
   "id": "prunus_persica",
@@ -271,7 +343,13 @@
   "latin": "Salvia rosmarinus",
   "seed_id": "salvia_rosmarinus_seeds",
   "kind": "herb",
-  "max_age": 3
+  "max_age": 3,
+  "tall": {
+   "stem_id": "salvia_rosmarinus_stem",
+   "height_lo": 122,
+   "height_hi": 152,
+   "tail_hi": 0
+  }
  },
  {
   "id": "sorghastrum_nutans",
@@ -279,7 +357,13 @@
   "latin": "Sorghastrum nutans",
   "seed_id": "sorghastrum_nutans_seeds",
   "kind": "herb",
-  "max_age": 4
+  "max_age": 4,
+  "tall": {
+   "stem_id": "sorghastrum_nutans_stem",
+   "height_lo": 100,
+   "height_hi": 200,
+   "tail_hi": 0
+  }
  },
  {
   "id": "tripsacum_dactyloides",

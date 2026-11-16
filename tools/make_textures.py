@@ -40,16 +40,17 @@ def parse(rows, ox=0, oy=0):
     return {(ox + x, oy + y): ch for y, row in enumerate(rows) for x, ch in enumerate(row) if ch != "."}
 
 
-def render(pix, palette):
-    img = Image.new("RGBA", (SIZE, SIZE), (0, 0, 0, 0))
+def render(pix, palette, n=SIZE):
+    img = Image.new("RGBA", (n, n), (0, 0, 0, 0))
     for (x, y), ch in pix.items():
-        if 0 <= x < SIZE and 0 <= y < SIZE:
+        if 0 <= x < n and 0 <= y < n:
             img.putpixel((x, y), palette[ch] if ch in palette else hx("#ff00ff"))  # magenta = missing palette key
     return img
 
 
 def line(pix, x0, y0, x1, y1, ch):
-    """Bresenham line into pix."""
+    """Bresenham line into pix (coordinates are rounded to whole pixels, so a float can never loop forever)."""
+    x0, y0, x1, y1 = round(x0), round(y0), round(x1), round(y1)
     dx, dy = abs(x1 - x0), -abs(y1 - y0)
     sx, sy = (1 if x0 < x1 else -1), (1 if y0 < y1 else -1)
     err = dx + dy
@@ -576,6 +577,213 @@ def grass_palette(P, ripe=False):
             "r": hx("#c9b79a"), "R": hx("#8a7a60"), "k": hx(_shade(P["leaf"][0], 0.95))}
 
 
+
+# ================================================================== 32x32 grasses (finer detail)
+# Same data-driven parameters as the 16x16 look, drawn on a 32x32 canvas: more blades with a lighter midrib, smoother
+# arches, and larger heads with real structure (feather barbs, bristles, a three-branched turkey foot, dangling spikelets).
+G = 32
+GRAIN32 = [
+    "...k..", "..kGk.", ".kGpGg", ".GpGGg", ".GGGGg", ".GGGgg", "..GGg.", "..ggg.", "...g..",
+]
+
+
+def g_blade(pix, bx, by, sd, rise, out, droop, main, tip="l"):
+    """A broad grass blade: a smooth arch, two pixels wide near the base, with a lighter midrib."""
+    pts = [(bx, by), (bx + sd * round(out * .22), by - round(rise * .45)), (bx + sd * round(out * .55), by - round(rise * .85)),
+           (bx + sd * round(out * .88), by - rise + round(droop * .35)), (bx + sd * out, by - rise + droop)]
+    path = poly(pix, pts, main)
+    for x, y in path[: max(2, int(len(path) * .42))]:
+        pix[(x + 1, y)] = main
+    for i, (x, y) in enumerate(path):
+        if i % 4 == 1 and i < len(path) * .75:
+            pix[(x, y)] = "m"
+    for x, y in path[-3:]:
+        pix[(x, y)] = tip
+
+
+def g_head(pix, kind, tx, ty, ripe, rng, lean=0):
+    """One flower/seed head with its base at (tx, ty), growing up ~15 px; the top leans `lean` px."""
+    def at(i, n=15):                                       # horizontal shift of row i (0 = top) from the lean
+        return round(lean * (n - i) / n)
+    if kind == "plume":                                    # feathery plume: barbs fan from a central axis
+        hw = [0, 1, 2, 3, 4, 4, 5, 5, 5, 5, 4, 4, 3, 3, 2, 1]
+        for i, w in enumerate(hw):
+            y, cx = ty - 15 + i, tx + at(i)
+            pix[(cx, y)] = "k"
+            for dx in range(1, w + 1):
+                if dx == w and rng.random() < .5:
+                    continue                               # ragged edge
+                c = "p" if (dx + i) % 3 == 0 else ("P" if (dx + i) % 3 == 1 else "q")
+                pix[(cx - dx, y)] = c
+                pix[(cx + dx, y + (1 if dx > 3 and i < 14 else 0))] = "P" if (dx + i) % 2 else "p"
+        for i in range(3):
+            pix[(tx, ty + 1 + i)] = "k"
+    elif kind == "bottlebrush":                            # dense cylinder with bristles, arching at the tip
+        for i in range(14):
+            y, cx = ty - i, tx + round(lean * i / 14) + (1 if i > 10 else 0) + (1 if i > 12 else 0)
+            pix[(cx, y)] = "P"; pix[(cx + 1, y)] = "q"
+            ln = 3 if i % 2 == 0 else 2
+            for d in range(1, ln + 1):
+                pix[(cx - d, y - d // 2)] = "p"
+                pix[(cx + 1 + d, y - d // 2)] = "p" if d < ln else "P"
+        for i in range(3):
+            pix[(tx, ty + 1 + i)] = "k"
+    elif kind == "fingers":                                # three-branched "turkey foot": stout branches with spikelet pairs
+        for i in range(4):
+            pix[(tx, ty + i)] = "k"
+        pix[(tx, ty - 1)] = "P"
+        for dx, dy in ((-7, -12), (0, -15), (7, -12)):
+            pts = poly({}, [(tx, ty - 1), (tx + dx // 2, ty + dy // 2 - 1), (tx + dx, ty + dy)], "P")
+            for k, (x, y) in enumerate(pts):
+                pix[(x, y)] = "P"; pix[(x + 1, y)] = "q"
+                if k % 3 == 2:
+                    pix[(x - 1, y)] = "p"; pix[(x + 2, y)] = "p"
+            pix[(tx + dx, ty + dy - 1)] = "p"; pix[(tx + dx + 1, ty + dy - 1)] = "P"
+    elif kind == "droop":                                  # arching axis; flat spikelets dangle like little fish
+        pts = poly({}, [(tx, ty), (tx, ty - 6), (tx + 2, ty - 11), (tx + 8, ty - 12)], "k")
+        fish = ["Pp.", "PPp", ".qP", "..q"]
+        for k, (x, y) in enumerate(pts[6:], 6):
+            if k % 3 == 0:
+                for r, row in enumerate(fish):
+                    for c, ch in enumerate(row):
+                        if ch != ".":
+                            pix[(x + c, y + 1 + r)] = ch
+    elif kind == "spike":                                  # dense narrow spike with bristles
+        for i in range(15):
+            y, cx = ty - i, tx + round(lean * i / 14)
+            pix[(cx, y)] = "P"; pix[(cx + 1, y)] = "q"
+            if i % 2:
+                pix[(cx - 1, y)] = "p"; pix[(cx + 2, y)] = "p"
+    else:                                                  # open airy panicle: tiers of fine branchlets ending in seeds
+        for i in range(15):
+            pix[(tx + round(lean * i / 14), ty - i)] = "k"
+        for i, ln in ((3, 4), (6, 5), (9, 5), (12, 4)):
+            cx = tx + round(lean * i / 14)
+            for sd in (-1, 1):
+                pts = poly({}, [(cx, ty - i), (cx + sd * ln // 2, ty - i - ln // 2), (cx + sd * ln, ty - i - ln)], "P")
+                for x, y in pts:
+                    pix[(x, y)] = "P"
+                pix[(cx + sd * (ln + 1), ty - i - ln - 1)] = "p"; pix[(cx + sd * ln, ty - i - ln - 1)] = "p"
+    if ripe:                                               # seeds ripening: golden grains over the head
+        for dx, dy in ((-2, -3), (2, -6), (-1, -9), (1, -12), (-3, -8), (3, -10)):
+            if (tx + dx, ty + dy) in pix:
+                pix[(tx + dx, ty + dy)] = "G"
+                pix[(tx + dx, ty + dy + 1)] = "g"
+
+
+def g_cane(pid, stage, P, kind):
+    """Cane-like grasses: a thick jointed culm with long swordlike leaves alternating up it and a plume at the top."""
+    rng = random.Random(f"cane32:{pid}:{stage}:{kind}")
+    ripe = stage == "fruiting"
+    pal = grass_palette(P, ripe)
+    pix = {}
+    flowering = stage in ("flowering", "fruiting")
+    top = 0 if kind == "lower" else 2 + (17 if flowering and kind == "single" else 0)
+    x0 = 14
+    culm = []
+    for y in range(G - 1, top - 1, -1):                    # four pixels wide: light, mid, mid, shadow
+        x = x0 + (2 * (G - 1 - y)) // (G - 1) * (kind != "lower")
+        culm.append((x, y))
+        pix[(x, y)] = "S"; pix[(x + 1, y)] = "L"; pix[(x + 2, y)] = "L"; pix[(x + 3, y)] = "k"
+    node_ys = [y for i, (x, y) in enumerate(culm) if i % 8 == 7]
+    for x, y in culm:
+        if y in node_ys or y + 1 in node_ys:
+            for dx in range(4):
+                pix[(x + dx, y)] = "N"
+    for k, ny in enumerate(node_ys):                       # leaves alternate sides, arching out and drooping
+        nx = x0 + (2 * (G - 1 - ny)) // (G - 1) * (kind != "lower")
+        sd = -1 if k % 2 == 0 else 1
+        bx = nx if sd < 0 else nx + 3
+        g_blade(pix, bx, ny - 1, sd, 7 + (k % 2) * 2, 12 if k % 2 == 0 else 10, round(P["arch"] * 9) + 2, "L" if k % 2 == 0 else "m")
+        for dy in (0, 1):                                  # leaf sheath wrapping the node
+            pix[(bx - sd, ny - dy)] = "N"
+    if kind == "single" and stage == "budding":
+        x, y = culm[-1]
+        for i in range(7):
+            pix[(x + 1, y - i)] = "m" if i < 2 else "L"; pix[(x + 2, y - i)] = "S"
+    if kind == "single" and flowering:
+        x, y = culm[-1]
+        g_head(pix, P["inflo"], x + 1, y, ripe, rng, lean=2)
+    if kind == "single":
+        for x in range(8, 24, 2):
+            if (x, G - 1) not in pix:
+                pix[(x, G - 1)] = "r"
+    return pix, pal
+
+
+def grass32_stage(pid, stage, P, kind="single"):
+    rng = random.Random(f"grass32:{pid}:{stage}:{kind}")
+    ripe = stage == "fruiting"
+    pal = grass_palette(P, ripe)
+    pix = {}
+    if stage == "seed":                                    # three plump grains
+        for ox, oy in ((5, 14), (18, 12), (11, 21)):
+            place(pix, parse(GRAIN32), ox, oy)
+        return pix, pal
+    if stage == "seedling":
+        for x in range(9, 24, 2):
+            pix[(x, G - 1)] = "r"
+            if x % 4 == 1:
+                pix[(x, G - 2)] = "R"
+        for sd, rise, out in ((-1, 9, 5), (1, 11, 6), (-1, 13, 2), (1, 7, 9), (0, 15, 0)):
+            g_blade(pix, 16 + (0 if sd == 0 else sd), G - 3, sd or 1, rise, out, 3, "L" if rise % 2 else "m")
+        return pix, pal
+    if P["cane"] and P["height_cm"] > 100:
+        return g_cane(pid, stage, P, kind)
+    cm, arch = P["height_cm"], P["arch"]
+    tall = cm > 100
+    whole = kind == "single" and not tall
+    plant_px = G if tall else max(14, round(G * cm / 100))
+    flowering = stage in ("flowering", "fruiting")
+    head_h = 16 if flowering and kind == "single" else 0
+    cx_list = [12, 16, 20]
+    culms = []
+    for i, cx in enumerate(cx_list):
+        if kind == "lower":
+            culms.append((cx, cx, 0))
+        else:
+            top_y = (G - plant_px) if whole else 2
+            lean = round((cx - 16) * arch * 1.6)
+            culms.append((cx, max(2, min(29, cx + lean)), top_y + 2 + (i % 2) * 2 + head_h))
+    droop = round(arch * 9)
+    if kind == "single" and whole:                         # a short plant: a basal fan of broad arching blades
+        leaf_h = max(8, round(plant_px * (0.5 + 0.2 * (1 - arch))))
+        for j in range(16):
+            sd = -1 if j < 8 else 1
+            k = j % 8 + 1
+            out = min(14, round(3 + k * (1.1 + 2.4 * arch)))
+            g_blade(pix, 16 + sd * (k // 3), G - 1, sd, max(6, round(leaf_h - (k - 1) * 1.5)), out, droop, "L" if k % 2 else "m")
+    elif kind == "single":                                 # top block of a tall plant: leaf blades arch off the culms
+        for i, (cx, tx, ty) in enumerate(culms):
+            sd = -1 if i == 0 else 1 if i == 2 else (1 if rng.random() < .5 else -1)
+            g_blade(pix, cx, 26, sd, 9, 6 + round(7 * arch), droop, "L")
+            g_blade(pix, cx, 17, -sd, 7, 5 + round(6 * arch), max(2, droop - 2), "m")
+    else:                                                  # lower block: long blades arch out from the culms
+        for i, (cx, tx, ty) in enumerate(culms):
+            sd = -1 if i == 0 else 1 if i == 2 else (1 if i % 2 else -1)
+            g_blade(pix, cx, 27, sd, 11, 6 + round(8 * arch), droop, "L")
+            g_blade(pix, cx, 15, -sd, 9, 6 + round(6 * arch), droop, "m")
+            g_blade(pix, cx, 5, sd, 7, 5 + round(5 * arch), max(2, droop - 2), "L")
+    for cx, tx, ty in culms:                               # culms drawn over the blades
+        path = poly(pix, [(cx, G - 1), ((cx + tx) // 2, (G - 1 + ty) // 2), (tx, ty)], "S")
+        for x, y in path:
+            pix[(x + 1, y)] = "k"
+    if kind == "single" and stage == "budding":
+        for cx, tx, ty in culms:
+            for i in range(7):
+                pix[(tx, ty - i)] = "m" if i < 2 else "L"; pix[(tx + 1, ty - i)] = "S"
+    if kind == "single" and flowering:
+        # shape-distinct heads (turkey foot, dangling spikelets) read best singly; the others sit on the outer culms
+        chosen = [culms[1]] if P["inflo"] in ("fingers", "droop") else [culms[0], culms[2]]
+        for cx, tx, ty in chosen:
+            g_head(pix, P["inflo"], tx, ty, ripe, rng, lean=round((tx - 16) * 0.35))
+    if kind == "single":
+        for x in range(8, 24, 2):
+            if (x, G - 1) not in pix:
+                pix[(x, G - 1)] = "r"
+    return pix, pal
+
+
 HEAD_H = {"plume": 7, "bottlebrush": 6, "fingers": 5, "droop": 5, "spike": 6, "panicle": 6}
 # Head silhouettes, drawn base-down (last row sits on the stem). P = main colour, p = light, q = shadow, k = stalk.
 PLUME_T = ["..p..", ".pPp.", "pPpPq", "PpPqP", ".PqPq", "..Pq.", "..k.."]
@@ -1037,7 +1245,7 @@ def draw_stage(pid, stage):
     d = PLANTS.get(pid)
     if d and d["taxonomy"].get("family") == "Poaceae":
         P = grass_params(d)
-        return render(*grass_stage(pid, stage, P))
+        return render(*grass32_stage(pid, stage, P), n=G)
     raise KeyError(pid)
 
 
@@ -1076,31 +1284,33 @@ def draw_segment(pid, role):
             return trunk_top(["#b5472f", "#e8883a", "#b5472f"], "#e8c98a", "#c9a060")
     d = PLANTS.get(pid)
     if d and d["taxonomy"].get("family") == "Poaceae" and role == "lower":
-        return render(*grass_stage(pid, "vegetative", grass_params(d), "lower"))
+        return render(*grass32_stage(pid, "vegetative", grass_params(d), "lower"), n=G)
     raise KeyError((pid, role))
 
 
 def sheet(images, labels, title, scale=6):
     pad, lab = 6, 12
     n = len(images)
-    w = n * (SIZE * scale + pad) + pad
-    h = SIZE * scale + 2 * pad + lab + 14
+    cell = 16 * scale                                    # every cell is the same size; 32x32 textures are drawn at half the zoom
+    w = n * (cell + pad) + pad
+    h = cell + 2 * pad + lab + 14
     out = Image.new("RGBA", (w, h), (46, 52, 60, 255))
     d = ImageDraw.Draw(out)
     d.text((pad, 3), title, fill=(230, 235, 240, 255))
     for i, (im, lb) in enumerate(zip(images, labels)):
-        x = pad + i * (SIZE * scale + pad)
+        x = pad + i * (cell + pad)
         y = 14 + pad
-        bg = Image.new("RGBA", (SIZE * scale, SIZE * scale))
+        z = cell // im.width                              # pixel size in the preview
+        bg = Image.new("RGBA", (cell, cell))
         bd = ImageDraw.Draw(bg)
-        for cy in range(SIZE):
-            for cx in range(SIZE):
+        for cy in range(im.height):
+            for cx in range(im.width):
                 c = (88, 96, 108, 255) if (cx + cy) % 2 else (72, 80, 92, 255)
-                bd.rectangle([cx * scale, cy * scale, cx * scale + scale - 1, cy * scale + scale - 1], fill=c)
-        big = im.resize((SIZE * scale, SIZE * scale), Image.NEAREST)
+                bd.rectangle([cx * z, cy * z, cx * z + z - 1, cy * z + z - 1], fill=c)
+        big = im.resize((cell, cell), Image.NEAREST)
         bg.alpha_composite(big)
         out.paste(bg, (x, y))
-        d.text((x, y + SIZE * scale + 1), lb[:16], fill=(200, 208, 216, 255))
+        d.text((x, y + cell + 1), lb[:16], fill=(200, 208, 216, 255))
     return out
 
 

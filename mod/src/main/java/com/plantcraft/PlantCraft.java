@@ -78,7 +78,11 @@ public class PlantCraft implements ModInitializer {
 			switch (kind) {
 				case "herb" -> {
 					int maxAge = o.get("max_age").getAsInt();
-					Block plant = block(o.get("id").getAsString(), k -> new PlantBlock(plantProps(k), maxAge));
+					JsonObject tall = o.has("tall") ? o.getAsJsonObject("tall") : null;
+					Block stem = tall == null ? null : block(tall.get("stem_id").getAsString(), k -> new StemBlock(plantProps(k)));
+					TreeGen.Spec heightSpec = tall == null ? null : new TreeGen.Spec(tall.get("height_lo").getAsDouble(),
+							tall.get("height_hi").getAsDouble(), tall.get("tail_hi").getAsDouble(), 0, 0);
+					Block plant = block(o.get("id").getAsString(), k -> new PlantBlock(plantProps(k), maxAge, stem, heightSpec));
 					item(seedId, latin, p -> new BlockItem(plant, p));
 				}
 				case "tree" -> {
