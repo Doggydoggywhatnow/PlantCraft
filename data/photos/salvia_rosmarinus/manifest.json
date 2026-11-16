@@ -1,0 +1,373 @@
+{
+  "id": "salvia_rosmarinus",
+  "species": "Salvia rosmarinus",
+  "fetched": "2026-11-16",
+  "note": "Photos are reference material only. Keep authors and licences with them.",
+  "candidates_examined": 124,
+  "coverage": {
+    "flower": 4,
+    "fruit": 4,
+    "seed": 0,
+    "leaf": 2,
+    "bark": 0,
+    "branches": 0,
+    "illustration": 2,
+    "habit": 3
+  },
+  "missing_roles": [],
+  "photos": [
+    {
+      "file": "data/photos/salvia_rosmarinus/flower_01_2026-04-12-rosemary-in-parque-natural-da.jpg",
+      "role": "flower",
+      "hints": [],
+      "title": "File:2026-04-12 Rosemary in Parque Natural das Serras de Aire e Candeeiros.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3A2026-04-12_Rosemary_in_Parque_Natural_das_Serras_de_Aire_e_Candeeiros.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/dc/2026-04-12_Rosemary_in_Parque_Natural_das_Serras_de_Aire_e_Candeeiros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5528,
+      "height": 3685,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Alexkom000",
+      "description": "Rosemary in Parque Natural das Serras de Aire e Candeeiros",
+      "categories": [
+        "April 2026 by user:Alexkom000",
+        "Arrimal by user:Alexkom000",
+        "CC-BY-4.0",
+        "Creative Commons Attribution 4.0 missing SDC copyright license",
+        "Creative Commons Attribution missing SDC copyright status",
+        "Files with coordinates missing SDC location of creation",
+        "Flora of Leiria (district)",
+        "Flowers by user:Alexkom000",
+        "Mentheae in the Northern Hemisphere in April 2026",
+        "Parque Natural das Serras de Aire e Candeeiros",
+        "Portugal photographs taken on 2026-04-12",
+        "Rosmarinus officinalis in Portugal"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/flower_02_rosemary-flowers2.jpg",
+      "role": "flower",
+      "hints": [
+        "flowers"
+      ],
+      "title": "File:Rosemary flowers2.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARosemary_flowers2.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Rosemary_flowers2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3024,
+      "height": 4032,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Luta68",
+      "description": "Rosemary flowers in spring",
+      "categories": [
+        "CC-BY-4.0",
+        "Salvia rosmarinus (flowers)",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/flower_03_rosemary-in-bloom.jpg",
+      "role": "flower",
+      "hints": [
+        "bloom",
+        "flowers"
+      ],
+      "title": "File:Rosemary in bloom.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARosemary_in_bloom.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Rosemary_in_bloom.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1200,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Margalob",
+      "description": "Close up image of rosemary flowers, taken on February 21, 2016 in Portland, Oregon, USA",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Salvia rosmarinus (flowers)",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/flower_04_garden-flowers-in-thouars-9.jpg",
+      "role": "flower",
+      "hints": [
+        "flowers"
+      ],
+      "title": "File:Garden flowers in Thouars 9.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AGarden_flowers_in_Thouars_9.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Garden_flowers_in_Thouars_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1200,
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Syced",
+      "description": "Garden flowers in Thouars",
+      "categories": [
+        "CC-Zero",
+        "Files with coordinates missing SDC location of creation",
+        "France photographs taken on 2004-04-10",
+        "Salvia rosmarinus (cultivated)",
+        "Salvia rosmarinus (flowers)",
+        "Self-published work",
+        "Thouars",
+        "Uploaded with Mobile/Android"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/fruit_01_alb-r-officinalis-seeds-1.jpg",
+      "role": "fruit",
+      "hints": [],
+      "title": "File:Alb.-R.officinalis-seeds-1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAlb.-R.officinalis-seeds-1.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Alb.-R.officinalis-seeds-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3501,
+      "height": 2630,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Philmarin",
+      "description": "Rosmarinus officinalis (Romero) - Núculas sueltas - Ornamental/cultivado, José Cucú, Albatera, Provincia de Alicante (España).",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Files with coordinates missing SDC location of creation",
+        "Lamiales in Albatera",
+        "Lamiales in Vega Baja del Segura",
+        "Lamiales in the Land of Valencia in April",
+        "Salvia rosmarinus (fruit)",
+        "Seeds",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/fruit_02_salvia-rosmarinus-kz18.jpg",
+      "role": "fruit",
+      "hints": [],
+      "title": "File:Salvia rosmarinus kz18.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASalvia_rosmarinus_kz18.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Salvia_rosmarinus_kz18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2518,
+      "height": 3357,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "description": "Salvia rosmarinus in Quentar, Andalusia",
+      "categories": [
+        "Andalusia in 2024 by Kenraiz",
+        "CC-BY-SA-4.0",
+        "Files with coordinates missing SDC location of creation",
+        "Rosmarinus officinalis in Spain",
+        "Salvia rosmarinus (fruit)",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/fruit_03_rosmarinus-officinalis-ip1106011.jpg",
+      "role": "fruit",
+      "hints": [],
+      "title": "File:Rosmarinus officinalis IP1106011.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARosmarinus_officinalis_IP1106011.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Rosmarinus_officinalis_IP1106011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2112,
+      "height": 1584,
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Leo Michels",
+      "description": "Rosemary seeds",
+      "categories": [
+        "CC-Zero",
+        "Images with annotations",
+        "Salvia rosmarinus (fruit)",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/fruit_04_alb-r-officinalis-seeds-2.jpg",
+      "role": "fruit",
+      "hints": [],
+      "title": "File:Alb.-R.officinalis-seeds-2.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAlb.-R.officinalis-seeds-2.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Alb.-R.officinalis-seeds-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2886,
+      "height": 2166,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Philmarin",
+      "description": "Rosmarinus officinalis (Romero) - Núculas sueltas - Ornamental/cultivado, José Cucú, Albatera, Provincia de Alicante (España).",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Files with coordinates missing SDC location of creation",
+        "Lamiales in Albatera",
+        "Lamiales in Vega Baja del Segura",
+        "Lamiales in the Land of Valencia in April",
+        "Salvia rosmarinus (fruit)",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/leaf_01_rosemary-irene-leaves.jpg",
+      "role": "leaf",
+      "hints": [
+        "leaves"
+      ],
+      "title": "File:Rosemary 'Irene' leaves.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARosemary_%27Irene%27_leaves.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/65/Rosemary_%27Irene%27_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 956,
+      "height": 478,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "unknown",
+      "description": "",
+      "categories": [
+        "CC-BY-SA-3.0-migrated",
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "GFDL",
+        "License migration completed",
+        "Media missing infobox template",
+        "Salvia rosmarinus (leaves)",
+        "Taken with Panasonic Lumix DMC-F1"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/leaf_02_rosmarinus-officinalis-lamiaceae-01.jpg",
+      "role": "leaf",
+      "hints": [
+        "leaves"
+      ],
+      "title": "File:Rosmarinus officinalis (Lamiaceae) 01.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARosmarinus_officinalis_%28Lamiaceae%29_01.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rosmarinus_officinalis_%28Lamiaceae%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2287,
+      "height": 2294,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Filo gèn'",
+      "description": "Rosemary leaves",
+      "categories": [
+        "CC-BY-SA-4.0,3.0,2.5,2.0,1.0",
+        "GFDL",
+        "Image by Filo gèn'",
+        "License migration redundant",
+        "Salvia rosmarinus (leaves)",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/illustration_01_rosmarinus-officinalis-k-hler-s-medizina.jpg",
+      "role": "illustration",
+      "hints": [
+        "köhler"
+      ],
+      "title": "File:Rosmarinus officinalis - Köhler–s Medizinal-Pflanzen-258.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARosmarinus_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-258.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/00/Rosmarinus_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-258.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 454,
+      "height": 591,
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+      "description": "Rosmarin. A Blühender Zweig, nat. Grösse; 1 und 2 Blüthen, vergrössert; 3 Blüthe im Längsschnitt, desgl.; 4 fruchtbare Staubgefässe, desgl.; 5 Pollen, desgl.; 6 unfruchtbares Staubgefäss (Staminodium), desgl.; 7 Stempel, desgl.; 8 Fruchtknoten im Längsschnitt, desgl.; 9 derselbe im Querschnitt, desgl.; 10 Fruchtkelch, desgl.; 11 Frucht ohne Kelch, desgl.; 12 und 13 Nüsschen von verschiedenen Seite",
+      "categories": [
+        "CC-PD-Mark",
+        "Köhlers Medizinal-Pflanzen",
+        "PD-old missing SDC copyright status",
+        "PD Old",
+        "Salvia rosmarinus - botanical illustrations"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/illustration_02_flora-de-la-sierra-calderona-serra-val-n.jpg",
+      "role": "illustration",
+      "hints": [
+        "flora"
+      ],
+      "title": "File:Flora de la Sierra Calderona (Serra, València)13.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AFlora_de_la_Sierra_Calderona_%28Serra%2C_Val%C3%A8ncia%2913.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Flora_de_la_Sierra_Calderona_%28Serra%2C_Val%C3%A8ncia%2913.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3840,
+      "height": 5120,
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Xiscot",
+      "description": "Flora de la Sierra Calderona.",
+      "categories": [
+        "All media supported by Wikimedia España in 2021",
+        "CC-Zero",
+        "Images from Wiki Loves Earth 2021",
+        "Images from Wiki Loves Earth 2021 in Spain",
+        "Images from Wiki Loves Earth missing SDC location of creation",
+        "Salvia rosmarinus",
+        "Self-published work",
+        "Serra Calderona",
+        "Uploaded via Campaign:wle-es"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/habit_01_rosmarin-promenade-bahnstadt.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Rosmarin Promenade Bahnstadt.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARosmarin_Promenade_Bahnstadt.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Rosmarin_Promenade_Bahnstadt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4024,
+      "height": 6020,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Polibil",
+      "description": "Der blühende Rosmarin an der Bahnstadt-Promenade zieht schon im März Bienen an.",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Images from Wiki Loves Earth 2026",
+        "Images from Wiki Loves Earth 2026, DE detail",
+        "Images from Wiki Loves Earth 2026, DE urban nature only",
+        "Images from Wiki Loves Earth 2026 in Germany",
+        "Images from Wiki Loves Earth missing SDC location of creation",
+        "Images from Wiki Loves Earth missing SDC participant in",
+        "Promenade (Heidelberg-Bahnstadt)",
+        "Salvia rosmarinus",
+        "Self-published work",
+        "Uploaded via Campaign:wle-de"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/habit_02_close-up-of-rosemary-bush.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Close Up of Rosemary Bush.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AClose_Up_of_Rosemary_Bush.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/da/Close_Up_of_Rosemary_Bush.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4416,
+      "height": 3312,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Ole Husby from Melhus, Norway",
+      "description": "Eagle eye close up of a rosemary bush",
+      "categories": [
+        "CC-BY-SA-2.0",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by FlickreviewR 2",
+        "Salvia rosmarinus"
+      ]
+    },
+    {
+      "file": "data/photos/salvia_rosmarinus/habit_03_pedreguer-romer-pel-sender-pr-53.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Pedreguer, romer pel sender PR 53.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3APedreguer%2C_romer_pel_sender_PR_53.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Pedreguer%2C_romer_pel_sender_PR_53.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4608,
+      "height": 3072,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Joanbanjo",
+      "description": "Pedreguer, romer pel sender PR 53.",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Nature of Pedreguer",
+        "Salvia rosmarinus",
+        "Self-published work"
+      ]
+    }
+  ]
+}
