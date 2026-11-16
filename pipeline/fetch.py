@@ -68,6 +68,52 @@ def gbif_range(key: int) -> dict:
     }
 
 
+def distribution(key: int) -> dict:
+    """Where the plant is NATIVE and where it is introduced, from GBIF's species distributions.
+
+    The structured records come from the World Checklist of Vascular Plants (WCVP, the data behind Kew's POWO):
+    regions are TDWG level-3 codes; introduced regions are flagged, native ones carry no flag. This is the
+    authoritative range, unlike occurrence records, which include gardens and escapes.
+    """
+    recs, offset = [], 0
+    while offset <= 1800:
+        d = get_json(f"https://api.gbif.org/v1/species/{key}/distributions?limit=300&offset={offset}")
+        recs += d.get("results", [])
+        if d.get("endOfRecords", True):
+            break
+        offset += 300
+    wcvp = [r for r in recs if (r.get("source") or "").startswith("The World Checklist") and (r.get("locationId") or "").startswith("TDWG:")]
+    native, introduced, seen = [], [], set()
+    for r in wcvp:
+        code, means = r["locationId"][5:], r.get("establishmentMeans")
+        if (code, bool(means)) in seen:
+            continue
+        seen.add((code, bool(means)))
+        item = {"region": r.get("locality", code), "code": code, "source": "World Checklist of Vascular Plants via GBIF"}
+        if means in (None, "NATIVE"):
+            native.append(item)
+        else:
+            introduced.append(dict(item, status=means.lower()))
+    return {"native": sorted(native, key=lambda x: x["region"]), "introduced": sorted(introduced, key=lambda x: x["region"]),
+            "records_total": len(recs), "wcvp_records": len(wcvp),
+            "note": ("WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. " if wcvp else
+                     "No WCVP distribution records for this name in GBIF; ") + "Other GBIF distribution sources are not parsed."}
+
+
+def wikidata_taxon_range(qid: str) -> list:
+    """Wikidata 'taxon range' (P9714) places, as English labels. Often empty; a cross-check, not the main range."""
+    if not qid:
+        return []
+    ent = get_json(f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json")["entities"][qid]
+    ids = [c["mainsnak"]["datavalue"]["value"]["id"] for c in ent.get("claims", {}).get("P9714", [])
+           if c.get("mainsnak", {}).get("datavalue")]
+    if not ids:
+        return []
+    q = get_json("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode(
+        {"action": "wbgetentities", "ids": "|".join(ids[:40]), "props": "labels", "languages": "en", "format": "json"}))
+    return [e.get("labels", {}).get("en", {}).get("value", i) for i, e in q.get("entities", {}).items()]
+
+
 def fetch_one(rec: dict) -> dict:
     name = rec["name"]
     d = legacy.fetch(name)
@@ -75,6 +121,11 @@ def fetch_one(rec: dict) -> dict:
     d["query"] = rec["input"]
     if d["gbif"].get("found"):
         d["gbif_range"] = gbif_range(d["gbif"]["key"])
+        d["distribution"] = distribution(d["gbif"]["key"])
+    try:
+        d["wikidata_taxon_range"] = wikidata_taxon_range(d["wikidata"].get("id"))
+    except Exception:
+        d["wikidata_taxon_range"] = []
     return d
 
 
@@ -104,7 +155,8 @@ def run(force=False, workers=None, only=None) -> int:
                 print(f"  FAIL {rec['name']}: {err}")
             else:
                 print(f"  ok   {rec['name']:30} wikipedia={'yes' if d['wikipedia'].get('found') else 'NO '} "
-                      f"images={len(d['commons_images'])} occ={d.get('gbif_range', {}).get('total_records', '-')}")
+                      f"images={len(d['commons_images'])} occ={d.get('gbif_range', {}).get('total_records', '-')} "
+                      f"native_regions={len(d.get('distribution', {}).get('native', []))}")
     print(f"fetch done in {time.time() - t0:.0f}s, {failures} failed (see data/pipeline/failures.jsonl)")
     return failures
 

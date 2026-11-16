@@ -1,3 +1,6 @@
 data/pipeline/
 pipeline/**/__pycache__/
 pipeline/__pycache__/
+data/photos/*/*.jpg
+data/photos/*/*.png
+data/photos/*/*.webp

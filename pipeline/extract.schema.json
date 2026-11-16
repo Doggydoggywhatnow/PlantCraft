@@ -2,40 +2,458 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "life_form": {"type": "object", "additionalProperties": false, "required": ["value", "quote"],
-      "properties": {"value": {"enum": ["alga", "annual_herb", "perennial_herb", "shrub", "vine", "tree"]},
-                     "quote": {"type": "string"}}},
-    "description": {"type": "object", "additionalProperties": false, "required": ["value", "quote"],
-      "properties": {"value": {"type": "string"}, "quote": {"type": "string"}}},
-    "height_cm": {"type": "object", "additionalProperties": false, "required": ["max", "quote"],
-      "properties": {"min": {"type": "number"}, "max": {"type": "number"}, "common_max": {"type": "number"},
-                     "quote": {"type": "string"}}},
-    "spread_cm": {"type": "object", "additionalProperties": false, "required": ["max", "quote"],
-      "properties": {"min": {"type": "number"}, "max": {"type": "number"}, "quote": {"type": "string"}}},
-    "native_range": {"type": "object", "additionalProperties": false, "required": ["value", "quote"],
-      "properties": {"value": {"type": "string"}, "quote": {"type": "string"}}},
-    "introduced_range": {"type": "object", "additionalProperties": false, "required": ["value", "quote"],
-      "properties": {"value": {"type": "string"}, "quote": {"type": "string"}}},
-    "environment": {"type": "object", "additionalProperties": false, "required": ["value", "quote"],
-      "properties": {"value": {"type": "string"}, "quote": {"type": "string"}}},
-    "flowers": {"type": "object", "additionalProperties": false, "required": ["present", "quote"],
+    "life_form": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "quote"
+      ],
       "properties": {
-        "present": {"type": "boolean"},
-        "colors": {"type": "array", "items": {"type": "string"}},
-        "opens": {"enum": ["day", "night", "morning_only", "continuous"]},
-        "season": {"type": "string"},
-        "pollination": {"type": "array", "items": {"enum": ["bees", "moths", "other_insects", "wind", "self", "water"]}},
-        "quote": {"type": "string"}}},
-    "fruit": {"type": "object", "additionalProperties": false, "required": ["present", "quote"],
+        "value": {
+          "enum": [
+            "alga",
+            "annual_herb",
+            "perennial_herb",
+            "shrub",
+            "vine",
+            "tree"
+          ]
+        },
+        "quote": {
+          "type": "string"
+        }
+      }
+    },
+    "description": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "quote"
+      ],
       "properties": {
-        "present": {"type": "boolean"},
-        "type": {"type": "string"},
-        "description": {"type": "string"},
-        "ripening": {"type": "string"},
-        "edible": {"enum": ["yes", "no", "toxic"]},
-        "quote": {"type": "string"}}},
-    "uses_real": {"type": "array", "maxItems": 5, "items": {"type": "object", "additionalProperties": false,
-      "required": ["use", "note", "quote"],
-      "properties": {"use": {"type": "string"}, "note": {"type": "string"}, "quote": {"type": "string"}}}}
+        "value": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string"
+        }
+      }
+    },
+    "native_range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "quote"
+      ],
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string"
+        }
+      }
+    },
+    "introduced_range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "quote"
+      ],
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string"
+        }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "quote"
+      ],
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string"
+        }
+      }
+    },
+    "flowers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "present",
+        "quote"
+      ],
+      "properties": {
+        "present": {
+          "type": "boolean"
+        },
+        "colors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "opens": {
+          "enum": [
+            "day",
+            "night",
+            "morning_only",
+            "continuous"
+          ]
+        },
+        "season": {
+          "type": "string"
+        },
+        "pollination": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "bees",
+              "moths",
+              "other_insects",
+              "wind",
+              "self",
+              "water"
+            ]
+          }
+        },
+        "quote": {
+          "type": "string"
+        }
+      }
+    },
+    "fruit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "present",
+        "quote"
+      ],
+      "properties": {
+        "present": {
+          "type": "boolean"
+        },
+        "type": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "ripening": {
+          "type": "string"
+        },
+        "edible": {
+          "enum": [
+            "yes",
+            "no",
+            "toxic"
+          ]
+        },
+        "quote": {
+          "type": "string"
+        }
+      }
+    },
+    "measurements": {
+      "type": "array",
+      "maxItems": 40,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "what",
+          "unit",
+          "max",
+          "quote"
+        ],
+        "properties": {
+          "what": {
+            "enum": [
+              "height",
+              "spread",
+              "trunk_diameter",
+              "buttress_height",
+              "branch_length",
+              "root_depth",
+              "leaf_length",
+              "leaf_width",
+              "flower_diameter",
+              "flower_length",
+              "fruit_length",
+              "fruit_diameter",
+              "seed_length",
+              "lifespan",
+              "age_to_first_flowering",
+              "time_to_harvest",
+              "flowering_duration",
+              "bud_development_time",
+              "crown_width",
+              "crown_height",
+              "bole_height",
+              "branch_diameter",
+              "internode_length",
+              "petiole_length",
+              "stem_diameter",
+              "tiller_count",
+              "branch_count",
+              "inflorescence_length"
+            ]
+          },
+          "unit": {
+            "enum": [
+              "cm",
+              "years",
+              "months",
+              "weeks",
+              "days",
+              "count",
+              "percent"
+            ]
+          },
+          "min": {
+            "type": "number"
+          },
+          "max": {
+            "type": "number"
+          },
+          "qualifier": {
+            "enum": [
+              "range",
+              "typical",
+              "average",
+              "maximum",
+              "rare_maximum"
+            ]
+          },
+          "quote": {
+            "type": "string",
+            "description": "Verbatim text from the source that supports this fact (checked by the pipeline)."
+          }
+        }
+      }
+    },
+    "appearance": {
+      "type": "array",
+      "maxItems": 40,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "part",
+          "attribute",
+          "value",
+          "quote"
+        ],
+        "properties": {
+          "part": {
+            "enum": [
+              "whole_plant",
+              "roots",
+              "trunk",
+              "bark",
+              "branches",
+              "twigs",
+              "buds",
+              "leaf",
+              "flower",
+              "inflorescence",
+              "fruit",
+              "seed"
+            ]
+          },
+          "attribute": {
+            "type": "string",
+            "description": "color, shape, arrangement, texture, branching, habit, size ..."
+          },
+          "value": {
+            "type": "string"
+          },
+          "stage": {
+            "type": "string",
+            "description": "Growth stage this applies to, if the source says (e.g. unripe, ripe, young)."
+          },
+          "quote": {
+            "type": "string",
+            "description": "Verbatim text from the source that supports this fact (checked by the pipeline)."
+          }
+        }
+      }
+    },
+    "architecture": {
+      "type": "array",
+      "maxItems": 30,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "aspect",
+          "value",
+          "quote"
+        ],
+        "properties": {
+          "aspect": {
+            "enum": [
+              "growth_habit",
+              "branching_pattern",
+              "branch_angle",
+              "branch_droop",
+              "crown_shape",
+              "canopy_density",
+              "trunk_form",
+              "bark_form",
+              "twig_form",
+              "stem_type",
+              "leaf_arrangement",
+              "leaf_shape",
+              "leaf_margin",
+              "tillering",
+              "climbing_mechanism",
+              "root_system",
+              "buttresses",
+              "pruning_response",
+              "multiple_trunks",
+              "flower_arrangement",
+              "fruit_arrangement"
+            ]
+          },
+          "value": {
+            "type": "string"
+          },
+          "stage": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "phenology": {
+      "type": "array",
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "event",
+          "when",
+          "quote"
+        ],
+        "properties": {
+          "event": {
+            "enum": [
+              "flowering",
+              "fruiting",
+              "ripening",
+              "seed_release",
+              "leaf_flush",
+              "leaf_fall",
+              "dormancy",
+              "germination",
+              "growth_rate"
+            ]
+          },
+          "when": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string",
+            "description": "Verbatim text from the source that supports this fact (checked by the pipeline)."
+          }
+        }
+      }
+    },
+    "propagation": {
+      "type": "array",
+      "maxItems": 25,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "topic",
+          "fact",
+          "quote"
+        ],
+        "properties": {
+          "topic": {
+            "enum": [
+              "pollination",
+              "self_fertility",
+              "seed_dispersal",
+              "germination",
+              "dormancy",
+              "vegetative_propagation",
+              "regeneration",
+              "age_at_maturity",
+              "lifespan",
+              "cultivation",
+              "toxicity"
+            ]
+          },
+          "fact": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string",
+            "description": "Verbatim text from the source that supports this fact (checked by the pipeline)."
+          }
+        }
+      }
+    },
+    "uses_real": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "use",
+          "note",
+          "quote"
+        ],
+        "properties": {
+          "use": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          },
+          "category": {
+            "enum": [
+              "food",
+              "medicine",
+              "material",
+              "fuel",
+              "ornamental",
+              "cultural",
+              "ecological",
+              "forage",
+              "toxic",
+              "research",
+              "other"
+            ]
+          },
+          "part_used": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          }
+        }
+      }
+    }
   }
 }

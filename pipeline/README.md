@@ -5,17 +5,18 @@ files. It builds on `tools/fetch.py` (kept as is) and adds name resolution, conc
 a range envelope from GBIF, grounded LLM extraction, and a coverage report.
 
 ```
-names list ──► 1 RESOLVE ──► 2 FETCH ──► 3 EXTRACT ──► 4 ASSEMBLE ──► 5 REPORT
- (lists/)      resolve.py    fetch.py    extract.py    assemble.py    report.py
-               GBIF match    8 workers   quote-checked  schema-valid   coverage.md
-               accepted      per-host    facts from     drafts in      one table to
-               names only    rate limit  Wikipedia      data/pipeline  review
+names ─► 1 RESOLVE ─► 2 FETCH ─► 2b PHOTOS ─► 3 EXTRACT ─► 4 ASSEMBLE ─► 5 REPORT
+(lists/)  resolve.py  fetch.py   photos.py    extract.py   assemble.py   report.py
+          GBIF match  APIs +     licence-     quote-       schema-valid  coverage
+          accepted    native     filtered     checked      drafts        table
+          names only  range     photos by    facts
+                                 role
 ```
 
 ## Quick start
 
 ```bash
-pip install pyyaml jsonschema            # required
+pip install pyyaml jsonschema            # required (photos need no extra packages)
 pip install anthropic                    # only for the extract stage
 export ANTHROPIC_API_KEY=...             # only for the extract stage
 
@@ -40,15 +41,38 @@ list instead of being fetched. Every stage caches to disk, so re-running the sam
 | Stage | Reads | Writes | Notes |
 |---|---|---|---|
 | resolve | names list | `data/pipeline/resolved.jsonl` | GBIF backbone match; flags fuzzy, non-species, duplicate inputs |
-| fetch | resolved.jsonl | `data/raw/<id>.json` | Wikipedia, Wikidata, GBIF, Commons (parsers reused from `tools/fetch.py`), plus `gbif_range`: country list, latitude and elevation envelope sampled across the top countries |
-| extract | raw files | `data/pipeline/extracted/<id>.json` | Model must quote the source for every field; quotes are verified verbatim, fields that fail are dropped |
+| fetch | resolved.jsonl | `data/raw/<id>.json` | Wikipedia, Wikidata, GBIF, Commons (parsers reused from `tools/fetch.py`), plus `gbif_range` (latitude/elevation envelope, includes cultivated plants) and **`distribution`: native and introduced regions** from the World Checklist of Vascular Plants via GBIF (TDWG level-3 regions), plus Wikidata's taxon range as a cross-check |
+| photos | resolved.jsonl, raw | `data/photos/<id>/*.jpg`, `manifest.json` | Reference photos from Wikimedia Commons: flower, fruit, seed, leaf, bark, branches, illustration, habit. Only CC0, public domain, CC BY and CC BY-SA; the best few per role, different authors first. Authors and licences are in `manifest.json`; roles in `must_have` (flower, fruit) are reported when missing. Images are git-ignored, manifests are tracked |
+| extract | raw files | `data/pipeline/extracted/<id>.json` | Model must quote the source for every fact; quotes are verified verbatim (numeric facts must quote a number), facts that fail are dropped |
 | assemble | raw + extracted | `data/pipeline/drafts/<id>.yaml` | Validates against `schema/plant.schema.json`. `--write` copies to `plants/` and never overwrites an existing file without `--force` |
 | report | everything | `data/pipeline/coverage.md/.csv` | Per-species field coverage, dropped fields, names needing a human, failures |
 
+## What a draft contains
+
+Besides the base sections (taxonomy, names, description, habitat, reproduction, uses, sources, images), a draft has
+these quote-backed sections. Each item names its `source` and a verbatim `quote`; an absent section means the text did
+not say, never a guess.
+
+| Section | What it holds | What it enables |
+|---|---|---|
+| `size` | height, spread, trunk diameter, built from `measurements` (a `pending` placeholder when the text has no height) | multi-block growth, per-plant size variation |
+| `measurements` | every number in the text with its unit: height, spread, trunk/crown/bole/branch sizes, leaf, flower, fruit and seed sizes, lifespan, age to flower, time to harvest | sizing branches and organs, growth timing |
+| `appearance` | colours, shapes, textures of each part, by growth stage | the sprite artist (human or AI) |
+| `architecture` | branching pattern, branch angle or droop, crown shape, trunk and twig form, leaf and flower arrangement, tillering, climbing, roots, buttresses | realistic tree branching, realistic small-plant structure |
+| `phenology` | when flowering, fruiting, ripening, seed release, leaf fall happen | flowers and fruit, seasons |
+| `propagation` | pollination, self-fertility, dispersal, germination, dormancy, cuttings, regeneration, maturity age, lifespan | reproduction mechanics (saplings only from fertilised trees) |
+| `uses_real` | human uses with `category` (food, medicine, material, fuel, ornamental, cultural, ecological, forage, toxic, research), `part_used` and a quote | the use phase |
+| `habitat.native_regions` | where it grows natively (TDWG regions), and `introduced_regions` | world generation, biome choice |
+| `images` | downloaded photos with `role`, local `file`, author and licence | reference for sprites; show flowering and fruiting |
+
+Branching detail is often thin in Wikipedia text. When no `architecture` facts are found, the draft says so and points
+to the `branches`, `habit` and `bark` photos instead of inventing geometry.
+
 Where each field in a draft comes from:
 
-- **From sources:** taxonomy, names, sources, images (GBIF/Wikidata/Wikipedia/Commons); description, habitat, size,
-  flowers, fruit, uses (extracted, quote-verified).
+- **From sources:** taxonomy, names, sources, images (GBIF/Wikidata/Wikipedia/Commons); native and introduced regions
+  (WCVP via GBIF); description, habitat, size, measurements, appearance, architecture, phenology, propagation, flowers,
+  fruit, uses (extracted, quote-verified).
 - **From `defaults.yaml` (game design, flagged DEFAULT/DRAFT in the file):** growth stages, implementation type, spawn
   biomes (habitat keywords, else GBIF median latitude), rarity.
 - **Missing:** written as `not found in fetched sources` and listed in `implementation.notes`; never guessed.
@@ -73,4 +97,8 @@ human step, same as the hand-made files.
   give temperature and rainfall ranges for world generation.
 - Wikipedia calls are the slow part (tens of seconds each through some networks); concurrency hides it. Expect on
   the order of minutes per hundred species, not seconds.
-- Images are listed with licence and author only; nothing is downloaded.
+- Photos are Commons only (known licences). Roles come from titles, descriptions and category names, so a few photos
+  can land in the wrong role; skim the contact sheet or manifest. Museum herbarium sheets are excluded.
+- Native range comes from WCVP via GBIF. A species with no WCVP record in GBIF (some synonyms) gets no `native_regions`;
+  the draft says so and falls back to the Wikipedia statement and Wikidata's taxon range.
+- Download size: about 20 photos per species at 1024 px is a few MB. Set `photos.enabled: false` or lower `per_role` to trim.

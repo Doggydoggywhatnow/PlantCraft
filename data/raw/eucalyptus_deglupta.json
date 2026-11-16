@@ -175,5 +175,137 @@
       "author": "WoreczkoJan",
       "description": "Eucalyptus deglupta Blume, Hawaii, Maui"
     }
-  ]
+  ],
+  "gbif_range": {
+    "total_records": 1583,
+    "sampled": 300,
+    "countries_top10": [
+      "US",
+      "CR",
+      "PR",
+      "PG",
+      "ID",
+      "PH",
+      "BR",
+      "PA",
+      "SV",
+      "ZA"
+    ],
+    "lat": {
+      "p5": -7.1667,
+      "p50": 9.992099,
+      "p95": 22.063203
+    },
+    "lon": {
+      "p5": -158.018,
+      "p50": 106.632992,
+      "p95": 149.833333
+    },
+    "elevation_m": {
+      "p5": 6.0,
+      "p95": 2610.0,
+      "n": 50
+    },
+    "note": "Records include cultivated and introduced plants; treat as an upper bound on range."
+  },
+  "distribution": {
+    "native": [
+      {
+        "region": "Bismarck Archipelago",
+        "code": "BIS",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Lesser Sunda Is.",
+        "code": "LSI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Maluku",
+        "code": "MOL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "New Guinea",
+        "code": "NWG",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Philippines",
+        "code": "PHI",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      },
+      {
+        "region": "Sulawesi",
+        "code": "SUL",
+        "source": "World Checklist of Vascular Plants via GBIF"
+      }
+    ],
+    "introduced": [
+      {
+        "region": "Caroline Is.",
+        "code": "CRL",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Costa Rica",
+        "code": "COS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Cuba",
+        "code": "CUB",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "El Salvador",
+        "code": "ELS",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Hawaii",
+        "code": "HAW",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Honduras",
+        "code": "HON",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Nicaragua",
+        "code": "NIC",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Panamá",
+        "code": "PAN",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Puerto Rico",
+        "code": "PUE",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      },
+      {
+        "region": "Trinidad-Tobago",
+        "code": "TRT",
+        "source": "World Checklist of Vascular Plants via GBIF",
+        "status": "introduced"
+      }
+    ],
+    "records_total": 30,
+    "wcvp_records": 16,
+    "note": "WCVP regions (TDWG level 3); native = no establishment flag, introduced = flagged. Other GBIF distribution sources are not parsed."
+  },
+  "wikidata_taxon_range": []
 }

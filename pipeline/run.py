@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Run the whole pipeline (or parts of it) for a list of species.
 
-    python3 pipeline/run.py pipeline/lists/example.txt                 # resolve -> fetch -> extract -> assemble -> report
+    python3 pipeline/run.py pipeline/lists/example.txt                 # resolve -> fetch -> photos -> extract -> assemble -> report
     python3 pipeline/run.py my.txt --stages resolve fetch              # just the free, no-API-key stages
     python3 pipeline/run.py my.txt --stages assemble report            # re-assemble after editing defaults.yaml
     python3 pipeline/run.py my.txt --export-prompts                    # extract by hand/other tool instead of the API
@@ -15,12 +15,13 @@ import sys
 
 import assemble
 import fetch
+import photos
 import report
 import resolve
 from common import HERE, read_names
 from pathlib import Path
 
-STAGES = ["resolve", "fetch", "extract", "assemble", "report"]
+STAGES = ["resolve", "fetch", "photos", "extract", "assemble", "report"]
 
 
 def main():
@@ -39,6 +40,8 @@ def main():
         resolve.run(names, a.accept_fuzzy, a.limit, force=a.force)
     if "fetch" in a.stages:
         fetch.run(force=a.force)
+    if "photos" in a.stages:
+        photos.run(force=a.force)
     if "extract" in a.stages:
         cmd = [sys.executable, str(HERE / "extract.py")] + (["--export"] if a.export_prompts else []) + (["--force"] if a.force else [])
         if subprocess.call(cmd) != 0:

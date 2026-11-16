@@ -106,7 +106,7 @@ def get_json(url: str) -> dict:
                     delay = float(e.headers.get("Retry-After", ""))
                 except ValueError:
                     delay = 0
-                time.sleep(max(delay, 4 * (attempt + 1)))
+                time.sleep(min(max(delay, 4 * (attempt + 1)), 60))   # never obey an hours-long Retry-After
                 continue
             raise
         except Exception as e:  # network blip
@@ -141,3 +141,38 @@ def batch_raws(only=None, everything=False) -> list:
             continue
         out.append(load_raw(p))
     return out
+
+
+def get_bytes(url: str, deadline_s: float = 45.0, attempts: int = 3) -> bytes:
+    """GET a binary file (a photo) with the per-host rate limit, a hard overall deadline per attempt (a server that
+    trickles bytes would otherwise hang a worker forever) and a few retries on 429/5xx/timeouts."""
+    host = re.match(r"https?://([^/]+)/", url).group(1)
+    last = None
+    for attempt in range(attempts):
+        _limiter(host).wait()
+        end = time.monotonic() + deadline_s
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": CONFIG["http"]["user_agent"]})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                chunks = []
+                while True:
+                    chunk = r.read(65536)
+                    if not chunk:
+                        return b"".join(chunks)
+                    chunks.append(chunk)
+                    if time.monotonic() > end:
+                        raise TimeoutError(f"download exceeded {deadline_s:.0f}s")
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code in (429, 500, 502, 503, 504):
+                try:
+                    delay = float(e.headers.get("Retry-After", ""))
+                except ValueError:
+                    delay = 0
+                time.sleep(min(max(delay, 4 * (attempt + 1)), 15))
+                continue
+            raise
+        except Exception as e:
+            last = e
+            time.sleep(2 * (attempt + 1))
+    raise RuntimeError(f"download failed after {attempts} attempts: {url}: {last}")

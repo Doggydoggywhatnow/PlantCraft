@@ -172,6 +172,63 @@
         },
         "height_m": {
           "type": "string"
+        },
+        "native_regions": {
+          "type": "array",
+          "description": "Regions where the plant grows natively, from the World Checklist of Vascular Plants via GBIF (TDWG level-3 regions).",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "region",
+              "source"
+            ],
+            "properties": {
+              "region": {
+                "type": "string"
+              },
+              "code": {
+                "type": "string",
+                "description": "TDWG/WGSRPD region code, e.g. MOR."
+              },
+              "source": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "introduced_regions": {
+          "type": "array",
+          "description": "Regions where it is introduced (not native), same source.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "region",
+              "source"
+            ],
+            "properties": {
+              "region": {
+                "type": "string"
+              },
+              "code": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "range_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Caveats about the range data (source, completeness, wikidata taxon range)."
         }
       }
     },
@@ -309,6 +366,28 @@
           },
           "note": {
             "type": "string"
+          },
+          "category": {
+            "enum": [
+              "food",
+              "medicine",
+              "material",
+              "fuel",
+              "ornamental",
+              "cultural",
+              "ecological",
+              "forage",
+              "toxic",
+              "research",
+              "other"
+            ]
+          },
+          "part_used": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string",
+            "description": "Verbatim text from the source that supports this fact (checked by the pipeline)."
           }
         }
       }
@@ -337,6 +416,34 @@
           "shows": {
             "type": "string",
             "description": "Which growth stage or feature this reference photo shows."
+          },
+          "role": {
+            "enum": [
+              "flower",
+              "fruit",
+              "seed",
+              "leaf",
+              "bark",
+              "branches",
+              "illustration",
+              "habit"
+            ]
+          },
+          "file": {
+            "type": "string",
+            "description": "Local path of the downloaded photo (data/photos/<id>/...)."
+          },
+          "width": {
+            "type": "integer"
+          },
+          "height": {
+            "type": "integer"
+          },
+          "hints": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           }
         }
       }
@@ -713,6 +820,271 @@
         "design": {
           "type": "array",
           "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "measurements": {
+      "type": "array",
+      "description": "Numeric facts with their units, each backed by a quote. Feeds size, multi-block growth and the sprite artist.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "what",
+          "unit",
+          "max",
+          "quote"
+        ],
+        "properties": {
+          "what": {
+            "enum": [
+              "height",
+              "spread",
+              "trunk_diameter",
+              "buttress_height",
+              "branch_length",
+              "root_depth",
+              "leaf_length",
+              "leaf_width",
+              "flower_diameter",
+              "flower_length",
+              "fruit_length",
+              "fruit_diameter",
+              "seed_length",
+              "lifespan",
+              "age_to_first_flowering",
+              "time_to_harvest",
+              "flowering_duration",
+              "bud_development_time",
+              "crown_width",
+              "crown_height",
+              "bole_height",
+              "branch_diameter",
+              "internode_length",
+              "petiole_length",
+              "stem_diameter",
+              "tiller_count",
+              "branch_count",
+              "inflorescence_length"
+            ]
+          },
+          "unit": {
+            "enum": [
+              "cm",
+              "years",
+              "months",
+              "weeks",
+              "days",
+              "count",
+              "percent"
+            ]
+          },
+          "min": {
+            "type": "number"
+          },
+          "max": {
+            "type": "number"
+          },
+          "qualifier": {
+            "enum": [
+              "range",
+              "typical",
+              "average",
+              "maximum",
+              "rare_maximum"
+            ]
+          },
+          "quote": {
+            "type": "string",
+            "description": "Verbatim text from the source that supports this fact (checked by the pipeline)."
+          },
+          "source": {
+            "type": "string",
+            "description": "Which source the quote comes from, e.g. 'Wikipedia: Olive'."
+          }
+        }
+      }
+    },
+    "appearance": {
+      "type": "array",
+      "description": "What each part looks like, for the sprite artist: colours, shapes, arrangement, texture, branching.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "part",
+          "attribute",
+          "value",
+          "quote"
+        ],
+        "properties": {
+          "part": {
+            "enum": [
+              "whole_plant",
+              "roots",
+              "trunk",
+              "bark",
+              "branches",
+              "twigs",
+              "buds",
+              "leaf",
+              "flower",
+              "inflorescence",
+              "fruit",
+              "seed"
+            ]
+          },
+          "attribute": {
+            "type": "string",
+            "description": "color, shape, arrangement, texture, branching, habit, size ..."
+          },
+          "value": {
+            "type": "string"
+          },
+          "stage": {
+            "type": "string",
+            "description": "Growth stage this applies to, if the source says (e.g. unripe, ripe, young)."
+          },
+          "quote": {
+            "type": "string",
+            "description": "Verbatim text from the source that supports this fact (checked by the pipeline)."
+          },
+          "source": {
+            "type": "string",
+            "description": "Which source the quote comes from, e.g. 'Wikipedia: Olive'."
+          }
+        }
+      }
+    },
+    "phenology": {
+      "type": "array",
+      "description": "When things happen in the plant's year or life.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "event",
+          "when",
+          "quote"
+        ],
+        "properties": {
+          "event": {
+            "enum": [
+              "flowering",
+              "fruiting",
+              "ripening",
+              "seed_release",
+              "leaf_flush",
+              "leaf_fall",
+              "dormancy",
+              "germination",
+              "growth_rate"
+            ]
+          },
+          "when": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string",
+            "description": "Verbatim text from the source that supports this fact (checked by the pipeline)."
+          },
+          "source": {
+            "type": "string",
+            "description": "Which source the quote comes from, e.g. 'Wikipedia: Olive'."
+          }
+        }
+      }
+    },
+    "propagation": {
+      "type": "array",
+      "description": "How the plant reproduces and regenerates (pollination, dispersal, germination, cuttings ...). Future-scope mechanics.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "topic",
+          "fact",
+          "quote"
+        ],
+        "properties": {
+          "topic": {
+            "enum": [
+              "pollination",
+              "self_fertility",
+              "seed_dispersal",
+              "germination",
+              "dormancy",
+              "vegetative_propagation",
+              "regeneration",
+              "age_at_maturity",
+              "lifespan",
+              "cultivation",
+              "toxicity"
+            ]
+          },
+          "fact": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string",
+            "description": "Verbatim text from the source that supports this fact (checked by the pipeline)."
+          },
+          "source": {
+            "type": "string",
+            "description": "Which source the quote comes from, e.g. 'Wikipedia: Olive'."
+          }
+        }
+      }
+    },
+    "architecture": {
+      "type": "array",
+      "description": "How the plant is built: branching pattern, crown shape, leaf arrangement, stems and roots. Lets a tree get realistic branching and a small plant a realistic sprite.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "aspect",
+          "value",
+          "quote"
+        ],
+        "properties": {
+          "aspect": {
+            "enum": [
+              "growth_habit",
+              "branching_pattern",
+              "branch_angle",
+              "branch_droop",
+              "crown_shape",
+              "canopy_density",
+              "trunk_form",
+              "bark_form",
+              "twig_form",
+              "stem_type",
+              "leaf_arrangement",
+              "leaf_shape",
+              "leaf_margin",
+              "tillering",
+              "climbing_mechanism",
+              "root_system",
+              "buttresses",
+              "pruning_response",
+              "multiple_trunks",
+              "flower_arrangement",
+              "fruit_arrangement"
+            ]
+          },
+          "value": {
+            "type": "string"
+          },
+          "stage": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "source": {
             "type": "string"
           }
         }

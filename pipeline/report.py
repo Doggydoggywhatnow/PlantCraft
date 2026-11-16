@@ -13,10 +13,13 @@ from collections import Counter
 
 import yaml
 
-from common import RAW, WORK, batch_raws, read_jsonl
+from common import CONFIG, RAW, ROOT, WORK, batch_raws, read_jsonl
 
-FIELDS = ["life_form", "description", "height_cm", "spread_cm", "native_range", "environment",
-          "flowers", "fruit", "uses_real"]
+PHOTOS = ROOT / CONFIG['paths']['photos']
+
+FIELDS = ["life_form", "description", "native_range", "environment", "flowers", "fruit", "uses_real"]
+LISTS = ["measurements", "appearance", "architecture", "phenology", "propagation"]   # counts of quote-verified facts
+PHOTO_ROLES = ["flower", "fruit", "seed", "leaf", "bark", "branches", "illustration", "habit"]
 
 
 def main():
@@ -32,17 +35,25 @@ def main():
             "id": eid,
             "wikipedia": "yes" if raw["wikipedia"].get("found") else "NO",
             "gbif": "yes" if raw["gbif"].get("found") else "NO",
-            "occurrences": rng.get("total_records", ""),
-            "images": len(raw.get("commons_images", [])),
             "extracted": "yes" if ext else "no",
             "confidence": draft.get("confidence", ""),
             "dropped": ",".join(ext["dropped"]) if ext else "",
         }
         for f in FIELDS:
             row[f] = ("src" if ext and f in ext["facts"] else "-") if ext else "?"
+        row["size"] = (draft.get("size") or {}).get("source", "") if draft else ""
+        for f in LISTS:
+            row[f] = len(ext["facts"].get(f, [])) if ext else "?"
+        dist = raw.get("distribution") or {}
+        row["native_regions"] = len(dist.get("native", [])) if dist else "?"
+        man = PHOTOS / eid / "manifest.json"
+        cov = json.loads(man.read_text(encoding="utf-8"))["coverage"] if man.exists() else None
+        row["photos"] = sum(cov.values()) if cov else "?"
+        row["no_photos_of"] = ",".join(r for r in CONFIG["photos"]["must_have"] if cov is not None and cov.get(r, 0) == 0)
         rows.append(row)
 
-    cols = ["id", "wikipedia", "gbif", "occurrences", "images", "extracted", "confidence"] + FIELDS + ["dropped"]
+    cols = (["id", "wikipedia", "gbif", "extracted", "confidence", "size", "native_regions"] + FIELDS + LISTS
+            + ["photos", "no_photos_of", "dropped"])
     with (WORK / "coverage.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols)
         w.writeheader()
@@ -53,7 +64,9 @@ def main():
     fails = read_jsonl(WORK / "failures.jsonl")
     lines = ["# Pipeline coverage", "",
              f"{len(rows)} species fetched, {sum(r['extracted'] == 'yes' for r in rows)} extracted.", "",
-             "Legend: `src` filled from quote-verified source text, `-` not in sources (defaulted or blank), `?` not extracted yet.", "",
+             "Legend: `src` filled from quote-verified source text, `-` not in sources (defaulted or blank), `?` not extracted/fetched yet.",
+             "`size` = source of the size section (`pending` = placeholder, no height in sources). `native_regions` = WCVP native regions via GBIF.",
+             "The five list columns count quote-verified facts. `photos` = downloaded reference photos; `no_photos_of` = must-have roles with none.", "",
              "| " + " | ".join(cols) + " |", "|" + "---|" * len(cols)]
     lines += ["| " + " | ".join(str(r[c]) for c in cols) + " |" for r in rows]
     if review:

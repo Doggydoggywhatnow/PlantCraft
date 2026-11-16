@@ -49,14 +49,26 @@ def build_prompt(raw: dict) -> str:
     return PROMPT.format(name=raw["query"], url=wp.get("url", ""), text=source_text(raw))
 
 
+LIST_FIELDS = ("measurements", "appearance", "architecture", "phenology", "propagation", "uses_real")
+
+
+def _label(item: dict) -> str:
+    return str(item.get("what") or item.get("part") or item.get("aspect") or item.get("event") or item.get("topic") or item.get("use") or "?")
+
+
+def _quote_ok(item: dict, hay: str, numeric: bool) -> bool:
+    q = norm(item.get("quote"))
+    return bool(q) and q in hay and (not numeric or bool(re.search(r"\d", q)))
+
+
 def verify(facts: dict, text: str):
-    """Keep only fields whose quote(s) appear verbatim in the source text."""
+    """Keep only facts whose quote(s) appear verbatim in the source text (numeric facts must quote a number)."""
     hay = norm(text)
     kept, dropped = {}, []
     for field, val in facts.items():
-        if field == "uses_real":
-            good = [u for u in val if norm(u.get("quote")) and norm(u["quote"]) in hay]
-            dropped += [f"uses_real:{u.get('use')}" for u in val if u not in good]
+        if field in LIST_FIELDS:
+            good = [i for i in val if _quote_ok(i, hay, field == "measurements")]
+            dropped += [f"{field}:{_label(i)}" for i in val if i not in good]
             if good:
                 kept[field] = good
         elif isinstance(val, dict):

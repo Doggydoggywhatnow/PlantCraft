@@ -14,6 +14,7 @@ Anything missing is left as an explicit "not found in sources" marker and lowers
 Drafts always get status.data = draft. Hand-made files are never touched without --force.
 """
 import argparse
+import html
 import json
 import re
 import sys
@@ -21,7 +22,9 @@ import sys
 import jsonschema
 import yaml
 
-from common import HERE, PLANTS, RAW, ROOT, WORK, batch_raws, write_json
+from common import CONFIG, HERE, PLANTS, RAW, ROOT, WORK, batch_raws, write_json
+
+PHOTOS = ROOT / CONFIG['paths']['photos']
 
 DEFAULTS = yaml.safe_load((HERE / "defaults.yaml").read_text(encoding="utf-8"))
 SCHEMA = json.loads((ROOT / "schema" / "plant.schema.json").read_text(encoding="utf-8"))
@@ -35,6 +38,56 @@ def first_paragraph(text: str) -> str:
         if len(para) > 80 and not para.startswith("="):
             return para.strip()
     return ""
+
+
+def _entry(m, name, url):
+    e = {"name": name, "url": url}
+    if "min" in m:
+        e["min"] = m["min"]
+    e["max"] = m["max"]
+    e["quote"] = m["quote"]
+    return e
+
+
+def range_sources(items, name, url):
+    """One source entry for a quantity (height, spread ...) from the measurements the model found.
+
+    A stated range wins; a single typical value or an 'up to' value becomes a maximum; if the text also says
+    large sizes are rare, the typical top becomes common_max and the rare figure becomes max (see tools/sample_sizes.py)."""
+    ranges = [m for m in items if m.get("qualifier") in (None, "range", "typical", "average")]
+    rare = [m for m in items if m.get("qualifier") == "rare_maximum"]
+    maxes = [m for m in items if m.get("qualifier") == "maximum"]
+    prim = next((m for m in ranges if "min" in m), None) or (ranges[0] if ranges else (maxes[0] if maxes else None))
+    if prim is None:
+        return []
+    e = _entry(prim, name, url)
+    if rare:
+        e["common_max"], e["max"] = e["max"], max(r["max"] for r in rare)
+    return [e]
+
+
+def build_size(facts, habit, wp):
+    """The `size` section from measurements (or the older height_cm/spread_cm facts); a 'pending' placeholder if none."""
+    meas = [m for m in facts.get("measurements", []) if m["unit"] == "cm"]
+    for key, what in (("height_cm", "height"), ("spread_cm", "spread")):      # older extraction format
+        if facts.get(key) and not any(m["what"] == what for m in meas):
+            meas.append(dict(facts[key], what=what, unit="cm", qualifier="range" if "min" in facts[key] else "maximum"))
+    name = f"Wikipedia: {wp['title']}" if wp.get("found") else "Wikipedia"
+    url = wp.get("url", "")
+    hs = range_sources([m for m in meas if m["what"] == "height"], name, url)
+    if not hs:
+        return {"height_cm": {"max": 1}, "habit": habit, "source": "pending",
+                "quote": "No height figure in the fetched sources; max is a placeholder, not data."}
+    h = {k: hs[0][k] for k in ("min", "max", "common_max") if k in hs[0]}
+    size = {"height_cm": h, "habit": habit, "source": "wikipedia", "quote": hs[0]["quote"], "height_sources": hs}
+    ss = range_sources([m for m in meas if m["what"] == "spread"], name, url)
+    if ss:
+        size["spread_cm"] = {k: ss[0][k] for k in ("min", "max") if k in ss[0]}
+        size["spread_sources"] = ss
+    trunk = [m for m in meas if m["what"] == "trunk_diameter"]
+    if trunk:
+        size["trunk_diameter_cm"] = {"max": max(m["max"] for m in trunk)}
+    return size
 
 
 def pick_biomes(life_form: str, env_text: str, lat: float):
@@ -90,6 +143,19 @@ def build(raw: dict, ext: dict) -> dict:
         habitat["introduced_range"] = facts["introduced_range"]["value"]
     if life:
         habitat["life_form"] = life
+    dist = raw.get("distribution") or {}
+    if dist.get("native"):
+        habitat["native_regions"] = [{k: v for k, v in n.items() if k in ("region", "code", "source")} for n in dist["native"]]
+        if not facts.get("native_range"):
+            names = [n["region"] for n in dist["native"]]
+            habitat["native_range"] = "Native regions (WCVP via GBIF): " + ", ".join(names[:14]) + (f" and {len(names) - 14} more" if len(names) > 14 else "")
+    if dist.get("introduced"):
+        habitat["introduced_regions"] = dist["introduced"]
+    notes = [dist["note"]] if dist.get("note") else ["No GBIF distribution data was fetched."]
+    if raw.get("wikidata_taxon_range"):
+        notes.append("Wikidata taxon range (may include introduced areas; cross-check only): " + ", ".join(raw["wikidata_taxon_range"]))
+    notes.append("GBIF occurrence latitude/elevation envelope (climate field) includes cultivated and introduced plants.")
+    habitat["range_notes"] = notes
     if rng.get("lat"):
         habitat["climate"] = (f"GBIF records span latitude {rng['lat']['p5']:.0f} to {rng['lat']['p95']:.0f} deg"
                               + (f", elevation {rng['elevation_m']['p5']:.0f}-{rng['elevation_m']['p95']:.0f} m"
@@ -127,6 +193,13 @@ def build(raw: dict, ext: dict) -> dict:
     images = [{"url": im["page"], "license": im.get("license") or "unknown", "author": im.get("author") or "unknown",
                "shows": re.sub(r"^File:|\.\w+$", "", im["file"]).replace("_", " ")}
               for im in raw.get("commons_images", []) if im.get("page")][:5]
+    man = PHOTOS / raw["id"] / "manifest.json"
+    if man.exists():                                   # photos stage ran: richer list with local files and roles
+        m = json.loads(man.read_text(encoding="utf-8"))
+        images = [{"url": ph["page"], "license": ph["license"] or "unknown", "author": html.unescape(ph["author"] or "unknown"),
+                   "shows": (re.sub(r"^File:|\.\w+$", "", ph["title"]) + (" - " + ph["description"][:100] if ph.get("description") else "")),
+                   "role": ph["role"], "file": ph["file"], "width": ph["width"], "height": ph["height"], "hints": ph["hints"][:8]}
+                  for ph in m["photos"]]
 
     draft = {
         "id": raw["id"],
@@ -152,23 +225,27 @@ def build(raw: dict, ext: dict) -> dict:
     if images:
         draft["images"] = images
     if facts.get("uses_real"):
-        draft["uses_real"] = [{"use": u["use"], "note": u["note"]} for u in facts["uses_real"]]
-    h = facts.get("height_cm")
-    if h:
-        height = {k: h[k] for k in ("min", "max", "common_max") if k in h}
-        size = {"height_cm": height, "source": "wikipedia", "quote": h["quote"], "habit": lf["habit"]}
-        s = facts.get("spread_cm")
-        if s:
-            size["spread_cm"] = {k: s[k] for k in ("min", "max") if k in s}
-        draft["size"] = size
+        draft["uses_real"] = [{k: u[k] for k in ("use", "note", "category", "part_used", "quote") if u.get(k)} for u in facts["uses_real"]]
+    draft["size"] = build_size(facts, lf["habit"], wp)
+    # Structured, quote-backed facts for the sprite artist and future mechanics. Never defaulted: absent means not in sources.
+    srcname = f"Wikipedia: {wp['title']}" if wp.get("found") else "Wikipedia"
+    for key in ("measurements", "appearance", "architecture", "phenology", "propagation"):
+        if facts.get(key):
+            draft[key] = [dict(item, source=srcname) for item in facts[key]]
 
     # Confidence: how many of the checkable facts were found in sources rather than defaulted.
-    wanted = ["life_form", "description", "height_cm", "native_range", "environment", "flowers", "fruit"]
-    found = sum(1 for w in wanted if w in facts)
+    has_height = draft["size"]["source"] != "pending"
+    checks = {"life_form": "life_form" in facts, "description": "description" in facts, "height": has_height,
+              "native_range": "native_range" in facts or bool(habitat.get("native_regions")),
+              "environment": "environment" in facts, "flowers": "flowers" in facts, "fruit": "fruit" in facts}
+    found = sum(checks.values())
     draft["confidence"] = "high" if found >= 6 else "medium" if found >= 4 else "low"
-    missing = [w for w in wanted if w not in facts]
+    missing = [k for k, ok in checks.items() if not ok]
     if missing:
         draft["implementation"]["notes"] += " Not found in sources (blank or defaulted): " + ", ".join(missing) + "."
+    if ext and not facts.get("architecture"):
+        draft["implementation"]["notes"] += (" No branching/architecture facts in the text: use the branches and habit reference photos"
+                                              " in `images` for tree branching and small-plant structure.")
     return draft
 
 

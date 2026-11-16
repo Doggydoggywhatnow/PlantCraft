@@ -2,6 +2,7 @@
 paths:
   work: data/pipeline      # resolved.jsonl, failures.jsonl, extracted/, drafts/, coverage report
   raw: data/raw            # raw API responses; same files and format tools/fetch.py writes
+  photos: data/photos      # downloaded reference photos + manifest.json (attribution) per species
 
 http:
   user_agent: "PlantCraftDataBot/0.2 (Minecraft mod data research)"
@@ -13,7 +14,8 @@ rate_limits_rps:
   api.gbif.org: 8
   en.wikipedia.org: 4
   www.wikidata.org: 4
-  commons.wikimedia.org: 4
+  commons.wikimedia.org: 1.5   # Commons throttles hard: the photos stage makes many calls
+  upload.wikimedia.org: 2     # photo downloads
   default: 2
 
 workers: 8                 # concurrent species in the resolve/fetch stages
@@ -28,10 +30,29 @@ fetch:
 
 extract:
   model: claude-haiku-5-5          # cheap and fast is enough for grounded extraction
-  max_tokens: 3000
+  max_tokens: 8000
   max_source_chars: 24000          # Wikipedia text sent to the model, per species
   workers: 4
 
 assemble:
   # Fields whose quote cannot be found in the source text are dropped, never guessed.
   require_quotes: true
+
+photos:
+  # Reference photos for the sprite artist (human or AI). Only freely reusable licences are kept, and every
+  # photo's author and licence go into manifest.json and the draft's `images`.
+  enabled: true
+  thumb_width: 1024          # download size in pixels wide (Commons scales it for us)
+  per_role:                  # how many photos to keep per role
+    flower: 4                # open flowers, buds, inflorescences
+    fruit: 4                 # fruit/seed pods, unripe and ripe
+    seed: 2
+    leaf: 2
+    bark: 2                  # trunk, bark, stems
+    branches: 3              # branching pattern: twigs, limbs, crown, tillers (for realistic tree and plant structure)
+    illustration: 2          # botanical plates and drawings (show anatomy)
+    habit: 3                 # whole plant / tree / stand
+  must_have: [flower, fruit] # reported as missing when a species has none
+  max_candidates: 160        # file titles examined per species
+  subcategory_files: 30      # files taken from each flower/fruit/leaf/... subcategory on Commons
+  licenses_ok: [cc0, public domain, pd, cc by, cc-by, cc by-sa, cc-by-sa]   # NC / ND licences are always rejected

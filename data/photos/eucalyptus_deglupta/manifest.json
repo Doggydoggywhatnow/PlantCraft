@@ -1,0 +1,352 @@
+{
+  "id": "eucalyptus_deglupta",
+  "species": "Eucalyptus deglupta",
+  "fetched": "2026-11-16",
+  "note": "Photos are reference material only. Keep authors and licences with them.",
+  "candidates_examined": 70,
+  "coverage": {
+    "flower": 3,
+    "fruit": 4,
+    "seed": 0,
+    "leaf": 1,
+    "bark": 2,
+    "branches": 0,
+    "illustration": 2,
+    "habit": 3
+  },
+  "missing_roles": [],
+  "photos": [
+    {
+      "file": "data/photos/eucalyptus_deglupta/flower_01_starr-090618-1057-eucalyptus-deglupta-le.jpg",
+      "role": "flower",
+      "hints": [
+        "flowers"
+      ],
+      "title": "File:Starr-090618-1057-Eucalyptus deglupta-leaves and flowers-Hana Hwy-Maui (24872168841).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AStarr-090618-1057-Eucalyptus_deglupta-leaves_and_flowers-Hana_Hwy-Maui_%2824872168841%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Starr-090618-1057-Eucalyptus_deglupta-leaves_and_flowers-Hana_Hwy-Maui_%2824872168841%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3648,
+      "height": 2736,
+      "license": "CC BY 3.0 us",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+      "author": "Forest and Kim Starr",
+      "description": "Eucalyptus deglupta (Rainbow eucalyptus) Leaves and flowers at Hana Hwy, Maui, Hawaii. June 18, 2009 #090618-1057 Image Use Policy",
+      "categories": [
+        "CC-BY-3.0-US",
+        "Eucalyptus deglupta (flowers)",
+        "Flickr images reviewed by FlickreviewR 2",
+        "Plant files uploaded by Tyler de Noche",
+        "Starr Environmental 2009"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/flower_02_starr-060703-8292-eucalyptus-deglupta.jpg",
+      "role": "flower",
+      "hints": [
+        "flowers"
+      ],
+      "title": "File:Starr 060703-8292 Eucalyptus deglupta.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AStarr_060703-8292_Eucalyptus_deglupta.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/23/Starr_060703-8292_Eucalyptus_deglupta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2592,
+      "height": 1944,
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Forest &amp; Kim Starr",
+      "description": "Eucalyptus deglupta (flowers). Location: Maui, Kahului Community Center",
+      "categories": [
+        "Apis mellifera on Myrtales flowers",
+        "CC-BY-3.0",
+        "Eucalyptus deglupta (flowers)",
+        "Hymenoptera of Maui",
+        "Images from Forest & Kim Starr",
+        "Taken with Nikon Coolpix 5600"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/flower_03_eucalyptus-deglupta-inspiration-lake-hon.jpg",
+      "role": "flower",
+      "hints": [],
+      "title": "File:剝皮桉 Eucalyptus deglupta -香港迪欣湖 Inspiration Lake, Hong Kong- (9227080413).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3A%E5%89%9D%E7%9A%AE%E6%A1%89_Eucalyptus_deglupta_-%E9%A6%99%E6%B8%AF%E8%BF%AA%E6%AC%A3%E6%B9%96_Inspiration_Lake%2C_Hong_Kong-_%289227080413%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/57/%E5%89%9D%E7%9A%AE%E6%A1%89_Eucalyptus_deglupta_-%E9%A6%99%E6%B8%AF%E8%BF%AA%E6%AC%A3%E6%B9%96_Inspiration_Lake%2C_Hong_Kong-_%289227080413%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2019,
+      "height": 1552,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "阿橋 HQ",
+      "description": "剝皮桉 Eucalyptus deglupta [香港迪欣湖 Inspiration Lake, Hong Kong]",
+      "categories": [
+        "CC-BY-SA-2.0",
+        "Eucalyptus deglupta (flowers)",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by FlickreviewR 2",
+        "Hong Kong photographs taken on 2011-07-26",
+        "Photographs by 阿橋 HQ"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/fruit_01_starr-130214-1578-eucalyptus-deglupta-se.jpg",
+      "role": "fruit",
+      "hints": [
+        "capsules"
+      ],
+      "title": "File:Starr-130214-1578-Eucalyptus deglupta-seed capsules-Waihee-Maui (25112582411).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AStarr-130214-1578-Eucalyptus_deglupta-seed_capsules-Waihee-Maui_%2825112582411%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/06/Starr-130214-1578-Eucalyptus_deglupta-seed_capsules-Waihee-Maui_%2825112582411%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3456,
+      "height": 2592,
+      "license": "CC BY 3.0 us",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+      "author": "Forest and Kim Starr",
+      "description": "Eucalyptus deglupta (Rainbow eucalyptus) Seed capsules at Waihee, Maui, Hawaii. February 14, 2013 #130214-1578 Image Use Policy",
+      "categories": [
+        "CC-BY-3.0-US",
+        "Eucalyptus deglupta (fruit)",
+        "Flickr images reviewed by FlickreviewR 2",
+        "Plant files uploaded by Tyler de Noche",
+        "Starr Environmental 2013"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/fruit_02_starr-060703-8295-eucalyptus-deglupta.jpg",
+      "role": "fruit",
+      "hints": [
+        "capsules"
+      ],
+      "title": "File:Starr 060703-8295 Eucalyptus deglupta.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AStarr_060703-8295_Eucalyptus_deglupta.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Starr_060703-8295_Eucalyptus_deglupta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2592,
+      "height": 1944,
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Forest &amp; Kim Starr",
+      "description": "Eucalyptus deglupta (capsules). Location: Maui, Kahului Community Center",
+      "categories": [
+        "CC-BY-3.0",
+        "Eucalyptus deglupta (fruit)",
+        "Images from Forest & Kim Starr",
+        "Taken with Nikon Coolpix 5600"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/fruit_03_starr-130214-1579-eucalyptus-deglupta-se.jpg",
+      "role": "fruit",
+      "hints": [
+        "capsules"
+      ],
+      "title": "File:Starr-130214-1579-Eucalyptus deglupta-seed capsules-Waihee-Maui (25112585261).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AStarr-130214-1579-Eucalyptus_deglupta-seed_capsules-Waihee-Maui_%2825112585261%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Starr-130214-1579-Eucalyptus_deglupta-seed_capsules-Waihee-Maui_%2825112585261%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3456,
+      "height": 2592,
+      "license": "CC BY 3.0 us",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+      "author": "Forest and Kim Starr",
+      "description": "Eucalyptus deglupta (Rainbow eucalyptus) Seed capsules at Waihee, Maui, Hawaii. February 14, 2013 #130214-1579 Image Use Policy",
+      "categories": [
+        "CC-BY-3.0-US",
+        "Eucalyptus deglupta (fruit)",
+        "Flickr images reviewed by FlickreviewR 2",
+        "Plant files uploaded by Tyler de Noche",
+        "Starr Environmental 2013"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/fruit_04_starr-060703-8294-eucalyptus-deglupta.jpg",
+      "role": "fruit",
+      "hints": [
+        "capsules"
+      ],
+      "title": "File:Starr 060703-8294 Eucalyptus deglupta.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AStarr_060703-8294_Eucalyptus_deglupta.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Starr_060703-8294_Eucalyptus_deglupta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2592,
+      "height": 1944,
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Forest &amp; Kim Starr",
+      "description": "Eucalyptus deglupta (capsules). Location: Maui, Kahului Community Center",
+      "categories": [
+        "CC-BY-3.0",
+        "Eucalyptus deglupta (fruit)",
+        "Images from Forest & Kim Starr",
+        "Taken with Nikon Coolpix 5600"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/leaf_01_eucalyptus-deglupta-kz1.jpg",
+      "role": "leaf",
+      "hints": [],
+      "title": "File:Eucalyptus deglupta kz1.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File%3AEucalyptus_deglupta_kz1.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/33/Eucalyptus_deglupta_kz1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4608,
+      "height": 3072,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "description": "Eucalyptus deglupta in Jardín de Aclimatación de la Orotava",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Eucalyptus deglupta",
+        "Eucalyptus leaves",
+        "Plants in Jardín de Aclimatación de la Orotava",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/bark_01_eucalyptus-degluta-trunk.jpg",
+      "role": "bark",
+      "hints": [
+        "trunk"
+      ],
+      "title": "File:Eucalyptus degluta trunk.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AEucalyptus_degluta_trunk.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Eucalyptus_degluta_trunk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2736,
+      "height": 3648,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Forest and Kim Starr",
+      "description": "Rainbow eucalyptus Eucalyptus deglupta trunk detail",
+      "categories": [
+        "CC-BY-2.0",
+        "Eucalyptus deglupta",
+        "Flickr images missing SDC Flickr photo ID",
+        "Flickr images missing SDC published in",
+        "Flickr images missing SDC source of file",
+        "Flickr images reviewed by FlickreviewR",
+        "Images from Forest & Kim Starr"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/bark_02_rainbow-eucalyptus-maui.jpg",
+      "role": "bark",
+      "hints": [
+        "bark"
+      ],
+      "title": "File:Rainbow Eucalyptus Maui.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARainbow_Eucalyptus_Maui.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/Rainbow_Eucalyptus_Maui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5760,
+      "height": 3840,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Paxson Woelber",
+      "description": "The colorful bark of Eucalyptus deglupta, widely known as \"Rainbow Eucalyptus,\" on Maui's Road to Hana.",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Eucalyptus deglupta",
+        "Hawaii Route 360",
+        "Myrtales in Maui",
+        "Photographs by Paxson Woelber",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/illustration_01_eucalyptus-deglupta-20zz.jpg",
+      "role": "illustration",
+      "hints": [
+        "botanical"
+      ],
+      "title": "File:Eucalyptus deglupta 20zz.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AEucalyptus_deglupta_20zz.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Eucalyptus_deglupta_20zz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2336,
+      "height": 3504,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Photo by David J. Stang",
+      "description": "Location taken: Else Kientzler Botanical Garden, Sarchi Norte, Costa Rica. Names: Eucalyptus deglupta Bl., bagras, Deglupta, Indonesian Gum, Kamarere, Leda, Mindanao Gum, Mindanao Gum Tree, Rainbow Bark, Rainbow Eucalyptus, אקליפטוס האיים, اکالیپتوس رنگین کما Classification: Plantae &gt; Magnoliophyta &gt; Magnoliopsida &gt; Myrtales &gt; Myrtaceae &gt; Eucalyptus &gt;&lt;SP&gt;Eucalyptus deglupta",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Else Kientzler Botanical Garden",
+        "Eucalyptus deglupta"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/illustration_02_eucalyptus-deglupta-21zz.jpg",
+      "role": "illustration",
+      "hints": [
+        "botanical"
+      ],
+      "title": "File:Eucalyptus deglupta 21zz.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AEucalyptus_deglupta_21zz.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Eucalyptus_deglupta_21zz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3504,
+      "height": 2336,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Photo by David J. Stang",
+      "description": "Location taken: Else Kientzler Botanical Garden, Sarchi Norte, Costa Rica. Names: Eucalyptus deglupta Bl., bagras, Deglupta, Indonesian Gum, Kamarere, Leda, Mindanao Gum, Mindanao Gum Tree, Rainbow Bark, Rainbow Eucalyptus, אקליפטוס האיים, اکالیپتوس رنگین کما Classification: Plantae &gt; Magnoliophyta &gt; Magnoliopsida &gt; Myrtales &gt; Myrtaceae &gt; Eucalyptus &gt;&lt;SP&gt;Eucalyptus deglupta",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Else Kientzler Botanical Garden",
+        "Eucalyptus deglupta"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/habit_01_eucalyptus-deglupta-base-mega-size.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Eucalyptus deglupta-base mega size.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AEucalyptus_deglupta-base_mega_size.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Eucalyptus_deglupta-base_mega_size.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6000,
+      "height": 4500,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "LukaszBel",
+      "description": "A grove of rainbow eucalyptus trees, growing along the hana highway. Rainbow Eucalyptus (Eucalyptus deglupta) photo from Flickr (https://www.flickr.com/photos/amelia525/303048913/) by *amelia* This is modified file",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Eucalyptus deglupta",
+        "Self-published work"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/habit_02_eucalyptus-deglupta-kz02.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:Eucalyptus deglupta kz02.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AEucalyptus_deglupta_kz02.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Eucalyptus_deglupta_kz02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3965,
+      "height": 5287,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "description": "Eucalyptus deglupta in the Fairchild Tropical Botanic Garden, Miami",
+      "categories": [
+        "CC-BY-SA-4.0",
+        "Eucalyptus deglupta",
+        "Self-published work",
+        "Specimens in the Fairchild Tropical Botanic Garden"
+      ]
+    },
+    {
+      "file": "data/photos/eucalyptus_deglupta/habit_03_crocodile-monitor.jpg",
+      "role": "habit",
+      "hints": [],
+      "title": "File:CROCODILE MONITOR.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACROCODILE_MONITOR.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/CROCODILE_MONITOR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5472,
+      "height": 3648,
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "cuatrok77",
+      "description": "(Varanus salvadorii) crocodile monitor found in New Guinea, it is believed to be one of the longest lizards in the world. Conservation status- The species is maintained at zoological parks, with an unknown number in private collections.",
+      "categories": [
+        "CC-BY-SA-2.0",
+        "Eucalyptus deglupta",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images missing SDC inception",
+        "Flickr images reviewed by FlickreviewR 2",
+        "Varanus salvadorii"
+      ]
+    }
+  ]
+}
