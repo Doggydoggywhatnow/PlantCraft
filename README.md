@@ -43,3 +43,7 @@ python3 tools/make_textures.py                    # redraw textures and preview 
 - Facts come from Wikipedia, Wikidata, GBIF and Wikimedia Commons, and every plant file lists its sources.
 - Reference photos are only reference. Mod textures are original pixel art. Each recorded photo carries its licence and author.
 - Entries marked `confidence: low` come from thin sources and are not yet verified against a primary source.
+
+## Mod
+
+`mod/` is the Fabric mod (Minecraft 26.3, Java 25). `python3 tools/make_mod_assets.py` regenerates its item assets from `plants/`; build with `cd mod && ./gradlew build` (jar in `mod/build/libs/`).

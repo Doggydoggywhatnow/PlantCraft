@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "plantcraft",
+	"version": "${version}",
+	"name": "PlantCraft",
+	"description": "Real plant species, named by their scientific names. Adds seeds and saplings to the creative menu.",
+	"authors": ["PlantCraft"],
+	"license": "All-Rights-Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.plantcraft.PlantCraft"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
