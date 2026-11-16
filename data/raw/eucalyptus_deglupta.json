@@ -1,0 +1,179 @@
+{
+  "query": "Eucalyptus deglupta",
+  "id": "eucalyptus_deglupta",
+  "fetched": "2026-11-16",
+  "wikipedia": {
+    "found": true,
+    "title": "Eucalyptus deglupta",
+    "url": "https://en.wikipedia.org/wiki/Eucalyptus_deglupta",
+    "wikidata_id": "Q2704355",
+    "extract": "Eucalyptus deglupta, commonly known as the rainbow eucalyptus, Mindanao gum, or rainbow gum, is a species of tall tree native to the Philippines, Indonesia and Papua New Guinea. It is the only Eucalyptus species that usually lives in rainforest, with a natural range that extends into the Northern Hemisphere. It is characterized by multi-coloured bark.\n\n\n== Description ==\nEucalyptus deglupta is a fast-growing tree that typically reaches a height of 60–78 m (197–256 ft), with the trunk up to 240 cm (94 in) in diameter and with buttresses up to 4 m (13 ft) high. It has smooth, orange-tinted bark that sheds in strips, revealing streaks of pale green, red, orange, grey, and purplish brown. The branchlets are roughly square in cross section, often with narrow wings on the corners. The leaves are arranged in opposite pairs, mostly 75–150 mm (3–6 in) long and 50–75 mm (2–3 in) wide on a short petiole. The flower buds are arranged in a branching inflorescence in leaf axils, or on the end of branchlets, each branch with groups of seven buds, the individual buds on a pedicel about 5 mm (3⁄16 in) long. Mature buds are pale green or cream-coloured, roughly spherical in shape and 2–5 mm (1⁄16–3⁄16 in) in diameter with a hemispherical operculum with a small point on the top. Flowering time depends on location, and the stamens that give the flowers their colour are white and pale yellow. The fruit is a woody, brown, hemispherical capsule about 3–5 mm (1⁄8–3⁄16 in) long and wide, with three or four valves extending beyond the rim of the fruit. Each cell of the fruit contains between three and twelve minute brown seeds, each with a small wing.\n\n\n== Taxonomy and naming ==\nEucalyptus deglupta was first formally described in 1850 by Carl Ludwig Blume who published the description in his book Museum Botanicum Lugduno-Batavum sive stirpium Exoticarum, Novarum vel Minus Cognitarum ex Vivis aut Siccis Brevis Expositio et Descriptio from material collected in mountain forests in the Celebes. The specific epithet (deglupta) is a Latin word meaning \"peeled off, husked or shelled\".\nIn 1914, Adolph Daniel Edward Elmer described Eugenia binacag in Leaflets of Philippine Botany, the specific epithet binacag a local name for the tree, but in 1915 changed the name to Eucalyptus binacag. However, the species had already been named E. deglupta by Blume in 1850 and E. binacag is now regarded as a synonym.\nIn 1854, Asa Gray described Eucalyptus multiflora in United States Exploring Expedition - Botany, Phanerogamia from an unpublished description by Louis Claude Richard, but is a nomen illegitimum because the name was already in use for a different species (Eucalyptus multiflora Poir.) now known as Eucalyptus robusta.\nEucalyptus sarassa and E. versicolor, first described in 1850 by Blume in his book Museum botanicum Lugduno-Batavum, and E. schlechteri first described by Ludwig Diels in Adolf Engler's book Botanische Jahrbücher für Systematik, Pflanzengeschichte und Pflanzengeographie are also considered to be synonyms of E. deglupta by Plants of the World Online.\n\n\n== Distribution and habitat ==\nThe rainbow eucalyptus grows in lowland and lower montane rainforest from sea level to elevations of up to 1,800 m (5,900 ft). It is native to the Philippines, Indonesia, and Papua New Guinea, but has been widely planted in many other countries.\nThe populations of this species are severely fragmented in the wild and the overall population is decreasing. Over the last 210 years it is estimated that there has been a 30% decline of the overall population. The International Union for the Conservation of Nature listed E. deglupta as a vulnerable species in 2019.\n\n\n== Uses ==\n\n\n=== Pulpwood ===\nThis tree is grown widely around the world in tree plantations, mainly for pulpwood used in making white paper. It is the dominant species used for pulpwood plantations in the Philippines.\n\n\n=== Use in horticulture ===\nEucalyptus deglupta is commonly planted as an ornamental tree in frost-free climates such as Hawaii, Southern California, Texas and Florida. It is planted in at least three locations in coastal Los Angeles County, including Santa Monica and San Marino at the Huntington Botanical Garden. These trees were still growing, but relatively young at approximately 30–40 years in 1988, at the UCLA Botanic Garden and as a LA City street tree.\nIf grown from seed, the temperature should be around 20–22 °C (68–72 °F). Plants can be grown from cuttings of trees younger than 5 years old. Once a tree reaches 5 years of age, root inhibition prevents the generation of roots from cuttings. It thrives in rich medium-to-wet soil in full sun and is intolerant of frost. In botanical gardens such as Fairchild Tropical Botanic Garden in Florida, the tree does show the intense colour range as seen in the tree's normal range.\n\n\n== References ==",
+    "lead_image": "https://upload.wikimedia.org/wikipedia/commons/4/43/EucalyptusDeglupta_TallTree.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "image_files": [
+      "File:EucalyptusDeglupta TallTree.jpg",
+      "File:Eucalyptus deglupta Blume-1.jpg",
+      "File:Eucalyptus deglupta Blume (Maui).jpg",
+      "File:Rainbow Eucalyptus Maui.jpg",
+      "File:Starr 060703-8292 Eucalyptus deglupta.jpg",
+      "File:Starr 060703-8295 Eucalyptus deglupta.jpg"
+    ]
+  },
+  "wikidata": {
+    "found": true,
+    "id": "Q2704355",
+    "url": "https://www.wikidata.org/wiki/Q2704355",
+    "label": "Eucalyptus deglupta",
+    "description": "species of plant",
+    "english_common_names": [
+      "Indonesian gum"
+    ],
+    "taxon_name": [
+      "Eucalyptus deglupta"
+    ],
+    "taxon_rank_qid": [
+      "Q7432"
+    ],
+    "parent_taxon_qid": [
+      "Q45669"
+    ],
+    "image_files": [
+      "Eucalyptus deglupta-trees.jpg"
+    ],
+    "external_ids": {
+      "gbif_taxon": [
+        "3176325"
+      ],
+      "powo": [
+        "urn:lsid:ipni.org:names:592872-1"
+      ],
+      "ipni": [
+        "592872-1"
+      ],
+      "ncbi": [
+        "106642"
+      ],
+      "inaturalist": [
+        "123757"
+      ],
+      "eppo": []
+    }
+  },
+  "gbif": {
+    "found": true,
+    "url": "https://www.gbif.org/species/3176325",
+    "key": 3176325,
+    "match_type": "EXACT",
+    "status": "ACCEPTED",
+    "scientific_name": "Eucalyptus deglupta Blume",
+    "canonical_name": "Eucalyptus deglupta",
+    "classification": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Eucalyptus",
+      "species": "Eucalyptus deglupta"
+    },
+    "english_vernacular_names": [
+      "Indonesian Gum",
+      "Indonesian gum",
+      "Mindanao Eucalyptus",
+      "Mindanao Gum",
+      "Mindanao gum",
+      "Rainbow Eucalyptus",
+      "Rainbow Gum",
+      "deglupta",
+      "kamarere",
+      "mindanau-gum",
+      "rainbow-eucalyptus",
+      "rainbow-gum"
+    ]
+  },
+  "commons_images": [
+    {
+      "file": "File:Eucalyptus deglupta-trees.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AEucalyptus_deglupta-trees.jpg",
+      "thumb_640": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eucalyptus_deglupta-trees.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eucalyptus_deglupta-trees.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 500,
+      "height": 375,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "by *amelia*",
+      "description": "A grove of Rainbow Eucalyptus Eucalyptus deglupta trees, planted along the hana highway, Hawaii"
+    },
+    {
+      "file": "File:Starr 060703-8292 Eucalyptus deglupta.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AStarr_060703-8292_Eucalyptus_deglupta.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Starr_060703-8292_Eucalyptus_deglupta.jpg/960px-Starr_060703-8292_Eucalyptus_deglupta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/23/Starr_060703-8292_Eucalyptus_deglupta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2592,
+      "height": 1944,
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Forest &amp; Kim Starr",
+      "description": "Eucalyptus deglupta (flowers). Location: Maui, Kahului Community Center"
+    },
+    {
+      "file": "File:Starr 060703-8295 Eucalyptus deglupta.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AStarr_060703-8295_Eucalyptus_deglupta.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Starr_060703-8295_Eucalyptus_deglupta.jpg/960px-Starr_060703-8295_Eucalyptus_deglupta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Starr_060703-8295_Eucalyptus_deglupta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2592,
+      "height": 1944,
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Forest &amp; Kim Starr",
+      "description": "Eucalyptus deglupta (capsules). Location: Maui, Kahului Community Center"
+    },
+    {
+      "file": "File:Rainbow Eucalyptus Maui.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARainbow_Eucalyptus_Maui.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Rainbow_Eucalyptus_Maui.jpg/960px-Rainbow_Eucalyptus_Maui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/Rainbow_Eucalyptus_Maui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 5760,
+      "height": 3840,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Paxson Woelber",
+      "description": "The colorful bark of Eucalyptus deglupta, widely known as \"Rainbow Eucalyptus,\" on Maui's Road to Hana."
+    },
+    {
+      "file": "File:EucalyptusDeglupta TallTree.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AEucalyptusDeglupta_TallTree.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/EucalyptusDeglupta_TallTree.jpg/960px-EucalyptusDeglupta_TallTree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/43/EucalyptusDeglupta_TallTree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3456,
+      "height": 4608,
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Bruceanthro",
+      "description": "Photo showing Eucalyptus deglupta (aka rainbow gum) as a tall tree, looking upwards from trunk to treetop, taken from within the Cairns botanical gardens (Australia)"
+    },
+    {
+      "file": "File:Eucalyptus deglupta Blume (Maui).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AEucalyptus_deglupta_Blume_%28Maui%29.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Eucalyptus_deglupta_Blume_%28Maui%29.jpg/960px-Eucalyptus_deglupta_Blume_%28Maui%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Eucalyptus_deglupta_Blume_%28Maui%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1350,
+      "height": 1800,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "WoreczkoJan",
+      "description": "Eucalyptus deglupta Blume"
+    },
+    {
+      "file": "File:Eucalyptus deglupta Blume-1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File%3AEucalyptus_deglupta_Blume-1.jpg",
+      "thumb_640": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Eucalyptus_deglupta_Blume-1.jpg/960px-Eucalyptus_deglupta_Blume-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Eucalyptus_deglupta_Blume-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1200,
+      "height": 1800,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "WoreczkoJan",
+      "description": "Eucalyptus deglupta Blume, Hawaii, Maui"
+    }
+  ]
+}

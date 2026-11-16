@@ -1,0 +1,176 @@
+id: salvia_rosmarinus
+status:
+  data: draft
+  graphics: done
+  implementation: pending
+  use: pending
+confidence: high
+taxonomy:
+  kingdom: Plantae
+  clade: Tracheophyta
+  order: Lamiales
+  family: Lamiaceae
+  genus: Salvia
+  species: rosmarinus
+  authority: Spenn.
+  synonyms:
+  - Rosmarinus officinalis L.
+names:
+  scientific: Salvia rosmarinus
+  common:
+  - rosemary
+  in_game: Rosemary
+description: Aromatic evergreen shrub with fibrous roots and fragrant, needle-like leaves similar to Tsuga
+  needles. Forms range from upright to trailing; the upright forms reach 1.2-1.8 m. Leaves are 2-4 cm
+  long and 2-5 mm broad, green above and white below with dense short woolly hair. Branches are dotted
+  with groups of 2 to 3 flowers down their length. Can live as long as 35 years. Reclassified into Salvia
+  in 2017; long known as Rosmarinus officinalis.
+habitat:
+  native_range: Mediterranean region, including Portugal and northwestern Spain.
+  introduced_range: Naturalized in China by 220 CE; reached England probably with the Romans; arrived
+    in the Americas with early European settlers in the 17th century; now global and potentially invasive.
+  environment: Drought-tolerant; 'thrives best by the sea' (Elizabeth Kent, 1823, quoted by Wikipedia).
+    Hardy in cool climates; cultivar 'Arp' survives about -20 C.
+  climate: Mediterranean
+  life_form: shrub
+  height_m: 1.2-1.8 (upright forms)
+size:
+  height_cm:
+    min: 120
+    max: 180
+  habit: bushy
+  source: wikipedia
+  quote: Forms range from upright to trailing; the upright forms can reach between 1.2-1.8 meters (4-6
+    ft) tall. Prostrate groundcover cultivars exist and have no height in the source.
+  spread_cm:
+    min: 91
+    max: 122
+  spread_sources:
+  - name: NC State Extension Plant Toolbox
+    url: https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/
+    min: 91
+    max: 122
+    quote: 'Width: 3 ft. 0 in. - 4 ft. 0 in.'
+growth_stages:
+- id: seed
+  name: Seed
+  description: Small seed; seeds are often difficult to start and have a low germination rate.
+  texture: textures/block/salvia_rosmarinus_seed.png
+- id: seedling
+  name: Seedling
+  description: Tiny shoot with a few short needle leaves.
+  texture: textures/block/salvia_rosmarinus_seedling.png
+- id: young
+  name: Young shrub
+  description: 'Small shrub of needle leaves on a thin woody stem. Too young to harvest: the bush should
+    mature 2-3 years first.'
+  texture: textures/block/salvia_rosmarinus_young.png
+- id: mature
+  name: Mature shrub
+  description: Dense evergreen bush of needle leaves, green above and pale below. Can be harvested (up
+    to 20% of growth).
+  texture: textures/block/salvia_rosmarinus_mature.png
+- id: flowering
+  name: Flowering
+  description: Groups of 2 to 3 small flowers along the branches in white, pink, purple or deep blue.
+  visual_notes: Blue-violet flower clusters among the needles.
+  texture: textures/block/salvia_rosmarinus_flowering.png
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - white
+    - pink
+    - purple
+    - deep blue
+    opens: continuous
+    season: spring and summer in temperate climates; may bloom constantly in warm climates; known to flower
+      as late as early December and as early as mid-February (Northern Hemisphere)
+    notes: Pollinator is not stated in the fetched sources.
+  fruit:
+    present: false
+    edible: not_applicable
+    description: Fruit is not described in the fetched sources, so none is modelled yet. Verify in a primary
+      source.
+uses_real:
+- use: Culinary
+  note: Leaves flavour stews, stuffing, roasted meats and marinades; herbal tea; the woody stem stripped
+    of leaves is used as a skewer.
+- use: Food preservative
+  note: Extract of carnosic acid and carnosol is approved as a preservative in several countries (E392).
+- use: Fragrance
+  note: Hungary water (14th century), one of the first alcohol-based perfumes in Europe, is mainly distilled
+    rosemary; the oil is used in perfumes, shampoos, cleaning products and aromatherapy.
+- use: Ornamental
+  note: Drought-tolerant garden and xeriscape plant; pruned into hedges and topiary; groundcover cultivars
+    spread widely.
+- use: Cultural
+  note: Considered sacred to ancient Egyptians, Romans and Greeks.
+images:
+- url: https://commons.wikimedia.org/wiki/File%3ARosmarinus_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-258.jpg
+  license: Public domain
+  author: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen
+  shows: Rosmarinus officinalis - Köhler–s Medizinal-Pflanzen-258
+- url: https://commons.wikimedia.org/wiki/File%3ARosmarinus_officinalis_prostratus.jpg
+  license: CC BY-SA 3.0
+  author: Petar43
+  shows: Rosmarinus officinalis prostratus
+- url: https://commons.wikimedia.org/wiki/File%3ARosmarinus_officinalis_MHNT.BOT.2008.1.19.jpg
+  license: CC BY-SA 3.0
+  author: Roger Culos
+  shows: Rosmarinus officinalis MHNT.BOT.2008.1.19
+- url: https://commons.wikimedia.org/wiki/File%3AP1090247%284x3%29-Rosmarinus_officinalis_%2841960388224%29.jpg
+  license: CC BY 2.0
+  author: Miguel Angel Masegosa Martínez
+  shows: P1090247(4x3)-Rosmarinus officinalis (41960388224)
+sources:
+- name: 'Wikipedia: Rosemary'
+  url: https://en.wikipedia.org/wiki/Rosemary
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q102240169
+  id: Q102240169
+  status: checked
+- name: 'GBIF (ACCEPTED: Salvia rosmarinus)'
+  url: https://www.gbif.org/species/10902460
+  id: '10902460'
+  status: checked
+- name: NC State Extension Plant Toolbox
+  url: https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: flower_fruit_plant
+  behavior: harvest_sprigs
+  growth:
+    summary: Slow-growing evergreen shrub. Seed, seedling, young shrub, mature shrub; flowers on the mature
+      shrub.
+    requirements:
+    - Full light
+    - Dry or sandy soil; survives long dry spells (drought-tolerant)
+    - Frost-tolerant in cold-hardy cultivars only
+    flowering: Flower stage can appear at any season on a mature shrub (the real plant flowers outside
+      its normal season).
+    pollination: Not stated in sources; bees could be used as a gameplay choice.
+    fruiting: None modelled (not described in the sources).
+    regrowth: Harvesting sprigs cuts the leaves back; real guidance is to take no more than 20% of the
+      growth and only from bushes at least 2-3 years old.
+  spawn:
+    biomes:
+    - minecraft:savanna
+    - minecraft:windswept_savanna
+    - minecraft:stony_shore
+    feature: patch
+    rarity: uncommon
+    reason: 'Mediterranean, drought-tolerant and ''thrives best by the sea'': dry open ground and rocky
+      coasts are the closest vanilla matches.'
+  drops:
+  - rosemary sprig
+  - seeds
+  notes: 'Harvest rule from Wikipedia: no more than 20% of the growth; bush matured 2-3 years. Lifespan
+    up to 35 years.'
+game_uses:
+  summary: 'Not yet designed (use phase). Real uses recorded above: culinary seasoning and tea, preservative,
+    perfume, ornamental.'

@@ -595,6 +595,22 @@
               }
             }
           }
+        },
+        "trunk_diameter_cm": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "max"
+          ],
+          "properties": {
+            "min": {
+              "type": "number"
+            },
+            "max": {
+              "type": "number"
+            }
+          },
+          "description": "Trunk thickness for trees, used for how many blocks wide the trunk is."
         }
       }
     },
@@ -614,7 +630,8 @@
             "enum": [
               "lower",
               "trunk_side",
-              "trunk_top"
+              "trunk_top",
+              "trunk_side_alt"
             ]
           },
           "texture": {

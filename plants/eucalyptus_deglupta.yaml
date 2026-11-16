@@ -1,0 +1,173 @@
+id: eucalyptus_deglupta
+status:
+  data: draft
+  graphics: done
+  implementation: pending
+  use: pending
+confidence: high
+taxonomy:
+  kingdom: Plantae
+  clade: Tracheophyta
+  order: Myrtales
+  family: Myrtaceae
+  genus: Eucalyptus
+  species: deglupta
+  authority: Blume
+  synonyms:
+  - Eucalyptus binacag Elmer
+  - Eucalyptus sarassa Blume
+  - Eucalyptus versicolor Blume
+  - Eucalyptus schlechteri Diels
+names:
+  scientific: Eucalyptus deglupta
+  common:
+  - rainbow eucalyptus
+  - rainbow gum
+  - Mindanao gum
+  - Indonesian gum
+  in_game: Rainbow Eucalyptus
+description: Fast-growing tall tree, typically 60-78 m, trunk up to 240 cm across with buttresses up to
+  4 m high. Smooth orange-tinted bark sheds in strips, revealing streaks of pale green, red, orange, grey
+  and purplish brown. Branchlets roughly square in cross section, often narrowly winged. Leaves in opposite
+  pairs, 75-150 mm long and 50-75 mm wide. The only Eucalyptus that usually lives in rainforest. The epithet
+  deglupta means 'peeled off'.
+habitat:
+  native_range: Philippines, Indonesia and Papua New Guinea.
+  introduced_range: 'Widely planted: pulpwood plantations; ornamental in frost-free climates such as Hawaii,
+    Southern California, Texas and Florida.'
+  environment: Lowland and lower montane rainforest from sea level to 1,800 m. Thrives in rich, medium-to-wet
+    soil in full sun; intolerant of frost.
+  climate: Tropical, frost-free
+  life_form: tree
+  height_m: 60-78
+size:
+  height_cm:
+    min: 6000
+    max: 7800
+  habit: tree
+  source: wikipedia
+  quote: typically reaches a height of 60-78 m (197-256 ft), with the trunk up to 240 cm (94 in) in diameter
+    and with buttresses up to 4 m (13 ft) high
+  trunk_diameter_cm:
+    max: 240
+growth_stages:
+- id: seed
+  name: Seed
+  description: Minute brown winged seed (3 to 12 per capsule cell). Grown from seed at about 20-22 C.
+  texture: textures/block/eucalyptus_deglupta_seed.png
+- id: sapling
+  name: Sapling
+  description: Thin young tree with opposite pairs of leaves and smooth orange-green stem.
+  texture: textures/block/eucalyptus_deglupta_sapling.png
+- id: young_tree
+  name: Young tree
+  description: Fast-growing tree with smooth bark; foliage in opposite pairs.
+  texture: textures/block/eucalyptus_deglupta_young_tree.png
+- id: mature_tree
+  name: Mature tree
+  description: Tall tree whose orange bark has shed in strips, showing streaks of green, red, orange,
+    grey and purplish brown.
+  visual_notes: 'The bark is the signature: bright vertical colour streaks.'
+  texture: textures/block/eucalyptus_deglupta_mature_tree.png
+- id: flowering
+  name: Flowering
+  description: Branching flower clusters of seven buds; mature buds pale green or cream, round, 2-5 mm;
+    white and pale yellow stamens give the flowers their colour.
+  texture: textures/block/eucalyptus_deglupta_flowering.png
+- id: fruiting
+  name: Fruiting
+  description: Small woody brown hemispherical capsules, 3-5 mm, with three or four valves.
+  texture: textures/block/eucalyptus_deglupta_fruiting.png
+segment_textures:
+- role: trunk_side
+  texture: textures/block/eucalyptus_deglupta_trunk_side.png
+  note: Smooth orange-tinted bark with streaks of pale green, red, orange, grey and purplish brown (Wikipedia).
+- role: trunk_side_alt
+  texture: textures/block/eucalyptus_deglupta_trunk_side_alt.png
+  note: Second bark variant so the colours differ along the trunk as strips shed at different times.
+- role: trunk_top
+  texture: textures/block/eucalyptus_deglupta_trunk_top.png
+  note: Cut end of the trunk.
+reproduction:
+  flowers:
+    present: true
+    colors:
+    - cream
+    - pale yellow
+    - white (stamens)
+    opens: continuous
+    season: Flowering time depends on location (Wikipedia).
+    notes: Pollinator is not stated in the fetched sources.
+  fruit:
+    present: true
+    type: woody capsule
+    description: Brown hemispherical capsule about 3-5 mm long and wide with three or four valves extending
+      beyond the rim; each cell holds 3-12 minute brown winged seeds.
+    edible: 'no'
+uses_real:
+- use: Pulpwood
+  note: Grown widely in plantations for white paper pulp; dominant pulpwood species in the Philippines.
+- use: Ornamental
+  note: Planted in frost-free climates; shows its most intense colours in tropical botanical gardens.
+images:
+- url: https://commons.wikimedia.org/wiki/File%3AEucalyptus_deglupta-trees.jpg
+  license: CC BY 2.0
+  author: by *amelia*
+  shows: Eucalyptus deglupta-trees
+- url: https://commons.wikimedia.org/wiki/File%3AStarr_060703-8292_Eucalyptus_deglupta.jpg
+  license: CC BY 3.0
+  author: Forest &amp; Kim Starr
+  shows: Starr 060703-8292 Eucalyptus deglupta
+- url: https://commons.wikimedia.org/wiki/File%3AStarr_060703-8295_Eucalyptus_deglupta.jpg
+  license: CC BY 3.0
+  author: Forest &amp; Kim Starr
+  shows: Starr 060703-8295 Eucalyptus deglupta
+- url: https://commons.wikimedia.org/wiki/File%3ARainbow_Eucalyptus_Maui.jpg
+  license: CC BY-SA 4.0
+  author: Paxson Woelber
+  shows: Rainbow Eucalyptus Maui
+sources:
+- name: 'Wikipedia: Eucalyptus deglupta'
+  url: https://en.wikipedia.org/wiki/Eucalyptus_deglupta
+  status: checked
+- name: Wikidata
+  url: https://www.wikidata.org/wiki/Q2704355
+  id: Q2704355
+  status: checked
+- name: 'GBIF (ACCEPTED: Eucalyptus deglupta)'
+  url: https://www.gbif.org/species/3176325
+  id: '3176325'
+  status: checked
+- name: Plants of the World Online (Kew)
+  url: https://powo.science.kew.org
+  status: pending
+implementation:
+  type: fruit_tree
+  growth:
+    summary: Very fast-growing tall tree. Sapling to young tree to mature tree, then flowers and woody
+      capsules.
+    requirements:
+    - Full light
+    - Wet or moist soil
+    - Warm, frost-free biome
+    flowering: Leaves show pale stamens during the flowering stage.
+    pollination: Not stated in sources.
+    fruiting: Flowers become small woody capsules, which release winged seeds.
+    regrowth: Tree persists; capsule stage cycles back to flowering.
+  spawn:
+    biomes:
+    - minecraft:jungle
+    - minecraft:sparse_jungle
+    feature: tree
+    rarity: very_rare
+    reason: The only Eucalyptus that usually lives in rainforest. IUCN Vulnerable (2019); wild populations
+      are severely fragmented and have declined about 30% in 210 years.
+  drops:
+  - eucalyptus leaves
+  - capsules
+  - bark strips
+  - sapling
+  notes: At 1 block = 1 m a typical tree is 60-78 blocks tall with a trunk up to 3 blocks across. Bark
+    texture varies per block (trunk_side / trunk_side_alt).
+game_uses:
+  summary: 'Not yet designed (use phase). Real uses recorded above: pulpwood (paper) and ornamental.'

@@ -39,6 +39,8 @@ Previews of 2-block stacks are in `docs/preview/INDEX.md`.
 | *Datura wrightii* | 30-150 cm, up to 150 cm wide | 1-2 (+ sideways spread, not built yet) |
 | *Ipomoea tricolor* | 2-4 m | 2-4 |
 | *Prunus persica* | 3-10 m, crown 3-4 m wide | 3-10 |
+| *Salvia rosmarinus* (rosemary) | 120-180 cm (upright forms), 91-122 cm wide | 2 (1-2 wide) |
+| *Eucalyptus deglupta* (rainbow eucalyptus) | 60-78 m, trunk up to 240 cm across | 60-78 (trunk up to 3 wide) |
 | other Datura | under 1 m, or no data | 1 |
 
 ## Individual variation
@@ -76,7 +78,7 @@ maximum. Blocks wide uses the same rule as height: ceil(width / cm_per_block).
 | *Ipomoea tricolor* | 91-183 cm | NC State (3-6 ft) | 1-2 |
 | *Prunus persica* | 300-762 cm | Wikipedia (3-4 m), PFAF (6 m), NC State (15-25 ft) | 3-8 |
 
-No width figure was found for *D. arenicola*, *ceratocaula*, *discolor*, *ferox*, *kymatocarpa*, *lanosa*,
+No width figure was found for *Eucalyptus deglupta* (only trunk diameter), *D. arenicola*, *ceratocaula*, *discolor*, *ferox*, *kymatocarpa*, *lanosa*,
 *leichhardtii*, *pruinosa*, *quercifolia*, *reburra* or *Chara braunii*; they have no `spread_cm` yet.
 Horticultural sources (NC State, PFAF) describe garden plants and run larger than wild descriptions.
 

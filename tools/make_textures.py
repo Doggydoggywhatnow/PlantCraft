@@ -397,6 +397,120 @@ def peach_pit_item():
     return pix, {"P": hx("#8a5a38"), "p": hx("#5e3a22")}
 
 
+# ------------------------------------------------------------------ Salvia rosmarinus (rosemary)
+def rosemary_stage(stage):
+    rng = random.Random("rosemary:" + stage)
+    dark, mid, tip, pale, wood = hx("#2f5a35"), hx("#44743f"), hx("#7fa57a"), hx("#b8cdb2"), hx("#7a6044")
+    blue, blue_hi, blue_d = hx("#6f7fe0"), hx("#a9b4ff"), hx("#4a50b8")
+    seed, seed_hi = hx("#8a6a3a"), hx("#b08a50")
+    img = Image.new("RGBA", (SIZE, SIZE), (0, 0, 0, 0))
+    def put(x, y, c):
+        if 0 <= x < SIZE and 0 <= y < SIZE:
+            img.putpixel((x, y), c)
+    if stage == "seed":
+        for x, y in ((5, 9), (6, 9), (9, 11), (10, 11), (7, 13), (8, 13), (4, 12), (11, 8)):
+            put(x, y, seed); put(x, y + 1, seed_hi if (x + y) % 2 else seed)
+        return img
+    if stage == "seedling":
+        for y in range(11, 16):
+            put(8, y, mid)
+        for dx, dy in ((-1, 11), (1, 10), (-2, 13), (2, 12), (0, 9)):
+            put(8 + dx, dy, tip); put(8 + dx, dy + 1, mid)
+        return img
+    cx, cy, rx, ry = (8, 11, 5.0, 3.6) if stage == "young" else (8, 9, 7.6, 5.4)
+    for y in range(SIZE):
+        for x in range(SIZE):
+            if ((x - cx) / rx) ** 2 + ((y - cy) / ry) ** 2 <= 1 and rng.random() < 0.93 and y < 14 and (stage != 'young' or y < 14):
+                r = rng.random()
+                c = dark if r < 0.35 else mid if r < 0.78 else tip if r < 0.93 else pale
+                put(x, y, c)
+                if rng.random() < 0.45 and y + 1 < 14:  # needles are thin vertical strokes
+                    put(x, y + 1, dark if c != dark else mid)
+    for y in range(13 if stage == "young" else 13, SIZE):  # short woody base
+        put(8, y, wood)
+        if y >= 14:
+            put(7, y, wood); put(9, y, wood)
+    if stage == "flowering":
+        for _ in range(11):
+            x, y = rng.randrange(2, 14), rng.randrange(1, 12)
+            put(x, y, blue); put(x + 1, y, blue_hi); put(x, y + 1, blue_d)
+    return img
+
+
+# ------------------------------------------------------------------ Eucalyptus deglupta (rainbow eucalyptus)
+EUC_BARK = ["#a9d08a", "#c8503a", "#e8883a", "#9a9a96", "#6e4a5a", "#d9904a", "#7fb86a", "#b5472f"]
+
+
+def euc_trunk(kind):
+    rng = random.Random("euc:trunk:" + kind)
+    img = Image.new("RGBA", (SIZE, SIZE), (0, 0, 0, 255))
+    base = hx("#d9904a")
+    for x in range(SIZE):
+        for y in range(SIZE):
+            img.putpixel((x, y), base)
+    for x in range(SIZE):  # vertical streaks of different colour as the bark sheds in strips
+        y = 0
+        while y < SIZE:
+            run = rng.randint(2, 7)
+            col = hx(rng.choice(EUC_BARK)) if rng.random() < 0.8 else base
+            width = rng.choice((1, 1, 2))
+            for yy in range(y, min(SIZE, y + run)):
+                for xx in range(x, min(SIZE, x + width)):
+                    img.putpixel((xx, yy), col)
+            y += run + rng.randint(0, 2)
+    for _ in range(14):  # darker flecks
+        img.putpixel((rng.randrange(SIZE), rng.randrange(SIZE)), hx("#6e4a5a"))
+    return img
+
+
+def euc_trunk_top():
+    img = Image.new("RGBA", (SIZE, SIZE), (0, 0, 0, 255))
+    for x in range(SIZE):
+        for y in range(SIZE):
+            d = max(abs(x - 7.5), abs(y - 7.5))
+            if x in (0, 15) or y in (0, 15):
+                col = hx("#b5472f") if (x + y) % 3 else hx("#e8883a")
+            else:
+                col = hx("#e8c98a") if int(d) % 2 == 0 else hx("#c9a060")
+            img.putpixel((x, y), col)
+    return img
+
+
+def euc_leaves(kind):
+    rng = random.Random("euc:leaves:" + kind)
+    greens = {"young_tree": ["#6fae8a", "#5f9a7a", "#82c09a", "#4f8a6a"],
+              "mature_tree": ["#4f8a6a", "#3f7658", "#5f9a7a", "#356a50"]}.get(kind, ["#4f8a6a", "#3f7658", "#5f9a7a", "#356a50"])
+    img = Image.new("RGBA", (SIZE, SIZE), (0, 0, 0, 0))
+    for y in range(SIZE):
+        for x in range(SIZE):
+            if rng.random() < 0.10:
+                continue
+            img.putpixel((x, y), hx(rng.choice(greens)))
+    if kind == "flowering":
+        for _ in range(26):
+            x, y = rng.randrange(SIZE), rng.randrange(SIZE)
+            img.putpixel((x, y), hx(rng.choice(["#f6f0c8", "#fffbe6", "#f3e49a"])))
+    elif kind == "fruiting":
+        for _ in range(16):
+            x, y = rng.randrange(SIZE - 1), rng.randrange(SIZE - 1)
+            img.putpixel((x, y), hx("#7a5a3a")); img.putpixel((x + 1, y), hx("#5e4527"))
+    return img
+
+
+def euc_sapling():
+    pix = parse([
+        "................", "................", "................", "......LL........", ".....LLlL.......",
+        "....LLlLLLL.....", ".....LLLLL......", "....lLLTLLl.....", ".....LLTLL......", "......LTL.......",
+        ".......T........", ".......T........", ".......T........", ".......T........", ".......T........", ".......T........",
+    ])
+    return pix, {"L": hx("#5f9a7a"), "l": hx("#3f7658"), "T": hx("#d9904a")}
+
+
+def euc_seed():
+    pix = parse(["................"] * 8 + [".....SS.........", "....SsS...SS....", ".....SS..SsS....", "..SS......SS....", ".SsS...SS.......", "..SS..SsS.......", "........SS......", "................"])
+    return pix, {"S": hx("#7a5a3a"), "s": hx("#a98456")}
+
+
 # ------------------------------------------------------------------ driver
 def draw_stage(pid, stage):
     """Return a 16x16 RGBA image for (species id, stage id)."""
@@ -411,6 +525,14 @@ def draw_stage(pid, stage):
         if stage == "sapling":
             return render(*peach_sapling())
         return peach_leaves({"young_tree": "young"}.get(stage, stage))
+    if pid == "salvia_rosmarinus":
+        return rosemary_stage(stage)
+    if pid == "eucalyptus_deglupta":
+        if stage == "seed":
+            return render(*euc_seed())
+        if stage == "sapling":
+            return render(*euc_sapling())
+        return euc_leaves(stage)
     raise KeyError(pid)
 
 
@@ -420,6 +542,8 @@ def draw_segment(pid, role):
         return render(datura_lower(pid, p), datura_palette(p))
     if pid == "prunus_persica" and role in ("trunk_side", "trunk_top"):
         return peach_trunk(role.split("_")[1])
+    if pid == "eucalyptus_deglupta":
+        return euc_trunk_top() if role == "trunk_top" else euc_trunk("alt" if role == "trunk_side_alt" else "main")
     raise KeyError((pid, role))
 
 

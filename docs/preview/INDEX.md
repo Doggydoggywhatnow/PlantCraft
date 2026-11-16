@@ -261,6 +261,27 @@ Full-height plant (2 blocks): vegetative, budding, flowering, fruiting, ripe cap
 
 ![datura_wrightii 2-block stack](stages/datura_wrightii/stack_2_blocks.png)
 
+## Eucalyptus deglupta - Rainbow Eucalyptus
+
+Confidence: **high**. Implementation type: `fruit_tree`.
+
+| # | Stage | Image | What it shows |
+|---|---|---|---|
+| 1 | Seed | ![eucalyptus_deglupta seed](stages/eucalyptus_deglupta/01_seed.png) | Minute brown winged seed (3 to 12 per capsule cell). Grown from seed at about 20-22 C. |
+| 2 | Sapling | ![eucalyptus_deglupta sapling](stages/eucalyptus_deglupta/02_sapling.png) | Thin young tree with opposite pairs of leaves and smooth orange-green stem. |
+| 3 | Young tree | ![eucalyptus_deglupta young_tree](stages/eucalyptus_deglupta/03_young_tree.png) | Fast-growing tree with smooth bark; foliage in opposite pairs. |
+| 4 | Mature tree | ![eucalyptus_deglupta mature_tree](stages/eucalyptus_deglupta/04_mature_tree.png) | Tall tree whose orange bark has shed in strips, showing streaks of green, red, orange, grey and purplish brown. |
+| 5 | Flowering | ![eucalyptus_deglupta flowering](stages/eucalyptus_deglupta/05_flowering.png) | Branching flower clusters of seven buds; mature buds pale green or cream, round, 2-5 mm; white and pale yellow stamens give the flowers their colour. |
+| 6 | Fruiting | ![eucalyptus_deglupta fruiting](stages/eucalyptus_deglupta/06_fruiting.png) | Small woody brown hemispherical capsules, 3-5 mm, with three or four valves. |
+
+Extra blocks for plants taller than 1 block at the configured scale:
+
+| Role | Image | Note |
+|---|---|---|
+| trunk_side | ![eucalyptus_deglupta trunk_side](stages/eucalyptus_deglupta/segment_trunk_side.png) | Smooth orange-tinted bark with streaks of pale green, red, orange, grey and purplish brown (Wikipedia). |
+| trunk_side_alt | ![eucalyptus_deglupta trunk_side_alt](stages/eucalyptus_deglupta/segment_trunk_side_alt.png) | Second bark variant so the colours differ along the trunk as strips shed at different times. |
+| trunk_top | ![eucalyptus_deglupta trunk_top](stages/eucalyptus_deglupta/segment_trunk_top.png) | Cut end of the trunk. |
+
 ## Ipomoea tricolor - Morning Glory
 
 Confidence: **high**. Implementation type: `climbing_vine`.
@@ -294,3 +315,15 @@ Extra blocks for plants taller than 1 block at the configured scale:
 |---|---|---|
 | trunk_side | ![prunus_persica trunk_side](stages/prunus_persica/segment_trunk_side.png) | Dark grey bark with horizontal lenticels (Wikipedia). |
 | trunk_top | ![prunus_persica trunk_top](stages/prunus_persica/segment_trunk_top.png) | Cut end of the trunk. |
+
+## Salvia rosmarinus - Rosemary
+
+Confidence: **high**. Implementation type: `flower_fruit_plant`.
+
+| # | Stage | Image | What it shows |
+|---|---|---|---|
+| 1 | Seed | ![salvia_rosmarinus seed](stages/salvia_rosmarinus/01_seed.png) | Small seed; seeds are often difficult to start and have a low germination rate. |
+| 2 | Seedling | ![salvia_rosmarinus seedling](stages/salvia_rosmarinus/02_seedling.png) | Tiny shoot with a few short needle leaves. |
+| 3 | Young shrub | ![salvia_rosmarinus young](stages/salvia_rosmarinus/03_young.png) | Small shrub of needle leaves on a thin woody stem. Too young to harvest: the bush should mature 2-3 years first. |
+| 4 | Mature shrub | ![salvia_rosmarinus mature](stages/salvia_rosmarinus/04_mature.png) | Dense evergreen bush of needle leaves, green above and pale below. Can be harvested (up to 20% of growth). |
+| 5 | Flowering | ![salvia_rosmarinus flowering](stages/salvia_rosmarinus/05_flowering.png) | Groups of 2 to 3 small flowers along the branches in white, pink, purple or deep blue. |
