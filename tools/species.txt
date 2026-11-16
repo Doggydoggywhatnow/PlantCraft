@@ -17,3 +17,6 @@ Datura quercifolia
 Datura reburra
 Datura stramonium
 Datura wrightii
+# Added later
+Salvia rosmarinus
+Eucalyptus deglupta
