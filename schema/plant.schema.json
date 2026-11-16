@@ -611,6 +611,40 @@
             }
           },
           "description": "Trunk thickness for trees, used for how many blocks wide the trunk is."
+        },
+        "height_sources": {
+          "type": "array",
+          "description": "Every height figure found; the first entry is the primary botanical description. Individuals are drawn from the range these sources agree on.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "url",
+              "max",
+              "quote"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              },
+              "min": {
+                "type": "number"
+              },
+              "max": {
+                "type": "number"
+              },
+              "common_max": {
+                "type": "number"
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          }
         }
       }
     },
@@ -631,13 +665,51 @@
               "lower",
               "trunk_side",
               "trunk_top",
-              "trunk_side_alt"
+              "trunk_side_alt",
+              "branch_side",
+              "buttress_side"
             ]
           },
           "texture": {
             "type": "string"
           },
           "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "tree_structure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "data_facts",
+        "design"
+      ],
+      "description": "How a tree is built from blocks. data_facts are quoted from sources; design entries are choices NOT backed by data and are open to change.",
+      "properties": {
+        "data_facts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "fact",
+              "source"
+            ],
+            "properties": {
+              "fact": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "design": {
+          "type": "array",
+          "items": {
             "type": "string"
           }
         }

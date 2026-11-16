@@ -23,11 +23,11 @@ Confidence: **low**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_arenicola seed](stages/datura_arenicola/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_arenicola seedling](stages/datura_arenicola/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_arenicola vegetative](stages/datura_arenicola/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_arenicola budding](stages/datura_arenicola/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_arenicola flowering](stages/datura_arenicola/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_arenicola fruiting](stages/datura_arenicola/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_arenicola ripe_capsule](stages/datura_arenicola/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_arenicola vegetative](stages/datura_arenicola/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_arenicola budding](stages/datura_arenicola/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_arenicola flowering](stages/datura_arenicola/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_arenicola fruiting](stages/datura_arenicola/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_arenicola ripe_capsule](stages/datura_arenicola/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 ## Datura ceratocaula - Swamp Datura
 
@@ -37,11 +37,11 @@ Confidence: **medium**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_ceratocaula seed](stages/datura_ceratocaula/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_ceratocaula seedling](stages/datura_ceratocaula/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_ceratocaula vegetative](stages/datura_ceratocaula/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_ceratocaula budding](stages/datura_ceratocaula/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_ceratocaula flowering](stages/datura_ceratocaula/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_ceratocaula fruiting](stages/datura_ceratocaula/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_ceratocaula ripe_capsule](stages/datura_ceratocaula/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_ceratocaula vegetative](stages/datura_ceratocaula/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_ceratocaula budding](stages/datura_ceratocaula/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_ceratocaula flowering](stages/datura_ceratocaula/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_ceratocaula fruiting](stages/datura_ceratocaula/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_ceratocaula ripe_capsule](stages/datura_ceratocaula/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 ## Datura discolor - Desert Thorn-Apple
 
@@ -51,11 +51,11 @@ Confidence: **high**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_discolor seed](stages/datura_discolor/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_discolor seedling](stages/datura_discolor/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_discolor vegetative](stages/datura_discolor/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_discolor budding](stages/datura_discolor/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_discolor flowering](stages/datura_discolor/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_discolor fruiting](stages/datura_discolor/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_discolor ripe_capsule](stages/datura_discolor/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_discolor vegetative](stages/datura_discolor/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_discolor budding](stages/datura_discolor/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_discolor flowering](stages/datura_discolor/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_discolor fruiting](stages/datura_discolor/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_discolor ripe_capsule](stages/datura_discolor/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 Extra blocks for plants taller than 1 block at the configured scale:
 
@@ -75,11 +75,11 @@ Confidence: **medium**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_ferox seed](stages/datura_ferox/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_ferox seedling](stages/datura_ferox/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_ferox vegetative](stages/datura_ferox/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_ferox budding](stages/datura_ferox/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_ferox flowering](stages/datura_ferox/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_ferox fruiting](stages/datura_ferox/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_ferox ripe_capsule](stages/datura_ferox/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_ferox vegetative](stages/datura_ferox/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_ferox budding](stages/datura_ferox/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_ferox flowering](stages/datura_ferox/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_ferox fruiting](stages/datura_ferox/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_ferox ripe_capsule](stages/datura_ferox/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 ## Datura innoxia - Pricklyburr
 
@@ -89,11 +89,11 @@ Confidence: **medium**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_innoxia seed](stages/datura_innoxia/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_innoxia seedling](stages/datura_innoxia/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_innoxia vegetative](stages/datura_innoxia/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_innoxia budding](stages/datura_innoxia/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_innoxia flowering](stages/datura_innoxia/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_innoxia fruiting](stages/datura_innoxia/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_innoxia ripe_capsule](stages/datura_innoxia/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_innoxia vegetative](stages/datura_innoxia/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_innoxia budding](stages/datura_innoxia/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_innoxia flowering](stages/datura_innoxia/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_innoxia fruiting](stages/datura_innoxia/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_innoxia ripe_capsule](stages/datura_innoxia/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 Extra blocks for plants taller than 1 block at the configured scale:
 
@@ -113,11 +113,11 @@ Confidence: **low**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_kymatocarpa seed](stages/datura_kymatocarpa/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_kymatocarpa seedling](stages/datura_kymatocarpa/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_kymatocarpa vegetative](stages/datura_kymatocarpa/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_kymatocarpa budding](stages/datura_kymatocarpa/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_kymatocarpa flowering](stages/datura_kymatocarpa/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_kymatocarpa fruiting](stages/datura_kymatocarpa/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_kymatocarpa ripe_capsule](stages/datura_kymatocarpa/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_kymatocarpa vegetative](stages/datura_kymatocarpa/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_kymatocarpa budding](stages/datura_kymatocarpa/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_kymatocarpa flowering](stages/datura_kymatocarpa/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_kymatocarpa fruiting](stages/datura_kymatocarpa/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_kymatocarpa ripe_capsule](stages/datura_kymatocarpa/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 ## Datura lanosa - Datura lanosa
 
@@ -127,11 +127,11 @@ Confidence: **low**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_lanosa seed](stages/datura_lanosa/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_lanosa seedling](stages/datura_lanosa/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_lanosa vegetative](stages/datura_lanosa/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_lanosa budding](stages/datura_lanosa/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_lanosa flowering](stages/datura_lanosa/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_lanosa fruiting](stages/datura_lanosa/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_lanosa ripe_capsule](stages/datura_lanosa/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_lanosa vegetative](stages/datura_lanosa/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_lanosa budding](stages/datura_lanosa/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_lanosa flowering](stages/datura_lanosa/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_lanosa fruiting](stages/datura_lanosa/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_lanosa ripe_capsule](stages/datura_lanosa/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 ## Datura leichhardtii - Leichhardt'S Datura
 
@@ -141,11 +141,11 @@ Confidence: **medium**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_leichhardtii seed](stages/datura_leichhardtii/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_leichhardtii seedling](stages/datura_leichhardtii/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_leichhardtii vegetative](stages/datura_leichhardtii/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_leichhardtii budding](stages/datura_leichhardtii/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_leichhardtii flowering](stages/datura_leichhardtii/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_leichhardtii fruiting](stages/datura_leichhardtii/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_leichhardtii ripe_capsule](stages/datura_leichhardtii/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_leichhardtii vegetative](stages/datura_leichhardtii/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_leichhardtii budding](stages/datura_leichhardtii/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_leichhardtii flowering](stages/datura_leichhardtii/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_leichhardtii fruiting](stages/datura_leichhardtii/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_leichhardtii ripe_capsule](stages/datura_leichhardtii/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 ## Datura metel - Devil'S Trumpet
 
@@ -155,11 +155,11 @@ Confidence: **high**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_metel seed](stages/datura_metel/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_metel seedling](stages/datura_metel/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_metel vegetative](stages/datura_metel/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_metel budding](stages/datura_metel/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_metel flowering](stages/datura_metel/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_metel fruiting](stages/datura_metel/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_metel ripe_capsule](stages/datura_metel/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_metel vegetative](stages/datura_metel/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_metel budding](stages/datura_metel/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_metel flowering](stages/datura_metel/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_metel fruiting](stages/datura_metel/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_metel ripe_capsule](stages/datura_metel/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 Extra blocks for plants taller than 1 block at the configured scale:
 
@@ -179,11 +179,11 @@ Confidence: **low**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_pruinosa seed](stages/datura_pruinosa/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_pruinosa seedling](stages/datura_pruinosa/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_pruinosa vegetative](stages/datura_pruinosa/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_pruinosa budding](stages/datura_pruinosa/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_pruinosa flowering](stages/datura_pruinosa/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_pruinosa fruiting](stages/datura_pruinosa/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_pruinosa ripe_capsule](stages/datura_pruinosa/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_pruinosa vegetative](stages/datura_pruinosa/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_pruinosa budding](stages/datura_pruinosa/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_pruinosa flowering](stages/datura_pruinosa/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_pruinosa fruiting](stages/datura_pruinosa/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_pruinosa ripe_capsule](stages/datura_pruinosa/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 ## Datura quercifolia - Oak-Leaved Thorn-Apple
 
@@ -193,11 +193,11 @@ Confidence: **medium**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_quercifolia seed](stages/datura_quercifolia/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_quercifolia seedling](stages/datura_quercifolia/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_quercifolia vegetative](stages/datura_quercifolia/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_quercifolia budding](stages/datura_quercifolia/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_quercifolia flowering](stages/datura_quercifolia/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_quercifolia fruiting](stages/datura_quercifolia/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_quercifolia ripe_capsule](stages/datura_quercifolia/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_quercifolia vegetative](stages/datura_quercifolia/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_quercifolia budding](stages/datura_quercifolia/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_quercifolia flowering](stages/datura_quercifolia/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_quercifolia fruiting](stages/datura_quercifolia/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_quercifolia ripe_capsule](stages/datura_quercifolia/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 ## Datura reburra - Datura reburra
 
@@ -207,11 +207,11 @@ Confidence: **low**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_reburra seed](stages/datura_reburra/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_reburra seedling](stages/datura_reburra/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_reburra vegetative](stages/datura_reburra/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_reburra budding](stages/datura_reburra/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_reburra flowering](stages/datura_reburra/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_reburra fruiting](stages/datura_reburra/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_reburra ripe_capsule](stages/datura_reburra/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_reburra vegetative](stages/datura_reburra/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_reburra budding](stages/datura_reburra/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_reburra flowering](stages/datura_reburra/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_reburra fruiting](stages/datura_reburra/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_reburra ripe_capsule](stages/datura_reburra/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 ## Datura stramonium - Jimsonweed
 
@@ -221,11 +221,11 @@ Confidence: **high**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_stramonium seed](stages/datura_stramonium/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_stramonium seedling](stages/datura_stramonium/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_stramonium vegetative](stages/datura_stramonium/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_stramonium budding](stages/datura_stramonium/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_stramonium flowering](stages/datura_stramonium/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_stramonium fruiting](stages/datura_stramonium/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_stramonium ripe_capsule](stages/datura_stramonium/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_stramonium vegetative](stages/datura_stramonium/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_stramonium budding](stages/datura_stramonium/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_stramonium flowering](stages/datura_stramonium/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_stramonium fruiting](stages/datura_stramonium/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_stramonium ripe_capsule](stages/datura_stramonium/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 Extra blocks for plants taller than 1 block at the configured scale:
 
@@ -245,11 +245,11 @@ Confidence: **high**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![datura_wrightii seed](stages/datura_wrightii/01_seed.png) | Small black seed, flat and kidney-shaped, planted in soil. |
 | 2 | Seedling | ![datura_wrightii seedling](stages/datura_wrightii/02_seedling.png) | Two small green seed leaves on a short stalk. |
-| 3 | Vegetative | ![datura_wrightii vegetative](stages/datura_wrightii/03_vegetative.png) | Leafy branched herb or shrub with broad, toothed or wavy leaves. |
-| 4 | Budding | ![datura_wrightii budding](stages/datura_wrightii/04_budding.png) | Long tubular buds appear in leaf axils and branch forks, twisted and furled. |
-| 5 | Flowering | ![datura_wrightii flowering](stages/datura_wrightii/05_flowering.png) | Large trumpet-shaped flowers open (see flower notes for timing and colour). |
-| 6 | Fruiting | ![datura_wrightii fruiting](stages/datura_wrightii/06_fruiting.png) | Petals fall and a green spiny seed capsule swells. |
-| 7 | Ripe capsule | ![datura_wrightii ripe_capsule](stages/datura_wrightii/07_ripe_capsule.png) | Capsule browns and splits open, showing black seeds. |
+| 3 | Vegetative | ![datura_wrightii vegetative](stages/datura_wrightii/03_vegetative.png) | Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork. |
+| 4 | Budding | ![datura_wrightii budding](stages/datura_wrightii/04_budding.png) | Long tubular buds form at the ends of the branches. |
+| 5 | Flowering | ![datura_wrightii flowering](stages/datura_wrightii/05_flowering.png) | A single large trumpet-shaped flower opens at the tip of each branch (flower timing and colour in reproduction.flowers). |
+| 6 | Fruiting | ![datura_wrightii fruiting](stages/datura_wrightii/06_fruiting.png) | Petals fall and a green spiny seed capsule swells at the tip of each branch. |
+| 7 | Ripe capsule | ![datura_wrightii ripe_capsule](stages/datura_wrightii/07_ripe_capsule.png) | Each capsule browns and splits open, showing black seeds, on the branch tips. |
 
 Extra blocks for plants taller than 1 block at the configured scale:
 
@@ -268,11 +268,11 @@ Confidence: **high**. Implementation type: `fruit_tree`.
 | # | Stage | Image | What it shows |
 |---|---|---|---|
 | 1 | Seed | ![eucalyptus_deglupta seed](stages/eucalyptus_deglupta/01_seed.png) | Minute brown winged seed (3 to 12 per capsule cell). Grown from seed at about 20-22 C. |
-| 2 | Sapling | ![eucalyptus_deglupta sapling](stages/eucalyptus_deglupta/02_sapling.png) | Thin young tree with opposite pairs of leaves and smooth orange-green stem. |
-| 3 | Young tree | ![eucalyptus_deglupta young_tree](stages/eucalyptus_deglupta/03_young_tree.png) | Fast-growing tree with smooth bark; foliage in opposite pairs. |
-| 4 | Mature tree | ![eucalyptus_deglupta mature_tree](stages/eucalyptus_deglupta/04_mature_tree.png) | Tall tree whose orange bark has shed in strips, showing streaks of green, red, orange, grey and purplish brown. |
-| 5 | Flowering | ![eucalyptus_deglupta flowering](stages/eucalyptus_deglupta/05_flowering.png) | Branching flower clusters of seven buds; mature buds pale green or cream, round, 2-5 mm; white and pale yellow stamens give the flowers their colour. |
-| 6 | Fruiting | ![eucalyptus_deglupta fruiting](stages/eucalyptus_deglupta/06_fruiting.png) | Small woody brown hemispherical capsules, 3-5 mm, with three or four valves. |
+| 2 | Sapling | ![eucalyptus_deglupta sapling](stages/eucalyptus_deglupta/02_sapling.png) | Slim young tree: a smooth orange-green stem with pairs of opposite leaves up its length. |
+| 3 | Young tree | ![eucalyptus_deglupta young_tree](stages/eucalyptus_deglupta/03_young_tree.png) | Twigs with paired opposite leaves in lighter green; smooth bark. |
+| 4 | Mature tree | ![eucalyptus_deglupta mature_tree](stages/eucalyptus_deglupta/04_mature_tree.png) | Twigs bearing opposite pairs of leaves in darker blue-green; the trunk and limbs show shed bark in coloured streaks. |
+| 5 | Flowering | ![eucalyptus_deglupta flowering](stages/eucalyptus_deglupta/05_flowering.png) | Cream and pale-yellow flower buds and stamens in clusters at the leaf axils along the branchlets (groups of seven). |
+| 6 | Fruiting | ![eucalyptus_deglupta fruiting](stages/eucalyptus_deglupta/06_fruiting.png) | Small woody brown capsules at the leaf axils along the branchlets. |
 
 Extra blocks for plants taller than 1 block at the configured scale:
 
@@ -280,7 +280,9 @@ Extra blocks for plants taller than 1 block at the configured scale:
 |---|---|---|
 | trunk_side | ![eucalyptus_deglupta trunk_side](stages/eucalyptus_deglupta/segment_trunk_side.png) | Smooth orange-tinted bark with streaks of pale green, red, orange, grey and purplish brown (Wikipedia). |
 | trunk_side_alt | ![eucalyptus_deglupta trunk_side_alt](stages/eucalyptus_deglupta/segment_trunk_side_alt.png) | Second bark variant so the colours differ along the trunk as strips shed at different times. |
-| trunk_top | ![eucalyptus_deglupta trunk_top](stages/eucalyptus_deglupta/segment_trunk_top.png) | Cut end of the trunk. |
+| trunk_top | ![eucalyptus_deglupta trunk_top](stages/eucalyptus_deglupta/segment_trunk_top.png) | Cut end of the trunk and limbs. |
+| branch_side | ![eucalyptus_deglupta branch_side](stages/eucalyptus_deglupta/segment_branch_side.png) | Limb bark: slimmer limbs with smoother, paler streaks. |
+| buttress_side | ![eucalyptus_deglupta buttress_side](stages/eucalyptus_deglupta/segment_buttress_side.png) | Flared base with vertical ridges and grooves (buttresses up to 4 m high, Wikipedia). |
 
 ## Ipomoea tricolor - Morning Glory
 
@@ -302,12 +304,12 @@ Confidence: **high**. Implementation type: `fruit_tree`.
 | # | Stage | Image | What it shows |
 |---|---|---|---|
 | 1 | Sapling | ![prunus_persica sapling](stages/prunus_persica/01_sapling.png) | Thin whip with a few leaves. |
-| 2 | Young tree | ![prunus_persica young_tree](stages/prunus_persica/02_young_tree.png) | Single trunk with green leaves; too young to flower (real trees fruit 2-3 years after sprouting). |
-| 3 | Budding | ![prunus_persica budding](stages/prunus_persica/03_budding.png) | Bare-looking twigs with swollen buds; flowers appear before leaves in the real tree. |
-| 4 | Blossom | ![prunus_persica blossom](stages/prunus_persica/04_blossom.png) | Pink flowers cover the branches (single, 2-3.5 cm, four or five cup-shaped petals; dark purple-red anthers). |
-| 5 | Fruit set | ![prunus_persica fruit_set](stages/prunus_persica/05_fruit_set.png) | Petals fall, small hard green fruit forms among the leaves. |
-| 6 | Unripe fruit | ![prunus_persica unripe](stages/prunus_persica/06_unripe.png) | Greenish-white to yellow-green fruit, growing. |
-| 7 | Ripe fruit | ![prunus_persica ripe](stages/prunus_persica/07_ripe.png) | Fruit 5-7 cm across, yellow-orange with a red blush on the sunny side, with a seam on one side. |
+| 2 | Young tree | ![prunus_persica young_tree](stages/prunus_persica/02_young_tree.png) | Single trunk with smooth red twigs; alternate lanceolate leaves along each twig. |
+| 3 | Budding | ![prunus_persica budding](stages/prunus_persica/03_budding.png) | Bare red twigs with swollen pink-tipped buds; flowers come before the leaves in the real tree. |
+| 4 | Blossom | ![prunus_persica blossom](stages/prunus_persica/04_blossom.png) | Pink flowers (4-5 petals, dark centre) sit directly on the red twigs, with few leaves. |
+| 5 | Fruit set | ![prunus_persica fruit_set](stages/prunus_persica/05_fruit_set.png) | Petals fall; small hard green fruits hang from the twigs among alternate leaves. |
+| 6 | Unripe fruit | ![prunus_persica unripe](stages/prunus_persica/06_unripe.png) | Greenish-yellow fruits growing on the twigs. |
+| 7 | Ripe fruit | ![prunus_persica ripe](stages/prunus_persica/07_ripe.png) | Ripe fruits 5-7 cm across, yellow-orange with a red blush, hanging from the twigs. |
 
 Extra blocks for plants taller than 1 block at the configured scale:
 
@@ -315,6 +317,7 @@ Extra blocks for plants taller than 1 block at the configured scale:
 |---|---|---|
 | trunk_side | ![prunus_persica trunk_side](stages/prunus_persica/segment_trunk_side.png) | Dark grey bark with horizontal lenticels (Wikipedia). |
 | trunk_top | ![prunus_persica trunk_top](stages/prunus_persica/segment_trunk_top.png) | Cut end of the trunk. |
+| branch_side | ![prunus_persica branch_side](stages/prunus_persica/segment_branch_side.png) | Limb bark: redder and smoother than the trunk ('the bark is usually red' on twigs, Wikipedia). |
 
 ## Salvia rosmarinus - Rosemary
 
@@ -324,6 +327,16 @@ Confidence: **high**. Implementation type: `flower_fruit_plant`.
 |---|---|---|---|
 | 1 | Seed | ![salvia_rosmarinus seed](stages/salvia_rosmarinus/01_seed.png) | Small seed; seeds are often difficult to start and have a low germination rate. |
 | 2 | Seedling | ![salvia_rosmarinus seedling](stages/salvia_rosmarinus/02_seedling.png) | Tiny shoot with a few short needle leaves. |
-| 3 | Young shrub | ![salvia_rosmarinus young](stages/salvia_rosmarinus/03_young.png) | Small shrub of needle leaves on a thin woody stem. Too young to harvest: the bush should mature 2-3 years first. |
-| 4 | Mature shrub | ![salvia_rosmarinus mature](stages/salvia_rosmarinus/04_mature.png) | Dense evergreen bush of needle leaves, green above and pale below. Can be harvested (up to 20% of growth). |
-| 5 | Flowering | ![salvia_rosmarinus flowering](stages/salvia_rosmarinus/05_flowering.png) | Groups of 2 to 3 small flowers along the branches in white, pink, purple or deep blue. |
+| 3 | Young shrub | ![salvia_rosmarinus young](stages/salvia_rosmarinus/03_young.png) | Small shrub: a few woody stems fork from the base, with needle leaves along them. Too young to harvest: the bush should mature 2-3 years first. |
+| 4 | Mature shrub | ![salvia_rosmarinus mature](stages/salvia_rosmarinus/04_mature.png) | Dense evergreen bush of several branching woody stems with needle leaves along each (green above, pale below). Can be harvested (up to 20% of growth). |
+| 5 | Flowering | ![salvia_rosmarinus flowering](stages/salvia_rosmarinus/05_flowering.png) | Groups of 2 to 3 small flowers down the length of the branches in white, pink, purple or deep blue. |
+
+Extra blocks for plants taller than 1 block at the configured scale:
+
+| Role | Image | Note |
+|---|---|---|
+| lower | ![salvia_rosmarinus lower](stages/salvia_rosmarinus/segment_lower.png) | Lower block of the 2-block bush: woody stems with needles and side branches, matching the top block's stems at the join. |
+
+Full-height plant (2 blocks): vegetative, budding, flowering, fruiting, ripe capsule, each over the lower block.
+
+![salvia_rosmarinus 2-block stack](stages/salvia_rosmarinus/stack_2_blocks.png)

@@ -1,6 +1,8 @@
-# How individual plants vary. Sizes are drawn from each species' real range (plants/*.yaml `size`).
-# The two numbers below are DESIGN CHOICES, not botanical data; change them freely.
+# How individual plants vary in size. Every plant is drawn from a range that comes from published sources
+# (plants/*.yaml size.height_sources / size.spread_sources). Nothing below invents a size.
+range_mode: consensus        # consensus: the range ALL sources agree on (falls back to the primary source if they do not overlap)
+                             # envelope:  from the lowest published minimum to the highest published maximum
+# DESIGN CHOICES (not botanical data):
 size_correlation: 0.7        # 0 = height and width independent, 1 = a tall plant is always equally wide
-unknown_min_fraction: 0.3    # when a source gives only a maximum, the minimum is this fraction of it
-rare_tail_probability: 0.03   # chance a plant is a rare giant (between common_max and max) when a species has a common_max
+rare_tail_probability: 0.03  # only for species whose primary source says large sizes are rare (the peach)
 world_seed: 0                # the game replaces this with the real world seed

@@ -45,23 +45,45 @@ Previews of 2-block stacks are in `docs/preview/INDEX.md`.
 
 ## Individual variation
 
-Every plant is its own size. `tools/sample_sizes.py` is the reference implementation the game will follow:
+Every plant is its own size, drawn from **published** ranges only. `tools/sample_sizes.py` is the reference
+implementation the game will follow:
 
+- Each plant file lists every height and width range found (`size.height_sources`, `size.spread_sources`), with URL
+  and quote. A source that says only "up to X" is read as 0..X.
+- **Consensus mode (default):** an individual is drawn from the range all sources agree on. If the sources do not
+  overlap (the peach crown: 3-4 m in Wikipedia, 4.6-7.6 m in NC State), the primary botanical description is used
+  and the disagreement is reported. If no source gives a minimum, there is nothing to vary within and the plant is
+  fixed at the stated maximum until a minimum is found (*D. discolor* 140 cm, *D. quercifolia* 90 cm).
+  **Envelope mode:** lowest published minimum to highest published maximum. Switch in `config/variation.yaml`.
 - A plant's **vigour** is a number in 0..1 from a hash of (world seed, x, z, species), so a plant keeps its size
-  forever and the same seed gives the same world.
-- **Height** = real minimum + vigour x (real maximum - minimum). **Width** comes from the width envelope and is
-  correlated with height (`size_correlation`, 0.7 by default: a big plant is usually broad too, but not always).
-- If a source says large sizes are rare (the peach: "more typically 3 m", "rarely up to 10 m"), the species has a
-  `common_max` (4 m). Most trees land in the common range and about 3% (`rare_tail_probability`) are giants.
-- If a source gives only a maximum (*D. metel* up to 180 cm), the minimum is a fraction of it
-  (`unknown_min_fraction`).
+  forever and the same seed gives the same world. Width uses the same vigour, partly correlated with height.
+- If the primary source says large sizes are rare (the peach: "more typically 3 m", "rarely up to 10 m"), most
+  trees land in the common range and about 3% are giants.
 - Species with no size data are not varied: they stay 1 block until a source is found.
 
-`config/variation.yaml` holds the three numbers above. **They are design choices, not botanical data.**
+The correlation (0.7) and giant rate (3%) are **design choices, not botanical data**.
 
-Possible next step: make vigour depend on conditions as well as the hash. Wikipedia's Datura article says the same
-species is a flowering bush about 80 cm tall in a damp, half-shady spot but a thin plant of 13 cm or so in a very dry
-one, so water and light nearby could shift vigour.
+Possible next step: let nearby water and light shift vigour. Wikipedia's Datura article says the same species is a
+flowering bush about 80 cm tall in a damp, half-shady spot but a thin plant of 13 cm or so in a very dry one.
+
+## Branches
+
+Every plant is drawn from its branching skeleton, with leaves, flowers and fruit hanging off it:
+
+| Plant | Branching shown (source) |
+|---|---|
+| Datura | Stem forks repeatedly, a leaf at each fork, one erect flower on each tip (Wikipedia: *D. stramonium*) |
+| *Salvia rosmarinus* | Several woody stems with needle leaves along them; flowers in groups of 2-3 down the stems |
+| *Ipomoea tricolor* | Twining main stems with side shoots carrying each leaf |
+| *Chara braunii* | Whorls of 6-10 branchlets (Wikipedia) |
+| *Prunus persica* | Smooth red twigs, alternate leaves, flowers before leaves; branches droop with age |
+| *Eucalyptus deglupta* | Square-sectioned branchlets with opposite leaf pairs; buds in groups of seven at the axils |
+
+Trees are built from a trunk, limbs (`branch_side`) and twig foliage tiles, so the branches show through the
+leaves. `tree_structure` in each tree's file separates quoted facts from design choices.
+
+The rainbow eucalyptus is **not capped**: typical trees are 60-78 m, so 60-78 blocks, with a trunk up to 3 blocks
+across and a buttress flare (up to 4 m) at the base.
 
 ## Width
 

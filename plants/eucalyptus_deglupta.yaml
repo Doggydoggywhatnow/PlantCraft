@@ -50,6 +50,13 @@ size:
     and with buttresses up to 4 m (13 ft) high
   trunk_diameter_cm:
     max: 240
+  height_sources:
+  - name: 'Wikipedia: Eucalyptus deglupta'
+    url: https://en.wikipedia.org/wiki/Eucalyptus_deglupta
+    min: 6000
+    max: 7800
+    quote: typically reaches a height of 60-78 m (197-256 ft), with the trunk up to 240 cm (94 in) in
+      diameter and with buttresses up to 4 m (13 ft) high
 growth_stages:
 - id: seed
   name: Seed
@@ -57,26 +64,26 @@ growth_stages:
   texture: textures/block/eucalyptus_deglupta_seed.png
 - id: sapling
   name: Sapling
-  description: Thin young tree with opposite pairs of leaves and smooth orange-green stem.
+  description: 'Slim young tree: a smooth orange-green stem with pairs of opposite leaves up its length.'
   texture: textures/block/eucalyptus_deglupta_sapling.png
 - id: young_tree
   name: Young tree
-  description: Fast-growing tree with smooth bark; foliage in opposite pairs.
+  description: Twigs with paired opposite leaves in lighter green; smooth bark.
   texture: textures/block/eucalyptus_deglupta_young_tree.png
 - id: mature_tree
   name: Mature tree
-  description: Tall tree whose orange bark has shed in strips, showing streaks of green, red, orange,
-    grey and purplish brown.
+  description: Twigs bearing opposite pairs of leaves in darker blue-green; the trunk and limbs show shed
+    bark in coloured streaks.
   visual_notes: 'The bark is the signature: bright vertical colour streaks.'
   texture: textures/block/eucalyptus_deglupta_mature_tree.png
 - id: flowering
   name: Flowering
-  description: Branching flower clusters of seven buds; mature buds pale green or cream, round, 2-5 mm;
-    white and pale yellow stamens give the flowers their colour.
+  description: Cream and pale-yellow flower buds and stamens in clusters at the leaf axils along the branchlets
+    (groups of seven).
   texture: textures/block/eucalyptus_deglupta_flowering.png
 - id: fruiting
   name: Fruiting
-  description: Small woody brown hemispherical capsules, 3-5 mm, with three or four valves.
+  description: Small woody brown capsules at the leaf axils along the branchlets.
   texture: textures/block/eucalyptus_deglupta_fruiting.png
 segment_textures:
 - role: trunk_side
@@ -87,7 +94,13 @@ segment_textures:
   note: Second bark variant so the colours differ along the trunk as strips shed at different times.
 - role: trunk_top
   texture: textures/block/eucalyptus_deglupta_trunk_top.png
-  note: Cut end of the trunk.
+  note: Cut end of the trunk and limbs.
+- role: branch_side
+  texture: textures/block/eucalyptus_deglupta_branch_side.png
+  note: 'Limb bark: slimmer limbs with smoother, paler streaks.'
+- role: buttress_side
+  texture: textures/block/eucalyptus_deglupta_buttress_side.png
+  note: Flared base with vertical ridges and grooves (buttresses up to 4 m high, Wikipedia).
 reproduction:
   flowers:
     present: true
@@ -167,7 +180,31 @@ implementation:
   - capsules
   - bark strips
   - sapling
-  notes: At 1 block = 1 m a typical tree is 60-78 blocks tall with a trunk up to 3 blocks across. Bark
-    texture varies per block (trunk_side / trunk_side_alt).
+  notes: 'No size cap: a typical tree is 60-78 blocks tall with a trunk up to 3 blocks across and a flared
+    base. Built as trunk, tiered limbs (branch_side) and twig foliage tiles; bark texture varies per block
+    (trunk_side / trunk_side_alt).'
 game_uses:
   summary: 'Not yet designed (use phase). Real uses recorded above: pulpwood (paper) and ornamental.'
+tree_structure:
+  data_facts:
+  - fact: Typically 60-78 m tall; fast-growing.
+    source: 'Wikipedia: Eucalyptus deglupta'
+  - fact: Trunk up to 240 cm in diameter, with buttresses up to 4 m high.
+    source: 'Wikipedia: Eucalyptus deglupta'
+  - fact: Smooth, orange-tinted bark sheds in strips, revealing streaks of pale green, red, orange, grey
+      and purplish brown.
+    source: 'Wikipedia: Eucalyptus deglupta'
+  - fact: Branchlets are roughly square in cross section, often with narrow wings on the corners.
+    source: 'Wikipedia: Eucalyptus deglupta'
+  - fact: Leaves are arranged in opposite pairs, 75-150 mm long and 50-75 mm wide.
+    source: 'Wikipedia: Eucalyptus deglupta'
+  - fact: Flower buds are in a branching inflorescence in leaf axils or at the ends of branchlets, in
+      groups of seven.
+    source: 'Wikipedia: Eucalyptus deglupta'
+  design:
+  - 'No height cap: trees grow to their real 60-78 m (60-78 blocks).'
+  - The trunk is 1-3 blocks across (up to 240 cm) with a buttress flare in the bottom 1-4 blocks; both
+    limits come from the data.
+  - 'Limbs leave the trunk as branch_side logs in tiers, thinning to twig foliage blocks at their tips:
+    tier spacing, limb length and angle are design choices (the source gives no branch geometry).'
+  - Foliage blocks are twig tiles with opposite leaf pairs, so the branch skeleton shows through the leaves.

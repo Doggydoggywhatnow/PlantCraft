@@ -48,6 +48,21 @@ size:
     min: 30
     max: 122
     quote: 'Width: 1 ft. 0 in. - 4 ft. 0 in.'
+  height_sources:
+  - name: 'Wikipedia: Datura stramonium'
+    url: https://en.wikipedia.org/wiki/Datura_stramonium
+    min: 60
+    max: 150
+    quote: erect, annual, freely branching herb that forms a bush 60 to 150 cm (2 to 5 ft) tall
+  - name: PFAF
+    url: https://pfaf.org/user/Plant.aspx?LatinName=Datura+stramonium
+    max: 150
+    quote: growing to 1.5 m (5ft) by 1 m (3ft 3in)
+  - name: NC State Extension Plant Toolbox
+    url: https://plants.ces.ncsu.edu/plants/datura-stramonium/
+    min: 30
+    max: 122
+    quote: 'Height: 1 ft. 0 in. - 4 ft. 0 in.'
 growth_stages:
 - id: seed
   name: Seed
@@ -61,28 +76,29 @@ growth_stages:
   texture: textures/block/datura_stramonium_seedling.png
 - id: vegetative
   name: Vegetative
-  description: Leafy branched herb or shrub with broad, toothed or wavy leaves.
-  visual_notes: Full-height green bush, no flowers.
+  description: Leafy plant whose stem forks repeatedly into branches, with a leaf at each fork.
+  visual_notes: Forking stems (second fork visible), oval leaves at the forks, no flowers.
   texture: textures/block/datura_stramonium_vegetative.png
 - id: budding
   name: Budding
-  description: Long tubular buds appear in leaf axils and branch forks, twisted and furled.
-  visual_notes: Bush with pale, closed, pencil-like buds.
+  description: Long tubular buds form at the ends of the branches.
+  visual_notes: Pale furled buds on the branch tips.
   texture: textures/block/datura_stramonium_budding.png
 - id: flowering
   name: Flowering
-  description: Large trumpet-shaped flowers open (see flower notes for timing and colour).
-  visual_notes: Wide trumpet flowers on top of the bush.
+  description: A single large trumpet-shaped flower opens at the tip of each branch (flower timing and
+    colour in reproduction.flowers).
+  visual_notes: One trumpet on each branch tip.
   texture: textures/block/datura_stramonium_flowering.png
 - id: fruiting
   name: Fruiting
-  description: Petals fall and a green spiny seed capsule swells.
-  visual_notes: Green spiny ball where the flower was.
+  description: Petals fall and a green spiny seed capsule swells at the tip of each branch.
+  visual_notes: Outlined spiny capsule on each branch tip.
   texture: textures/block/datura_stramonium_fruiting.png
 - id: ripe_capsule
   name: Ripe capsule
-  description: Capsule browns and splits open, showing black seeds.
-  visual_notes: Brown split capsule with dark seeds visible.
+  description: Each capsule browns and splits open, showing black seeds, on the branch tips.
+  visual_notes: Split brown capsules on the branch tips.
   texture: textures/block/datura_stramonium_ripe_capsule.png
 segment_textures:
 - role: lower

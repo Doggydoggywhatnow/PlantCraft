@@ -49,6 +49,21 @@ size:
     min: 91
     max: 183
     quote: 'Width: 3 ft. 0 in. - 6 ft. 0 in.'
+  height_sources:
+  - name: 'Wikipedia: Ipomoea tricolor'
+    url: https://en.wikipedia.org/wiki/Ipomoea_tricolor
+    min: 200
+    max: 400
+    quote: twining liana growing to 2-4 m (7-13 ft) tall
+  - name: PFAF
+    url: https://pfaf.org/user/Plant.aspx?LatinName=Ipomoea+tricolor
+    max: 500
+    quote: growing to 5 m (16ft 5in)
+  - name: NC State Extension Plant Toolbox
+    url: https://plants.ces.ncsu.edu/plants/ipomoea-tricolor/
+    min: 244
+    max: 305
+    quote: 'Height: 8 ft. 0 in. - 10 ft. 0 in.'
 growth_stages:
 - id: seed
   name: Seed
@@ -136,6 +151,9 @@ sources:
   status: pending
 - name: NC State Extension Plant Toolbox
   url: https://plants.ces.ncsu.edu/plants/ipomoea-tricolor/
+  status: checked
+- name: PFAF
+  url: https://pfaf.org/user/Plant.aspx?LatinName=Ipomoea+tricolor
   status: checked
 implementation:
   type: climbing_vine

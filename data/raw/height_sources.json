@@ -1,0 +1,196 @@
+{
+  "datura_ceratocaula": [
+    {
+      "name": "Wikipedia: Datura ceratocaula",
+      "url": "https://en.wikipedia.org/wiki/Datura_ceratocaula",
+      "min": 30,
+      "max": 91,
+      "quote": "hollow gray-green stalk between 12 and 36 in. long"
+    }
+  ],
+  "datura_discolor": [
+    {
+      "name": "Wikipedia: Datura discolor",
+      "url": "https://en.wikipedia.org/wiki/Datura_discolor",
+      "max": 140,
+      "quote": "upright or low-lying shrub that can grow to 4.5 feet (1.4 m) tall"
+    }
+  ],
+  "datura_ferox": [
+    {
+      "name": "Wikipedia: Datura ferox",
+      "url": "https://en.wikipedia.org/wiki/Datura_ferox",
+      "min": 45,
+      "max": 90,
+      "quote": "stout, upright annual herb 1.5 to 3 ft (45 to 90 cm) high"
+    }
+  ],
+  "datura_innoxia": [
+    {
+      "name": "Wikipedia: Datura innoxia",
+      "url": "https://en.wikipedia.org/wiki/Datura_innoxia",
+      "min": 60,
+      "max": 150,
+      "quote": "typically reaches a height of 0.6 to 1.5 metres"
+    },
+    {
+      "name": "NC State Extension Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/datura-innoxia/",
+      "min": 61,
+      "max": 91,
+      "quote": "Height: 2 ft. 0 in. - 3 ft. 0 in."
+    }
+  ],
+  "datura_leichhardtii": [
+    {
+      "name": "Wikipedia: Datura leichhardtii",
+      "url": "https://en.wikipedia.org/wiki/Datura_leichhardtii",
+      "min": 45,
+      "max": 90,
+      "quote": "grows into a bush from 1.5 to 3 ft tall"
+    }
+  ],
+  "datura_metel": [
+    {
+      "name": "Wikipedia: Datura metel",
+      "url": "https://en.wikipedia.org/wiki/Datura_metel",
+      "max": 180,
+      "quote": "can grow up to 6 ft (1.8 m) high"
+    },
+    {
+      "name": "PFAF",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Datura+metel",
+      "max": 150,
+      "quote": "growing to 1.5 m (5ft)"
+    },
+    {
+      "name": "NC State Extension Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/datura-metel/",
+      "min": 91,
+      "max": 122,
+      "quote": "Height: 3 ft. 0 in. - 4 ft. 0 in."
+    }
+  ],
+  "datura_quercifolia": [
+    {
+      "name": "Wikipedia: Datura quercifolia",
+      "url": "https://en.wikipedia.org/wiki/Datura_quercifolia",
+      "max": 90,
+      "quote": "prostrate or upright bushy habit, bushier forms reaching up to 3 ft"
+    },
+    {
+      "name": "PFAF",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Datura+quercifolia",
+      "max": 150,
+      "quote": "growing to 1.5 m (5ft)"
+    }
+  ],
+  "datura_stramonium": [
+    {
+      "name": "Wikipedia: Datura stramonium",
+      "url": "https://en.wikipedia.org/wiki/Datura_stramonium",
+      "min": 60,
+      "max": 150,
+      "quote": "erect, annual, freely branching herb that forms a bush 60 to 150 cm (2 to 5 ft) tall"
+    },
+    {
+      "name": "PFAF",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Datura+stramonium",
+      "max": 150,
+      "quote": "growing to 1.5 m (5ft) by 1 m (3ft 3in)"
+    },
+    {
+      "name": "NC State Extension Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/datura-stramonium/",
+      "min": 30,
+      "max": 122,
+      "quote": "Height: 1 ft. 0 in. - 4 ft. 0 in."
+    }
+  ],
+  "datura_wrightii": [
+    {
+      "name": "Wikipedia: Datura wrightii",
+      "url": "https://en.wikipedia.org/wiki/Datura_wrightii",
+      "min": 30,
+      "max": 150,
+      "quote": "grows 30 cm to 1.5 m tall and wide; often a ground vine in habit"
+    },
+    {
+      "name": "NC State Extension Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/datura-wrightii/",
+      "min": 61,
+      "max": 152,
+      "quote": "Height: 2 ft. 0 in. - 5 ft. 0 in."
+    }
+  ],
+  "eucalyptus_deglupta": [
+    {
+      "name": "Wikipedia: Eucalyptus deglupta",
+      "url": "https://en.wikipedia.org/wiki/Eucalyptus_deglupta",
+      "min": 6000,
+      "max": 7800,
+      "quote": "typically reaches a height of 60-78 m (197-256 ft), with the trunk up to 240 cm (94 in) in diameter and with buttresses up to 4 m (13 ft) high"
+    }
+  ],
+  "ipomoea_tricolor": [
+    {
+      "name": "Wikipedia: Ipomoea tricolor",
+      "url": "https://en.wikipedia.org/wiki/Ipomoea_tricolor",
+      "min": 200,
+      "max": 400,
+      "quote": "twining liana growing to 2-4 m (7-13 ft) tall"
+    },
+    {
+      "name": "PFAF",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ipomoea+tricolor",
+      "max": 500,
+      "quote": "growing to 5 m (16ft 5in)"
+    },
+    {
+      "name": "NC State Extension Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/ipomoea-tricolor/",
+      "min": 244,
+      "max": 305,
+      "quote": "Height: 8 ft. 0 in. - 10 ft. 0 in."
+    }
+  ],
+  "prunus_persica": [
+    {
+      "name": "Wikipedia: Peach",
+      "url": "https://en.wikipedia.org/wiki/Peach",
+      "min": 300,
+      "max": 1000,
+      "common_max": 400,
+      "quote": "rarely up to 10 meters, more typically 3 m, with large specimens reaching 4 m; crown spread ranges 3 to 4 m (Wikipedia: Peach)"
+    },
+    {
+      "name": "PFAF",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Prunus+persica",
+      "max": 600,
+      "quote": "growing to 6 m (19ft) by 6 m (19ft)"
+    },
+    {
+      "name": "NC State Extension Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/prunus-persica/",
+      "min": 457,
+      "max": 762,
+      "quote": "Height: 15 ft. 0 in. - 25 ft. 0 in."
+    }
+  ],
+  "salvia_rosmarinus": [
+    {
+      "name": "Wikipedia: Rosemary",
+      "url": "https://en.wikipedia.org/wiki/Rosemary",
+      "min": 120,
+      "max": 180,
+      "quote": "Forms range from upright to trailing; the upright forms can reach between 1.2-1.8 meters (4-6 ft) tall. Prostrate groundcover cultivars exist and have no height in the source."
+    },
+    {
+      "name": "NC State Extension Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+      "min": 122,
+      "max": 152,
+      "quote": "Height: 4 ft. 0 in. - 5 ft. 0 in."
+    }
+  ]
+}

@@ -57,6 +57,23 @@ size:
     min: 457
     max: 762
     quote: 'Width: 15 ft. 0 in. - 25 ft. 0 in.'
+  height_sources:
+  - name: 'Wikipedia: Peach'
+    url: https://en.wikipedia.org/wiki/Peach
+    min: 300
+    max: 1000
+    common_max: 400
+    quote: 'rarely up to 10 meters, more typically 3 m, with large specimens reaching 4 m; crown spread
+      ranges 3 to 4 m (Wikipedia: Peach)'
+  - name: PFAF
+    url: https://pfaf.org/user/Plant.aspx?LatinName=Prunus+persica
+    max: 600
+    quote: growing to 6 m (19ft) by 6 m (19ft)
+  - name: NC State Extension Plant Toolbox
+    url: https://plants.ces.ncsu.edu/plants/prunus-persica/
+    min: 457
+    max: 762
+    quote: 'Height: 15 ft. 0 in. - 25 ft. 0 in.'
 growth_stages:
 - id: sapling
   name: Sapling
@@ -64,30 +81,29 @@ growth_stages:
   texture: textures/block/prunus_persica_sapling.png
 - id: young_tree
   name: Young tree
-  description: Single trunk with green leaves; too young to flower (real trees fruit 2-3 years after sprouting).
+  description: Single trunk with smooth red twigs; alternate lanceolate leaves along each twig.
   texture: textures/block/prunus_persica_young.png
 - id: budding
   name: Budding
-  description: Bare-looking twigs with swollen buds; flowers appear before leaves in the real tree.
+  description: Bare red twigs with swollen pink-tipped buds; flowers come before the leaves in the real
+    tree.
   texture: textures/block/prunus_persica_budding.png
 - id: blossom
   name: Blossom
-  description: Pink flowers cover the branches (single, 2-3.5 cm, four or five cup-shaped petals; dark
-    purple-red anthers).
+  description: Pink flowers (4-5 petals, dark centre) sit directly on the red twigs, with few leaves.
   visual_notes: Leaf blocks replaced by pink blossom leaves.
   texture: textures/block/prunus_persica_blossom.png
 - id: fruit_set
   name: Fruit set
-  description: Petals fall, small hard green fruit forms among the leaves.
+  description: Petals fall; small hard green fruits hang from the twigs among alternate leaves.
   texture: textures/block/prunus_persica_fruit_set.png
 - id: unripe
   name: Unripe fruit
-  description: Greenish-white to yellow-green fruit, growing.
+  description: Greenish-yellow fruits growing on the twigs.
   texture: textures/block/prunus_persica_unripe.png
 - id: ripe
   name: Ripe fruit
-  description: Fruit 5-7 cm across, yellow-orange with a red blush on the sunny side, with a seam on one
-    side.
+  description: Ripe fruits 5-7 cm across, yellow-orange with a red blush, hanging from the twigs.
   texture: textures/block/prunus_persica_ripe.png
 segment_textures:
 - role: trunk_side
@@ -96,6 +112,9 @@ segment_textures:
 - role: trunk_top
   texture: textures/block/prunus_persica_trunk_top.png
   note: Cut end of the trunk.
+- role: branch_side
+  texture: textures/block/prunus_persica_branch_side.png
+  note: 'Limb bark: redder and smoother than the trunk (''the bark is usually red'' on twigs, Wikipedia).'
 reproduction:
   flowers:
     present: true
@@ -201,3 +220,18 @@ implementation:
     flower-and-fruit stage logic.
 game_uses:
   summary: Not yet designed (use phase). Peach is edible; blossom colour could give pink dye.
+tree_structure:
+  data_facts:
+  - fact: Crown spread is similar to the height, 3 to 4 m.
+    source: 'Wikipedia: Peach'
+  - fact: Single trunk only if pruned; branches tend to droop over time.
+    source: 'Wikipedia: Peach'
+  - fact: Twigs are smooth and hairless, usually red; bark on trunk and branches is dark grey with horizontal
+      lenticels.
+    source: 'Wikipedia: Peach'
+  - fact: Flowers are solitary or in pairs and bloom before the leaves grow.
+    source: 'Wikipedia: Peach'
+  - fact: Leaves are alternate, oblong to lanceolate, 7-15 cm long.
+    source: 'Wikipedia: Peach'
+  design:
+  - Limb tiers and droop angle are design choices (the source gives no branch geometry).

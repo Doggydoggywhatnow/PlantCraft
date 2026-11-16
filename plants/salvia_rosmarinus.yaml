@@ -51,6 +51,18 @@ size:
     min: 91
     max: 122
     quote: 'Width: 3 ft. 0 in. - 4 ft. 0 in.'
+  height_sources:
+  - name: 'Wikipedia: Rosemary'
+    url: https://en.wikipedia.org/wiki/Rosemary
+    min: 120
+    max: 180
+    quote: Forms range from upright to trailing; the upright forms can reach between 1.2-1.8 meters (4-6
+      ft) tall. Prostrate groundcover cultivars exist and have no height in the source.
+  - name: NC State Extension Plant Toolbox
+    url: https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/
+    min: 122
+    max: 152
+    quote: 'Height: 4 ft. 0 in. - 5 ft. 0 in.'
 growth_stages:
 - id: seed
   name: Seed
@@ -62,19 +74,26 @@ growth_stages:
   texture: textures/block/salvia_rosmarinus_seedling.png
 - id: young
   name: Young shrub
-  description: 'Small shrub of needle leaves on a thin woody stem. Too young to harvest: the bush should
-    mature 2-3 years first.'
+  description: 'Small shrub: a few woody stems fork from the base, with needle leaves along them. Too
+    young to harvest: the bush should mature 2-3 years first.'
   texture: textures/block/salvia_rosmarinus_young.png
 - id: mature
   name: Mature shrub
-  description: Dense evergreen bush of needle leaves, green above and pale below. Can be harvested (up
-    to 20% of growth).
+  description: Dense evergreen bush of several branching woody stems with needle leaves along each (green
+    above, pale below). Can be harvested (up to 20% of growth).
   texture: textures/block/salvia_rosmarinus_mature.png
+  visual_notes: Brown woody stems visible through the needles.
 - id: flowering
   name: Flowering
-  description: Groups of 2 to 3 small flowers along the branches in white, pink, purple or deep blue.
+  description: Groups of 2 to 3 small flowers down the length of the branches in white, pink, purple or
+    deep blue.
   visual_notes: Blue-violet flower clusters among the needles.
   texture: textures/block/salvia_rosmarinus_flowering.png
+segment_textures:
+- role: lower
+  texture: textures/block/salvia_rosmarinus_lower.png
+  note: 'Lower block of the 2-block bush: woody stems with needles and side branches, matching the top
+    block''s stems at the join.'
 reproduction:
   flowers:
     present: true
