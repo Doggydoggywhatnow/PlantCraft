@@ -26,7 +26,7 @@ textures/            generated block and item textures
 docs/preview/        contact sheets, per-stage images and INDEX.md (tools/make_index.py)
 tools/species.txt    species list the fetch tool reads
 data/raw/            cached raw API responses (inputs to the data phase)
-docs/                design notes (flower and fruit system, plant structure)
+docs/                design notes (flower and fruit system, plant structure, botanical mechanics)
 config/scale.yaml    world scale: cm per block
 ```
 
