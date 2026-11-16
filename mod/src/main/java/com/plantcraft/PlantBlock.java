@@ -5,6 +5,10 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.block.BonemealSource;
+import net.minecraft.world.level.block.BonemealableBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.VegetationBlock;
@@ -16,7 +20,7 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 /** A herb: planted on soil, it moves through the growth stages from the plant's data file as random ticks pass. */
-public class PlantBlock extends VegetationBlock {
+public class PlantBlock extends VegetationBlock implements BonemealableBlock {
 	public static final IntegerProperty AGE = IntegerProperty.create("age", 0, 5);
 	private static final VoxelShape SHAPE = Shapes.box(0.125, 0.0, 0.125, 0.875, 0.8, 0.875);
 	private final int maxAge;
@@ -52,5 +56,21 @@ public class PlantBlock extends VegetationBlock {
 	@Override
 	protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
 		return SHAPE;
+	}
+
+	@Override
+	public boolean isValidBonemealTarget(LevelReader level, BlockPos pos, BlockState state, BonemealSource source) {
+		return state.getValue(AGE) < maxAge;
+	}
+
+	@Override
+	public boolean isBonemealSuccess(Level level, RandomSource random, BlockPos pos, BlockState state, BonemealSource source) {
+		return true;
+	}
+
+	@Override
+	public void performBonemeal(ServerLevel level, RandomSource random, BlockPos pos, BlockState state, BonemealSource source) {
+		int age = Math.min(maxAge, state.getValue(AGE) + 1 + random.nextInt(2));   // one or two stages
+		level.setBlock(pos, state.setValue(AGE, age), 2);
 	}
 }
