@@ -45,7 +45,7 @@ public class TreeSaplingBlock extends VegetationBlock implements BonemealableBlo
 
 	@Override
 	protected boolean mayPlaceOn(BlockState below, BlockGetter level, BlockPos pos) {
-		return below.is(BlockTags.DIRT) || below.is(Blocks.FARMLAND);
+		return below.is(BlockTags.SUPPORTS_VEGETATION);
 	}
 
 	@Override

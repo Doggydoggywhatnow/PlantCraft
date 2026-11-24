@@ -49,26 +49,15 @@ for the repo's tools when you want isolated mode (the tools do not need the scri
    `docs/preview/grasses.png`. `render()` and the preview/index tools now accept any texture size.
 3. The dist jar was deliberately **not** updated with item 1.
 
-## Known bug to fix first: tall plants vanish
+## Fixed: tall plants vanishing
 
-Reproduction (dedicated server, `mod/run`, random tick speed 4000): planting a tall plant
-(`plantcraft:arundo_donax[age=1]` on grass) leaves **air at y+0..y+3 within 5 seconds**; no stem ever appears. A short
-plant (`cenchrus_alopecuroides`, 1 block) in the same test grows normally. No exception is logged.
+Cause: `BlockTags.DIRT` in 26.3 holds only dirt, coarse dirt and rooted dirt (no grass block), so `mayPlaceOn` was false
+on grass; a stem placed on grass could not survive and was removed along with the plant. Short plants only seemed fine
+because nothing re-checked them. All three blocks now use `BlockTags.SUPPORTS_VEGETATION`. Verified on a dedicated server
+(random tick speed 4000): a giant reed stacked 6 blocks (its sourced target) and a short grass stayed at 1. The dist jar
+is rebuilt from this state.
 
-Not yet established (a manual-column test was interrupted): does a hand-built column
-`arundo_donax_stem` at y with `arundo_donax[age=1]` above it survive with random ticks off, and with them on?
-
-Leads to check, in order:
-1. `VegetationBlock.canSurvive` / `updateShape` in 26.3: confirm they call `mayPlaceOn(belowState, level, belowPos)`.
-   `PlantBlock.mayPlaceOn` and `StemBlock.mayPlaceOn` use `below.is(stem)` / `below.is(this)`.
-2. `growTaller` sets the old position to the stem and the position above to the plant with flag `2` (no neighbour
-   updates). Try flag `3`, or place the plant first and then the stem, and check whether a pop happens.
-3. Add temporary logging in `growTaller` and `randomTick`; confirm it is reached and what `TreeGen.blocksTall` returns
-   (`hLo == hHi` plants must give the same count every time; `ceil(cm / 100)`).
-4. Whether `isRandomlyTicking` returning true for max-age tall plants causes the removal (it should not).
-
-When it works: test as in `docs/plant-structure.md` terms (a 6 m giant reed should stack ~6 blocks, a plant with range
-80-200 cm 1-2 blocks), rebuild, copy the jar to `dist/`, and commit.
+Server-test tip: set `pause-when-empty-seconds=-1` in `server.properties`, or the empty server stops ticking.
 
 ## Other open items
 

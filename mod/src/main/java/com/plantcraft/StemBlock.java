@@ -21,7 +21,7 @@ public class StemBlock extends VegetationBlock {
 
 	@Override
 	protected boolean mayPlaceOn(BlockState below, BlockGetter level, BlockPos pos) {
-		return below.is(BlockTags.DIRT) || below.is(Blocks.FARMLAND) || below.is(this);
+		return below.is(BlockTags.SUPPORTS_VEGETATION) || below.is(this);
 	}
 
 	@Override

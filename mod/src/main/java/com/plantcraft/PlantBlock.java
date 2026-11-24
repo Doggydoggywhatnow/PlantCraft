@@ -76,7 +76,7 @@ public class PlantBlock extends VegetationBlock implements BonemealableBlock {
 
 	@Override
 	protected boolean mayPlaceOn(BlockState below, BlockGetter level, BlockPos pos) {
-		return below.is(BlockTags.DIRT) || below.is(Blocks.FARMLAND) || (stem != null && below.is(stem));
+		return below.is(BlockTags.SUPPORTS_VEGETATION) || (stem != null && below.is(stem));
 	}
 
 	@Override
